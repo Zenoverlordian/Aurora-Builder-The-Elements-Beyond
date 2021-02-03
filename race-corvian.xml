@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+    
+    <element name="Corvian" type="Race" source="The Elements and Beyond" id="ID_TEAB_RACE_CORVIAN">
+        <description>
+            <p>Lurking in the shadows and listening to the enigmatic "Dread Wind" that only they can hear, the corvians are a race of avian humanoids with nearly perfect memories and a penchant for paranoia and grudge-keeping. Trust is not seen as a virtue to corvians, but a weakness.</p>
+            <p class="indent">Corvians prefer to keep secrets, especially their true names, and their society itself values the keeping of history and historical secrets, whether they be artifacts of power or long-lost arcane rituals. Though most of them appear fraiL brittle, and elderly, they are surprisingly durable, and they are rarely actually as elderly as they appear to be to outsiders.</p>
+            <p class="indent">Although most corvians are wary of other races and cultures, finding the idea of setting out in an unfamiliar world to be panic-inducing, a variety of reasons can still drive some to adventure. Some are compelled to seek out the target of a potent grudge and avenge the offense once and for alL and start forming new grudges as they adventure that must also be avenged Others are pushed from their safe hiding places by debt, danger, or sheer curiosity out into the world.</p>
+            <h4>ORIGINS: BETRAYALS AND CURSES</h4>
+            <p>In some worlds, the race of corvians were once a faction of kenku who were against the betrayal of their master. Fearful of their master's wrath, they sought protection by betraying their fellow kenku and warning their master of the plot, helping to seal the fate of the kenku race. Their vengeful master was partially mollified by their loyalty, but in wrath still saw them as kenku and cursed them with a lesser curse. The corvians kept their voice and their wings, but both their minds and bodies became twisted and warped They too were cast out by the master not long after the kenku, and they have never forgotten how little "trust" is worth.</p>
+            <p class="indent">In other worlds, each corvian was born an aarakocra, and through fate or circumstance became corrupted by dark magic, twisting their wings and arms together, among other bodily changes. These corvians band together in dark spires of their own construction that lurk in the shadows beneath the cloud-cities of their former cousins, growing bitter and paranoid, plotting among themselves ways to retake what they believe they are rightfully owed - what was taken from them by those who still fly in the sunlight.</p>
+            <p class="indent">And there are also worlds where corvians were a race of divine servants for the Raven Queen long ago, flying from her domain to the planes beyond on the Dread Wind to deliver the messages of death herself. But the Raven Queen's enemies arranged to frame her loyal messengers as traitors. When the ruse was successfuL the goddess of death, in her rage, banished the corvians to the Material Plane, twisting their bodies and casting them down from the sky to walk upon the ground These corvians have never forgotten their betrayaL and believe that the Lady Death is ready to finish herjudgment and strike them dead at any moment.</p>
+            <h4>DECREPIT AVIANS</h4>
+            <p>At first glance, a corvian appears to be a warped combination of a kenku and an aarakocra. The talL lanky bird-people most closely resemble crows and ravens, but they often have crooked spines, cracked beaks, missing feathers, and other signs of age. Adult corvians have only a few years before these signs of apparent age take hold, meaning that even corvians in the prime of their life often look ancient and elderly to other races. Corvians can usually distinguish true elders of their own race from the younger members with ease, but other races often struggle to do so.</p>
+            <p class="indent">Corvians do not have separate wings like aarakocra do. Instead, their wings have fused with their long arms, hanging off the upper limbs like a short cloak. Their hands and feet are tipped with razor-sharp talons, and their beaks are long and hooked slightly downward like a vulture's beak. Corvians have black feathers with a blue or purple sheen, and their eyes are blue, yellow, red, or sometimes entirely black. Their skin, which can often be seen under the patches of missing feathers, is usually a pale pink or purple.</p>
+            <h4>THE DREAD WIND</h4>
+            <p>If you see a corvian crane their head to one side and listen at nothing in particular, then bristle with a new emotion such as fear or confidence, that corvian was likely listening to a force they call the Dread Wind It is a spectral wind that blows not through air, but through the dreams and fears of living things - that is at least according to the corvian philosophers, who are divided upon its true origin or purpose in the world None can actually do any more than speculate, however.</p>
+            <p class="indent">The corvians claim that - for whatever reason - only corvians (and their ancient enemies) can hear the Dread Wind, and that it carries not dust, clouds, or seeds, but intangible things, such as fears, memories, whispers, names, secrets, and other knowledge. Many corvians even believe the Wind can carry dark curses, arcane mysteries, or visions of the future to those who listen carefully and closely.</p>
+            <p class="indent">Corvians listen to the Dread Wind largely to stay aware of possible threats to themselves and the things they care about, hoping to hear whispers within the Wind of their adversaries' movements before they are undone. Corvians also fear their own secrets being released upon the Wind for others to hear, and will take great pains to prevent careless exposure. The Wind does not blow within the home of a living creature, so corvians have some safe places to whisper their secrets to only the most trusted of friends.</p>
+            <p class="indent">While other races may speculate as to whether the Dread Wind actually exists, and whether these sounds are hallucinations or not, the corvians are certain of the Dread Wind's existence and terrifying importance, and most will stop to listen to it if they can before making any weighty decisions.</p>
+            <h4>KEEPERS OF HISTORIES AND GRUDGES</h4>
+            <p>Corvians have an impeccable memory. They easily remember details even from decades prior, and they remember images and sounds in perfect clarity, enabling them to quickly memorize entire pages of information with only a few glances.</p>
+            <p class="indent">Because of this, corvian society highly values the retention of knowledge, especially of history. Wide areas are dedicated to libraries and museums, and scribes, scholars, and archaeologists are revered as the noblest of vocations. Corvians are fascinated by histories of all kinds, not just of their own race, and so their scholars often seek out knowledge from the great libraries and academies of other societies - yet their paranoia and general wariness of outsiders usually compel them to keep these pilgrimages clandestine.</p>
+            <p class="indent">But the keen corvian memory has a darker side. Most corvians are quick to form grudges against those they believe to have slighted them, and commonly take pride in never forgetting these grudges. Even the smallest of offenses can be cataloged in a corvian's memory for decades, ready and waiting for the proper moment to take recompense.</p>
+            <p class="indent">Corvians attempt to pay each grudge back in equal measure to the weight of the offense, but corvian morality doesn't always align with that of the other races, especially in regard to the keeping of secrets. Breaking a corvian's trust and sharing even the smallest of a corvian's secrets is one of the worst things you can do to most corvians - even worse than attacking them. Most will never forget or forgive it. Their culture teaches that there is no worse crime.</p>
+            <h4>CORVIAN NAMES</h4>
+            <p>Corvian names are usually based on the Aarakocra language, with variations emerging from the corvian histories, and they go by nicknames around other races much like aarakocra do. Unlike aarakocra, however, corvians have a powerful cultural superstition about their true names, fearing that the Dread Wind listens for their names whenever they are not safely within a home, carrying the true names of hapless or reckless corvians to the ears of their ancient enemies to be used against them in foul curses.</p>
+            <p class="indent">Because the corvians are so concerned with keeping their true names a secret, they usually go by a nickname that is unrelated to their true name. Of course their true name is often so riddled with bird sounds like shrieks, trills, and clicking that it is unpronounceable by most of the other races anyways.</p>
+            <p class="indent">For a corvian, the act of sharing their true name with another person is not only intended as an act of honor and respect, but also an expression of intense trust and friendship. Corvians generally prefer if this act of name disclosure is mutuaL but it is considered extremely uncouth (not to mention unwise) to give one's true name with the expectation of reciprocation. In corvian society, giving away your true name is a gift, not a transaction, and must be done humbly.</p>
+            <p class="indent"><strong><em>Corvian Nicknames.</em></strong> Aeraka, AiaL Anzu, Ayuk, Brenn, Errk, Heehk, Hikka, Ikkiri, Ikis, Kirrik, Krorbin, Makli, Nabaza, Oorieak, Quaf, Quierk, Raban, Salleek, Shod, Tek, Terok, Vasko, Zeed, Zok.</p>
+            <h4>CORVIAN Traits</h4>
+            <p>As a corvian, you have the following racial traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2, and your Charisma score or Dexterity score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Age.</em></strong> Corvians reach adulthood by age 6 or 7 but have lifespans slightly longer than the average human.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Corvians favor chaotic alignments, as their culture determines morality by one's goals and outcomes rather than by the methods taken. Corvian culture typically sees trust as a weakness and so they prefer to rely only on themselves, with a few carefully made exceptions for friends. Most are chaotic neutral.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Corvians are usually 6 to 7 feet tall and between only 100 and 140 lbs. They have spindly and emaciated proportions that often cause them to hunch their back, reducing their apparent height. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+            <p class="indent"><strong><em>Clumsy Flight.</em></strong> You have a flying speed of 15 feet, but at the end ofyour turn you fall if you are still aloft, unless you can stop the fall To use this speed, you can't be wearing medium or heavy armor.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Memory for Lore.</em></strong> You have proficiency in the History skill.</p>
+            <p class="indent"><strong><em>Never Forget, Never Forgive.</em></strong> You have a photographic memory, and have no chance of forgetting anything for at least 1 year. You are always able to recognize a face that you have seen before or a voice that you have heard in the past year unless it is disguised, and you have advantage on any saving throws or ability checks made to uncover such disguises. If you saw or heard a creature deal you damage, the memory of their face or their voice lasts forever and can't be erased by magic.</p>
+            <p class="indent"><strong><em>Paranoia.</em></strong> You can't be surprised while you are conscious.</p>
+            <p class="indent"><strong><em>One Eye Open.</em></strong> You are still entirely aware of your surroundings while you are unconscious and asleep, even when you are put to sleep by magic, and you have advantage on saving throws to resist magical sleep.</p>
+            <p class="indent"><strong><em>Talons.</em></strong> You are proficient with your unarmed strikes, which deal ld4 slashing damage on a hit.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Aarakocra, and Auran.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+			<set name="names" type="male">Aeraka, AiaL Anzu, Ayuk, Brenn, Errk, Heehk, Hikka, Ikkiri, Ikis, Kirrik, Krorbin, Makli, Nabaza, Oorieak, Quaf, Quierk, Raban, Salleek, Shod, Tek, Terok, Vasko, Zeed, Zok</set>
+            <set name="names" type="female">Aeraka, AiaL Anzu, Ayuk, Brenn, Errk, Heehk, Hikka, Ikkiri, Ikis, Kirrik, Krorbin, Makli, Nabaza, Oorieak, Quaf, Quierk, Raban, Salleek, Shod, Tek, Terok, Vasko, Zeed, Zok</set>
+            <set name="names-format">{{name}}</set>
+		</setters>
+        <rules>
+            <stat name="innate speed" value="25" bonus="base" />
+            <stat name="intelligence" value="2" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_AARAKOCRA" />
+			<grant type="Language" id="ID_MM_LANGUAGE_AURAN" />
+            <select type="Racial Trait" name="Ability Score Increase" supports="CorvianASI" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_CORVIAN_FLIGHT" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_CORVIAN_DARKVISION" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_CORVIAN_NEVER_FORGET" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_CORVIAN_PARANOIA" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_CORVIAN_ONE_EYE_OPEN" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_CORVIAN_TALONS" />
+        </rules>
+    </element>
+    <element name="Charisma" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CORVIAN_CHA">
+    <compendium display="false" />
+    <supports>CorvianASI</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="charisma" value="1" />
+        </rules>
+    </element>
+    <element name="Dexterity" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CORVIAN_DEX">
+    <compendium display="false" />
+    <supports>CorvianASI</supports>
+        <description>
+            <p>Your Dexterity score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="dexterity" value="1" />
+        </rules>
+    </element>
+    <element name="Clumsy Flight" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CORVIAN_FLIGHT">
+        <description>
+            <p>You have a flying speed of 15 feet, but at the end of your turn you fall if you are still aloft, unless you can stop the fall. To use this speed, you can't be wearing medium or heavy armor.</p>
+        </description>
+        <sheet>
+            <description>You have a flying speed of 15 feet, but at the end of your turn you fall if you are still aloft, unless you can stop the fall. To use this speed, you can't be wearing medium or heavy armor.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:fly" value="15" bonus="base" equipped="![armor:medium],![armor:heavy]" />
+        </rules>
+    </element>
+    <element name="Darkvision" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CORVIAN_DARKVISION">
+        <description>
+            <p>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+        </description>
+        <sheet>
+            <description>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+    <element name="Never Forget, Never Forgive" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CORVIAN_NEVER_FORGET">
+        <description>
+            <p>You have a photographic memory, and have no chance of forgetting anything for at least 1 year. You are always able to recognize a face that you have seen before or a voice that you have heard in the past year unless it is disguised, and you have advantage on any saving throws or ability checks made to uncover such disguises. If you saw or heard a creature deal you damage, the memory of their face or their voice lasts forever and can't be erased by magic.</p>
+        </description>
+        <sheet>
+            <description>You have a photographic memory, and have no chance of forgetting anything for at least 1 year. You are always able to recognize a face that you have seen before or a voice that you have heard in the past year unless it is disguised, and you have advantage on any saving throws or ability checks made to uncover such disguises. If you saw or heard a creature deal you damage, the memory of their face or their voice lasts forever and can't be erased by magic.</description>
+        </sheet>
+    </element>
+    <element name="Paranoia" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CORVIAN_PARANOIA">
+        <description>
+            <p>You can't be surprised while you are conscious.</p>
+        </description>
+        <sheet>
+            <description>You can't be surprised while you are conscious.</description>
+        </sheet>
+    </element>
+    <element name="One Eye Open" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CORVIAN_ONE_EYE_OPEN">
+        <description>
+            <p>You are still entirely aware of your surroundings while you are unconscious and asleep, even when you are put to sleep by magic, and you have advantage on saving throws to resist magical sleep.</p>
+        </description>
+        <sheet>
+            <description>You are still entirely aware of your surroundings while you are unconscious and asleep, even when you are put to sleep by magic, and you have advantage on saving throws to resist magical sleep.</description>
+        </sheet>
+    </element>
+    <element name="Talons" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CORVIAN_TALONS">
+        <description>
+            <p>You are proficient with your unarmed strikes, which deal ld4 slashing damage on a hit.</p>
+        </description>
+        <sheet>
+            <description>You are proficient with your unarmed strikes, which deal ld4 slashing damage on a hit.</description>
+        </sheet>
+    </element>
+    
+<p class="indent"></p>
+</elements>

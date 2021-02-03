@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+    
+    <element name="Hidden Villager" type="Background" source="The Elements and Beyond" id="ID_TEAB_BACKGROUND_HIDDEN_VILLAGER">
+        <description>
+            <p>You grew up within a community that took special effort to keep itself isolated and hidden from the outside world, so that even the most accurate ofmaps don't mark its location, and the most learned of scholars have never heard of it. You learned from a young age that you must keep your home a secret, which involves not only camouflaging the village itself, but also watching for intruders nearby and concealing your movements when you travel outside your home.</p>
+            <p class="indent">This background is common among pixies, sprites, green elves, miniature elves, stone dwarves, and jungle halflings, along with other races such as firbolgs and tritons.</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> Perception, Stealth</li>
+                <li><strong>Tool Proficiencies:</strong> One gaming set known only to your village, and your choice of navigator's tools or herbalism kit.</li>
+                <li><strong>Equipment:</strong> A waterskin, a tinderbox, a gaming set (one of your choice), a lamp, a bedroll, a set of traveler's clothes, a trinket to reminds you of home, and a gemstone worth 10 gp</li>
+            </ul>
+            <h5>LOCATION</h5>
+            <p>The location of your hidden community and the nature of its camouflage help to define your upbringing. You can roll on the following table to determine the location of your hidden village, or choose one that best fits your character.</p>
+            <table>
+                <thead>
+                    <tr><td>d10</td><td>Location</td></tr>
+                </thead>
+                <tr><td>1</td><td>Inside an Ancient Tree</td></tr>
+                <tr><td>2</td><td>Underground Burrow</td></tr>
+                <tr><td>3</td><td>Behind a Waterfall</td></tr>
+                <tr><td>4</td><td>Beneath a Volcano</td></tr>
+                <tr><td>5</td><td>Above the Clouds</td></tr>
+                <tr><td>6</td><td>In an Endless Storm</td></tr>
+                <tr><td>7</td><td>Uncharted Island</td></tr>
+                <tr><td>8</td><td>Old Druid's Grove</td></tr>
+                <tr><td>9</td><td>Beneath the Ocean</td></tr>
+                <tr><td>10</td><td>Inside a Demiplane</td></tr>
+            </table>
+            <div element="ID_TEAB_BACKGROUND_FEATURE_UNKNOWN_TO_THE_WORLD" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Life within a secluded community has a unique impact on your characteristics. You have been taught to live as an isolationist. Your mannerisms, ideas, equipment, and even the way you speak may stand out from the crowd to others in the outside world.</p>
+            <p class="indent">Use the tables for the folk hero or outlander background in the Player 's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a person from a shrouded isolationist community. For example, if you are using the folk hero tables, you might change references to your homeland to fit with the nature of your secluded lifestyle and location.</p>
+        </description>
+        <setters>
+            <set name="short">Perception, Stealth, Gaming Set, Navigator's Tools / Herbalism Kit</set>
+        </setters>
+        <rules>
+            <grant type="Background Feature" id="ID_TEAB_BACKGROUND_FEATURE_UNKNOWN_TO_THE_WORLD"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+            <select type="Proficiency" name="Gaming Set (Hidden Villager)" supports="Gaming Set" number="1" />
+            <select type="Proficiency" name="Tool (Hidden Villager)" number="1" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT | ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />
+            <select type="List" name="Personality Trait" number="2" optional="true">
+                <item id="1">I judge people by their actions, not their words.</item>
+                <item id="2">If someone is in trouble, I'm always ready to lend help.</item>
+                <item id="3">When I set my mind to something, I follow through no matter what gets in my way.</item>
+                <item id="4">I have a strong sense of fair play and always try to find the most equitable solution to arguments.</item>
+                <item id="5">I'm confident in my own abilities and do what I can to instill confidence in others.</item>
+                <item id="6">Thinking is for other people. I prefer action.</item>
+                <item id="7">I misuse long words in an attempt to sound smarter.</item>
+                <item id="8">I get bored easily. When am I going to get on with my destiny?</item>
+            </select>
+            <select type="List" name="Ideal" optional="true">
+                <item id="1">Respect. People deserve to be treated with dignity and respect. (Good)</item>
+                <item id="2">Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)</item>
+                <item id="3">Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)</item>
+                <item id="4">Might. If I become strong, I can take what I want – what I deserve. (Evil)</item>
+                <item id="5">Sincerity. There's no good in pretending to be something I'm not. (Neutral)</item>
+                <item id="6">Destiny. Nothing and no one can steer me away from my higher calling. (Any)</item>
+            </select>
+            <select type="List" name="Bond" optional="true">
+                <item id="1">I have a family, but I have no idea where they are. One day, I hope to see them again.</item>
+                <item id="2">I worked the land, I love the land, and I will protect the land.</item>
+                <item id="3">A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.</item>
+                <item id="4">My tools are symbols of my past life, and I carry them so that I will never forget my roots.</item>
+                <item id="5">I protect those who cannot protect themselves.</item>
+                <item id="6">I wish my childhood sweetheart had come with me to pursue my destiny.</item>
+            </select>
+            <select type="List" name="Flaw" optional="true">
+                <item id="1">The tyrant who rules my land will stop at nothing to see me killed.</item>
+                <item id="2">I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.</item>
+                <item id="3">The people who knew me when I was young know my shameful secret, so I can never go home again.</item>
+                <item id="4">I have a weakness for the vices of the city, especially hard drink.</item>
+                <item id="5">Secretly, I believe that things would be better if I were a tyrant lording over the land.</item>
+                <item id="6">I have trouble trusting in my allies.</item>
+            </select>
+        </rules>
+    </element>
+    <element name="Feature: Unknown to the World" type="Background Feature" source="The Elements and Beyond" id="ID_TEAB_BACKGROUND_FEATURE_UNKNOWN_TO_THE_WORLD">
+        <description>
+            <p>Your culture and the social customs that come with it are completely unknown to the broader world outside your village or your people.</p>
+            <p class="indent">Outsiders might know your language, but they will not recognize your natural accent, nor will they be familiar with your manners of celebration, introduction, eating, mourning, and so on. Your ideas about art, philosophy, religion, and politics may be completely foreign to them. Outsiders won't recognize your village's gestures, secret phrases, heraldry, or other identifiers. They are unaware of any cultural traits from your village that could be used against you (such as difficulty with lying or a sense of duty to the community). Finally, you and your village are unknown to local governments and aren't listed in any charters, ledgers, or official documents.</p>
+            <p class="indent">Only those with knowledge of much secret lore might know something of your village and your society.</p>
+        </description>
+        <sheet alt="Unknown to the World">
+            <description>Outsiders might know your language, but they will not recognize your natural accent, nor will they be familiar with your manners of celebration, introduction, eating, mourning, and so on. Your ideas about art, philosophy, religion, and politics may be completely foreign to them. Outsiders won't recognize your village's gestures, secret phrases, heraldry, or other identifiers. They are unaware of any cultural traits from your village that could be used against you (such as difficulty with lying or a sense of duty to the community). Finally, you and your village are unknown to local governments and aren't listed in any charters, ledgers, or official documents.</description>
+        </sheet>
+    </element>
+
+    <element name="Planar Traveler" type="Background" source="The Elements and Beyond" id="ID_TEAB_BACKGROUND_PLANAR_TRAVELER">
+        <description>
+            <p>You have traveled across the planes to come to your current location, encountering wonders and perils along the way. You might have grown up in another plane, or perhaps you spent a long time away from home in another plane. You could have fallen into a strange portal and searched constantly for a way home, or you might have gone exploring intentionally. Regardless of the reasons for your planar travels, they have shaped you into the adventurer that you are today.</p>
+            <p class="indent">This background is common among crystalkin, bright elves, ember dwarves, and stone dwarves, along with other races such as genasi, aarakocra, and tieflings.</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> Arcana, Survival</li>
+                <li><strong>Languages:</strong> Two of your choice out of Abyssal, Celestial, Draconic, Deep Speech, Infernal, Primordial, or Sylvan.</li>
+                <li><strong>Equipment:</strong> A bedroll, a waterskin, a 10-foot pole, 50-feet of silk rope, a steel mirror, a piece of a broken metal tuning fork used for the plane shift spell that was attuned to the Material Plane, a trinket from another plane, a set of traveler's clothes, and a belt pouch containing two gemstones each worth 10 gp</li>
+            </ul>
+            <h5>MAIN PLANE</h5>
+            <p>Though you have traveled far, you once spent a great deal of time in a particular plane or realm, growing familiar with it. You can roll on the following table to determine the plane or realm that you spent so much time in, or choose one that best fits your character.</p>
+            <table>
+                <thead>
+                    <tr><td>d8</td><td>Main Plane</td></tr>
+                </thead>
+                <tr><td>1</td><td>The Feywild</td></tr>
+                <tr><td>2</td><td>The Shadowfell</td></tr>
+                <tr><td>3</td><td>An Elemental Plane</td></tr>
+                <tr><td>4</td><td>An Upper Plane</td></tr>
+                <tr><td>5</td><td>A Lower Plane</td></tr>
+                <tr><td>6</td><td>A Plane of Chaos</td></tr>
+                <tr><td>7</td><td>A Plane of Law</td></tr>
+                <tr><td>8</td><td>The Far Realm</td></tr>
+            </table>
+            <div element="ID_TEAB_BACKGROUND_FEATURE_PLANAR_FAMILIARITY" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Your journey across the planes has informed much of your current personality because of its difficulty. Your personality traits are also likely responsible for some of your journey -- only certain kinds of people seek to make this perilous trek across the planes as you have.</p>
+            <p class="indent">Use the tables for the sage or hermit background in the Player 's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as someone who has ventured across the planes to reach your current location. For example, if you are using the hermit tables, you might change any mention of your seclusion to be your reason for traveling the planes.</p>
+        </description>
+        <setters>
+            <set name="short">Arcana, Survival, 2 Exotic Languages</set>
+        </setters>
+        <rules>
+            <grant type="Background Feature" id="ID_TEAB_BACKGROUND_FEATURE_PLANAR_FAMILIARITY"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <select type="Language" name="Language, Planar Traveler" supports="ID_LANGUAGE_ABYSSAL | ID_LANGUAGE_CELESTIAL | ID_LANGUAGE_DRACONIC | ID_LANGUAGE_DEEP_SPEECH | ID_LANGUAGE_INFERNAL | ID_LANGUAGE_PRIMORDIAL | ID_LANGUAGE_SYLVAN" number="2" />
+            <select type="List" name="Personality Trait" number="2" optional="true">
+                <item id="1">I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt.</item>
+                <item id="2">I am utterly serene, even in the face of disaster.</item>
+                <item id="3">I'm oblivious to etiquette and social expectations.</item>
+                <item id="4">I connect everything that happens to me to a grand, cosmic plan.</item>
+                <item id="5">I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.</item>
+                <item id="6">I am working on a grand philosophical theory and love sharing my ideas.</item>
+                <item id="7">I've read every book in the world's greatest libraries – or I like to boast that I have.</item>
+                <item id="8">I'm convinced that people are always trying to steal my secrets.</item>
+            </select>
+            <select type="List" name="Ideal" optional="true">
+                <item id="1">Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)</item>
+                <item id="2">Logic. Emotions must not cloud our logical thinking. (Lawful)</item>
+                <item id="3">Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)</item>
+                <item id="4">Power. Solitude and contemplation are paths toward mystical or magical power. (Evil)</item>
+                <item id="5">Live and Let Live. Meddling in the affairs of others only causes trouble. (Neutral)</item>
+                <item id="6">Self-Knowledge. If you know yourself, there's nothing left to know. (Any)</item>
+            </select>
+            <select type="List" name="Bond" optional="true">
+                <item id="1">I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.</item>
+                <item id="2">I'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me.</item>
+                <item id="3">Should my discovery come to light, it could bring ruin to the world.</item>
+                <item id="4">My isolation gave me great insight into a great evil that only I can destroy.</item>
+                <item id="5">	I've been searching my whole life for the answer to a certain question.</item>
+                <item id="6">I sold my soul for knowledge. I hope to do great deeds and win it back.</item>
+            </select>
+            <select type="List" name="Flaw" optional="true">
+                <item id="1">Now that I've returned to the world, I enjoy its delights a little too much.</item>
+                <item id="2">I'd risk too much to uncover a lost bit of knowledge.</item>
+                <item id="3">I like keeping secrets and won't share them with anyone.</item>
+                <item id="4">I am easily distracted by the promise of information.</item>
+                <item id="5">Unlocking an ancient mystery is worth the price of a civilization.</item>
+                <item id="6">I speak without really thinking through my words, invariably insulting others.</item>
+            </select>
+        </rules>
+    </element>
+    <element name="Feature: Planar Familiarity" type="Background Feature" source="The Elements and Beyond" id="ID_TEAB_BACKGROUND_FEATURE_PLANAR_FAMILIARITY">
+        <description>
+            <p>You are as familiar with your main plane as someone who had lived there for hundreds of years, in addition to the basic familiarity with the Material Plane that most player characters have. You know your main plane's general inhabitants, geographies, cultures, and so on. Also, you always recognize a magical portal that leads to your main plane.</p>
+        </description>
+        <sheet alt="Planar Familiarity">
+            <description>You are as familiar with your main plane as someone who had lived there for hundreds of years, in addition to the basic familiarity with the Material Plane that most player characters have. You know your main plane's general inhabitants, geographies, cultures, and so on. Also, you always recognize a magical portal that leads to your main plane.</description>
+        </sheet>
+    </element>
+    
+</elements>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+    
+    <element name="Ash Genasi" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_GENASI_ASH">
+        <supports>Genasi</supports>
+        <description>
+            <p>As an ash genasi, you have manifested both earth and fire, connecting you with the deathly dual-element of ash, the dead flames. Your mood gravitates toward dourness, and you tend to take on a more pessimistic perspective than others.</p>
+            <p class="indent">Ash genasi have gray skin tones that range from nearly charcoal black to a pale, almost bone-white color, which is almost constantly flaky and ashy. Their hair is usually a dark red or orange, but some rare ash genasi have smoldering flames instead of hair, which never grow very long or very intense, and baldness is very common among ash genasi. Many ash genasi also smell of smoke and burnt hair.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Ashen Resistance.</em></strong> You have resistance to fire damage and necrotic damage.</p>
+            <p class="indent"><strong><em>Awaken the Ashes.</em></strong> You know the control flames cantrip, but you can only use it to extinguish flames and create simple shapes. You can also cast the fog cloud spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_AWAKEN_ASHES" />
+        </rules>
+    </element>
+    <element name="Awaken the Ashes" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_AWAKEN_ASHES">
+        <description>
+            <p>You know the control flames cantrip, but you can only use it to extinguish flames and create simple shapes. You can also cast the fog cloud spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You know the control flames cantrip, but you can only use it to extinguish flames and create simple shapes. You can also cast the fog cloud spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
+            <grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" />
+        </rules>
+    </element>
+
+    <element name="Ice Genasi" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_GENASI_ICE">
+        <supports>Genasi</supports>
+        <description>
+            <p>As an ice genasi, you have manifested both air and water, connecting you with the enduring dual-element of ice, water that has been robbed of its heat. You are nearly emotionless, except when pushed to anger or grief, which you feel very rarely and only in the worst of situations.</p>
+            <p class="indent">Ice genasi have pale skin made out of a fragile, flexible crystal, usually a cloudy white or bluish-white, but sometimes a vibrant blue-black color instead. They are a bit larger than humans on average and cold to the touch, often developing condensation water upon their skin just by existing. Many ice genasi have blue, black, or white hair, usually of a very soft and fine texture, but others have rigid crystals sprouting from their head instead of hair, with no hair anywhere upon their body. Ice genasi have blue eyes, but they vary in shades from nearly white to deep indigo.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Always Cool.</em></strong> You’re naturally adapted to hot climates, as described in the Dungeon Master’s Guide.</p>
+            <p class="indent"><strong><em>Icy Resilience.</em></strong> You have resistance to cold damage, and your speed can't be reduced by effects that deal cold damage except through conditions that reduce your speed to 0, such as being restrained or grappled.</p>
+            <p class="indent"><strong><em>Invocation of Ice.</em></strong> You can cast armor of agathys with this trait. Starting at 3rd level, you can cast the new ice sculpture spell with it, and starting at 5th level, you can also cast sleet storm with it. Once you cast a spell with this trait, you can’t cast that spell with it again until you finish a long rest. Constitution is your spellcasting ability for these spells.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_ALWAYS_COOL" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_ICY_RESILIENCE" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_INVOCATION_OF_ICE" />
+        </rules>
+    </element>
+    <element name="Always Cool" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_ALWAYS_COOL">
+        <description>
+            <p>You’re naturally adapted to hot climates, as described in the Dungeon Master’s Guide.</p>
+        </description>
+        <sheet>
+            <description>You’re naturally adapted to hot climates, as described in the Dungeon Master’s Guide.</description>
+        </sheet>
+    </element>
+    <element name="Icy Resilience" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_ICY_RESILIENCE">
+        <description>
+            <p>You have resistance to cold damage, and your speed can't be reduced by effects that deal cold damage except through conditions that reduce your speed to 0, such as being restrained or grappled.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to cold damage, and your speed can't be reduced by effects that deal cold damage except through conditions that reduce your speed to 0, such as being restrained or grappled.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+        </rules>
+    </element>
+    <element name="Invocation of Ice" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_INVOCATION_OF_ICE">
+        <description>
+            <p>You can cast armor of agathys with this trait. Starting at 3rd level, you can cast the new ice sculpture spell with it, and starting at 5th level, you can also cast sleet storm with it. Once you cast a spell with this trait, you can’t cast that spell with it again until you finish a long rest. Constitution is your spellcasting ability for these spells.</p>
+        </description>
+        <sheet>
+            <description level="1" usage="1/Long Rest">You can cast armor of agathys once per long rest. Constitution is your spellcasting ability for this spell.</description>
+            <description level="3" usage="1/Long Rest">You can cast armor of agathys and the ice sculpture spell. Once you cast a spell with this trait, you can’t cast that spell with it again until you finish a long rest. Constitution is your spellcasting ability for these spells.</description>
+            <description level="5" usage="1/Long Rest">You can cast armor of agathys, ice sculpture, and sleet storm with this trait. Once you cast a spell with this trait, you can’t cast that spell with it again until you finish a long rest. Constitution is your spellcasting ability for these spells.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" level="1" />
+            <grant type="Spell" id="ID_TEAB_SPELL_ICE_SCULPTURE" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="5" />
+        </rules>
+    </element>
+
+    <element name="Slime Genasi" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_GENASI_SLIME">
+        <supports>Genasi</supports>
+        <description>
+            <p>As a slime genasi, you have manifested both earth and water, connecting you with the mysterious dual-element of slime, the fusion of water's fluidity and earth's alchemical variety. You live by concealing your feelings behind a graceful mask, appearing to feel whatever emotion is most convenient for a situation, but those who know you well have seen your true emotions slip out, which are often acrid, bitter, and caustic.</p>
+            <p class="indent">Slime genasi have bright green or greenish-yellow skin, often seeming sickly or jaundiced to those who don't know of their existence as a subrace. Except for a short period after bathing, their skin is always covered in a thin layer of transparent slime. Slime genasi usually have green, dark green, or black hair, but sometimes have white, blond, or even purple hair, with similar variations in eye color.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Alchemical Resistance.</em></strong> You have resistance to acid damage and poison damage.</p>
+            <p class="indent"><strong><em>Caustic Touch.</em></strong> You know the primal savagery cantrip from Xanathar's Guide to Everything, and you can use it at-will. Alternatively, you can choose to know the acid splash cantrip instead. Constitution is your spellcasting ability for this spell.</p>
+            <p class="indent"><strong><em>Slimy.</em></strong> You have advantage on ability checks made to escape from being grappled or restrained or to squeeze through a tight space. In addition, you don't have to spend extra speed to move while squeezing.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_SLIME_CAUSTIC_TOUCH" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_SLIME_SLIMY" />
+        </rules>
+    </element>
+    <element name="Casutic Touch" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_SLIME_CAUSTIC_TOUCH">
+        <description>
+            <p>You know the primal savagery cantrip from Xanathar's Guide to Everything, and you can use it at-will. Alternatively, you can choose to know the acid splash cantrip instead. Constitution is your spellcasting ability for this spell.</p>
+        </description>
+        <sheet>
+            <description>You know the primal savagery cantrip from Xanathar's Guide to Everything, and you can use it at-will. Alternatively, you can choose to know the acid splash cantrip instead. Constitution is your spellcasting ability for this spell.</description>
+        </sheet>
+        <rules>
+            <select type="Spell" name="Caustic Touch" supports="ID_XGTE_SPELL_PRIMAL_SAVAGERY|ID_PHB_SPELL_ACID_SPLASH" />
+        </rules>
+    </element>
+    <element name="Slimy" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_SLIME_SLIMY">
+        <description>
+            <p>You have advantage on ability checks made to escape from being grappled or restrained or to squeeze through a tight space. In addition, you don't have to spend extra speed to move while squeezing.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on ability checks made to escape from being grappled or restrained or to squeeze through a tight space. In addition, you don't have to spend extra speed to move while squeezing.</description>
+        </sheet>
+    </element>
+
+    <element name="Storm Genasi" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_GENASI_STORM">
+        <supports>Genasi</supports>
+        <description>
+            <p>As a storm genasi, you have manifested both air and fire, con-necting you with the intense dual-element of lightning, the sky's fire. You are passionate and boisterous, moving swiftly from friendly eagerness to raging anger or bitter sorrow and back to calm optimism or certain determination more quickly than others might think possible. Unlike an air genasi, your emotional storms can last for days on end.</p>
+            <p class="indent">Storm genasi have skin of deep blue or sometimes shades of bluish purple or grey. Their hair, which is usually a dark color but can sometimes be stark white, is always standing up because of the static charge that suffuses their body at all times. Storm genasi have loud, resonating voices that boom like thunder when they are upset.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+            <p class="indent"><strong><em>Tempest Resistance.</em></strong> You have resistance to lightning damage and thunder damage.</p>
+            <p class="indent"><strong><em>Beckon the Storm.</em></strong> You know the shocking grasp cantrip. Once you reach 3rd level, you can cast the new spell radic's sudden spark once, and it recharges after a long rest. Once you reach 5th level, you can also cast gust of wind once, and it recharges after a long rest. Constitution is your spellcasting ability for these spells.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_STORM_BECKON" />
+        </rules>
+    </element>
+    <element name="Beckon the Storm" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_STORM_BECKON">
+        <description>
+            <p>You know the shocking grasp cantrip. Once you reach 3rd level, you can cast the new spell radic's sudden spark once, and it recharges after a long rest. Once you reach 5th level, you can also cast gust of wind once, and it recharges after a long rest. Constitution is your spellcasting ability for these spells.</p>
+        </description>
+        <sheet>
+            <description level="1">You know the shocking grasp cantrip. Constitution is your spellcasting ability for this spell.</description>
+            <description level="1" usage="1/Long Rest">You know the shocking grasp cantrip. You can also cast the  spell radic's sudden spark once, and it recharges after a long rest. Constitution is your spellcasting ability for these spells.</description>
+            <description level="1" usage="1/Long Rest">You know the shocking grasp cantrip. You can also cast the  spell radic's sudden spark once, and it recharges after a long rest. You can also cast gust of wind once, and it recharges after a long rest. Constitution is your spellcasting ability for these spells.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" level="1" />
+            <grant type="Spell" id="ID_TEAB_SPELL_RADICS_SUDDEN_SPARK" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="5" />
+        </rules>
+    </element>
+
+    <!--Genasi Revisions-->
+    
+    <append id="ID_WOTC_POTA_RACE_GENASI">
+        <rules>
+            <select type="Racial Trait" name="Elemental Hardiness" supports="ElementalHardiness" optional="true" />
+            <select type="Racial Trait" name="Elemental Hybrid" supports="ElementalHybrid" optional="true" />
+            <select type="Racial Trait" name="Elemental Sense" supports="ElementalSense" optional="true" />
+        </rules>
+    </append>
+    <element name="Elemental Hardiness" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_ELEMENTAL_HARDINESS">
+        <supports>ElementalHardiness</supports>
+        <description>
+            <p>You can go twice as long without eating food or drinking water before you begin to suffer exhaustion, and you only need six hours to finish a long rest instead of eight. You also have advantage on saving throws made to resist disease or the effects ofextreme heat or cold.</p>
+        </description>
+        <sheet>
+            <description>You can go twice as long without eating food or drinking water before you begin to suffer exhaustion, and you only need six hours to finish a long rest instead of eight. You also have advantage on saving throws made to resist disease or the effects ofextreme heat or cold.</description>
+        </sheet>
+    </element>
+    <element name="Elemental Hybrid" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_ELEMENTAL_HYBRID">
+        <supports>ElementalHybrid</supports>
+        <description>
+            <p>You have two creature types: humanoid and elemental (subtype, such as fire or air/water, is determined by subrace). You can be affected by a game effect if it works on either ofyour creature types.</p>
+        </description>
+        <sheet>
+            <description>You have two creature types: humanoid and elemental (subtype, such as fire or air/water, is determined by subrace). You can be affected by a game effect if it works on either ofyour creature types.</description>
+        </sheet>
+    </element>
+    <element name="Elemental Sense" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_ELEMENTAL_SENSE">
+        <supports>ElementalSense</supports>
+        <description>
+            <p>You can cast detect magic with this trait. Once you do, you can't do so again until you finish a long rest. Constitution is your spellcasting ability for this spell.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You can cast detect magic with this trait. Once you do, you can't do so again until you finish a long rest. Constitution is your spellcasting ability for this spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
+        </rules>
+    </element>
+
+    <append id="ID_WOTC_POTA_SUBRACE_GENASI_AIR">
+        <rules>
+            <select type="Racial Trait" name="Thunder Resistance" supports="ThunderResistanceGEN" optional="true" />
+            <select type="Racial Trait" name="Wind Caller" supports="WindCallerGEN" optional="true" />
+        </rules>
+    </append>
+    <element name="Thunder Resistance" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_THUNDER_RESISTANCE">
+        <supports>ThunderResistanceGEN</supports>
+        <description>
+            <p>You have resistance to thunder damage.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+        </rules>
+    </element>
+    <element name="Wind Caller" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_WIND_CALLER">
+        <supports>WindCallerGEN</supports>
+        <description>
+            <p>You know the gust cantrip, from Xanathar's Guide to Everything. Constitution is your spellcasting ability for this spell.</p>
+        </description>
+        <sheet>
+            <description>You know the gust cantrip. Constitution is your spellcasting ability for this spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_GUST" />
+        </rules>
+    </element>
+
+    <append id="ID_WOTC_POTA_SUBRACE_GENASI_EARTH">
+        <rules>
+            <select type="Racial Trait" name="Earthen Resilience" supports="EarthenResilienceGEN" optional="true" />
+        </rules>
+    </append>
+    <element name="Earthen Resilience" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GENASI_EARTHEN_RESILIENCE">
+        <supports>EarthenResilienceGEN</supports>
+        <description>
+            <p>You have advantage on saving throws against poison, you have resistance to poison damage, and you can't be petrified. Also, while you are buried or burrowing in earth, you don't need to breathe.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against poison, you have resistance to poison damage, and you can't be petrified. Also, while you are buried or burrowing in earth, you don't need to breathe.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+        </rules>
+    </element>
+
+</elements>

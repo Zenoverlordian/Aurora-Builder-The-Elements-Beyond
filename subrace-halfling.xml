@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--version 1.0-->
+<elements>
+    
+    <element name="River Halfling" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_HALFLING_RIVER">
+        <supports>Halfling</supports>
+        <description>
+            <p>Traveling by raft, barge, or even large aquatic beast, the halflings of the bays, rivers, and lakes are by far the most nomadic families of halflings. These halflings are known for their swimming ability, and for their skill upon any manner of aquatic vessel, performing rigging, navigating, or fishing tasks with ease. The riverfolk in many worlds are guides, traders, and hunters that move up and down their ancestral waterways, enjoying a slow-flowing life. In other worlds, they are known for their sharp distrust of outsiders and lack of wanderlust, features that are truly exceptional among most halflings, and they live as an insular community. And there are worlds where they are known as ocean halflings, carrying out long voyages from island to island on communal boats across a vast and seemingly endless ocean.</p>
+            <p class="indent">As a river halfling, you were born on the waters, and you grew up surrounded by the working knowledge of the boat and river you lived on. You've also practiced both swimming and holding your breath so long that they've become second nature to you.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+            <p class="indent"><strong><em>Fisher's Weapon Training.</em></strong> You have proficiency with the lance, net, spear, and trident.</p>
+            <p class="indent"><strong><em>River Traveler.</em></strong> You have proficiency with water vehicles, and you have advantage on ability checks made to forage or navigate near a natural body of water.</p>
+            <p class="indent"><strong><em>Waterborne.</em></strong> You have a swimming speed of 30 feet and you can hold your breath for twice as long as normal.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_RIVER_HALFLING_TRAVELER" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_RIVER_HALFLING_WATERBORNE" />
+        </rules>
+    </element>
+    <element name="River Traveler" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_RIVER_HALFLING_TRAVELER">
+        <description>
+            <p>You have proficiency with water vehicles, and you have advantage on ability checks made to forage or navigate near a natural body of water.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency with water vehicles, and you have advantage on ability checks made to forage or navigate near a natural body of water.</description>
+        </sheet>
+    </element>
+    <element name="Waterborne" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_RIVER_HALFLING_WATERBORNE">
+        <description>
+            <p>You have a swimming speed of 30 feet and you can hold your breath for twice as long as normal.</p>
+        </description>
+        <sheet>
+            <description>You have a swimming speed of 30 feet and you can hold your breath for twice as long as normal.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:swim" value="30" bonus="base" />
+        </rules>
+    </element>
+
+    <element name="Jungle Halfling" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_HALFLING_JUNGLE">
+        <supports>Halfling</supports>
+        <description>
+            <p>The halflings of the deep forest and jungle are the most isolated of the halfling populations. In most worlds, they live a life-style that focuses on obtaining the most elusive and delicious foods of the forest, foraging and hunting in tight-knit groups. In some other worlds, these halflings are less isolated, and focus more on acting as jungle and forest guides for the other races, especially other halflings. And there are even worlds like that of Dark Sun, where these halflings are mostly lawful evil, mercilessly hunting and devouring outsiders that wander into their jungle territory -- even other humanoids.</p>
+            <p class="indent">As a jungle halfling, you have keen senses, you have spent much of your life climbing the branches and trunks of your homeland, and you've been trained in the ways of foraging and hunting with your tribal weaponry.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Brachiator.</em></strong> You have a climbing speed of 30 feet.</p>
+            <p class="indent"><strong><em>Hunter's Weapon Training.</em></strong> You have proficiency with the blowgun, net, spear, and whip.</p>
+            <p class="indent"><strong><em>Tropical Resilience.</em></strong> You’re naturally adapted to hot climates, as described in the Dungeon Master’s Guide.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+            <stat name="innate speed:climb" value="30" bonus="base" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_JUNGLE_HALF_TROPICAL_RESILIENCE" />
+        </rules>
+    </element>
+    <element name="Tropical Resilience" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_JUNGLE_HALF_TROPICAL_RESILIENCE">
+        <description>
+            <p>You’re naturally adapted to hot climates, as described in the Dungeon Master’s Guide.</p>
+        </description>
+        <sheet>
+            <description>You’re naturally adapted to hot climates, as described in the Dungeon Master’s Guide.</description>
+        </sheet>
+    </element>
+    
+</elements>

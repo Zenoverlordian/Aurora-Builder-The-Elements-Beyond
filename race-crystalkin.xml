@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+    
+    <element name="Crystalkin" type="Race" source="The Elements and Beyond" id="ID_TEAB_RACE_CRYSTALKIN">
+        <description>
+            <p>The people known as crystalkin are humanoids made out of living crystal instead of flesh, originating from the Astral Plane, but closely related to the void of the Far Realm. They are creatures of mind and souL with an innate affinity for psychic or divine energies.</p>
+            <p class="indent">Crystalkin do not reproduce; a crystalkin is born when it splits off from the Mother CrystaL a living crystal supermind made of impossible geometries that inhabits the Astral Plane. The Mother Crystal is always splitting off small fragments and regenerating. These fragments are alive - they are the crystalkin. Some crystalkin are fragmented from the Mother Crystal by injury or accident, but most are split from the Mother Crystal intentionally, to fulfill an unknown purpose known only to the Mother Crystal itself.</p>
+            <p class="indent">Most crystalkin exist in the Astral Plane, where they split from the Mother Crystal Some crystalkin, however, were flung far to one of the planes, such as the Material Plane, and others intentionally seek these places in their first millennia of life. Crystalkin may adventure to discover the mysterious purpose set out for them by the Mother CrystaL or to eschew such predetermination and search for their own kind of purpose.</p>
+            <h4>ORIGINS: THE MOTHER CRYSTAL</h4>
+            <p>The true nature of the crystalkin depends on the origins of the Mother Crystal itself, which represents different concepts in different worlds.</p>
+            <p class="indent">In some worlds, the Mother Crystal was once an interdimensional bulwark at the border between the Far Realm and the Astral Plane, stopping the intrusion of aberrant invaders like mind flayers, star spawn, and the Elder Evils. This crystal barrier, which was created by the gods and known by such names as the Deep Night's Curtain, the Living Gate, and the Warden of Infinity, was partially destroyed during an ancient, cosmic war. What remained of the bulwark was the Mother CrystaL and it still yearns to regain its former power, retake its former place at the edge of the void, and once again seal off the Far Realm from the universe entirely.</p>
+            <p class="indent">In other worlds, an eldritch star deep within the Far Realm died and transformed in death, becoming a void It sank deep into itself and was reborn as a new entity made out of a crystalline substance from beyond reality: the Mother Crystal Its intentions in coming to the Astral Plane are unknown, and even the crystalkin themselves wonder at their true purpose and place in the world.</p>
+            <p class="indent">And there are worlds where ancient cosmic entities - perhaps old gods or mages of titanic power - combined their magic to create a transcendent arch- spell a magic that sought to recreate the universe itself as whatever the casters intended But the magic was imperfect, and the spell instead condensed into a crystalline entity from the Far Realm with its own mind: the Mother Crystal Some say it fled from its creators into the Astral Plane. Others say it was exiled there by those same creators. Whatever the truth, the ones who created it are long forgotten to history.</p>
+            <h4>BODIES OF LIVING CRYSTAL</h4>
+            <p>A crystalkin appears to be a tall statue of crystal carved roughly into a vaguely humanoid shape - until they move. Their body is made of crystal all the way through, but it has joints and moves as flexibly as if it were made of muscle, bone, and sinew.</p>
+            <p class="indent">Crystalkin do not grow or age. If their body is damaged, it will slowly regenerate back to its original form, and almost never with any significant scarring. The crystal of their body is softer than glass, so even though they lack organs or blood, they can be injured and broken more easily than an elemental or construct can be. Ifa piece of a crystalkin breaks off its body, the piece turns to stone after ld4 days unless it is somehow reconnected to the body by magic.</p>
+            <p class="indent">Crystalkin have heads and faces, often with a nose-like shape, but they do not have nostrils or mouths, as they do not eat, drink, or breathe. They have eyes made of faintly glowing crystal set into their faces, with dots of focused light that dart around like pupils as they focus on things. This strange light is hidden when they are in darkness, and does not illuminate the crystalkin's surroundings. They do not have ears, but they can hear just as well as the other races.</p>
+            <p class="indent">Crystalkin can be small and thin like slivers, with no outgrowths of crystal anywhere upon them altering their smooth humanoid form. Others can be larger, be more jagged, or have outgrowths of especially rough crystals, particularly around the outsides of their joints, such as elbows, knees, hips, or shoulders. Some have larger growths of crystal sprouting out of the tops of their heads, where a human might have hair, but they still do not grow as real hair does.</p>
+            <p class="indent">Crystalkin are almost never quite symmetrical across any part of their body, and most find the extreme bodily symmetry among the other races to be at least a bit strange, if not downright creepy.</p>
+            <h4>CONNECTED TO THE GREAT BEYOND</h4>
+            <p>Though once part of a greater mind, each crystalkin is still nonetheless an individual with a souL mind, and personality of its own. At first, crystalkin still retain a tenuous mental connection, like an invisible thread, with the distant Mother Crystal The majority of these crystalkin, which are called shardminds, stay within the Astral Plane their entire lives. Some eventually find their way to the other planes and live there for a time, seeking a purpose. While they can't speak with the Mother Crystal directly, they can still feel its soothing psychic presence, which helps them center their mind and focus on the world around them.</p>
+            <p class="indent">Many of those journey to the Upper Planes, where other ageless crystalkin have built small cities. They spend extended time in the celestial planes, where they are transformed by positive energy into translucent crystalkin called glasshearts, losing their connection to the Mother Crystal but gaining an affinity for celestials and divine magic. Glasshearts are no longer soothed by the Mother CrystaL but the celestial light that they have been infused with soothes them in its place.</p>
+            <p class="indent">Some crystalkin become lost in other planes such as the elemental planes, Mechanus, or even the Nine Hells. These crystalkin can, like the glasshearts, lose their connection to the Mother CrystaL but unlike the glasshearts they are not filled with a new astral energy. Legends describe some of the lost crystalkin becoming void creatures, like star spawn. Other tales speak of crystalkin that became little more than mindless elementals, or of crystalkin that, in their emptiness, bargained with fiends for purpose and power, and in the process became fiends themselves.</p>
+            <p class="indent">Whether the Mother Crystal intends so many of its spawn to become disconnected and transformed by the magic of the planes in this way is a matter ofsome debate among not only crystalkin, but those who study them as well Some suspect the Mother Crystal has great plans for all these crystalkin scattered across the planes... but what could the purpose possibly be?</p>
+            <h4>CRYSTALKIN NAMES</h4>
+            <p>Since crystalkin don't reproduce or have gender (unless they choose to have one), they aren't given names, and they don't categorize names based on gender. Crystalkin typically adopt a name some time after separation from the Mother Crystal.</p>
+            <p class="indent">Shardminds choose a name based on the ancient name of the Mother CrystaL which is so long and complex that speaking it in full - even at a rushed pace - takes many hours. Shardmind names are fragments of the Mother Crystal's full name, chosen based on that crystalkin's original position in the Mother Crystal's eternal lattice structure.</p>
+            <p class="indent">Glasshearts often choose a new name some time after they have been fully purified Glassheart names usually represent a concept or ideal that is personally meaningful to them.</p>
+            <p class="indent"><strong><em>Shardmind Names.</em></strong> Amata, Arshaka, Arwia, Balashi, Bashanu, Belessunu, Cyrila, Dipana, Erishti, Eshunu, Gelem, Hunzu, Iltani, Ishmea, Jinali, Kuaya , Kubaba, Kuri, Manishtu, Naram, Nuraya, Seluku, Tebu, Tabni, Ubashu, Utua, Zakiti</p>
+            <p class="indent"><strong><em>Glassheart Names.</em></strong> Ambition, Anathema, Absolution, Bravery, Chosen, Creation, Faith, Fury, Grace, Justice, Logic, Mercy, Mourning, Paragon, Passion, Patience, Peace, Prayer, RebeL Sacrifice, Unity, Vengeance, Wisdom, Wish, Wrath</p>
+            <h4>CRYSTALKIN Traits</h4>
+            <p>As a crystalkin, you have the following racial traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Crystalkin do not experience childhood or aging, and they are born fully mature. The vast majority of crystalkin adventurers are less than a thousand years old, but they can live eternally. You are immune to magical aging effects.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Perhaps because of their nature as beings made of a well-ordered crystal structure, the crystalkin highly favor lawful alignments. Shardminds tend to be lawful neutraL viewing the order of the Mother Crystal to be the ideaL and glasshearts are most often lawful good, like many of the gods and angels that they share the celestial planes with.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Crystalkin vary in height from 5 feet to over 6 feet, being generally taller than humans but with similar proportions. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Crystal Metabolism.</em></strong> Your body is made of living crystal rather than flesh, granting you certain benefits:</p>
+            <ul>
+                <li>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.</li>
+                <li>You are immune to disease and you don't have blood.</li>
+                <li>You don't need to eat, drink, or breathe.</li>
+                <li>When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</li>
+            </ul>
+            <p class="indent"><strong><em>Subrace.</em></strong> The crystalkin have split into two main subraces over their millennia of divergent existences: the shardminds, who retain their psychic link to the Mother CrystaL and the glasshearts, who have been purified and cleansed over time by celestial light. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Amata, Arshaka, Arwia, Balashi, Bashanu, Belessunu, Cyrila, Dipana, Erishti, Eshunu, Gelem, Hunzu, Iltani, Ishmea, Jinali, Kuaya , Kubaba, Kuri, Manishtu, Naram, Nuraya, Seluku, Tebu, Tabni, Ubashu, Utua, Zakiti</set>
+            <set name="names" type="female">Ambition, Anathema, Absolution, Bravery, Chosen, Creation, Faith, Fury, Grace, Justice, Logic, Mercy, Mourning, Paragon, Passion, Patience, Peace, Prayer, RebeL Sacrifice, Unity, Vengeance, Wisdom, Wish, Wrath</set>
+            <set name="names-format">{{name}}</set>
+        </setters>
+        <rules>
+            <stat name="wisdom" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_CRYSTALKIN_METABOLISM" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_CRYSTALKIN_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Crystal Metabolism" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CRYSTALKIN_METABOLISM">
+        <description>
+            <p>Your body is made of living crystal rather than flesh, granting you certain benefits:</p>
+            <ul>
+                <li>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.</li>
+                <li>You are immune to disease and you don't have blood.</li>
+                <li>You don't need to eat, drink, or breathe.</li>
+                <li>When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.
+            You are immune to disease and you don't have blood.
+            You don't need to eat, drink, or breathe.
+            When you aren't wearing armor, your AC is {{crystalkin:ac}}. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+            <stat name="crystalkin:ac" value="12" />
+            <stat name="crystalkin:ac" value="dexterity" />
+            <stat name="ac:calculation" value="crystalkin:ac" bonus="calculation" alt="Natural Armor (Crystalkin)" />
+        </rules>
+    </element>
+    <element name="Crystalkin Subrace" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_CRYSTALKIN_SUBRACE">
+        <description>
+            <p>The crystalkin have split into two main subraces over their millennia of divergent existences: the shardminds, who retain their psychic link to the Mother CrystaL and the glasshearts, who have been purified and cleansed over time by celestial light. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Crystalkin Subrace" supports="CrystalkinSR" />
+        </rules>
+    </element>
+
+    <element name="Shardmind" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_CRYSTALKIN_SHARDMIND">
+        <supports>CrystalkinSR</supports>
+        <description>
+            <p>Most shardminds are logical and emotionally distant, viewing the world from the alien perspective of an interdimensional traveler. Even mundane things such as clouds in the sky, the flight of birds, or creatures growing old are usually fascinating to a shardmind when first encountered.</p>
+            <p class="indent">Because they do not age and come from a nearly timeless realm, shardminds also tend to adopt a long-term perspective on things. The day-to-day concerns of creatures that must eat and worry of aging are often mysterious to shardminds, even after spending much time with the other races. Some are eager to learn more of the strange world they find themselves in, yet others are more aloof, never forgetting the alien realm they call home or their quest for purpose.</p>
+            <p class="indent">The coloration of a shardmind's crystal body comes from their position as part of the Mother Crystal Because most of the Mother Crystal is a reddish-pink color resembling ruby or rose quartz, most shardminds are made of similar crystal But the Mother Crystal is made of all colors of opaque crystaL and thus so is the population of shardminds.</p>
+            <p class="indent">When a shardmind dies, their mind and soul are pulled back to the Mother CrystaL once again becoming one with the whole from which they separated Most shardminds view this as a process that should not be rushed, since they were likely split off for a reason. But there are exceptions who seek to return their fellow shardminds to the Mother Crystal (by deadly force if necessary) in order to empower it with their life force. Those shardminds typically have an evil alignment.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2.</p>
+            <p class="indent"><strong><em>Aberrant Hybrid.</em></strong> You have two creature types: humanoid and aberration. You can be affected by a game effect if it works on either of your creature types.</p>
+            <p class="indent"><strong><em>Astral Repose.</em></strong> You don't need to sleep, and magic can't put you to sleep. Instead of sleeping, you must spend at least four hours in a meditative state. Your consciousness becomes divided between your body and the distant Mother Crystal that you split from, which some part ofyour mind never truly left. Though you are distracted, you remain aware ofyour surroundings. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+            <p class="indent"><strong><em>Crystalline Mind.</em></strong> You have resistance to psychic damage.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Deep Speech, and one other language of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="2" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
+            <select type="Language" name="Language, Shardmind" supports="Standard||Exotic" />            
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SHARDMIND_ABERRANT_HYBRID" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SHARDMIND_ASTRAL_REPOSE" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SHARDMIND_CRYSTALLINE_MIND" />
+        </rules>
+    </element>
+    <element name="Aberrant Hybrid" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SHARDMIND_ABERRANT_HYBRID">
+        <description>
+            <p>You have two creature types: humanoid and aberration. You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet>
+            <description>You have two creature types: humanoid and aberration. You can be affected by a game effect if it works on either of your creature types.</description>
+        </sheet>
+    </element>
+    <element name="Astral Repose" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SHARDMIND_ASTRAL_REPOSE">
+        <description>
+            <p>You don't need to sleep, and magic can't put you to sleep. Instead of sleeping, you must spend at least four hours in a meditative state. Your consciousness becomes divided between your body and the distant Mother Crystal that you split from, which some part ofyour mind never truly left. Though you are distracted, you remain aware ofyour surroundings. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+        </description>
+        <sheet>
+            <description>You don't need to sleep, and magic can't put you to sleep. Instead of sleeping, you must spend at least four hours in a meditative state. Your consciousness becomes divided between your body and the distant Mother Crystal that you split from, which some part ofyour mind never truly left. Though you are distracted, you remain aware ofyour surroundings. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</description>
+        </sheet>
+    </element>
+    <element name="Crystalline Mind" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SHARDMIND_CRYSTALLINE_MIND">
+        <description>
+            <p>You have resistance to psychic damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to psychic damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+        </rules>
+    </element>
+
+    <element name="Glassheart" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_CRYSTALKIN_GLASSHEART">
+        <supports>CrystalkinSR</supports>
+        <description>
+            <p>Glasshearts have had the alien inclinations of their original form exposed to celestial light, cleansing their crystal of impurities and aligning their mind and body with celestial grace and spirit. They have lost their connection to the Mother CrystaL but they have gained in its place an open heart and a sense of duty to the free souls of the world, becoming more like the celestials they live with. With time, they even forget the language of the Far Realm they once belonged to, Deep Speech, in favor of the Celestial language.</p>
+            <p class="indent">Surprisingly, most crystalkin without the connection to the Mother CrystaL such as glasshearts, find that they must rest their mind entirely on their own. In other words, glasshearts discover that - as a creature of mind without the connection to the Mother Crystal - they can sleep. In fact, they must sleep as regularly as any other creature, or mental fatigue will bring them difficulty moving their crystalline bodies.</p>
+            <p class="indent">Most glasshearts, unlike shardminds, are not very emotionally distant or especially logical and instead tend to be passionate and sociable. Their tendency to adopt a long-term perspective manifests as a fascination with the culture, law, philosophy, religion, and history of the other free-willed races (who are commonly regarded with xenophilic wonder by the glasshearts). Many ofthem journey to the Material Plane simply to meet the varied people who live there and, if they're lucky, find a way to improve the world.</p>
+            <p class="indent">Regardless of the color crystal a glassheart was once made of, they have been rendered translucent (nearly transparent) and their crystal color has faded to a faint whisper. Their crystal body resembles glass or diamond It is clear enough that light can pass through it, but images viewed through their bodies are made distorted and unrecognizable by a kaleidoscopic effect. Some glasshearts even produce a prismatic rainbow effect when light shines through their body.</p>
+            <p class="indent">When a glassheart dies, because they are no longer connected to the Mother CrystaL their mind and soul undergo the same processes that any other humanoid faces upon death, potentially being judged by the same celestials and divinities who they once lived around.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2.</p>
+            <p class="indent"><strong><em>Celestial Hybrid.</em></strong> You have two creature types: humanoid and celestial. You can be affected by a game effect if it works on either of your creature types.</p>
+            <p class="indent"><strong><em>Empathetic.</em></strong> You have proficiency in the Insight skill</p>
+            <p class="indent"><strong><em>Translucent.</em></strong> You have resistance to radiant damage.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Celestial, and one other language of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="2" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
+            <select type="Language" name="Language, Glassheart" supports="Standard||Exotic" />            
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GLASSHEART_HYBRID" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GLASSHEART_EMPATHETIC" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GLASSHEART_TRANSLUCENT" />
+        </rules>
+    </element>
+    <element name="Celestial Hybrid" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GLASSHEART_HYBRID">
+        <description>
+            <p>You have two creature types: humanoid and celestial. You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet>
+            <description>You have two creature types: humanoid and celestial. You can be affected by a game effect if it works on either of your creature types.</description>
+        </sheet>
+    </element>
+    <element name="Empathetic" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GLASSHEART_EMPATHETIC">
+        <description>
+            <p>You have proficiency in the Insight skill.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency in the Insight skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+        </rules>
+    </element>
+    <element name="Translucent" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GLASSHEART_TRANSLUCENT">
+        <description>
+            <p>You have resistance to radiant damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to radiant damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+        </rules>
+    </element>
+
+<p class="indent"></p>    
+</elements>

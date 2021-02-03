@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+
+<element name="Strength" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_ELFASI_STR">
+    <compendium display="false" />
+    <supports>ASIBRELF</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+        </rules>
+    </element>
+    <element name="Constitution" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_ELFASI_CON">
+    <compendium display="false" />
+    <supports>ASIBRELF</supports>
+        <description>
+            <p>Your Constitution score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" />
+        </rules>
+    </element>
+    <element name="Intelligence" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_ELFASI_INT">
+    <compendium display="false" />
+    <supports>ASIBRELF</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" />
+        </rules>
+    </element>
+    <element name="Wisdom" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_ELFASI_WIS">
+    <compendium display="false" />
+    <supports>ASIBRELF, ASIGREENELF</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+        </rules>
+    </element>
+    <element name="Charisma" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_ELFASI_CHA">
+    <compendium display="false" />
+    <supports>ASIBRELF, ASIGREENELF</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" />
+        </rules>
+    </element>
+    
+    <element name="Bright Elf" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_ELF_BRIGHT">
+        <supports>Elf</supports>
+        <description>
+            <p>The bright elves are one of the oldest and rarest subraces of elves, and they have an innate connection to the celestial light and song of creation. They are more lawful than other elven societies, and they value obedience as well as conformity. The bright elves mostly believe themselves to be the purest and most original form of elf, and see other elven subraces as little better than non-elves, but there are some exceptions among their ranks that are more accepting.</p>
+            <p class="indent">In some worlds, bright elves split off long ago from the ancestries of other elves, settling in the Upper Planes where they formed kingdoms in subservience to angels of law. In other worlds, they are simply a rare variant of high elf with particularly potent light magic. And there are worlds where bright elves were the first elves, crafted by gods and angels to live according to the song of creation, resembling the story of Tolkien's The Silmarillion.</p>
+            <p class="indent">As a bright elf, your body and soul are infused with light. A bright elf's skin is bronze, silvery, pearly, or pale white, and their hair is golden blond, platinum blond, or silvery white. Their eyes are usually golden or silvery gray, with streaks of white radiating from their pupils like a starburst.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> One ability score of your choice other than Dexterity increases by 1.</p>
+            <p class="indent"><strong><em>Ancient Magic.</em></strong> Choose one of the following cantrips: dancing lights, light, or thaumaturgy. You know that cantrip, and Charisma is your spellcasting ability for it.</p>
+            <p class="indent"><strong><em>Brightfolk.</em></strong> You have resistance to radiant damage, and you have advantage on saving throws to resist being blinded by effects that deal radiant damage or create light.</p>
+            <p class="indent"><strong><em>Celestial Nature.</em></strong> You have two creature types: humanoid (elf) and celestial. You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase, Bright Elf" supports="ASIBRELF" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_BRELF_ANCIENT_MAGIC" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_BRELF_BRIGHTFOLK" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_BRELF_CELESTIAL_NATURE" />
+        </rules>
+    </element>
+    <element name="Ancient Magic" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_BRELF_ANCIENT_MAGIC">
+        <description>
+            <p>Choose one of the following cantrips: dancing lights, light, or thaumaturgy. You know that cantrip, and Charisma is your spellcasting ability for it.</p>
+        </description>
+        <sheet>
+            <description>Choose one of the following cantrips: dancing lights, light, or thaumaturgy. You know that cantrip, and Charisma is your spellcasting ability for it.</description>
+        </sheet>
+        <rules>
+            <select type="Spell" name="Ancient Magic (Bright Elf)" supports="ID_PHB_SPELL_DANCING_LIGHTS|ID_PHB_SPELL_LIGHT|ID_PHB_SPELL_THAUMATURGY" />
+        </rules>
+    </element>
+    <element name="BRIGHTFOLK" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_BRELF_BRIGHTFOLK">
+        <description>
+            <p>You have resistance to radiant damage, and you have advantage on saving throws to resist being blinded by effects that deal radiant damage or create light.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to radiant damage, and you have advantage on saving throws to resist being blinded by effects that deal radiant damage or create light.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+        </rules>
+    </element>
+    <element name="Celestial Nature" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_BRELF_CELESTIAL_NATURE">
+        <description>
+            <p>You have two creature types: humanoid (elf) and celestial. You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet>
+            <description>You have two creature types: humanoid (elf) and celestial. You can be affected by a game effect if it works on either of your creature types.</description>
+        </sheet>
+    </element>
+
+    <element name="Green Elf" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_ELF_GREEN">
+        <supports>Elf</supports>
+        <description>
+            <p>In the hidden forest glades and secluded mossy grottos of the world, a lucky traveler might chance upon a small village of green elves living in near-total harmony with nature. These elves are as much plant as they are elf, and they can live with-out eating, as plants do. They do not build structures, farm, hunt, or make war. They live like plants in a pacifistic commune, rarely finding the need to venture outside. Yet some are still born with that incurable streak of elven wanderlust, and once they finally leave their village, they very rarely return.</p>
+            <p class="indent">Some worlds include green elves as a branch of elvenkind that split from wood elves long ago, under the magical guidance of a powerful fey, such as a fey queen of spring. In other worlds, green elves are half-dryads, born from a union of elf and dryad, and they might have to find their way to a village of green elves like them -- if such a thing exists in that world. And there are worlds where green elves are the purest form of wood elf, forming an ancestral chain from ancient dryads, through green elves, down to the common wood elf.</p>
+            <p class="indent">As a green elf, you have more than a simple connection to the natural world -- you are a conscious part of it, like a dryad or treant is, and you feel an innate kinship with the plants and fungus all around you. Green elves have deep green skin that ranges to shades of yellow-green, blue-green, or brown-green. Their hair, which often grows with actual leaves, vines, moss, flowers, or toadstools threaded through it, is usually a vibrant green or blue-green, or sometimes a pale white, but shades like those of autumn leaves are not uncommon. Their eyes are commonly bright orange, yellow, blue, or purple, but some have a sparkly amber color.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score or your Charisma score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Arboreal Emissary.</em></strong> You have the ability to communicate in a limited manner with plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>
+            <p class="indent"><strong><em>Cultivator.</em></strong> You know the new tend plants cantrip, and Charisma is your spellcasting ability for it. In addition, you can move across difficult terrain made of plants, foliage, flora, or fungus without expending extra movement.</p>
+            <p class="indent"><strong><em>Photosynthesis.</em></strong> You can feed yourself for the day without eating anything by staying in sunlight and clean water for at least 1 hour.</p>
+            <p class="indent"><strong><em>Plant Nature.</em></strong> You have two creature types: humanoid (elf) and plant. You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase, Green Elf" supports="ASIGREENELF" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GELF_ARBOREAL_EMISSARY" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GELF_CULTIVATOR" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GELF_PHOTOSYNTHESIS" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GELF_PLANT_NATURE" />
+        </rules>
+    </element>
+    <element name="Arboreal Emissary" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GELF_ARBOREAL_EMISSARY">
+        <description>
+            <p>You have the ability to communicate in a limited manner with plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>
+        </description>
+        <sheet>
+            <description>You have the ability to communicate in a limited manner with plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</description>
+        </sheet>
+    </element>
+    <element name="Cultivator" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GELF_CULTIVATOR">
+        <description>
+            <p>You know the new tend plants cantrip, and Charisma is your spellcasting ability for it. In addition, you can move across difficult terrain made of plants, foliage, flora, or fungus without expending extra movement.</p>
+        </description>
+        <sheet>
+            <description>You know the new tend plants cantrip, and Charisma is your spellcasting ability for it. In addition, you can move across difficult terrain made of plants, foliage, flora, or fungus without expending extra movement.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_TEND_PLANTS" />
+        </rules>
+    </element>
+    <element name="Photosynthesis" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GELF_PHOTOSYNTHESIS">
+        <description>
+            <p>You can feed yourself for the day without eating anything by staying in sunlight and clean water for at least 1 hour.</p>
+        </description>
+        <sheet>
+            <description>You can feed yourself for the day without eating anything by staying in sunlight and clean water for at least 1 hour.</description>
+        </sheet>
+    </element>
+    <element name="Plant Nature" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_GELF_PLANT_NATURE">
+        <description>
+            <p>You have two creature types: humanoid (elf) and plant. You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet>
+            <description>You have two creature types: humanoid (elf) and plant. You can be affected by a game effect if it works on either of your creature types.</description>
+        </sheet>
+    </element>
+
+    <element name="Thimble Elf" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_ELF_THIMBLE">
+        <supports>Elf</supports>
+        <description>
+            <p>Most people regard the legends of thimble elves -- named for their tiny size -- as little more than fable, but if you pull open the right tree trunk, uncover the right boulder-hollow, or check in the right cobbler's cupboard, you might find these elusive tiny elves. Members of this very rare subrace of elves are incredibly small -- around the same size as a pixie or sprite, but lacking the wings of a proper fairy.</p>
+            <p class="indent">These miniature elves usually form powerful alliances with sprites, dryads, and other fey that can keep their wilderness homes safe and hidden from predators both bestial and humanoid. Some clans stay hidden in the homes of other races, living off the food in the house in exchange for doing work such as cobbling, cleaning, or sewing in the dead of night. Though the home's owners almost never find the thimble elves, they may be aware of the “little folk” doing their chores in secret.</p>
+            <p class="indent">Thimble elves resemble wood elves except for their diminutive size. They are surprisingly strong and swift for their size, with scurrying and jumping abilities like those of an insect. Some clans of thimble elves even have traits resembling those of tiny beasts, such as bug's antenna, a squirrel's tail, or lizard skin.</p>
+            <p class="indent">In most of the worlds in which they appear, thimble elves are similar to other tiny fey such as pixies, sprites, and quicklings, having been influenced long ago by the energies of the Feywild they inhabited. Once the Feywild had shaped them into much smaller forms, many of these elves fled to the relative safety of the Material Plane, where they still live in secluded villages. Other worlds feature thimble elves that were once elves of a more common variety before being warped and altered by a powerful curse or fey magic.</p>
+            <p class="indent">As a thimble elf, you have been raised in a community that stands ready to defend itself from relatively massive predators at any moment, or more commonly, to flee in an organized and quiet fashion.</p>
+            <p class="indent"><strong><em>Buglike Agility.</em></strong> You have a climbing speed of 20 feet, and your jumping distance is doubled.</p>
+            <p class="indent"><strong><em>Hidden Craftsman.</em></strong> You have proficiency in the Stealth skill and with one artisan's tools of your choice.</p>
+            <p class="indent"><strong><em>Nimble Escape.</em></strong> You can take the Disengage or Hide action as a bonus action on each of your turns.</p>
+            <p class="indent"><strong><em>Reduced Size and Speed.</em></strong> You are the size of a squirrel or rat, standing anywhere from 6 to 10 inches tall. Your size is Tiny, and your base walking speed is reduced to 25 feet.</p>
+            <p class="indent"><strong><em>Puny Body.</em></strong> As a tiny humanoid, you cannot wield weapons that have the heavy property, you have disadvantage on Strength checks, and if you hit with a weapon attack, you halve any bludgeoning damage, piercing damage, and slashing damage dealt by the attack.</p>
+            <p class="indent"><strong><em>Underfoot.</em></strong> The spaces of creatures that are larger than you are not difficult terrain for you, but you still can't move through a creature's space unless it is at least two sizes larger or smaller than you.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_THELF_BUGLIKE_AGILITY" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_THELF_HIDDEN_CRAFTSMAN" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_THELF_NIMBLE_ESCAPE" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_THELF_REDUCED_SIZE_SPEED" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_THELF_PUNY_BODY" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_THELF_UNDERFOOT" />
+        </rules>
+    </element>
+    <element name="Buglike Agility" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_THELF_BUGLIKE_AGILITY">
+        <description>
+            <p>You have a climbing speed of 20 feet, and your jumping distance is doubled.</p>
+        </description>
+        <sheet>
+            <description>You have a climbing speed of 20 feet, and your jumping distance is doubled.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:climb" value="20" bonus="base" />
+        </rules>
+    </element>
+    <element name="Hidden Craftsman" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_THELF_HIDDEN_CRAFTSMAN">
+        <description>
+            <p>You have proficiency in the Stealth skill and with one artisan's tools of your choice.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency in the Stealth skill and with one artisan's tools of your choice.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+            <select type="Proficiency" name="Tool Proficiency (Hidden Craftsman)" supports="Artisan tools"/>
+        </rules>
+    </element>
+    <element name="Nimble Escape" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_THELF_NIMBLE_ESCAPE">
+        <description>
+            <p>You can take the Disengage or Hide action as a bonus action on each of your turns.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action">You can take the Disengage or Hide action as a bonus action on each of your turns.</description>
+        </sheet>
+        <rules>
+            
+        </rules>
+    </element>
+    <element name="Reduced Size and Speed" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_THELF_REDUCED_SIZE_SPEED">
+        <description>
+            <p>You are the size of a squirrel or rat, standing anywhere from 6 to 10 inches tall. Your size is Tiny, and your base walking speed is reduced to 25 feet.</p>
+        </description>
+        <sheet>
+            <description>You are the size of a squirrel or rat, standing anywhere from 6 to 10 inches tall. Your size is Tiny, and your base walking speed is reduced to 25 feet.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed" value="-5" />
+        </rules>
+    </element>
+    <element name="Puny Body" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_THELF_PUNY_BODY">
+        <description>
+            <p>As a tiny humanoid, you cannot wield weapons that have the heavy property, you have disadvantage on Strength checks, and if you hit with a weapon attack, you halve any bludgeoning damage, piercing damage, and slashing damage dealt by the attack.</p>
+        </description>
+        <sheet>
+            <description>As a tiny humanoid, you cannot wield weapons that have the heavy property, you have disadvantage on Strength checks, and if you hit with a weapon attack, you halve any bludgeoning damage, piercing damage, and slashing damage dealt by the attack.</description>
+        </sheet>
+    </element>
+    <element name="Underfoot" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_THELF_UNDERFOOT">
+        <description>
+            <p>The spaces of creatures that are larger than you are not difficult terrain for you, but you still can't move through a creature's space unless it is at least two sizes larger or smaller than you.</p>
+        </description>
+        <sheet>
+            <description>The spaces of creatures that are larger than you are not difficult terrain for you, but you still can't move through a creature's space unless it is at least two sizes larger or smaller than you.</description>
+        </sheet>
+    </element>
+    
+</elements>

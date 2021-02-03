@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+    
+    <element name="Path of the Quake Bringer" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_BARBARIAN_QUAKE_BRINGER">
+        <supports>Primal Path</supports>
+        <description>
+            <p>To match the grand fury and power of an earthquake or avalanche, barbarians of the Path of the Quake Bringer channel primal power, drawing on the element of earth when they rage to tum their body to stone. These warriors test their strength by smashing boulders and leaping chasms. In battle, they embody the earthquake itself, leaving craters, rubble, and terror in their rumbling wake.</p>
+            <p class="indent">Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of dwarves, goliath, or firbolgs. Earth genasi can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_STONE_RAGE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_DEMOLISHER" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_CLIFF_RUNNING" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_SEISMIC_SMASH" />
+        </description>
+        <sheet display="false">
+            <description>Barbarians of the Path of the Quake Bringer channel primal power, drawing on the element of earth when they rage to tum their body to stone.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_STONE_RAGE" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_DEMOLISHER" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_CLIFF_RUNNING" level="10" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_SEISMIC_SMASH" level="14" />
+        </rules>
+    </element>
+    <element name="Stone Rage" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_STONE_RAGE">
+        <description>
+            <p>At 3rd leveL your rage armors you with rumbling stone. You gain the following benefits while you are raging.</p>
+            <ul>
+                <li>At the start of each ofyour turns and when you start raging, you gain temporary hit points equal to 2 + half your barbarian leveL lasting until your rage ends.</li>
+                <li>Your stony skin grants you a +1 bonus to AC while you aren't wearing any armor. You can use a shield and still gain this benefit.</li>
+                <li>You can use a bonus action to shake the ground within 5 feet of you. It becomes difficult terrain for other creatures until the start ofyour next turn.</li>
+                <li>You cannot be petrified, and when you are pushed or pulled, you can reduce the distance you are moved by up to 5 feet. Your weight is multiplied by five.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You gain the following benefits while you are raging. At the start of each ofyour turns and when you start raging, you gain {{stone rage:hp}} temporary hit points lasting until your rage ends. Your stony skin grants you a +1 bonus to AC while you aren't wearing any armor. You can use a shield and still gain this benefit. You can use a bonus action to shake the ground within 5 feet of you. It becomes difficult terrain for other creatures until the start ofyour next turn. You cannot be petrified, and when you are pushed or pulled, you can reduce the distance you are moved by up to 5 feet. Your weight is multiplied by five.</description>
+        </sheet>
+        <rules>
+            <stat name="stone rage:hp" value="2" />
+            <stat name="stone rage:hp" value="level:barbarian:half" />
+        </rules>
+    </element>
+    <element name="Demolisher" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_DEMOLISHER">
+        <description>
+            <p>At 6th leveL your elemental power focuses into mighty blows that smash even stone. You deal double damage with melee weapon attacks to objects and structures. When you hit a target composed of earth (dirt, crystaL stone, metaL etc.) with a melee weapon attack, your weapon is treated as if it were magical for the purpose of overcoming resistance, and if the target is an object or structure, you also gain a bonus to the damage roll equal to half your barbarian level.</p>
+            <p class="indent">Also, you have advantage on Strength checks made to dig, demolish, or excavate using a tool or object.</p>
+        </description>
+        <sheet>
+            <description>You deal double damage with melee weapon attacks to objects and structures. When you hit a target composed of earth (dirt, crystaL stone, metaL etc.) with a melee weapon attack, your weapon is treated as if it were magical for the purpose of overcoming resistance, and if the target is an object or structure, you also gain a bonus to the damage roll of {{level:barbarian:half}}. Also, you have advantage on Strength checks made to dig, demolish, or excavate using a tool or object.</description>
+        </sheet>
+    </element>
+    <element name="Cliff Running" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_CLIFF_RUNNING">
+        <description>
+            <p>Starting at 10th leveL you have a climbing speed equal to your walking speed. You don't need free hands to use this speed unless you are climbing a surface that isn't made ofsome kind of earth.</p>
+            <p class="indent">In addition, when you jump off of a surface made of earth, you draw power from the earth to boost your leap, increasing your high jump distance by a number of feet equal to your Constitution modifier (minimum +1) and your long jump distance by twice that amount.</p>
+            <p class="indent">Finally, you have tremorsense that extends out to a radius of 60 feet while you are raging, allowing you to sense through the earth (see page 74 for more details}.</p>
+        </description>
+        <sheet>
+            <description>You have a climbing speed equal to your walking speed. You don't need free hands to use this speed unless you are climbing a surface that isn't made ofsome kind of earth. In addition, when you jump off of a surface made of earth, you draw power from the earth to boost your leap, increasing your high jump distance by {{constitution:modifier}} feet (minimum +1) and your long jump distance by twice that amount. Finally, you have tremorsense that extends out to a radius of 60 feet while you are raging, allowing you to sense through the earth.</description>
+        </sheet>
+        <rules>
+            <stat name="speed:climb" value="speed" />
+        </rules>
+    </element>
+    <element name="Seismic Smash" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_QUAKE_BRINGER_SEISMIC_SMASH">
+        <description>
+            <p>When you reach 14th leveL you gain the ability to smash the ground itself and create a great seismic shockwave. As an action while you are raging and wielding a melee weapon, you can strike the ground with this power. Each other creature on the ground within 30 feet ofyou must make a Dexterity saving throw (DC 8 + your proficiency bonus+ your Strength modifier} You can choose to use a smaller radius, if desired On a failed saving throw, a target takes bludgeoning damage equal to your barbarian level + your Strength modifier and is knocked prone. On a successful saving throw, a target takes half as much damage and isn't knocked prone.</p>
+            <p class="indent">If the ground in the area is loose earth or stone, it becomes difficult terrain until cleared Each 5-foot radius portion requires at least 1 minute to clear by hand When you use this ability, you can choose to damage the ground in the area, structures in contact with the ground in the area, both, or neither. This ability deals twice as much damage to those objects.</p>
+            <p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest" action="Action">As an action while you are raging and wielding a melee weapon, you can strike the ground with this power. Each other creature on the ground within 30 feet ofyou must make a Dexterity saving throw (DC {{seismic smash:save}}) You can choose to use a smaller radius, if desired. On a failed saving throw, a target takes {{seismic smash:dmg}} bludgeoning damage and is knocked prone. On a successful saving throw, a target takes half as much damage and isn't knocked prone. If the ground in the area is loose earth or stone, it becomes difficult terrain until cleared. Each 5-foot radius portion requires at least 1 minute to clear by hand When you use this ability, you can choose to damage the ground in the area, structures in contact with the ground in the area, both, or neither. This ability deals twice as much damage to those objects.</description>
+        </sheet>
+        <rules>
+            <stat name="seismic smash:save" value="8" />
+            <stat name="seismic smash:save" value="proficiency" />
+            <stat name="seismic smash:save" value="strength:modifier" />
+            <stat name="seismic smash:dmg" value="strength:modifier" />
+            <stat name="seismic smash:dmg" value="level:barbarian" />
+        </rules>
+    </element>
+
+    <element name="Path of the Sky Caller" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_BARBARIAN_SKY_CALLER">
+        <supports>Primal Path</supports>
+        <description>
+            <p>The vast sky may seem silent at times, but it has a voice and power of its own, rarely heard by mortals upon the ground. Some barbarians learn through ancient rites to speak or sing to the sky, the clouds and wind, forming a primal connection that enables them to call upon the sky's power in times of need When they rage, the sky's mighty voice fills their body, allowing them to roar with its thunderous power.</p>
+            <p class="indent">The first step to becoming a sky caller is hearing the voice of the sky, first as a faint whisper barely distinct from the sound ofwind Many sky callers discover their path high upon a mountain peak, amid a storm, or while practicing tribal singing or shouting rituals.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_CLOUD_SPEAKER" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_SKY_SHOUT" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_VESSEL_OF_RESONANCE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_SKYBREAKERS_ROAR" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_BREATH_OF_THE_SKY" />
+        </description>
+        <sheet display="false">
+            <description>Some barbarians learn through ancient rites to speak or sing to the sky, the clouds and wind.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_CLOUD_SPEAKER" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_SKY_SHOUT" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_VESSEL_OF_RESONANCE" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_SKYBREAKERS_ROAR" level="10" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_BREATH_OF_THE_SKY" level="14" />
+        </rules>
+    </element>
+    <element name="Cloud Speaker" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_CLOUD_SPEAKER">
+        <description>
+            <p>At 3rd level when you adopt this path, you learn the language of the sky, a necessary step for any sky caller. You can speak and understand Auran. This feature does not grant you the ability to read or write Auran.</p>
+            <p class="indent">Also, you can speak to the clouds, which relay your messages for you. You can cast the skywrite spell, but only as a ritual.</p>
+        </description>
+        <sheet>
+            <description>You can speak and understand Auran. This feature does not grant you the ability to read or write Auran. You can cast the skywrite spell, but only as a ritual.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_SKYWRITE" />
+        </rules>
+    </element>
+    <element name="Sky Shout" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_SKY_SHOUT">
+        <description>
+            <p>Starting at 3rd level when you enter your rage, or as a bonus action on your turn while you are raging, if you can speak, you can shout with the thunderous force of the sky at a creature within 30 feet of you.</p>
+            <p class="indent">The target must make a Constitution saving throw. On a failure, the target takes thunder damage equal to 1d4 + halfyour barbarian leveL and you choose to either knock the target prone or push the target 10 feet away from you. On a success, the target takes half as much damage and isn't pushed or knocked prone.</p>
+            <p class="indent">The saving throw DC for this feature equals 8 + your Constitution modifier + your proficiency bonus. When you reach 6th leveL the range for this feature increases from 30 feet to 60 feet.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" level="3">When you enter your rage, or as a bonus action on your turn while you are raging, if you can speak, you can shout with the thunderous force of the sky at a creature within 30 feet of you. The target must make a Constitution saving throw (DC {{sky shout:save}}). On a failure, the target takes thunder damage equal to 1d4 + {{level:barbarian:half}} and you choose to either knock the target prone or push the target 10 feet away from you. On a success, the target takes half as much damage and isn't pushed or knocked prone.</description>
+            <description action="Bonus Action" level="6">When you enter your rage, or as a bonus action on your turn while you are raging, if you can speak, you can shout with the thunderous force of the sky at a creature within 60 feet of you. The target must make a Constitution saving throw (DC {{sky shout:save}}). On a failure, the target takes thunder damage equal to 1d4 + {{level:barbarian:half}} and you choose to either knock the target prone or push the target 10 feet away from you. On a success, the target takes half as much damage and isn't pushed or knocked prone.</description>
+        </sheet>
+        <rules>
+            <stat name="sky shout:save" value="8" />
+            <stat name="sky shout:save" value="constitution:modifier" />
+            <stat name="sky shout:save" value="proficiency" />
+        </rules>
+    </element>
+    <element name="Vessel of Resonance" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_VESSEL_OF_RESONANCE">
+        <description>
+            <p>At 6th level your connection to the great voice of the sky fills your body with a latent magical voice and transforms it into a vessel for this mighty sound. You have resistance to thunder damage, you cannot be deafened, and magic cannot prevent you from speaking.</p>
+            <p class="indent">In addition, when you speak, you can choose to amplify your voice. Each creature you can see within a radius that you choose can easily hear your voice as clearly and crisply as if they were within 10 feet of you. The chosen radius cannot exceed 1 mile.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to thunder damage, you cannot be deafened, and magic cannot prevent you from speaking. In addition, when you speak, you can choose to amplify your voice. Each creature you can see within a radius that you choose can easily hear your voice as clearly and crisply as if they were within 10 feet of you. The chosen radius cannot exceed 1 mile</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+        </rules>
+    </element>
+    <element name="Skybreaker's Roar" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_SKYBREAKERS_ROAR">
+        <description>
+            <p>Starting at 10th level when you target a flying creature with your Sky Shout feature, the range is 150 feet and the target has disadvantage on the saving throw.</p>
+            <p class="indent">In addition, you can use an action on your turn to roar into the sky above, altering the weather with the power of your voice. You change the weather using the same rules as the control weather spelL except you can only do so once, and you can't affect the temperature. You can alter the precipitation and wind by up to two stages up or down, but you can't increase precipitation above stage 4 or increase wind above stage 3. These changes only last for 1 hour.</p>
+            <p class="indent">Once you have altered the weather in this way, you can't do so again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description action="Action" usage="1/Long Rest">When you target a flying creature with your Sky Shout feature, the range is 150 feet and the target has disadvantage on the saving throw. In addition, you can use an action on your turn to roar into the sky above, altering the weather with the power of your voice. You change the weather using the same rules as the control weather spelL except you can only do so once, and you can't affect the temperature. You can alter the precipitation and wind by up to two stages up or down, but you can't increase precipitation above stage 4 or increase wind above stage 3. These changes only last for 1 hour.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CONTROL_WEATHER" />
+        </rules>
+    </element>
+    <element name="Breath of the Sky" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_SKY_CALLER_BREATH_OF_THE_SKY">
+        <description>
+            <p>When you reach 14th level you become able to harness the full power of the sky's true voice. As an action on your turn while you are raging, you can release a mighty booming shout in a 60-foot cone.</p>
+            <p class="indent">Each creature in the area must make a Constitution saving throw. On a failed saving throw, a creature takes thunder damage equal to your barbarian level + your Constitution modifier, is knocked prone, is pushed 20 feet away from you, and is deafened until the end of your next turn. On a successful saving throw, a creature takes half as much damage and isn't pushed, knocked prone, or deafened.</p>
+            <p class="indent">In addition, unsecured objects that are completely within the area of effect are automatically pushed 20 feet away from you by the effect, and the sound of your roar is audible out to 1000 feet.</p>
+            <p class="indent">The DC for this saving throw is the same as for your Sky Shout feature. Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description action="Action" usage="1/Short Rest">As an action on your turn while you are raging, you can release a mighty booming shout in a 60-foot cone. Each creature in the area must make a Constitution saving throw (DC {{sky shout:save}}). On a failed saving throw, a creature takes {{breath sky:dmg}} thunder damage, is knocked prone, is pushed 20 feet away from you, and is deafened until the end of your next turn. On a successful saving throw, a creature takes half as much damage and isn't pushed, knocked prone, or deafened. In addition, unsecured objects that are completely within the area of effect are automatically pushed 20 feet away from you by the effect, and the sound of your roar is audible out to 1000 feet.</description>
+        </sheet>
+        <rules>
+            <stat name="breath sky:dmg" value="level:barbarian" />
+            <stat name="breath sky:dmg" value="constitution:modifier" />
+        </rules>
+    </element>
+
+    <element name="Path of the Verdant Warden" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_BARBARIAN_VERDANT_WARDEN">
+        <supports>Primal Path</supports>
+        <description>
+            <p>When the forests and jungles of the world are in danger, they must sometimes rely on mortals to defend them. A barbarian of this path has a connection to these verdant places, and calls upon primal spirits to transform them into a treant-like warrior when they rage.</p>
+            <p class="indent">Some tribes have produced verdant wardens every generation as part of ancient traditions dating back to the time of ancestors. Other wardens learn their ways not from their tribe, but from the forest itself.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_SYLVAN_AVATAR" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_SPEAK_FOR_THE_TREES" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_CANOPY_TRAVELER" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_WILD_REGROWTH" />
+        </description>
+        <sheet display="false">
+            <description>A barbarian of this path has a connection to these verdant places, and calls upon primal spirits to transform them into a treant-like warrior when they rage.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_SYLVAN_AVATAR" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_SPEAK_FOR_THE_TREES" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_CANOPY_TRAVELER" level="10" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_WILD_REGROWTH" level="14" />
+        </rules>
+    </element>
+    <element name="Sylvan Avatar" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_SYLVAN_AVATAR">
+        <description>
+            <p>Starting at 3rd level your rage transforms you into an avatar of the forest. Your skin hardens into thick bark, your hair turns to leaves or grass, and your footsteps stir the natural plant life around you.</p>
+            <p class="indent">While raging, you gain a +1 bonus to AC, you have resistance to radiant damage, and you count as a plant in addition to your other types. In addition, each time you enter your rage, you choose one of the following options to augment your form until your rage ends.</p>
+            <p class="indent"><strong><em>Branches.</em></strong> Your limbs become like the long swaying branches of an elderly oak tree. In this form, your reach with melee attacks and touch effects is increased by 5 feet, and your walking speed is increased by 10 feet.</p>
+            <p class="indent"><strong><em>Roots.</em></strong> Your legs grow roots through the ground to impede your enemies. In this form, you can't be knocked prone, enemies treat the ground within 15 feet ofyou as difficult terrain, and when you are pushed or pulled, you can reduce the distance you are moved by up to 10 feet.</p>
+            <p class="indent"><strong><em>Vines.</em></strong> Your skin all across your body sprouts strong vines to help you cling to things. In this form, creatures have disadvantage on any ability checks made to escape from your grapples, you can't be disarmed, and you have a climbing speed equal to your walking speed that you do not need free hands to use.</p>
+        </description>
+        <sheet>
+            <description>While raging, you gain a +1 bonus to AC, you have resistance to radiant damage, and you count as a plant in addition to your other types. In addition, each time you enter your rage, you choose one of the following options to augment your form until your rage ends.
+            Branches: In this form, your reach with melee attacks and touch effects is increased by 5 feet, and your walking speed is increased by 10 feet.
+            Roots: In this form, you can't be knocked prone, enemies treat the ground within 15 feet ofyou as difficult terrain, and when you are pushed or pulled, you can reduce the distance you are moved by up to 10 feet.
+            Vines: In this form, creatures have disadvantage on any ability checks made to escape from your grapples, you can't be disarmed, and you have a climbing speed equal to your walking speed that you do not need free hands to use.</description>
+        </sheet>
+    </element>
+    <element name="Speak for the Trees" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_SPEAK_FOR_THE_TREES">
+        <description>
+            <p>At 6th level you gain the respect of the forest's flora, and they gain respect for you. The magic of this primal bond grants you some benefits:</p>
+            <ul>
+                <li>As the forest fears the flame, you become a symbol of extinguishing those flames. You and objects you carry can't be on fire (except for magical fire such as the immolation spell), and both you and the objects you carry have resistance to fire damage.</li>
+                <li>As the forest needs the sun, you grow to bask in its energy. If you spend the entire duration of a short rest in direct sunlight, you can choose to regain hit points equal to your barbarian level at the end of the rest. Once you have done this, you cannot do so again until you finish a long rest.</li>
+                <li>As the forest is a community, you must learn how to communicate to it. You can speak to plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You also have advantage on all Charisma checks you make to influence or interact with them.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You and objects you carry can't be on fire (except for magical fire such as the immolation spell), and both you and the objects you carry have resistance to fire damage. You can speak to plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You also have advantage on all Charisma checks you make to influence or interact with them. If you spend the entire duration of a short rest in direct sunlight, you can choose to regain {{level:barbarian}} hit points at the end of the rest. Once you have done this, you cannot do so again until you finish a long rest.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+        </rules>
+    </element>
+    <element name="Canopy Traveler" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_CANOPY_TRAVELER">
+        <description>
+            <p>At 10th levei you become attuned to the forests and jungles of the land, and the oldest roads, their branches. You ignore difficult terrain caused by foliage such as plants or fungus, and you have a climb speed equal to your walking speed when climbing trees or other flora, including plants and fungus.</p>
+            <p class="indent">You can also use a bonus action or an action on your turn to create a length of vine. You choose to create the vine from either your hand or from a point that you can see within 30 feet on a flat and stable surface.</p>
+            <p class="indent">If you create from your hand, you produce a 60-foot length of untethered vine that acts as tough rope. If you create from a point, you produce a 30-foot length of vine which stretches toward you while staying firmly planted in the surface. The vine can hold up to 1000 lbs, it has 16AC and hit points equal to 10 + twice your barbarian levei and it is vulnerable to slashing damage.</p>
+            <p class="indent">The vine disintegrates into mush after 10 minutes, when you create another vine, or when you use another bonus action to destroy it.</p>
+        </description>
+        <sheet>
+            <description>You ignore difficult terrain caused by foliage such as plants or fungus, and you have a climb speed equal to your walking speed when climbing trees or other flora, including plants and fungus. You can also use a bonus action or an action on your turn to create a length of vine. You choose to create the vine from either your hand or from a point that you can see within 30 feet on a flat and stable surface. If you create from your hand, you produce a 60-foot length of untethered vine that acts as tough rope. If you create from a point, you produce a 30-foot length of vine which stretches toward you while staying firmly planted in the surface. The vine can hold up to 1000 lbs, it has 16AC and {{tough rope:hp}} hit points and it is vulnerable to slashing damage. The vine disintegrates into mush after 10 minutes, when you create another vine, or when you use another bonus action to destroy it.</description>
+        </sheet>
+        <rules>
+            <stat name="tough rope:hp" value="10" />
+            <stat name="tough rope:hp" value="level:barbarian" />
+            <stat name="tough rope:hp" value="level:barbarian" />
+        </rules>
+    </element>
+    <element name="Wild Regrowth" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_BARBARIAN_VERDANT_WARDEN_WILD_REGROWTH">
+        <description>
+            <p>At 14th levei you draw the energy of nature into you in times of peril. When you begin your tum while raging, if you have no more than half of your hit points left, you regain hit points equal to 2 + your Constitution modifier (minimum 1 hit point), plus 3 additional hit points if you are in direct sunlight.</p>
+        </description>
+        <sheet>
+            <description>When you begin your tum while raging, if you have no more than half of your hit points left, you regain {{wild regrowth:hp}} hit points (minimum 1 hit point), plus 3 additional hit points if you are in direct sunlight.</description>
+        </sheet>
+        <rules>
+            <stat name="wild regrowth:hp" value="2" />
+            <stat name="wild regrowth:hp" value="constitution:modifier" />
+        </rules>
+    </element>
+
+<p class="indent"></p>
+    
+</elements>

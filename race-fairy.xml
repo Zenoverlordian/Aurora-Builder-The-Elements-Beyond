@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+    
+    <element name="Fairy" type="Race" source="The Elements and Beyond" id="ID_TEAB_RACE_FAIRY">
+        <description>
+            <p>In the secluded glades and shrouded hollows of the wild world, if you search hard enough, you can find the races of tiny flying fey collectively known as fairies.</p>
+            <p class="indent">The term fairy refers to a few races of tiny fey with wings, such as pixies and sprites. Often ranked among the weakest of fey and rarely involved in great conflicts of history, these tiny people live their exceptionally long lives in the quiet of forest groves and other wild places. They are all imbued with an innate magic that is sought after by monsters and mortal mages alike, but most use this magic for little more than tricks and games when it isn't needed to keep them hidden.</p>
+            <p class="indent">Fairies generally do what they can to avoid being discovered, so it is quite rare for them to want to adventure in the dangerous outside world. Some of them inevitably have wanderlust stronger than their caution, and find a reason to leave their community. Others are cast out or even exiled, perhaps for a crime, or perhaps simply for their unusual and unfairy-like similarity to humanoids. Whatever their reason for traveling, the fairy adventurer is an incredibly rare sight. Adventurers of all races swap hopeful tales of what questing with such strange and fantastic companions might be like.</p>
+            <h4>WEE WINGED FEY</h4>
+            <p>Fairies resemble very small elves, ranging from 5 to 10 inches tall, with wings on their backs like the wings of butterflies, moths, or dragonflies. Like elves, they are slender and lithe, and they even have the same pointed ears. With their slight frame and tiny size, they usually weigh no more than 2 or 3 pounds. Fairies have skin colors mostly similar to elves, encompassing the range of human tones along with more amber, bronze, green, or blue shades. Their hair sometimes passes for human colorations, but can often be bright blue, green, or any other color. Some clans of pixies and scamps have even stranger colorations more befitting a fey.</p>
+            <h4>STAYING HIDDEN FROM HUNTERS</h4>
+            <p>The life of a fairy normally involves staying hidden from the outside world. While most of the more powerful fey usually ignore fairies and their villages except to enlist the occasional messenger or servant, the mortal world is eager to discover any pixies, sprites, or scamps that they can. Unfortunately, their eagerness usually goes too far. Fairies are commonly not only sought, but hunted by the outside races; they are prized for their innate magic, such as their wings or a pixie's dust. Some twisted few even seek and capture fairies simply to keep them in a deranged collection. These dark tales are what fairies tell their children to keep them from wandering too far from the safety of the hidden village, but that doesn't mean they aren't dangerously real.</p>
+            <p class="indent">To stay safely hidden, fairies build their settlements in locations that are difficult for others to find. Commonly chosen spots include the insides of logs, the boughs of trees or willing treants, within rings of toadstools, and other natural hiding spots found in verdant glades and untouched wilderness. While most of them live within the Feywild, there are plenty of fairy communities on the Material Plane as well, but they are so well hidden that you might never know it!</p>
+            <p class="indent">In some worlds, the wee folk have to fend off not only those that seek to harvest their innate magic, but even the natural predators who will hunt anything fairy-sized. One common example is the long-time nemesis of all wee folk and little animals -- the cat. In other worlds, the magic of the fairies wards off such mundane threats, but fairies still face predation at the paws of the cunning magical cats that lurk in the Feywild.</p>
+            <h4>FAIRY NAMES</h4>
+            <p>Fairies are usually given names by their parents, but they lack family or clan names. They sometimes choose to rely entirely on nicknames that they have picked out for themselves. Fairies also might choose a name taken from the other races instead of a traditional fairy name, sometimes even naming themselves or others after a simple noun that the fairy finds intriguing instead of a proper name. Traditional fairy names, by contrast, often involve aspects of nature, especially ones as small as the fairies themselves, such as bugs or flowers.</p>
+            <p class="indent">Some clans of sprites eschew this pattern entirely, naming themselves exclusively with elven names. Some pixies and scamps on the other hand are enamored with the outsider concept of family names, and, lacking a full understanding of the purpose of such a name, adopt a family name that they've heard from another race, such as "Goodfellow." Such names are usually taken only for amusement and are only used when the fairy is among non-fairies; they are rarely passed on to children.</p>
+            <p class="indent"><strong><em>Male Names.</em></strong> Beetle, Blade, Cymbal, Cinammon, Cobweb, Darter, Elvinn, Fiddle, Finn, Garlic, Gelsey, Hornet, Jay, King, Lark, Locust, Marin, Oberon, Orin, Pan, Puck, Regin, Robin, Timpani, Weevil, Wren, Zephyr</p>
+            <p class="indent"><strong><em>Female Names.</em></strong> Amber, Aurora, Ariel, Bell, Dove, Dawn, Faye, Ginger, Harp, Holly, Isla, Jasmine, Kestril, Lily, Lorelei, Mabel, Marigold, Maven, Melody, Nutmeg, Odette, Rosalia, Shea, Tiana, Titannia, Viola, Wanda</p>
+            <p class="indent"><strong><em>Gender-Neutral Names.</em></strong> Basil, Cilantro, Coriander, Dancer, Gossamer, Lute, Mantis, Moth, Mustardseed, Peaseblossom, Pepper, Rivergleam, Thorn, Tootie</p>
+            <h4>FAIRY Traits</h4>
+            <p>Being size Tiny and being able to fly starting at 1st level is exceptionally effective in certain circumstances and greatly dangerous in others. As a result, playing a fairy requires special consideration by your DM. As a fairy adventurer, you are exceptional even for a fairy. You're a fairy that, for one reason or another, isn't as capable with the innate fairy magic as most of your peers, struggling with some abilities they have always mastered. But when compared to the average fairy, you have a much better understanding of the outside world than those peers. You're also considerably tougher. As a fairy, you have the following racial traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Fairies usually live to be over 300, but they reach adulthood as quickly as a human does.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Given their friendliness and benevolence, pixies are typically neutral good or even chaotic good. As custodians of nature, sprites are almost always neutral good. Some are lawful or chaotic good, but evil sprites are quickly discovered by their peers using the Heart Sight and aggressively rehabilitated or exiled. Scamps are often drawn to chaotic alignments, and sometimes even to evil. Most scamps are chaotic neutral.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Fairies have great diversity in their size despite their short stature, standing anywhere from 5 to 10 inches tall. Your size is Tiny.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 10 feet.</p>
+            <p class="indent"><strong><em>Fairy Flight.</em></strong> You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor. While you are flying using this speed, you have disadvantage on Strength and Constitution saving throws made to resist being pushed, pulled, or knocked prone.</p>
+            <p class="indent"><strong><em>Fey Hybrid.</em></strong> You have two creature types: humanoid and fey. You can be affected by a game effect if it works on either of your creature types.</p>
+            <p class="indent"><strong><em>Puny Body.</em></strong> As a tiny fairy, you cannot wield weapons that have the heavy property, you have disadvantage on Strength checks, and if you hit with a weapon attack, you halve any bludgeoning damage, piercing damage, and slashing damage dealt by the attack.</p>
+            <p class="indent"><strong><em>Fairy Subrace.</em></strong> Fairies come in three varieties, which have different cultural values in addition to their differences in innate fey magic: pixies, sprites, and scamps. Choose one of these subraces.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Beetle, Blade, Cymbal, Cinammon, Cobweb, Darter, Elvinn, Fiddle, Finn, Garlic, Gelsey, Hornet, Jay, King, Lark, Locust, Marin, Oberon, Orin, Pan, Puck, Regin, Robin, Timpani, Weevil, Wren, Zephyr</set>
+            <set name="names" type="female">Amber, Aurora, Ariel, Bell, Dove, Dawn, Faye, Ginger, Harp, Holly, Isla, Jasmine, Kestril, Lily, Lorelei, Mabel, Marigold, Maven, Melody, Nutmeg, Odette, Rosalia, Shea, Tiana, Titannia, Viola, Wanda</set>
+            <set name="names" type="construct">Basil, Cilantro, Coriander, Dancer, Gossamer, Lute, Mantis, Moth, Mustardseed, Peaseblossom, Pepper, Rivergleam, Thorn, Tootie</set>
+            <set name="names-format">{{name}}</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="innate speed" value="10" bonus="base" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_FAIRY_FLIGHT" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_FAIRY_HYBRID" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_FAIRY_PUNY_BODY" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_FAIRY_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Fairy Flight" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_FAIRY_FLIGHT">
+        <description>
+            <p>You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor. While you are flying using this speed, you have disadvantage on Strength and Constitution saving throws made to resist being pushed, pulled, or knocked prone.</p>
+        </description>
+        <sheet>
+            <description>You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor. While you are flying using this speed, you have disadvantage on Strength and Constitution saving throws made to resist being pushed, pulled, or knocked prone.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:fly" value="30" bonus="base" equipped="![armor:medium],![armor:heavy]" />
+        </rules>
+    </element>
+    <element name="Fey Hybrid" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_FAIRY_HYBRID">
+        <description>
+            <p>You have two creature types: humanoid and fey. You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet>
+            <description>You have two creature types: humanoid and fey. You can be affected by a game effect if it works on either of your creature types.</description>
+        </sheet>
+    </element>
+    <element name="Puny Body" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_FAIRY_PUNY_BODY">
+        <description>
+            <p>As a tiny fairy, you cannot wield weapons that have the heavy property, you have disadvantage on Strength checks, and if you hit with a weapon attack, you halve any bludgeoning damage, piercing damage, and slashing damage dealt by the attack.</p>
+        </description>
+        <sheet>
+            <description>As a tiny fairy, you cannot wield weapons that have the heavy property, you have disadvantage on Strength checks, and if you hit with a weapon attack, you halve any bludgeoning damage, piercing damage, and slashing damage dealt by the attack.</description>
+        </sheet>
+    </element>
+    <element name="Fairy Subrace" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_FAIRY_SUBRACE">
+        <description>
+            <p>Fairies come in three varieties, which have different cultural values in addition to their differences in innate fey magic: pixies, sprites, and scamps. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Fairy Subrace" supports="FairySR" />
+        </rules>
+    </element>
+
+    <element name="Pixie" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_FAIRY_PIXIE">
+        <supports>FairySR</supports>
+        <description>
+            <p>Pixies are the archetypal fairy – they are shy, yet curious and often vain, usually appearing only to the strangers who they believe to be good-hearted and worthy enough. They seek praise from outsiders for their appearance and for the tiny costumes they fashion from whatever they can find, but they also want to learn more of the other races. Pixie adventurers are often much less shy than their fellows, which pushes them to pursue their curiosity and seek out new friends to play with. Once they're out in the wide world, they often make excellent adventurers, even if their ever-shifting curiosity makes them easily distracted and their distaste for weapons and violence make many roles off-putting.</p>
+            <p class="indent">Pixies have appealing features and are often thought to be quite attractive if imagined at human size. They commonly have fantastical skin and hair colors, such as bright green, ocean blue, and even stranger shades. Most pixies pride themselves on taking care of their appearance, always ensuring that their hair and clothing is well-styled and fashionable. They adopt the dress and mannerisms of other races and cultures that they find fancy, accepting each custom with equal dignity.</p>
+            <p class="indent">Pixies are incurably playful and whimsical, even in dangerous situations. Most pixies play their pranks so that both the pixie and their target can have a laugh at the end. If the prank leaves the target feeling worse than they did before, the prank is probably too cruel for most pixies to enjoy – unless the target is a particularly mean individual. After all, despite their friendly nature, most pixies just can't stand bullies!</p>
+            <p class="indent">In some worlds, pixies are the only kind of fairy, but in most worlds they coexist with sprites and at times even with scamps. In worlds where fey are divided between the seelie and unseelie, the tiny pixies are almost always counted among the seelie fey.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score or your Charisma score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Innate Spellcasting.</em></strong> You know the druidcraft and dancing lights cantrips. Once you reach 3rd level, you can cast the sleep spell once, and it recharges after a long rest. Once you reach 5th level, you can also cast invisibility once, and it recharges after a long rest. Charisma is your spellcasting ability for these spells.</p>
+            <p class="indent"><strong><em>Pixie Dust.</em></strong> You can use a free hand as a spellcasting focus for any spells that you cast.</p>
+            <p class="indent"><strong><em>Pixie Glow.</em></strong> As a bonus action on your turn, you can choose to start or stop glowing. While glowing, you shed bright light in a 10-foot radius and dim light for an additional 10 feet. The light can be colored as you like.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase, Pixie" supports="ASIPixie" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_PIXIE_SPELLCASTING" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_PIXIE_DUST" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_PIXIE_GLOW" />
+        </rules>
+    </element>
+    <element name="Charisma" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_PIXIE_CHA">
+    <compendium display="false" />
+    <supports>ASIPixie</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" />
+        </rules>
+    </element>
+    <element name="Wisdom" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_PIXIE_WIS">
+    <compendium display="false" />
+    <supports>ASIPixie</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+        </rules>
+    </element>
+    <element name="Innate Spellcasting" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_PIXIE_SPELLCASTING">
+        <description>
+            <p>You know the druidcraft and dancing lights cantrips. Once you reach 3rd level, you can cast the sleep spell once, and it recharges after a long rest. Once you reach 5th level, you can also cast invisibility once, and it recharges after a long rest. Charisma is your spellcasting ability for these spells.</p>
+        </description>
+        <sheet>
+            <description>You know the druidcraft and dancing lights cantrips. Charisma is your spellcasting ability for these spells.</description>
+			<description level="3">You know the druidcraft and dancing lights cantrips. You can cast the sleep spell as a 2nd-level spell once per long rest. Charisma is your spellcasting ability for these spells.</description>
+			<description level="5">You know the druidcraft and dancing lights cantrips. You can cast the sleep spell as a 2nd-level spell and the invisibility spell once per long rest. Charisma is your spellcasting ability for these spells.</description>
+        </sheet>
+        <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" />
+            <grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5"/>
+		</rules>
+    </element>
+    <element name="Pixie Dust" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_PIXIE_DUST">
+        <description>
+            <p>You can use a free hand as a spellcasting focus for any spells that you cast.</p>
+        </description>
+        <sheet>
+            <description>You can use a free hand as a spellcasting focus for any spells that you cast.</description>
+        </sheet>
+    </element>
+    <element name="Pixie Glow" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_PIXIE_GLOW">
+        <description>
+            <p>As a bonus action on your turn, you can choose to start or stop glowing. While glowing, you shed bright light in a 10-foot radius and dim light for an additional 10 feet. The light can be colored as you like.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action">As a bonus action on your turn, you can choose to start or stop glowing. While glowing, you shed bright light in a 10-foot radius and dim light for an additional 10 feet. The light can be colored as you like.</description>
+        </sheet>
+    </element>
+
+    <element name="Sprite" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_FAIRY_SPRITE">
+        <supports>FairySR</supports>
+        <description>
+            <p>As self-appointed guardians of the wilderness, sprites aren't known for being playful or friendly like pixies. These fairies are known as much for their bravery in facing larger threats as they are for the sternness and stoicism that their culture teaches. They rarely play pranks or engage in whimsy, generally preferring to stay ready for future conflicts. Sprites don't usually have skin colors much different than humans do, and unlike the wings of pixies or scamps, sprite wings always resemble the austere wings of a dragonfly.</p>
+            <p class="indent">Sprite society is organized around their duty to guard. They establish their settlements in places of unspoiled nature or primal magic, and sometimes even in sacred groves or abandoned fey ruins. They form squads and patrol the area around their village, guarding the place from those who would despoil nature and fending off intruders so their presence is not discovered. The rest of the village lives their humble lives to aid and support the squads, keeping the hidden village running. Most sprites are driven by a reliable sense of moral duty, encouraged from a young age by their communal culture.</p>
+            <p class="indent">When possible, sprites prefer to lure interlopers away from the locations they guard using deception instead of warding them off with the overt threat of violence. They keep weapons coated with rare sprite-crafted toxins to put their foes to sleep, enabling a sprite squad to carry them somewhere else, where the interloper will wake to believe that the encounter was but a dream. Sprites who become adventurers usually carry these guerrilla tactics with them, applying them wherever fitting.</p>
+            <p class="indent">In worlds where fey are divided between the seelie and unseelie, sprites are usually found among both the sides, pitted against each other in an endless faerie war.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score or your Intelligence score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Heart Sight.</em></strong> You can use your action to touch a creature and magically learn its current emotional state. The target must also make a Charisma saving throw, with the saving throw DC equal to 8 + your proficiency bonus. On a failed save, you also know the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+            <p class="indent"><strong><em>Invisibility.</em></strong> You can cast the invisibility spell once with this trait targeting yourself, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</p>
+            <p class="indent"><strong><em>Sprite War Training.</em></strong> You have proficiency with the longsword, shortsword, shortbow, and poisoner's kit.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Elvish.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase, Sprite" supports="ASISprite" />
+            <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SPRITE_HEART_SIGHT" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SPRITE_INVISIBILITY" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SPRITE_WAR_TRAINING" />
+        </rules>
+    </element>
+    <element name="Intelligence" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SPRITE_INT">
+    <compendium display="false" />
+    <supports>ASISprite</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" />
+        </rules>
+    </element>
+    <element name="Wisdom" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SPRITE_WIS">
+    <compendium display="false" />
+    <supports>ASISprite</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+        </rules>
+    </element>
+    <element name="Heart Sight" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SPRITE_HEART_SIGHT">
+        <description>
+            <p>You can use your action to touch a creature and magically learn its current emotional state. The target must also make a Charisma saving throw, with the saving throw DC equal to 8 + your proficiency bonus. On a failed save, you also know the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description action="Action" usage="1/Short Rest">You can use your action to touch a creature and magically learn its current emotional state. The target must also make a Charisma saving throw, with the saving throw DC of {{heart sight:dc}}. On a failed save, you also know the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="heart sight:dc" value="8" />
+            <stat name="heart sight:dc" value="proficiency" />
+        </rules>
+    </element>
+    <element name="Invisibility" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SPRITE_INVISIBILITY">
+        <description>
+            <p>You can cast the invisibility spell once with this trait targeting yourself, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You can cast the invisibility spell once with this trait targeting yourself, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" />
+        </rules>
+    </element>
+    <element name="Sprite War Training" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SPRITE_WAR_TRAINING">
+        <description>
+            <p>You have proficiency with the longsword, shortsword, shortbow, and poisoner's kit.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency with the longsword, shortsword, shortbow, and poisoner's kit.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+        </rules>
+    </element>
+
+    <element name="Scamp" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_FAIRY_SCAMP">
+        <supports>FairySR</supports>
+        <description>
+            <p>More playful than sprites, more vicious than pixies, the scamps are tiny fairies with a penchant for trickery and a talent for impersonation. They appear as misshapen and emaciated pixies, often with a pale or ashen cast to their skin. Some have wings like moths, but others have feathered wings like those of a small hummingbird or crow. They are highly competitive and often envious of others, though their emotions and desires are mercurial and ever-changing, even when kept hidden.</p>
+            <p class="indent">The cunning scamps delight in playing tricks that are always at least a bit more than harmless, and they often gleefully revel in the misfortune of others. Most scamps plays pranks to make their target feel worse -- and the worse they feel at the end, the more fun a typical scamp has. Most scamps are selective with their trickery, only targeting those they feel deserve to be taught a lesson or "taken down a peg or two." Some weaker scamps have been on the wrong end of their peers' torment too many times, and this pushes them toward kindness and good alignments. But sometimes their torment can fester into bitterness and hatred, pushing a scamp to evil.</p>
+            <p class="indent">There are communities where pixies and scamps live together without much issue, but many pixie villages do not get along well with most scamps. Scamps often live in their own small communities, but sometimes live in secret among the other races, such as humans or elves. Some families of scamps live as nomads, roaming from place to place and hiding wherever they can find.</p>
+            <p class="indent">In some worlds, scamps are known by other names, such as boggarts or gremlins. In worlds where fey are divided between the seelie and unseelie, scamps are the unseelie counterpart to pixies.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score or your Charisma score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Innate Spellcasting.</em></strong> You know the minor illusion cantrip. Once you reach 3rd level, you can cast the silent image spell once, and it recharges after a long rest. Once you reach 5th level, you can also cast invisibility once, and it recharges after a long rest. Charisma is your spellcasting ability for these spells, and you don't require material components to cast them.</p>
+            <p class="indent"><strong><em>Trickster.</em></strong> You have proficiency in the Deception skill and one gaming set of your choice.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write one language of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase, Scamp" supports="ASIScamp" />
+            <select type="Language" name="Language, Scamp" supports="Standard||Exotic" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SCAMP_SPELLCASTING" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SCAMP_TRICKSTER" />
+        </rules>
+    </element>
+    <element name="Intelligence" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SCAMP_INT">
+    <compendium display="false" />
+    <supports>ASIScamp</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" />
+        </rules>
+    </element>
+    <element name="Charisma" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SCAMP_WIS">
+    <compendium display="false" />
+    <supports>ASIScamp</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" />
+        </rules>
+    </element>
+    <element name="Innate Spellcasting" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SCAMP_SPELLCASTING">
+        <description>
+            <p>You know the minor illusion cantrip. Once you reach 3rd level, you can cast the silent image spell once, and it recharges after a long rest. Once you reach 5th level, you can also cast invisibility once, and it recharges after a long rest. Charisma is your spellcasting ability for these spells, and you don't require material components to cast them.</p>
+        </description>
+        <sheet>
+            <description>You know the minor illusion cantrip. Charisma is your spellcasting ability for these spells and you don't require material components to cast them.</description>
+			<description level="3">You know the minor illusion cantrip. You can cast the silent image spell as a 2nd-level spell once per long rest. Charisma is your spellcasting ability for these spells and you don't require material components to cast them.</description>
+			<description level="5">You know the minor illusion cantrip. You can cast the silent image spell as a 2nd-level spell and the invisibility spell once per long rest. Charisma is your spellcasting ability for these spells and you don't require material components to cast them.</description>
+        </sheet>
+        <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
+			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5"/>
+		</rules>
+    </element>
+    <element name="Trickster" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SCAMP_TRICKSTER">
+        <description>
+            <p>You have proficiency in the Deception skill and one gaming set of your choice.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency in the Deception skill and one gaming set of your choice.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+            <select type="Proficiency" name="Gaming Set (Scamp)" supports="Gaming Set" />
+        </rules>
+    </element>
+    
+</elements>

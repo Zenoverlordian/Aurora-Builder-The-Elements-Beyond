@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+    
+    <element name="Deepling" type="Race" source="The Elements and Beyond" id="ID_TEAB_RACE_DEEPLING">
+        <description>
+            <p>There are dark parts of the ocean: the deep chasms and reefs where even tritons and merfolk hesitate to go. The octopus-like deeplings are the mysterious inhabitants of these places, but you will be hard-pressed to find one if they don't wish to be found With a talent for disguise and camouflage, the deeplings live strange lives without culture or organized society, acting more like wild animals than humanoids. Despite this, they have a uniquely clever intellect, and they carry a streak of incurable curiosity that drives them to explore further and further, learning more and more about the world as they study and experiment with anything and everything they can get their tentacles on.</p>
+            <p class="indent">Most deeplings never leave the dark depths they were born in, living their entire existence as a wild person. But sometimes curiosity leads a deepling into the light or even onto land, where they might encounter other humanoid races. When they first emerge from the watery depths and make contact with another race, many deeplings are excited to learn that the world is wider than they ever imagined, full of wonders and mysteries to be understood, and eagerly devour the new information all around them.</p>
+            <h4>ORIGINS: MYSTERY AND MONSTERS</h4>
+            <p>In some worlds, when gods were still using the krakens for war, they created the race of deeplings and gave them to the krakens as servitors to worship and tend to the aquatic monstrosities. When the krakens broke free of the gods after their wars ended, the krakens cast the deeplings - who they saw as spies for the gods - out to live on their own in the dark seas.</p>
+            <p class="indent">In other worlds, deeplings are most closely related to aboleths. The two races lived in the same primordial waters before the coming of the gods who cast down the aboleth empire. Deeplings were among the first slaves dominated by the aboleths' psychic abilities and were favored for their versatility as aquatic workers. When the aboleths lost their empire, the deeplings escaped to live as free individuals.</p>
+            <p class="indent">And there are worlds where fey of the deep, dark waters created the deeplings to act as their faithful guardians by ensorcelling octopuses into humanoid form and granting them extreme intelligence - which the deeplings used to escape their fey masters and emigrate to the Material Plane.</p>
+            <h4>ENIGMATIC AND ALIEN</h4>
+            <p>The true appearance of a deepling is a rare sight even for its companions. The deepling body resembles a large octopus with a more humanoid head Just like an octopus, a deepling has no bones - its small beak is the only hardened part of its body. They each have eight tentacles, two of which are extra dexterous and are used as main hands. They don't have a brain, and their ability to think is distributed across their entire body. Because of this, their tentacles sometimes move on their own, and most deeplings that travel on land keep them bound together under clothing to conceal them and prevent them from wandering where they shouldn't.</p>
+            <p class="indent">Deeplings have skin that actually appears as a spotted blue, grey, green, or pink, but they have the ability to change their skin's color at-wilL even choosing different colors and patterns for different body parts. They can even use this ability to make their smooth skin into a different texture, such as a texture like that of rocks, coral, scales, or short fur. Their strange octopus-like eyes, which are usually yellow, green, or blue, however, can't be disguised in this way.</p>
+            <p class="indent">Most adult deeplings that live with other races spend their time imitating that race or another race that has gained their fancy. By twisting their many tentacles into shapes across their malleable body, they can closely imitate the body shape, skin, and even some of the facial features of other humanoids. They coil four or more tentacles into the shape of legs and walk awkwardly upon them, using their remaining tentacles to form the upper body. Deeplings often wear bulky clothing and other elements of nonmagical disguise to complete the facade for day-to-day ease.</p>
+            <p class="indent">Despite taking these efforts to hide their true nature, deeplings rarely manage to avoid standing out in a crowd, either because of the strange dress they use to disguise themselves, the odd face that can never be perfectly disguised, or the alien behavior resulting from their lonely upbringing. It is common for a deepling to be unable to truly pass as the race they are disguised as, but such a disguise does still hide the deepling's true appearance from the world.</p>
+            <h4>ORPHANS BY NATURE</h4>
+            <p>Deeplings have a unique form of reproduction that generally prevents them from forming a stable culture or society. When two deeplings choose to reproduce, the choice is final Their bodies fuse and transform into a massive egg which, when carried on an ocean current, bursts into hundreds of smaller eggs that scatter across the ocean. After six months, the eggs release hundreds of baby deeplings, each no larger than a man's fist. The deeplings swim away into the dark seas without any parents or kin - all alone.</p>
+            <p class="indent">This is how a deepling's life almost always begins. They swim about in the darkness with no guide or knowledge, unaware of where they came from or what they are. They are small at first , and live as animals, hunting and foraging for food on instinct, and using the same instincts to flee from the many aquatic predators that would devour them.</p>
+            <p class="indent">Despite growing at a rapid rate and maturing within only two years, most deeplings never make it to adulthood The ones that survive rely on their keen intellect and ravenous curiosity to learn about the world in absence of a parent or community to teach them - what is safe to eat, where to find shelter, how to escape or fight off a hungry shark, etc. Young deeplings are most threatened by sahuagin, who consider the rubbery meat of any deepling to be a delicacy.</p>
+            <p class="indent">Sometimes a young deepling will be taken in and raised by a group of triton, merfolk, or sailors. As they reach adulthood quickly, the deepling rapidly finds that it is not the same as its peers. As they learn that the world is much wider than the family they've come to know, most eventually leave their adopted families to seek out the mysteries on the horizon.</p>
+            <h4>SCHOLARS OF CURIOSITY</h4>
+            <p>An unsolved problem is often irresistible to a deepling. They delight in learning new things - they would even rather learn new things than remember what they already know. The varied humanoid cultures of the world can be particularly fascinating for deeplings, who love to mix and match cultural affectations from those societies they find interesting or curious, such as habits ofspeech, patterns of body language, and rules for manners. Etiquette especially both mystifies and fascinates deeplings.</p>
+            <p class="indent">Deeplings are commonly regarded as aloof and clinical They often take an interest in the problems of others, but almost always from a position of curiosity, rather than empathy. They don't have much of an innate sense of family, and rarely form sentimental bonds with others. When they do, however, deeplings cling to these new bonds more tenaciously than anything they've ever held in their short lives.</p>
+            <p class="indent">Having grown up in a lonely existence of instinct and predation, most deeplings don't conceive of a purpose beyond survival until they first meet other humanoids. Once they do, deeplings almost always pursue a calling that satisfies their natural curiosity, such as the exploration ofunknown lands, the investigation of mysteries, or the excavation of ancient ruins and secrets. Because of these desires, deeplings become adventurers at a higher rate than almost any other humanoid race, although their general rarity still makes deepling adventurers very hard to find.</p>
+            <h4>DEEPLING PERSONALITY</h4>
+            <p>You can use the Deepling Quirks table to determine a personality quirk for a deepling character or to inspire a unique mannerism.</p>
+            <table>
+                <thead>
+                    <tr><td>d8</td><td>Quirk</td></tr>
+                </thead>
+                <tr><td>1</td><td>You yearn to explore anywhere you've never been before, and you love to search a room.</td></tr>
+                <tr><td>2</td><td>You don't understand the concept of personal space. At all.</td></tr>
+                <tr><td>3</td><td>You are fascinated by the concept ofmoney, but you do not fully understand what is and isn't a currency, especially if it's shiny.</td></tr>
+                <tr><td>4</td><td>Surface food is not only amazingly delicious, but endlessly astounding to you in its variety.</td></tr>
+                <tr><td>5</td><td>You have been enamored with mathematics since it was taught to you, and you constantly attempt to estimate any chances of success.</td></tr>
+                <tr><td>6</td><td>You enjoy impersonating your friends when around them, especially to make them happy.</td></tr>
+                <tr><td>7</td><td>You refer to yourself as a plural such as "we" and "us" because it feels more accurate to you.</td></tr>
+                <tr><td>8</td><td>You never trust anything for sure unless you can investigate or experiment on it yourself.</td></tr>
+            </table>
+            <h4>DEEPLING NAMES</h4>
+            <p>Because deeplings never meet their parents and rarely form societies, they are almost never given names by fellow deeplings. Deeplings know the animals and plants of the sea without formal names, identifying things in their environment by their effect upon the individual deepling.</p>
+            <p class="indent">When a deepling enters into the society of another race, it is common for the deepling to be named by that race. Thus, many deepling adventurers carry a name from the first race or society that encountered them as a friend.</p>
+            <h4>DEEPLING Traits</h4>
+            <p>As a deepling, you have the following racial traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2, and your Strength score or your Wisdom score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Age.</em></strong> Deeplings reach adulthood by age 2, but they can usually live to be as old as 30 or 40 years.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Most deeplings are neutral They are generally not aware of broader moral or societal concepts, and most are concerned with understanding the world as what it is, rather than what they think it should be.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Deeplings can reshape their body to alter their height and proportions at-will but not their weight, and they are a little bulkier than humans on average. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, onlyshades of gray.</p>
+            <p class="indent"><strong><em>Amphibious.</em></strong> You have a base swimming speed of 30 feet, and you can breathe air and water.</p>
+            <p class="indent"><strong><em>Distributed Mind.</em></strong> You have resistance to psychic damage, and being stunned doesn't prevent you from moving.</p>
+            <p class="indent"><strong><em>Dynamic Form.</em></strong> Your body is a mass of tentacles that can be easily reshaped, and your skin can change colors to form complex camouflage or disguises. As an action, you can alter your height to anywhere between 3 and 9 feet tall When you do so, you can choose to adopt the disguised form of a Small or Medium creature or object or to blend into the environment.</p>
+            <p class="indent">If you adopt a disguise, you have advantage on ability checks made to impersonate the thing you're disguised as when your appearance is relevant. If you blend into the environment and you aren't wearing any armor, you can attempt to hide in that environment even if you are visible, but if you are visible, you make the ability check to hide with disadvantage. Not all disguises are feasible, and you can't disguise anything you're wearing.</p>
+            <p class="indent"><strong><em>Squishy Body.</em></strong> Your body is boneless and made of entirely soft tissue except for your beak, allowing you to compress your body (but not your equipment) down to fit through small spaces. You can move through a space as narrow as 3 inches wide while squeezing, although your speed is reduced to 1 foot when you squeeze between a gap with a width of less than 1 foot. In addition, you ignore any of the drawbacks caused by a deep, underwater environment.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, PrimordiaL and one other language ofyour choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+            <select type="Language" name="Language, " supports="Standard||Exotic" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="intelligence" value="2" />
+            <select type="Racial Trait" name="Ability Score Increase, Deepling" supports="ASIDeepling" />
+            <stat name="innate speed" value="25" bonus="base" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_DEEPLING_DARKVISION" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_DEEPLING_AMPHIBIOUS" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_DEEPLING_DISTRIBUTED_MIND" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_DEEPLING_DYNAMIC_FORM" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_DEEPLING_SQUISHY_BODY" />
+        </rules>
+    </element>
+    <element name="Strength" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_DEEPLING_STR">
+    <compendium display="false" />
+    <supports>ASIDeepling</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="strength" value="1" />
+        </rules>
+    </element>
+    <element name="Wisdom" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_DEEPLING_WIS">
+    <compendium display="false" />
+    <supports>ASIDeepling</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="wisdom" value="1" />
+        </rules>
+    </element>
+    <element name="Darkvision" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_DEEPLING_DARKVISION">
+        <description>
+            <p>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, onlyshades of gray.</p>
+        </description>
+        <sheet>
+            <description>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, onlyshades of gray.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+    <element name="Amphibious" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_DEEPLING_AMPHIBIOUS">
+        <description>
+            <p>You have a base swimming speed of 30 feet, and you can breathe air and water.</p>
+        </description>
+        <sheet>
+            <description>You have a base swimming speed of 30 feet, and you can breathe air and water.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:swim" value="30" bonus="base" />
+        </rules>
+    </element>
+    <element name="Distributed Mind" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_DEEPLING_DISTRIBUTED_MIND">
+        <description>
+            <p>You have resistance to psychic damage, and being stunned doesn't prevent you from moving.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to psychic damage, and being stunned doesn't prevent you from moving.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+        </rules>
+    </element>
+    <element name="Dynamic Form" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_DEEPLING_DYNAMIC_FORM">
+        <description>
+            <p>Your body is a mass of tentacles that can be easily reshaped, and your skin can change colors to form complex camouflage or disguises. As an action, you can alter your height to anywhere between 3 and 9 feet tall When you do so, you can choose to adopt the disguised form of a Small or Medium creature or object or to blend into the environment.</p>
+            <p class="indent">If you adopt a disguise, you have advantage on ability checks made to impersonate the thing you're disguised as when your appearance is relevant. If you blend into the environment and you aren't wearing any armor, you can attempt to hide in that environment even if you are visible, but if you are visible, you make the ability check to hide with disadvantage. Not all disguises are feasible, and you can't disguise anything you're wearing.</p>
+        </description>
+        <sheet>
+            <description>Your body is a mass of tentacles that can be easily reshaped, and your skin can change colors to form complex camouflage or disguises. As an action, you can alter your height to anywhere between 3 and 9 feet tall When you do so, you can choose to adopt the disguised form of a Small or Medium creature or object or to blend into the environment.
+            If you adopt a disguise, you have advantage on ability checks made to impersonate the thing you're disguised as when your appearance is relevant. If you blend into the environment and you aren't wearing any armor, you can attempt to hide in that environment even if you are visible, but if you are visible, you make the ability check to hide with disadvantage. Not all disguises are feasible, and you can't disguise anything you're wearing.</description>
+        </sheet>
+    </element>
+    <element name="Squishy Body" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_DEEPLING_SQUISHY_BODY">
+        <description>
+            <p>Your body is boneless and made of entirely soft tissue except for your beak, allowing you to compress your body (but not your equipment) down to fit through small spaces. You can move through a space as narrow as 3 inches wide while squeezing, although your speed is reduced to 1 foot when you squeeze between a gap with a width of less than 1 foot. In addition, you ignore any of the drawbacks caused by a deep, underwater environment.</p>
+        </description>
+        <sheet>
+            <description>Your body is boneless and made of entirely soft tissue except for your beak, allowing you to compress your body (but not your equipment) down to fit through small spaces. You can move through a space as narrow as 3 inches wide while squeezing, although your speed is reduced to 1 foot when you squeeze between a gap with a width of less than 1 foot. In addition, you ignore any of the drawbacks caused by a deep, underwater environment.</description>
+        </sheet>
+    </element>
+    
+</elements>

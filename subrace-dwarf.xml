@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.0-->
+<elements>
+    
+    <element name="Ember Dwarf" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_DWARF_EMBER">
+        <supports>Dwarf</supports>
+        <description>
+            <p>The ember dwarves fill different roles in different worlds. In most worlds, they are a race of dwarves that were taken from their homes by efreeti after the azer and efreeti stopped their cooperation, in an effort to recreate the azer as loyal servants. In other worlds, ember dwarves are born to normal dwarf parents when latent elemental or fiendish bloodlines activate in the child. There are worlds where some dwarven clans have grown accustomed to a volcanic home by ancient elemental magic, thus turning themselves into ember dwarves.</p>
+            <p class="indent">As an ember dwarf, your connection to the elements of fire and earth shines through in your very body. Ember dwarves are often erroneously called half-azer because of their appearance. They have dark, ashen skin, with fiery red or orange hair. When they access the fiery power latent within them, their hair transforms into with vibrant flames that don't burn them or their equipment. They usually have orange, yellow, or red eyes dotted with ashen flecks of black.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score or your Charisma score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Elemental Nature.</em></strong> You have two creature types: humanoid (dwarf) and elemental (fire). You can be affected by a game effect if it works on either of your creature types.</p>
+            <p class="indent"><strong><em>Fire Resistance.</em></strong> You have resistance to fire damage.</p>
+            <p class="indent"><strong><em>Heated Body.</em></strong> When a creature starts its turn while it is grappling you or you are grappling it, you may choose to deal it fire damage equal to your proficiency bonus. Once you have used this feature, you can't do so again until you finish a short or long rest.</p>
+            <p class="indent"><strong><em>Hot-Footed.</em></strong> Your base walking speed increases to 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase, Ember Dwarf" supports="ASIEmberDwarf" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_EDWARF_ELEMENTAL_NATURE" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_EDWARF_FIRE_RESISTANCE" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_EDWARF_HEATED_BODY" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_EDWARF_HOT_FOOTED" />
+        </rules>
+    </element>
+    <element name="Dexterity" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_EDWARF_DEX">
+    <compendium display="false" />
+    <supports>ASIEmberDwarf</supports>
+        <description>
+            <p>Your Dexterity score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+        </rules>
+    </element>
+    <element name="Charisma" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_EDWARF_WIS">
+    <compendium display="false" />
+    <supports>ASIEmberDwarf</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" />
+        </rules>
+    </element>
+    <element name="Elemental Nature" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_EDWARF_ELEMENTAL_NATURE">
+        <description>
+            <p>You have two creature types: humanoid (dwarf) and elemental (fire). You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet>
+            <description>You have two creature types: humanoid (dwarf) and elemental (fire). You can be affected by a game effect if it works on either of your creature types.</description>
+        </sheet>
+    </element>
+    <element name="Fire Resistance" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_EDWARF_FIRE_RESISTANCE">
+        <description>
+            <p>You have resistance to fire damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to fire damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+        </rules>
+    </element>
+    <element name="Heated Body" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_EDWARF_HEATED_BODY">
+        <description>
+            <p>When a creature starts its turn while it is grappling you or you are grappling it, you may choose to deal it fire damage equal to your proficiency bonus. Once you have used this feature, you can't do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest">When a creature starts its turn while it is grappling you or you are grappling it, you may choose to deal it {{proficiency}} fire damage. Once you have used this feature, you can't do so again until you finish a short or long rest.</description>
+        </sheet>
+    </element>
+    <element name="Hot-Footed" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_EDWARF_HOT_FOOTED">
+        <description>
+            <p>Your base walking speed increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description>Your base walking speed increases to 30 feet.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed" value="30" bonus="base" />
+        </rules>
+    </element>
+
+    <element name="Stone Dwarf" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_DWARF_STONE">
+        <supports>Dwarf</supports>
+        <description>
+            <p>While all dwarves have an innate connection to the stone and rock of the earth, there are some varieties that are more than just connected to it -- they are made of it. The stone dwarves are made of living stone instead of flesh. They still eat, drink, and breathe the way a dwarf of flesh does, and they grow and age the same as other dwarves, but their organs are stone, and they have no blood at all to poison. A stone dwarf's brain is made of electrified copper, and this enables some of them to think more quickly than a brain of flesh.</p>
+            <p class="indent">In some of the worlds they inhabit, stone dwarves are the most ancient and purest form of dwarf to have ever existed -- the first dwarves, crafted by the gods of yore, from whom the other subraces of dwarf have all descended. In other worlds, the stone dwarves are descended from ancient clan that was cursed by powerful magic to live as earth elementals. Yet in others, these dwarves are not a hereditary lineage, but they are instead born to dwarven parents at random, considered by some dwarves to be a blessing from the gods, and thought by others to be a terrible curse from the elemental planes.</p>
+            <p class="indent">As a stone dwarf, you exist between the realm of dwarf and elemental. Despite their hardened biology and immunity to poisons, stone dwarves are made of brittle and crumbly rock, and aren't much physically tougher than a regular dwarf. They also weigh considerably more than the average dwarf, since their stony flesh is much heavier than regular flesh. They often have moss, vines, or lichen growing where a normal dwarf would grow hair, but otherwise look like living, moving statues carved to resemble normal dwarves.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score or your Intelligence score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Elemental Nature.</em></strong> You have two creature types: humanoid (dwarf) and elemental (earth). You can be affected by a game effect if it works on either of your creature types.</p>
+            <p class="indent"><strong><em>Stone Body.</em></strong> When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor. In addition, your earthen metabolism grants you the following benefits:</p>
+            <ul>
+                <li>You are immune to poison and the poisoned condition.</li>
+                <li>You have no blood and you cannot be petrified.</li>
+                <li>You have advantage on saving throws made against disease.</li>
+            </ul>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase, Stone Dwarf" supports="ASIStoneDwarf" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SDWARF_ELEMENTAL_NATURE" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SDWARF_STONE_BODY" />
+        </rules>
+    </element>
+    <element name="Strength" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SDWARF_STR">
+    <compendium display="false" />
+    <supports>ASIStoneDwarf</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+        </rules>
+    </element>
+    <element name="Intelligence" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SDWARF_INT">
+    <compendium display="false" />
+    <supports>ASIStoneDwarf</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" />
+        </rules>
+    </element>
+    <element name="Elemental Nature" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SDWARF_ELEMENTAL_NATURE">
+        <description>
+            <p>You have two creature types: humanoid (dwarf) and elemental (earth). You can be affected by a game effect if it works on either of your creature types.</p>
+        </description>
+        <sheet>
+            <description>You have two creature types: humanoid (dwarf) and elemental (earth). You can be affected by a game effect if it works on either of your creature types.</description>
+        </sheet>
+    </element>
+    <element name="Stone Body" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_SDWARF_STONE_BODY">
+        <description>
+            <p>When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor. In addition, your earthen metabolism grants you the following benefits:</p>
+        </description>
+        <sheet>
+            <description>When you aren't wearing armor, your AC is {{stone dwarf:ac}} modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor. In addition, your earthen metabolism grants you the following benefits:
+            You are immune to poison and the poisoned condition.
+            You have no blood and you cannot be petrified.
+            You have advantage on saving throws made against disease.</description>
+        </sheet>
+        <rules>
+            <stat name="stone dwarf:ac" value="13" />
+            <stat name="stone dwarf:ac" value="dexterity" />
+            <stat name="ac:calculation" value="stone dwarf:ac" bonus="calculation" alt="Natural Armor (Stone Dwarf)" />
+        </rules>
+    </element>
+
+    <element name="Tundra Dwarf" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_DWARF_TUNDRA">
+        <supports>Dwarf</supports>
+        <description>
+            <p>In the icy reaches of the world, where hordes of humanoid barbarians rove to hunt massive blubbery beasts and battle the environment itself, the sturdy tundra dwarves can be found eking out a stable life together. Most clans of tundra dwarves live in strongholds of stone or ice within the frozen wastes, often underground, but some make their way as nomads across the tundra, keeping warm with fur tents and animal blubber. In some worlds they live near other dwarves, especially mountain dwarves, but in other worlds tundra dwarves survive on their own.</p>
+            <p class="indent">As a tundra dwarf, you owe your heartiness and endurance in the cold to the legacy of your ancestors who first settled in the frozen tundras. Tundra dwarves usually have white or blond hair, but some have orange hair, and brown hair is uncommon but not especially rare. They are slightly tall for dwarves, with mostly pale skin and blue eyes. Some clans of tundra dwarves are exceptions, with mostly tan skin, black or white hair, and brown eyes.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score or your Wisdom score increases by 1 (your choice).</p>
+            <p class="indent"><strong><em>Cold Resistance.</em></strong> You have resistance to cold damage.</p>
+            <p class="indent"><strong><em>Icerunning.</em></strong> Your dwarf Stonecunning trait also applies to checks about the origin of ice carvings.</p>
+            <p class="indent"><strong><em>Snow Treader.</em></strong> You can move across icy or snowy difficult terrain without expending extra movement, and you have advantage on saving throws to avoid hazards caused by frozen ground, such as falling prone.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase, Tundra Dwarf" supports="ASITundraDwarf" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_TDWARF_COLD_RESISTANCE" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_TDWARF_ICERUNNING" />
+            <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_TDWARF_SNOW_TREADER" />
+        </rules>
+    </element>
+    <element name="Strength" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_TDWARF_STR">
+    <compendium display="false" />
+    <supports>ASITundraDwarf</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+        </rules>
+    </element>
+    <element name="Wisdom" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_TDWARF_WIS">
+    <compendium display="false" />
+    <supports>ASITundraDwarf</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+        </rules>
+    </element>
+    <element name="Cold Resistance" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_TDWARF_COLD_RESISTANCE">
+        <description>
+            <p>You have resistance to cold damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to cold damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+        </rules>
+    </element>
+    <element name="Icerunning" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_TDWARF_ICERUNNING">
+        <description>
+            <p>Your dwarf Stonecunning trait also applies to checks about the origin of ice carvings.</p>
+        </description>
+        <sheet>
+            <description>Your dwarf Stonecunning trait also applies to checks about the origin of ice carvings.</description>
+        </sheet>
+    </element>
+    <element name="Snow Treader" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_TDWARF_SNOW_TREADER">
+        <description>
+            <p>You can move across icy or snowy difficult terrain without expending extra movement, and you have advantage on saving throws to avoid hazards caused by frozen ground, such as falling prone.</p>
+        </description>
+        <sheet>
+            <description>You can move across icy or snowy difficult terrain without expending extra movement, and you have advantage on saving throws to avoid hazards caused by frozen ground, such as falling prone.</description>
+        </sheet>
+    </element>
+    
+</elements>

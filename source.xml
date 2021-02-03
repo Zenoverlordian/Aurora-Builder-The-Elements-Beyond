@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    
+    <element name="The Elements and Beyond" type="Source" source="The Elements and Beyond" id="ID_DND_UNLEASHED_SOURCE_THE_ELEMENTS_AND_BEYOND">
+        <description>
+            <![CDATA[<p>The first D&D Unleashed compendium has finally arrived! A magical exploration of the four elements and the various energies of creation — minus those dark forces that belong in forbidden tomes — powers such as light, thunder, lightning, acid, frost, and the magic of nature! The great news is that just like all of D&D Unleashed, it’s entirely free and you can download it right here! </p>
+            <p>This 246 page compendium contains 23 subclasses, 8 spellcasting feats, 134 spells, 213 spell variants, 85 monsters, 30 magic items, 4 races plus 12 new subraces each with racial feats, and even more goodies for both players and DMs!</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">TEAB</set>
+            <set name="url">https://www.dndunleashed.com/home?category=The%20Elements%20and%20Beyond</set>
+            <set name="image">https://images.squarespace-cdn.com/content/v1/5e05ae8e9c87d056a7ca5369/1609018027768-JO24RVW5QW41CLS6T2PU/ke17ZwdGBToddI8pDm48kAXl1yJIYMuOWkHtwtfoSHUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2y4EySgkEnGJBCoWnvaHd89tA1Vj0QNyPgsA-DvoxqOQKMshLAGzx4R3EDFOm1kBS/COVERPAGE_ELEMENTS_v1p0_pagesize.png?format=750w</set>
+            <set name="author" abbreviation="DNDUnl" url="https://www.dndunleashed.com/home">D&amp;D Unleashed</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="playtest">false</set>
+            <set name="third-party">true</set>
+            <set name="homebrew">false</set>
+            <set name="league">false</set>
+            <set name="release">20200118</set>
+        </setters>
+    </element>
+    
+</elements>
