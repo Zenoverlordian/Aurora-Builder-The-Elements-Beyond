@@ -740,19 +740,6 @@
             Targets must succeed on a Constitution saving throw or be paralyzed until the end ofyour next turn. Any creature with hit points equal to or greater than your warlock level x 3 automatically succeeds on the saving throw.</description>
 		</sheet>
 	</element>
-    <element name="Tiamat's Bargain" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TIAMATS_BARGAIN">
-		<supports>Eldritch Invocation</supports>
-		<prerequisite>9th level, Chromatic Dragon Patron</prerequisite>
-        <requirements>[level:9], (ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_1|ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_2|ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_7|ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_8|ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_10)</requirements>
-        <description>
-            <p><em>Prerequisite: 9th level, Chromatic Dragon Patron</em></p>
-			<p>When you use your Breath ofthe Wyrm feature, you can choose to use the breath weapon and damage type of any of the chromatic dragons from the list, instead of using the entry for your patron.</p>
-            <p class="indent">When you finish a long rest, you can choose to change the damage type that your Draconic Essence feature grants resistance to. Choose one from acid, cold, fire, lightning, or poison damage.</p>
-		</description>
-		<sheet>
-			<description>When you use your Breath ofthe Wyrm feature, you can choose to use the breath weapon and damage type of any of the chromatic dragons from the list, instead of using the entry for your patron. When you finish a long rest, you can choose to change the damage type that your Draconic Essence feature grants resistance to. Choose one from acid, cold, fire, lightning, or poison damage.</description>
-		</sheet>
-	</element>
     <element name="Fiery Breath" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_FIERY_BREATH">
 		<supports>Eldritch Invocation</supports>
 		<prerequisite>12th level, burning hands known as a warlock spell</prerequisite>
