@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <element name="Aerialist" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_ROGUE_AERIALIST">
+        <supports>Roguish Archetype</supports>
+        <description>
+            <p>You have a knack for incredible leaps, falls, and feats of acrobatics. Circus performers, airship sailors, tree-top scouts, and flying characters like aarakocra often follow this archetype. Your tactics usually involve striking from above, leaping over enemies or onto the high ground for better aim. You might even seek that rush of adrenaline that your daring feats bring, always looking for new and more dangerous stunts to slake your thirst.</p>
+            <div element="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_NATURAL_ACROBAT" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_AERIAL_AGILITY" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_HEIGHT_ADVANTAGE" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_AGILE_KIP_UP" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_STICK_THE_LANDING" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_ACROBATIC_DODGE" />
+        </description>
+        <sheet display="false">
+            <description>You have a knack for incredible leaps, falls, and feats of acrobatics.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_NATURAL_ACROBAT" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_AERIAL_AGILITY" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_HEIGHT_ADVANTAGE" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_AGILE_KIP_UP" level="9" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_STICK_THE_LANDING" level="13" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_ACROBATIC_DODGE" level="17" />
+        </rules>
+    </element>
+    <element name="Natural Acrobat" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_NATURAL_ACROBAT">
+        <description>
+            <p>When you choose this archetype at 3rd leveL you gain proficiency in the Acrobatics skill. If you already have proficiency in this skill you gain proficiency with a tool of your choice instead. Also, your proficiency bonus is doubled for any ability check you make using the Acrobatics skill.</p>
+        </description>
+        <sheet>
+            <description>Your proficiency bonus is doubled for any ability check you make using the Acrobatics skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+            <grant type="Class Feature" id="ID_EXPERTISE_SKILL_ACROBATICS" />
+        </rules>
+    </element>
+    <element name="Aerial Agility" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_AERIAL_AGILITY">
+        <description>
+            <p>Starting at 3rd level you are capable of incredible flips, jumps, and aerial maneuvers. You have a flying speed equal to half your walking speed on each of your turns. To make use of this speed, you can't be wearing medium or heavy armor. When you end your turn while flying using this speed, you fall unless you can stop the fall.</p>
+            <p class="indent">In addition, you can choose to calculate your jumping distance using your Dexterity score instead of Strength.</p>
+        </description>
+        <sheet>
+            <description>You have a flying speed of half your walking speed. To make use of this speed, you can't be wearing medium or heavy armor. When you end your turn while flying using this speed, you fall unless you can stop the fall. In addition, you can choose to calculate your jumping distance using your Dexterity score instead of Strength.</description>
+        </sheet>
+    </element>
+    <element name="Height Advantage" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_HEIGHT_ADVANTAGE">
+        <description>
+            <p>At 3rd level you also learn how to tactically exploit any height advantage, gaining an additional way to use your Sneak Attack. You don't need advantage on the attack roll to use your Sneak Attack against a creature if the bottom of your space is vertically higher than the top of the target's space by at least 1 foot for every 3 feet of horizontal distance between you and the target.</p>
+            <p class="indent">For example, if you are 15 feet away from the target, then the bottom ofyour space must be at least 5 feet higher than the top of the target's space. If you are 60 feet away, then it must be at least 20 feet higher. If there is 0 feet between your spaces, as there would be if you were making a melee attack with most weapons, then the bottom ofyour space must simply be above the top of the target's space.</p>
+            <p class="indent">All the other rules for Sneak Attack still apply to you.</p>
+        </description>
+        <sheet>
+            <description>You don't need advantage on the attack roll to use your Sneak Attack against a creature if the bottom of your space is vertically higher than the top of the target's space by at least 1 foot for every 3 feet of horizontal distance between you and the target. If there is 0 feet between your spaces, as there would be if you were making a melee attack with most weapons, then the bottom ofyour space must simply be above the top of the target's space. All the other rules for Sneak Attack still apply to you.</description>
+        </sheet>
+    </element>
+    <element name="Agile Kip-Up" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_AGILE_KIP_UP">
+        <description>
+            <p>Starting at 9th level you only use 5 feet of movement to stand up from prone. Also, when you're knocked prone, you can use your reaction to immediately stand back up and move up to 5 feet to an unoccupied space without provoking opportunity attacks.</p>
+        </description>
+        <sheet>
+            <description action="Reaction">You only use 5 feet of movement to stand up from prone. Also, when you're knocked prone, you can use your reaction to immediately stand back up and move up to 5 feet to an unoccupied space without provoking opportunity attacks.</description>
+        </sheet>
+    </element>
+    <element name="Stick the Landing" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_STICK_THE_LANDING">
+        <description>
+            <p>At 13th level the distance you can high jump is doubled, and you can use your reaction when you fall to make a Dexterity (Acrobatics) check and reduce any falling damage you take by the result.</p>
+            <p class="indent">In addition, the flying speed granted by your Aerial Agility feature is increased by 5 feet.</p>
+        </description>
+        <sheet>
+            <description action="Reaction">The distance you can high jump is doubled, and you can use your reaction when you fall to make a Dexterity (Acrobatics) check and reduce any falling damage you take by the result. In addition, the flying speed granted by your Aerial Agility feature is increased by 5 feet.</description>
+        </sheet>
+    </element>
+    <element name="name" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_ROGUE_AERIALIST_ACROBATIC_DODGE">
+        <description>
+            <p>When you reach 17th leveL you learn how to incorporate your acrobatic maneuvers into your defenses. When you use your Uncanny Dodge feature, you make a Dexterity (Acrobatics) check and also reduce the damage you take from the attack (after it has been halved) by the result.</p>
+            <p class="indent">You can't make this check if you are prone, you can't move, or your speed is reduced.</p>
+        </description>
+        <sheet>
+            <description>When you use your Uncanny Dodge feature, you make a Dexterity (Acrobatics) check and also reduce the damage you take from the attack (after it has been halved) by the result. You can't make this check if you are prone, you can't move, or your speed is reduced.</description>
+        </sheet>
+    </element>
+
+<p class="indent"></p>
+</elements>

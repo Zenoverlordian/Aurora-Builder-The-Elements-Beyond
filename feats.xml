@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <!--Spellcasting Feats-->
+
+    <spellcasting name="Artificer" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Bard" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Cleric" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Druid" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Paladin" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Ranger" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Sorcerer" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Warlock" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Wizard" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="KTHArtificer" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Occultist" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+    <spellcasting name="Psion_KTH" extend="true">
+			<extend>TEABFeat</extend>
+    </spellcasting>
+
+    <element name="Spell Prowess" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_SPELL_PROWESS">
+        <description>
+            <p>Spell Prowess is a new feature for spellcasters. If you have spell prowess with a spell, you gain a bonus to the damage rolls of that spell equal to half your proficiency bonus.</p>
+            <p class="indent">In addition, when you attempt to cast a spell at a spell level equal to or less than two-thirds of your proficiency bonus and you have spell prowess with that spell, you can choose one of somatic, verbal, or material components to ignore for that casting of the spell. You cannot use this to ignore material components that are worth more than 10gp, and you can't ignore a component if the spell requires no other components.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    
+    <element name="Aeromancer" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_AEROMANCER">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You specialize in the magic of the air, commanding howling wind and thunderous storm. You gain the following benefits:</p>
+            <ul>
+                <li>You have spell prowess with aeromancy spells (see below for information on spell prowess).</li>
+                <li>The spells control winds, gust, silence, and whirlwind are added to the spell list of your spellcasting class.</li>
+                <li>When you cast an aeromancy spell, you choose one creature within 5 feet of you. That creature cannot make opportunity attacks against you this turn. Also, if the spell pushes or pulls a creature, it moves that creature 5 extra feet.</li>
+                <li>When you cast an aeromancy spell of 1st level or higher, if you have a flying speed, you may choose to increase it by 15 feet for that turn. If you don't, you gain a flying speed of 15 feet for that turn, and if you are still aloft at the end of the turn, you fall unless held aloft by other means.</li>
+            </ul>
+            <div class="reference">
+                <div element="ID_TEAB_CLASS_FEATURE_SPELL_PROWESS" />
+            </div>
+        </description>
+        <sheet>
+            <description>You have spell prowess with aeromancy spells. When you cast an aeromancy spell, you choose one creature within 5 feet of you. That creature cannot make opportunity attacks against you this turn. Also, if the spell pushes or pulls a creature, it moves that creature 5 extra feet.
+            When you cast an aeromancy spell of 1st level or higher, if you have a flying speed, you may choose to increase it by 15 feet for that turn. If you don't, you gain a flying speed of 15 feet for that turn, and if you are still aloft at the end of the turn, you fall unless held aloft by other means.</description>
+        </sheet>
+    </element>
+
+    <element name="Elementalist" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ELEMENTALIST">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You specialize in all four elements – air, earth, fire, and water – commanding them in a flowing, weaving rhythm. You gain the following benefits:</p>
+            <ul>
+                <li>You have spell prowess with elemancy spells (see below for information on spell prowess).</li>
+                <li>The spells absorb elements and elemental bane, are added to the spell list of your spellcasting class, plus the new spells golem armor and magic orb.</li>
+                <li>After you cast an aeromancy, geomancy, hydromancy, or pyromancy spell, you gain spell prowess with spells of the other three specializations until the end of your next turn.</li>
+                <li>When you cast an aeromancy, geomancy, hydromancy, or pyromancy spell of 1st-level or higher, if you have spell prowess with the spell, you can choose a damage type out of acid, cold, fire, lightning, or thunder. You gain resistance to that damage type until the end of your next turn.</li>
+            </ul>
+            <div class="reference">
+                <div element="ID_TEAB_CLASS_FEATURE_SPELL_PROWESS" />
+            </div>
+        </description>
+        <sheet>
+            <description>You have spell prowess with elemancy spells. After you cast an aeromancy, geomancy, hydromancy, or pyromancy spell, you gain spell prowess with spells of the other three specializations until the end of your next turn. When you cast an aeromancy, geomancy, hydromancy, or pyromancy spell of 1st-level or higher, if you have spell prowess with the spell, you can choose a damage type out of acid, cold, fire, lightning, or thunder. You gain resistance to that damage type until the end of your next turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Energy Specialist, Acid" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_A">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' acid damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals acid damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals acid damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target grants enemies advantage on attacks made against it until the end of its next turn, and if it wears nonmagical armor, that armor is corroded and loses 3 AC permanently.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' acid damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals acid damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals acid damage, the spell also inflicts the special effect on the target: The target grants enemies advantage on attacks made against it until the end of its next turn, and if it wears nonmagical armor, that armor is corroded and loses 3 AC permanently.</description>
+        </sheet>
+    </element>
+    <element name="Energy Specialist, Cold" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_C">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' cold damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals cold damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals cold damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target is restrained until the start of its next turn, and has its speed reduced by half until the end of its next turn.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' cold damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals cold damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals cold damage, the spell also inflicts the special effect on the target: The target is restrained until the start of its next turn, and has its speed reduced by half until the end of its next turn.</description>
+        </sheet>
+    </element>
+    <element name="Energy Specialist, Fire" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_F">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' fire damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals fire damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals fire damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target is lit ablaze. It takes fire damage equal to your proficiency bonus at the start of each of its turns until a creature takes an action to douse the fire.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' fire damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals fire damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals fire damage, the spell also inflicts the special effect on the target: The target is lit ablaze. It takes fire damage equal to your proficiency bonus at the start of each of its turns until a creature takes an action to douse the fire.</description>
+        </sheet>
+    </element>
+    <element name="Energy Specialist, Lightning" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_L">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' lightning damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals lightning damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals lightning damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target is knocked prone and is unable to take reactions until the end of its next turn.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' lightning damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals lightning damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals lightning damage, the spell also inflicts the special effect on the target: The target is knocked prone and is unable to take reactions until the end of its next turn.</description>
+        </sheet>
+    </element>
+    <element name="Energy Specialist, Necrotic" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_N">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' necrotic damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals necrotic damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals necrotic damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target can't regain hit points until the end of its next turn, and if the target isn't an undead or a construct, you gain temporary hit points equal to your proficiency bonus.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' necrotic damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals necrotic damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals necrotic damage, the spell also inflicts the special effect on the target: The target can't regain hit points until the end of its next turn, and if the target isn't an undead or a construct, you gain temporary hit points equal to your proficiency bonus.</description>
+        </sheet>
+    </element>
+    <element name="Energy Specialist, Poison" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_PO">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' poison damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals poison damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals poison damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target is poisoned until the end of its next turn. If it was already poisoned, it becomes paralyzed until the start of its next turn instead.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' poison damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals poison damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals poison damage, the spell also inflicts the special effect on the target: The target is poisoned until the end of its next turn. If it was already poisoned, it becomes paralyzed until the start of its next turn instead.</description>
+        </sheet>
+    </element>
+    <element name="Energy Specialist, Psychic" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_PSY">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' psychic damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals psychic damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals psychic damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target is frightened of you or charmed by you (your choice) until the end of its next turn.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' psychic damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals psychic damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals psychic damage, the spell also inflicts the special effect on the target: The target is frightened of you or charmed by you (your choice) until the end of its next turn.</description>
+        </sheet>
+    </element>
+    <element name="Energy Specialist, Radiant" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_R">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' radiant damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals radiant damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals radiant damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target has disadvantage on attack rolls that rely on sight until the end of its next turn.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' radiant damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals radiant damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals radiant damage, the spell also inflicts the special effect on the target: The target has disadvantage on attack rolls that rely on sight until the end of its next turn.</description>
+        </sheet>
+    </element>
+    <element name="Energy Specialist, Thunder" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_ENERGY_SPECIALIST_T">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+            <ul>
+                <li>You apply half your proficiency bonus to your spells' thunder damage rolls.</li>
+                <li>Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals thunder damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals thunder damage, the spell also inflicts the special effect on the target:</li>
+                <li>The target is deafened until the end of its next turn, and you can choose to push the target up to 15 feet away from you.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You apply a bonus of {{proficiency:half}} to your spells' thunder damage rolls. Whenever a creature rolls a 1 on the d20 for a saving throw from a spell you cast that deals thunder damage and it fails the save, the spell inflicts a special effect on it. If you critically hit a creature with a spell attack from a spell you cast that deals thunder damage, the spell also inflicts the special effect on the target: The target is deafened until the end of its next turn, and you can choose to push the target up to 15 feet away from you.</description>
+        </sheet>
+    </element>
+
+    <element name="Geomancer" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_GEOMANCER">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You specialize in the magic of the earth, commanding earthen arms and armor and beckoning quakes from the ground beneath you. You gain the following benefits:</p>
+            <ul>
+                <li>You have spell prowess with geomancy spells (see below for information on spell prowess).</li>
+                <li>The spells bones of the earth, mold earth, shield of faith, and stone shape are added to the spell list of your spellcasting class.</li>
+                <li>Whenever you cast a geomancy spell, you gain a +1 bonus to AC and temporary hit points equal to half your proficiency bonus, both of which last until the end of your next turn or until you roll initiative.</li>
+                <li>When you make a saving throw to maintain concentration on a geomancy spell, you roll 1d4 and add it to the result.</li>
+            </ul>
+            <div class="reference">
+                <div element="ID_TEAB_CLASS_FEATURE_SPELL_PROWESS" />
+            </div>
+        </description>
+        <sheet>
+            <description>You have spell prowess with geomancy spells. Whenever you cast a geomancy spell, you gain a +1 bonus to AC and temporary hit points equal to half your proficiency bonus, both of which last until the end of your next turn or until you roll initiative. When you make a saving throw to maintain concentration on a geomancy spell, you roll 1d4 and add it to the result.</description>
+        </sheet>
+    </element>
+
+    <element name="Hydromancer" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_HYDROMANCER">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You specialize in the magic of water, commanding seas, rivers, glaciers, and steam geysers all as one. You gain the following benefits:</p>
+            <ul>
+                <li>You have spell prowess with hydromancy spells (see below for information on spell prowess).</li>
+                <li>The spells create or destroy water, maelstrom, shape water, and tsunami are added to the spell list of your spellcasting class.</li>
+                <li>The range for your hydromancy spells is increased by 30 feet, unless the spell's range is Self. This also increases the range of Touch spells.</li>
+                <li>When a hydromancy spell that you cast pushes or pulls a creature, it moves that creature 10 extra feet. When one knocks a creature prone, you can choose to also push that creature 10 feet away from you. When one reduces a creature's speed, it's reduced by 10 additional feet. When one creates liquid water, it creates twice as much.</li>
+            </ul>
+            <div class="reference">
+                <div element="ID_TEAB_CLASS_FEATURE_SPELL_PROWESS" />
+            </div>
+        </description>
+        <sheet>
+            <description>You have spell prowess with hydromancy spells. The range for your hydromancy spells is increased by 30 feet, unless the spell's range is Self. This also increases the range of Touch spells. When a hydromancy spell that you cast pushes or pulls a creature, it moves that creature 10 extra feet. When one knocks a creature prone, you can choose to also push that creature 10 feet away from you. When one reduces a creature's speed, it's reduced by 10 additional feet. When one creates liquid water, it creates twice as much.</description>
+        </sheet>
+    </element>
+
+    <element name="Pyromancer" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_PYROMANCER">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You specialize in the magic of flame, commanding the largest, brightest, and most explosive of fires to reduce nearly anything to ash, smoke, and cinders. You gain the following benefits:</p>
+            <ul>
+                <li>You have spell prowess with pyromancy spells (see below for information on spell prowess).</li>
+                <li>The spells control flames, fire storm, heat metal, and immolation are added to the spell list of your spellcasting class.</li>
+                <li>When you cast a pyromancy spell, you can choose to shed bright light in a 20-foot radius and dim light for an additional 20 feet until the end of your next turn.</li>
+                <li>When you cast a pyromancy spell of 1st level or higher, you can choose to explode the spell or ignite the spell.</li>
+            </ul>
+            <p>Whenever you cast a pyromancy spell that is exploded, you may choose the spell's range or one length, range, or radius within the spell's description. You treat that range, length, or radius as if it were 5 feet longer for this casting of the spell. This bonus cannot increase the range of any Self or Touch effects or spell ranges.</p>
+            <p>Right after you cast a pyromancy spell that is ignited, you can choose to ignite flammable objects that are not being worn or carried in a particular area. That area is your choice of the spell's area, the area within 10 feet of you, or the area within 10 feet of one creature or object that was dealt fire damage by the spell (you choose each time you cast). Each affected object that is already on fire takes fire damage equal to your proficiency bonus + twice the spell's level that ignores resistance instead.</p>
+            <div class="reference">
+                <div element="ID_TEAB_CLASS_FEATURE_SPELL_PROWESS" />
+            </div>
+        </description>
+        <sheet>
+            <description>You have spell prowess with pyromancy spells. When you cast a pyromancy spell, you can choose to shed bright light in a 20-foot radius and dim light for an additional 20 feet until the end of your next turn. When you cast a pyromancy spell of 1st level or higher, you can choose to explode the spell or ignite the spell.</description>
+        </sheet>
+    </element>
+    
+    <element name="Summoner" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_SUMMONER">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You specialize in the magic of summoning powerful creatures to aid you in combat. Any creature summoned or created by a spell that you cast appears with 1 extra hit point per Hit Die it has. While you are within 30 feet of it and you can see it and control it, it gains a bonus to its AC and saving throws equal to half your proficiency bonus, and any ability checks to dispel it are made with disadvantage. This feat does not affect creatures you summon that have class levels.</p>
+        </description>
+        <sheet>
+            <description>Any creature summoned or created by a spell that you cast appears with 1 extra hit point per Hit Die it has. While you are within 30 feet of it and you can see it and control it, it gains a bonus to its AC and saving throws equal to half your proficiency bonus, and any ability checks to dispel it are made with disadvantage. This feat does not affect creatures you summon that have class levels.</description>
+        </sheet>
+    </element>
+    
+    <element name="Ward Mage" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_WARD_MAGE">
+        <prerequisite>Spellcasting or Pact Magic class feature</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+            <p>You have learned how to bolster your shields, barriers, and walls of magic beyond their normal capabilities in order to better control a battlefield and protect yourself and your allies. You gain the following benefits:</p>
+            <ul>
+                <li>When a spell you cast or a class feature you use grants a creature a protective ward with hit points, you grant it extra hit points equal to your proficiency bonus.</li>
+                <li>When a spell you cast creates a wall or barrier with no creature as a target (such as wall of stone or the new screen of protection spell), you increase the hit points of that object by an amount equal to twice your proficiency bonus, and you increase its AC by 2.</li>
+                <li>When a spell you cast grants a creature temporary hit points, you increase the temporary hit points by an amount equal to your proficiency bonus.</li>
+                <li>Any creature that has its AC increased from a spell you cast or that has a protective ward with hit points granted by a spell you cast also has an additional +1 bonus to AC.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>When a spell you cast or a class feature you use grants a creature a protective ward with hit points, you grant it {{proficiency}} extra hit points.
+            When a spell you cast creates a wall or barrier with no creature as a target, you increase the hit points of that object by {{wall:hp}}, and you increase its AC by 2.
+            When a spell you cast grants a creature temporary hit points, you increase the temporary hit points by {{proficiency}}.
+            Any creature that has its AC increased from a spell you cast or that has a protective ward with hit points granted by a spell you cast also has an additional +1 bonus to AC.</description>
+        </sheet>
+        <rules>
+            <stat name="wall:hp" value="proficiency" />
+            <stat name="wall:hp" value="proficiency" />
+        </rules>
+    </element>
+
+    <!--Racial Feats-->
+
+    <element name="Celestial Resilience" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_CELESTIAL_RESILIENCE">
+        <prerequisite>Elf (bright)</prerequisite>
+        <requirements>ID_TEAB_SUBRACE_ELF_BRIGHT</requirements>
+        <description>
+            <p><em>Prerequisite: Elf (bright)</em></p>
+            <p>Your connection with the celestial light that has infused the bright elves is stronger and more pure than that of the common folk, making you hearty like an angel. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Constitution score by 1, to a maximum of 20.</li>
+                <li>You have resistance to poison and necrotic damage.</li>
+                <li>You have advantage on saving throws against poison and disease.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against poison and disease.</description>
+        </sheet>
+        <rules>
+            <stat name="constitution" value="1" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" /><grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Crystal Telepathy" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_CRYSTAL_TELEPATHY">
+        <prerequisite>Crystalkin</prerequisite>
+        <requirements>ID_TEAB_RACE_CRYSTALKIN</requirements>
+        <description>
+            <p><em>Prerequisite: Crystalkin</em></p>
+            <p>You have learned to connect with other minds as easily as you connect (or once connected) with the Mother Crystal by tapping into your nature as either a being of mind or a being of celestial light. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+                <li>You can communicate telepathically with any creature you can see within 60 feet of you. You don't need to share a language with a creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. If you have telepathy from another source, the range is doubled, and the target can also respond to you telepathically.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You can communicate telepathically with any creature you can see within 60 feet of you. You don't need to share a language with a creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. If you have telepathy from another source, the range is doubled, and the target can also respond to you telepathically.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase (Crystal Telepathy)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+        </rules>
+    </element>
+
+    <element name="Dark of the Deep" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_DARK_OF_THE_DEEP">
+        <prerequisite>Deepling</prerequisite>
+        <requirements>ID_TEAB_RACE_DEEPLING</requirements>
+        <description>
+            <p><em>Prerequisite: Deepling</em></p>
+            <p>You awaken to latent instincts you have from the cold, dark depths of the ocean, unlocking the hidden powers within you and enabling you to conjure inky clouds of mist and darkness. You gain the following benefits:</p>
+            <ul>
+                <li>You have resistance to cold damage.</li>
+                <li>You learn fog cloud and darkness, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Intelligence is your spellcasting ability for both spells. When you cast one of these spells in this way, you can't be perceived by blindsight while you are in the area.</li>
+            </ul>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FOG_CLOUD" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_DARKNESS" />
+            </div>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You learn fog cloud and darkness, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Intelligence is your spellcasting ability for both spells. When you cast one of these spells in this way, you can't be perceived by blindsight while you are in the area.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" />
+            <grant type="Spell" id="ID_PHB_SPELL_DARKNESS" />
+        </rules>
+    </element>
+
+    <element name="Harbinger of Death" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_HARBINGER_OF_DEATH">
+        <prerequisite>Corvian</prerequisite>
+        <requirements>ID_TEAB_RACE_CORVIAN</requirements>
+        <description>
+            <p><em>Prerequisite: Corvian</em></p>
+            <p>You have been touched by the magic of death itself, whether by ancient lineage or eldritch accident, and the Raven Queen's power flows through you like blood. Instead of growing mad, your mind has become accustomed to the dark beyond death. You gain the following benefits:</p>
+            <ul>
+                <li>Your darkvision has a range of 120 feet, instead of 60.</li>
+                <li>You have resistance to necrotic and psychic damage.</li>
+                <li>You have advantage on saving throws made to resist curses or to resist having your mind read, and you can't be aged magically.</li>
+                <li>You learn both the spare the dying and toll the dead cantrips, and can cast them at-will. Intelligence is your spellcasting ability for these spells.</li>
+            </ul>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_SPARE_THE_DYING" />
+            </div>
+            <div class="reference">
+                <div element="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+            </div>
+        </description>
+        <sheet>
+            <description>Your darkvision has a range of 120 feet, instead of 60. You have advantage on saving throws made to resist curses or to resist having your mind read, and you can't be aged magically. You learn both the spare the dying and toll the dead cantrips, and can cast them at-will. Intelligence is your spellcasting ability for these spells.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPARE_THE_DYING" />
+            <grant type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+        </rules>
+    </element>
+
+    <element name="Kraken Anatomy" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_KRAKEN_ANATOMY">
+        <prerequisite>Deepling</prerequisite>
+        <requirements>ID_TEAB_RACE_DEEPLING</requirements>
+        <description>
+            <p><em>Prerequisite: Deepling</em></p>
+            <p>Your tentacles are covered in octopus suckers and sturdy enough that fewer are needed to support you, giving you an iron grip and an unparalleled advantage when wrestling. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.</li>
+                <li>You cannot be disarmed, you have advantage on ability checks and saving throws made to escape from being grappled or restrained, and creatures have disadvantage on ability checks and saving throws made to escape from your grapples.</li>
+                <li>You have two extra arms (tentacles) that you can use as normal or hide inside your body while they aren't holding anything. These arms can't be used to wield shields or weapons.</li>
+                <li>Your base swimming speed increases by 10 feet.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You cannot be disarmed, you have advantage on ability checks and saving throws made to escape from being grappled or restrained, and creatures have disadvantage on ability checks and saving throws made to escape from your grapples. You have two extra arms (tentacles) that you can use as normal or hide inside your body while they aren't holding anything. These arms can't be used to wield shields or weapons.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase (Kraken Anatomy)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+            <stat name="innate speed:swim" value="10" />
+        </rules>
+    </element>
+
+    <element name="Magic of the Dryads" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_MAGIC_OF_THE_DRYADS">
+        <prerequisite>Elf (green)</prerequisite>
+        <requirements>ID_TEAB_SUBRACE_ELF_GREEN</requirements>
+        <description>
+            <p><em>Prerequisite: Elf (green)</em></p>
+            <p>You learn the ancient magic of the dryads, for which your people have a natural talent. You learn the thorn whip spell and can cast it at-will without expending a spell slot. You also learn barkskin and pass without trace, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_THORN_WHIP" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_BARKSKIN" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_PASS_WITHOUT_TRACE" />
+            </div>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You learn the thorn whip spell and can cast it at-will without expending a spell slot. You also learn barkskin and pass without trace, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_THORN_WHIP" />
+            <grant type="Spell" id="ID_PHB_SPELL_BARKSKIN" />
+            <grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" />
+        </rules>
+    </element>
+
+    <element name="Nimble Combatant" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_NIMBLE_COMBATANT">
+        <prerequisite>Fairy or Elf (thimble)</prerequisite>
+        <requirements>ID_TEAB_RACE_FAIRY|ID_TEAB_SUBRACE_ELF_THIMBLE</requirements>
+        <description>
+            <p><em>Prerequisite: Fairy or Elf (thimble)</em></p>
+            <p>You are uncannily nimble and agile even for a member of your diminutive race, with matching tenacity and grit. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity or Constitution score by 1, to a maximum of 20.</li>
+                <li>You can take the Dodge action as a bonus action on your turn. You can only do this up to a number of times equal to 1 + half your proficiency bonus. You regain all expended uses when you finish a long rest.</li>
+                <li>You have advantage on Dexterity checks made to avoid becoming grappled by a creature of a size larger than you.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description action="Bonus Action">You can take the Dodge action as a bonus action on your turn. You can only do this up to a number of times equal to 1 + half your proficiency bonus. You regain all expended uses when you finish a long rest. You have advantage on Dexterity checks made to avoid becoming grappled by a creature of a size larger than you.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase (Nimble Combatant)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+        </rules>
+    </element>
+
+    <element name="Pixie Magical Talent" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_PIXIE_MAGICAL_TALENT">
+        <prerequisite>Fairy (pixie)</prerequisite>
+        <requirements>ID_TEAB_SUBRACE_FAIRY_PIXIE</requirements>
+        <description>
+            <p><em>Prerequisite: Fairy (pixie)</em></p>
+            <p>You gain a more complete mastery over your natural pixie magic. You learn the detect evil and good spell and can cast it at-wilL without expending a spell slot. You also learn detect thoughts and fly, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_DETECT_THOUGHTS" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FLY" />
+            </div>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You learn the detect evil and good spell and can cast it at-wilL without expending a spell slot. You also learn detect thoughts and fly, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD" />
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLY" />
+        </rules>
+    </element>
+
+    <element name="Scamp Social Tricks" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_SCAMP_SOCIAL_TRICKS">
+        <prerequisite>Fairy (scamp)</prerequisite>
+        <requirements>ID_TEAB_SUBRACE_FAIRY_SCAMP</requirements>
+        <description>
+            <p><em>Prerequisite: Fairy (scamp)</em></p>
+            <p>Your words have a special power, and you've honed that power to an edge. You learn the friends and message spells and can cast them at-will You also learn charm person and enthrall, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all four spells. When cast in this way, they only require verbal components and can't affect deafened creatures.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FRIENDS" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_MESSAGE" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_CHARM_PERSON" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_ENTHRALL" />
+            </div>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You learn the friends and message spells and can cast them at-will You also learn charm person and enthrall, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all four spells. When cast in this way, they only require verbal components and can't affect deafened creatures.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FRIENDS" />
+            <grant type="Spell" id="ID_PHB_SPELL_MESSAGE" />
+            <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
+            <grant type="Spell" id="ID_PHB_SPELL_ENTHRALL" />
+        </rules>
+    </element>
+
+    <element name="Shard Swarm" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_SHARD_SWARM">
+        <prerequisite>Crystalkin</prerequisite>
+        <requirements>ID_TEAB_RACE_CRYSTALKIN</requirements>
+        <description>
+            <p><em>Prerequisite: Crystalkin</em></p>
+            <p>You have meditated upon your nature as a fragment of a greater crystal and discovered how to relocate your mind in space, causing your physical body to follow and leaving a fragment of yourself behind to burst apart.</p>
+            <p class="indent">You learn the misty step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Constitution is your spellcasting ability for this spell When you cast it in this way, the spell's range is doubled, and you can also choose to leave a cloud of crystal dust in a 15-foot diameter sphere centered on the space you teleported from which lasts until the end of your next turn. The cloud is difficult terrain and heavily obscured for other creatures.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_MISTY_STEP" />
+            </div>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest">You learn the misty step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Constitution is your spellcasting ability for this spell When you cast it in this way, the spell's range is doubled, and you can also choose to leave a cloud of crystal dust in a 15-foot diameter sphere centered on the space you teleported from which lasts until the end of your next turn. The cloud is difficult terrain and heavily obscured for other creatures.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
+        </rules>
+    </element>
+
+    <element name="Sprite Physical Gifts" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_SPRITE_PHYSICAL_GIFTS">
+        <prerequisite>Fairy (sprite)</prerequisite>
+        <requirements>ID_TEAB_SUBRACE_FAIRY_SPRITE</requirements>
+        <description>
+            <p><em>Prerequisite: Fairy (sprite)</em></p>
+            <p>You have honed your tiny body past its physical peaks, making use ofyour fey nature to strengthen yourself beyond the normal limits ofyour size. You gain the following benefits:</p>
+            <ul>
+                <li>Your base flying speed increases by 10 feet.</li>
+                <li>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift, including for your grapples.</li>
+                <li>You ignore the effects of your Puny Body racial trait.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift, including for your grapples. You ignore the effects of your Puny Body racial trait.</description>
+        </sheet>
+        <rules>
+            <grant type="Size" id="ID_SIZE_SMALL" />
+            <stat name="innate speed:fly" value="10" />
+        </rules>
+    </element>
+
+    <element name="The Raven's Ear" type="Feat" source="The Elements and Beyond" id="ID_TEAB_FEAT_THE_RAVENS_EAR">
+        <prerequisite>Corvian</prerequisite>
+        <requirements>ID_TEAB_RACE_CORVIAN</requirements>
+        <description>
+            <p><em>Prerequisite: Corvian</em></p>
+            <p>You have the hearing and mimicry capabilities of the raven, an extension of the corvian talent for memory and observation. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Intelligence or Wisdom score by 1, to a maximum of 20.</li>
+                <li>You have advantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on hearing.</li>
+                <li>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You have advantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on hearing. You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase (The Raven's Ear)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM" />
+        </rules>
+    </element>
+    
+</elements>

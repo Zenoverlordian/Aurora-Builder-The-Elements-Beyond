@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <element name="Mountain Domain" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_CLERIC_MOUNTAIN">
+        <supports>Divine Domain</supports>
+        <description>
+            <p>The imposing figure of mountains towering on the horizon and the frightful rumbling of the quaking earth are reminders of the great power shared by mountain and earth gods, and they drive many clerics of these deities to pursue the faith in the first place. Many of these gods (such as Ulaa, Purphoros, and Dumathoin) are diggers and craftsmen that fashion earthen wares out of the mountain's treasures and secrets. Others (such as Skadi and Dunatis) represent the solitude and wisdom of the mountain, whispering truths to their hermit-like clerics upon the peaks. Some are deities of the earth and sand (such as Gaia and Geb), while a few (such as Kurtulmak and Moradin) are the patron gods of earth-dwelling folk like dwarves, goliaths, or kobolds. Clerics of the mountain are as varied as their gods, but all see the resolute, unbending, and even stubborn strength of the earth and the mountains as a model to live by.</p>
+            <h5>Mountain Domain Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Cleric Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td><i>earth tremor (XGE), shield of faith</i></td></tr>
+                <tr><td>3rd</td><td><i>earthbind (XGE), spider climb</i></td></tr>
+                <tr><td>5th</td><td><i>meld into stone, quakewalk (TEAB)</i></td></tr>
+                <tr><td>7th</td><td><i>stone shape, stoneskin</i></td></tr>
+                <tr><td>9th</td><td><i>passwall, wall of stone</i></td></tr>
+            </table>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_AEGIS_EARTH" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_CLIMBER" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_CD_VOICE_MOUNTAIN" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_MIGHT_OLD_STONE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_DIVINE_STRIKE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_MOUNTAIN_LOOMS" />
+        </description>
+        <sheet display="false">
+            <description>Clerics of the mountain are as varied as their gods, but all see the resolute, unbending, and even stubborn strength of the earth and the mountains as a model to live by.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_AEGIS_EARTH" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_CLIMBER" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_CD_VOICE_MOUNTAIN" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_MIGHT_OLD_STONE" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_DIVINE_STRIKE" level="8" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_MOUNTAIN_LOOMS" level="17" />
+            <grant type="Spell" id="ID_XGTE_SPELL_EARTH_TREMOR" spellcasting="Cleric" prepared="true" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_SHIELD_OF_FAITH" spellcasting="Cleric" prepared="true" level="1" />
+            <grant type="Spell" id="ID_XGTE_SPELL_EARTHBIND" spellcasting="Cleric" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPIDER_CLIMB" spellcasting="Cleric" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_MELD_INTO_STONE" spellcasting="Cleric" prepared="true" level="5" />
+            <grant type="Spell" id="ID_TEAB_SPELL_QUAKE_WALK" spellcasting="Cleric" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_STONE_SHAPE" spellcasting="Cleric" prepared="true" level="7" />
+            <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" spellcasting="Cleric" prepared="true" level="7" />
+            <grant type="Spell" id="ID_PHB_SPELL_PASSWALL" spellcasting="Cleric" prepared="true" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" spellcasting="Cleric" prepared="true" level="9" />
+        </rules>
+    </element>
+    <element name="Aegis of the Earth" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_AEGIS_EARTH">
+        <description>
+            <p>When you choose this domain at 1st level, you gain proficiency with heavy armor.</p>
+            <p class="indent">In addition, when you take bludgeoning, piercing, slashing, force, or poison damage, you can use your reaction to reduce the damage you take by an amount equal to 3 + half your cleric level.</p>
+            <p class="indent">You can use your reaction in this way a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="{{wisdom:modifier}}/Long Rest" action="Reaction">When you take bludgeoning, piercing, slashing, force, or poison damage, you can use your reaction to reduce the damage you take by an amount equal to 3 + {{level:cleric:half}}.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+        </rules>
+    </element>
+    <element name="Mountain Climber" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_CLIMBER">
+        <description>
+            <p>Starting at 1st level, you have advantage on all saving throws and ability checks made to climb or keep your footing while on earth or stone, such as when climbing a canyon wall, jumping across wobbly stones, or walking along a narrow cliff ledge.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on all saving throws and ability checks made to climb or keep your footing while on earth or stone.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Voice of the Mountain" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_CD_VOICE_MOUNTAIN">
+        <description>
+            <p>Starting at 2nd-level, you can use your Channel Divinity to shake the ground with the voice of the mountain, injuring those who cannot keep their balance.</p>
+            <p class="indent">As an action, you present your holy symbol and the ground in a 30-foot cube within 60 feet of you rumbles with divine power. Each creature on the ground in the area must make a Dexterity saving throw. On a failed saving throw, a creature takes thunder damage equal to 2d6 + your cleric level and it is knocked prone. On a success, a creature takes half as much damage and isn't knocked prone. Until the end of your next turn, ground in the area is difficult terrain as it continues to quake.</p>
+        </description>
+        <sheet alt="Voice of the Mountain">
+            <description usage="Channel Divinity" action="Action">As an action, you present your holy symbol and the ground in a 30-foot cube within 60 feet of you rumbles with divine power. Each creature on the ground in the area must make a Dexterity saving throw. On a failed saving throw, a creature takes thunder damage equal to 2d6 + {{level:cleric}} and it is knocked prone. On a success, a creature takes half as much damage and isn't knocked prone. Until the end of your next turn, ground in the area is difficult terrain as it continues to quake.</description>
+        </sheet>
+    </element>
+    <element name="Might of the Old Stone" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_MIGHT_OLD_STONE">
+        <description>
+            <p>At 6th level, you become as hearty and stubborn as the earth and mountains themselves, gaining proficiency in Constitution saving throws. If you already have this proficiency, you instead gain proficiency in Strength or Charisma saving throws (your choice).</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency in Constitution saving throws. If you already have this proficiency, you instead gain proficiency in Strength or Charisma saving throws (your choice).</description>
+        </sheet>
+        <rules>
+            <select type="Proficiency" name="Might of the Old Stone" supports="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION|ID_PROFICIENCY_SAVINGTHROW_STRENGTH|ID_PROFICIENCY_SAVINGTHROW_CHARISMA" default="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+        </rules>
+    </element>
+    <element name="Divine Strike" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_DIVINE_STRIKE">
+        <description>
+            <p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
+        </description>
+        <sheet>
+            <description level="8">Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target.</description>
+            <description level="14">Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 thunder damage to the target.</description>
+        </sheet>
+    </element>
+    <element name="The Mountain Looms" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_MOUNTAIN_MOUNTAIN_LOOMS">
+        <description>
+            <p>Starting at 17th level, the earth and those upon it quake and tremble within your towering presence. The ground within 10 feet of you is always difficult terrain, and if it was already difficult terrain, it costs a creature 1 extra foot of movement for every 1 foot the creature moves. In addition, creatures that are prone on the ground within 10 feet of you cannot stand up.</p>
+            <p class="indent">This effect only occurs while you are touching the ground. You can choose to exclude any number of creatures from this effect at any time.</p>
+        </description>
+        <sheet>
+            <description>The ground within 10 feet of you is always difficult terrain, and if it was already difficult terrain, it costs a creature 1 extra foot of movement for every 1 foot the creature moves. In addition, creatures that are prone on the ground within 10 feet of you cannot stand up. This effect only occurs while you are touching the ground. You can choose to exclude any number of creatures from this effect at any time.</description>
+        </sheet>
+    </element>
+
+    <element name="Sea Domain" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_CLERIC_SEA">
+        <supports>Divine Domain</supports>
+        <description>
+            <p>Gods of the sea -- and those of other water sources like rivers or springs -- are frequently worshipped in order to make aquatic journeys easier and less dangerous. Many gods of this domain, such as Poseidon, Manannán mac Lir, Thassa, and Njord, are sailors or fishermen rescuing supplicants from shipwrecks and blessing their vessels for travel upon the ocean waves. There are evil gods like Zeboim, Aegir, and Umberlee, who whip the seas into deadly storms, sink ships, and crush coastal settlements with giant waves. Some water gods are avatars of purity, fertility, life, and cleanliness, with temples built at pure springs or sacred rivers, like Sobek or Brigantia. A few like Eadro or Sekolah are patrons of a particular aquatic race such as merfolk or sahuagin.</p>
+            <h5>Sea Domain Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Cleric Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td><i>create or destroy water, fog cloud</i></td></tr>
+                <tr><td>3rd</td><td><i>dive (TEAB), drown (TEAB)</i></td></tr>
+                <tr><td>5th</td><td><i>tidal wave (XGE), water breathing</i></td></tr>
+                <tr><td>7th</td><td><i>control water, watery sphere (XGE)</i></td></tr>
+                <tr><td>9th</td><td><i>maelstrom (XGE), water to acid (TEAB)</i></td></tr>
+            </table>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEA_CHOSEN_SEA" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEA_BLESSED_WATER" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEA_CD_TIDAL_SURGE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEA_CRASHING_WAVES" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEA_POTENT_SPELLCASTING" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEA_CYCLE_TIDES" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_CHOSEN_SEA" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_BLESSED_WATER" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_CD_TIDAL_SURGE" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_CRASHING_WAVES" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_POTENT_SPELLCASTING" level="8" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_CYCLE_TIDES" level="17" />
+            <grant type="Spell" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER" spellcasting="Cleric" prepared="true" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" spellcasting="Cleric" prepared="true" level="1" />
+            <grant type="Spell" id="ID_TEAB_SPELL_DIVE" spellcasting="Cleric" prepared="true" level="3" />
+            <grant type="Spell" id="ID_TEAB_SPELL_DROWN" spellcasting="Cleric" prepared="true" level="3" />
+            <grant type="Spell" id="ID_XGTE_SPELL_TIDAL_WAVE" spellcasting="Cleric" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" spellcasting="Cleric" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" spellcasting="Cleric" prepared="true" level="7" />
+            <grant type="Spell" id="ID_XGTE_SPELL_WATERY_SPHERE" spellcasting="Cleric" prepared="true" level="7" />
+            <grant type="Spell" id="ID_XGTE_SPELL_MAELSTROM" spellcasting="Cleric" prepared="true" level="9" />
+            <grant type="Spell" id="ID_TEAB_SPELL_WATER_TO_ACID" spellcasting="Cleric" prepared="true" level="9" />
+        </rules>
+    </element>
+    <element name="Chosen of the Sea" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_CHOSEN_SEA">
+        <description>
+            <p>When you choose this domain at 1st level, you gain proficiency with the trident, and you can breathe underwater. You also have advantage on any ability checks relating to bodies of water or water vehicles.</p>
+            <p class="indent">In addition, you learn the shape water cantrip, from Xanathar's Guide to Everything, and the new water spout cantrip. They are cleric cantrips for you, and don't count against the number of cantrips you can learn as a cleric.</p>
+        </description>
+        <sheet>
+            <description>You can breathe underwater. You also have advantage on any ability checks relating to bodies of water or water vehicles.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+            <grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" spellcasting="Cleric" prepared="true"/>
+            <grant type="Spell" id="ID_TEAB_SPELL_WATER_SPOUT" spellcasting="Cleric" prepared="true"/>
+        </rules>
+    </element>
+    <element name="Blessed Water" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_BLESSED_WATER">
+        <description>
+            <p>Also at 1st level, you can spend 1 minute praying over at least 1 lb of water to create pure blessed water that lasts for up to 8 hours or until you finish a long rest. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+            <p class="indent">You choose one of the following options for the water each time you use this feature.</p>
+            <p class="indent"><strong><em>Aquatic Elixir.</em></strong> If a creature consumes the water, it gains the ability to breathe underwater for a number of hours equal to half your cleric level (minimum of one hour). After you reach 6th level, a creature can drench itself in the water instead of consuming it, granting the creature a swimming speed equal to its speed for a number of minutes equal to 10 times your cleric level.</p>
+            <p class="indent"><strong><em>Holy Water.</em></strong> The water functions the same as holy water for the duration, except that it deals bonus radiant damage equal to half your cleric level. You can expend 25 gp worth of powdered silver when the blessed water is created to transform it into a flask's worth of real holy water with the same effects and no duration.</p>
+            <p class="indent"><strong><em>Water of Life.</em></strong> A creature can use its action to touch an injured creature and spread the water upon the injured creature's body. The injured creature regains hit points equal to 3 + half your cleric level.</p>
+        </description>
+        <sheet>
+            <description usage="{{wisdom:modifier}}/Long Rest" level="1">You can spend 1 minute praying over at least 1 lb of water to create pure blessed water that lasts for up to 8 hours or until you finish a long rest. You choose one of the following options for the water each time you use this feature.
+            Aquatic Elixir. If a creature consumes the water, it gains the ability to breathe underwater for {{level:cleric:half}} hours (minimum 1 hour).
+            Holy Water. The water functions the same as holy water for the duration, except that it deals bonus {{level:cleric:half}} radiant damage. You can expend 25 gp worth of powdered silver when the blessed water is created to transform it into a flask's worth of real holy water with the same effects and no duration.
+            Water of Life. A creature can use its action to touch an injured creature and spread the water upon the injured creature's body. The injured creature regains {{water life:hp}} hit points.</description>
+            <description usage="{{wisdom:modifier}}/Long Rest" level="6">You can spend 1 minute praying over at least 1 lb of water to create pure blessed water that lasts for up to 8 hours or until you finish a long rest. You choose one of the following options for the water each time you use this feature.
+            Aquatic Elixir. If a creature consumes the water, it gains the ability to breathe underwater for {{level:cleric:half}} hours (minimum 1 hour). If a creature drenches itself in the water instead of consuming it, it gains a swimming speed equal to its speed for {{elixer:time}} minutes.
+            Holy Water. The water functions the same as holy water for the duration, except that it deals bonus {{level:cleric:half}} radiant damage. You can expend 25 gp worth of powdered silver when the blessed water is created to transform it into a flask's worth of real holy water with the same effects and no duration.
+            Water of Life. A creature can use its action to touch an injured creature and spread the water upon the injured creature's body. The injured creature regains {{water life:hp}} hit points.</description>
+        </sheet>
+        <rules>
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="elixer:time" value="level:cleric" />
+            <stat name="water life:hp" value="3" />
+            <stat name="water life:hp" value="level:cleric:half" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Tidal Surge" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_CD_TIDAL_SURGE">
+        <description>
+            <p>Starting at 2nd level, you can use your Channel Divinity to create a wave of temporary water around you.</p>
+            <p class="indent">As an action, you present your holy symbol, and each creature of your choice within 15 feet of you must make a Strength saving throw. On a failed save, a creature takes bludgeoning damage equal to 2d6 + your cleric level, and it is pushed 10 feet away from you or pulled up to 10 feet toward you (you choose which it is each time you use this ability). On a success, it takes half as much damage and isn't pushed or pulled.</p>
+        </description>
+        <sheet alt="Tidal Surge">
+            <description usage="Channel Divinity" action="Action" level="2">As an action, you present your holy symbol, and each creature of your choice within 15 feet of you must make a Strength saving throw. On a failed save, a creature takes bludgeoning damage equal to 2d6 + {{level:cleric}}, and it is pushed 10 feet away from you or pulled up to 10 feet toward you (you choose which it is each time you use this ability). On a success, it takes half as much damage and isn't pushed or pulled.</description>
+            <description usage="Channel Divinity" action="Action" level="17">As an action, you present your holy symbol, and each creature of your choice within 30 feet of you must make a Strength saving throw. On a failed save, a creature takes bludgeoning damage equal to 4d6 + {{level:cleric}}, and it is pushed 20 feet away from you or pulled up to 20 feet toward you (you choose which it is each time you use this ability). On a success, it takes half as much damage and isn't pushed or pulled.</description>
+        </sheet>
+    </element>
+    <element name="Crashing Waves" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_CRASHING_WAVES">
+        <description>
+            <p>Starting at 6th level, whenever one of your cleric spells pushes or pulls a creature, you can push or pull it 5 feet further. Also, whenever one of your cleric spells or class features restrains a creature, pushes or pulls a creature into a solid object that's at least one size larger than it (such as a wall, tree, or boulder), or knocks a creature prone, you can choose one of the following effects to apply to that creature:</p>
+            <ul>
+                <li>It can't take reactions until the end of its next turn.</li>
+                <li>Its speed is halved until the end of its next turn.</li>
+                <li>It must make a Constitution saving throw against your cleric spell save DC. On a failed saving throw, it drops whatever it is holding, and if it is concentrating on anything, it loses concentration.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>Whenever one of your cleric spells pushes or pulls a creature, you can push or pull it 5 feet further. Also, whenever one of your cleric spells or class features restrains a creature, pushes or pulls a creature into a solid object that's at least one size larger than it (such as a wall, tree, or boulder), or knocks a creature prone, you can choose one of the following effects to apply to that creature:
+            It can't take reactions until the end of its next turn.
+            Its speed is halved until the end of its next turn.
+            It must make a Constitution saving throw against your cleric spell save DC. On a failed saving throw, it drops whatever it is holding, and if it is concentrating on anything, it loses concentration.</description>
+        </sheet>
+    </element>
+    <element name="Potent Spellcasting" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_POTENT_SPELLCASTING">
+        <description>
+            <p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
+        </description>
+        <sheet>
+            <description>You add your {{wisdom:modifier}} to the damage you deal with any cleric cantrip.</description>
+        </sheet>
+    </element>
+    <element name="Cycle of the Tides" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEA_CYCLE_TIDES">
+        <description>
+            <p>Starting at 17th level, when you use your Tidal Surge Channel Divinity feature, it deals 2d6 bonus damage, and the range and distance pushed or pulled are both doubled. At the end of your next turn, another wave of water washes around you and you repeat the effect without expending another usage of Channel Divinity. You can choose new targets and whether to push or pull.</p>
+        </description>
+        <sheet>
+            <description>When you use your Tidal Surge Channel Divinity feature, at the end of your next turn, another wave of water washes around you and you repeat the effect without expending another usage of Channel Divinity. You can choose new targets and whether to push or pull.</description>
+        </sheet>
+    </element>
+
+    <element name="Travel Domain" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_CLERIC_TRAVEL">
+        <supports>Divine Domain</supports>
+        <description>
+            <p>The world is wide and the roads are dangerous. To help guide and guard the mortals who travel, the deities of travel — including Lugh, Sehanine, Marthammor Duin, Hermes, Kruphix, Fharlanghn, and Athreos — teach the proper ways of journeying across the world. They are mostly benevolent and often chaotic. Many serve their fellow gods as messengers or guides. Most wish mortals to travel so as to discover, learn, and live a full life, but some are more ambivalent, representing the mysteries, dangers, and secrets waiting on the horizon. Clerics of this domain wander endlessly when they aren't acting as messengers for important matters between the churches of other gods or exploring unknown places.</p>
+            <h5>Travel Domain Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Cleric Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td><i>comprehend languages, longstrider</i></td></tr>
+                <tr><td>3rd</td><td><i>locate object, misty step</i></td></tr>
+                <tr><td>5th</td><td><i>fly, haste</i></td></tr>
+                <tr><td>7th</td><td><i>freedom of movement, locate creature</i></td></tr>
+                <tr><td>9th</td><td><i>far step (XGE), soar (TEAB)</i></td></tr>
+            </table>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_PROF" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_BLESSED_STEPS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_CD_SAFE_PASSAGE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_MESSENGER_GODS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_POTENT_SPELLCASTING" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_RADICAL_FREEDOM" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_PROF" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_BLESSED_STEPS" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_CD_SAFE_PASSAGE" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_MESSENGER_GODS" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_POTENT_SPELLCASTING" level="8" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_RADICAL_FREEDOM" level="17" />
+            <grant type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" spellcasting="Cleric" prepared="true" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_LONGSTRIDER" spellcasting="Cleric" prepared="true" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_LOCATE_OBJECT" spellcasting="Cleric" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" spellcasting="Cleric" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLY" spellcasting="Cleric" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_HASTE" spellcasting="Cleric" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" spellcasting="Cleric" prepared="true" level="7" />
+            <grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" spellcasting="Cleric" prepared="true" level="7" />
+            <grant type="Spell" id="ID_XGTE_SPELL_FAR_STEP" spellcasting="Cleric" prepared="true" level="9" />
+            <grant type="Spell" id="ID_TEAB_SPELL_SOAR" spellcasting="Cleric" prepared="true" level="9" />
+        </rules>
+    </element>
+    <element name="Bonus Proficiency" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_PROF">
+        <description>
+            <p>When you choose this domain at 1st level, you learn the message cantrip, which is a cleric cantrip for you and doesn't count against the number of cantrips you can know as a cleric. You also gain proficiency with one of the following tools of your choice: navigator's tools, land vehicles, or water vehicles.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_MESSAGE" spellcasting="Cleric" prepared="true" />
+            <select type="Proficiency" name="Tool Proficiency, Travel Domain" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+        </rules>
+    </element>
+    <element name="Blessed Steps" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_BLESSED_STEPS">
+        <description>
+            <p>Also at 1st level, your journey is blessed by holy purpose. You can use a bonus action on your turn to disengage, dash, or attempt to escape from a grapple.</p>
+            <p class="indent">You can also use a bonus action to touch another willing creature and lend it your blessing. At the start of its next turn, it can either dash, disengage, or attempt to escape from a grapple without using an action.</p>
+            <p class="indent">You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="{{wisdom:modifier}}/Long Rest">You can use a bonus action on your turn to disengage, dash, or attempt to escape from a grapple. You can also use a bonus action to touch another willing creature and lend it your blessing. At the start of its next turn, it can either dash, disengage, or attempt to escape from a grapple without using an action.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Safe Passage" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_CD_SAFE_PASSAGE">
+        <description>
+            <p>Starting at 2nd level, you can use your Channel Divinity to secure magical safe passage.</p>
+            <p class="indent">As an action, you present your holy symbol, and you teleport one willing creature that you can see within 30 feet of you up to 60 feet to an unoccupied space that you can see. Until the end of your next turn, attacks rolls are made against it with disadvantage, and it has resistance to bludgeoning, piercing, and slashing damage dealt by nonmagical weapons. If the target makes an attack, casts a spell that affects an enemy, or deals damage to another creature, the effect ends immediately.</p>
+        </description>
+        <sheet alt="Safe Passage">
+            <description usage="Channel Divinity" action="Action">As an action, you present your holy symbol, and you teleport one willing creature that you can see within 30 feet of you up to 60 feet to an unoccupied space that you can see. Until the end of your next turn, attacks rolls are made against it with disadvantage, and it has resistance to bludgeoning, piercing, and slashing damage dealt by nonmagical weapons. If the target makes an attack, casts a spell that affects an enemy, or deals damage to another creature, the effect ends immediately.</description>
+        </sheet>
+    </element>
+    <element name="Messenger of the Gods" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_MESSENGER_GODS">
+        <description>
+            <p>At 6th level, the spirit of travel fills you and carries you further. You are always under the effects of a longstrider spell, and you have advantage on all ability checks and saving throws made to escape from a grapple.</p>
+            <p class="indent">In addition, at the end of each of your turns, if you are at least 30 feet away from where you were at the start of the turn, you gain a +1 bonus to AC and Dexterity saving throws until the end of your next turn.</p>
+        </description>
+        <sheet>
+            <description>You are always under the effects of a longstrider spell (factored into speed), and you have advantage on all ability checks and saving throws made to escape from a grapple. In addition, at the end of each of your turns, if you are at least 30 feet away from where you were at the start of the turn, you gain a +1 bonus to AC and Dexterity saving throws until the end of your next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="speed" value="10" />
+        </rules>
+    </element>
+    <element name="Potent Spellcasting" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_POTENT_SPELLCASTING">
+        <description>
+            <p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
+        </description>
+        <sheet>
+            <description>You add {{wisdom:modifier}} to the damage you deal with any cleric cantrip.</description>
+        </sheet>
+    </element>
+    <element name="Radical Freedom" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_TRAVEL_RADICAL_FREEDOM">
+        <description>
+            <p>Beginning at 17th level, you have advantage on saving throws against being charmed, and your speed increases by 10 feet.</p>
+            <p class="indent">Also, you are always under the effects of a freedom of movement spell. You can temporarily suppress this effect to cast freedom of movement without expending a spell slot or requiring components, unless the effect is already suppressed. You can use a bonus action to end the spell early. The effect remains suppressed until the spell ends.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being charmed. Also, you are always under the effects of a freedom of movement spell. You can temporarily suppress this effect to cast freedom of movement without expending a spell slot or requiring components, unless the effect is already suppressed. You can use a bonus action to end the spell early. The effect remains suppressed until the spell ends.</description>
+        </sheet>
+        <rules>
+            <stat name="speed" value="10" />
+        </rules>
+    </element>
+
+    <element name="Winter Domain" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_CLERIC_WINTER">
+        <supports>Divine Domain</supports>
+        <description>
+            <p>Clerics who worship a god of ice or winter channel both their god's freezing wrath and tranquil beauty. There are many varieties of winter deities. Some are spiteful and bitter as a winter fey, such as Auril. Yet others, like the Norse deities Uller or Skadi, or the Elven god Rellavar Danuvien, guide their followers through harsh winters and icy terrain with care. Some are better known for their other domains, like nature, trickery, war, or death, such as the Raven Queen, or represent all the seasons including winter, such as Demeter. Most winter gods are cold and distant, but a few are warm and friendly.</p>
+            <h5>Winter Domain Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Cleric Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td><i>armor of agathys, ice knife (XGE)</i></td></tr>
+                <tr><td>3rd</td><td><i>hold person, ice sculpture (TEAB)</i></td></tr>
+                <tr><td>5th</td><td><i>cold snap (TEAB), sleet storm</i></td></tr>
+                <tr><td>7th</td><td><i>frost armor (TEAB), ice storm</i></td></tr>
+                <tr><td>9th</td><td><i>cone of cold, hold monster</i></td></tr>
+            </table>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WINTER_HERALD_WINTER" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WINTER_DIVINE_BLIZZARD" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WINTER_CD_ICY_EMBRACE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WINTER_COLD_NUMBNESS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WINTER_POTENT_SPELLCASTING" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WINTER_RELENTLESS_WINTER" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_HERALD_WINTER" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_DIVINE_BLIZZARD" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_CD_ICY_EMBRACE" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_COLD_NUMBNESS" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_POTENT_SPELLCASTING" level="8" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_RELENTLESS_WINTER" level="17" />
+            <grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" spellcasting="Cleric" prepared="true" level="1" />
+            <grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" spellcasting="Cleric" prepared="true" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" spellcasting="Cleric" prepared="true" level="3" />
+            <grant type="Spell" id="ID_TEAB_SPELL_ICE_SCULPTURE" spellcasting="Cleric" prepared="true" level="3" />
+            <grant type="Spell" id="ID_TEAB_SPELL_COLD_SNAP" spellcasting="Cleric" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" spellcasting="Cleric" prepared="true" level="5" />
+            <grant type="Spell" id="ID_TEAB_SPELL_FROST_ARMOR" spellcasting="Cleric" prepared="true" level="7" />
+            <grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" spellcasting="Cleric" prepared="true" level="7" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" spellcasting="Cleric" prepared="true" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" spellcasting="Cleric" prepared="true" level="9" />
+        </rules>
+    </element>
+    <element name="Herald of Winter" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_HERALD_WINTER">
+        <description>
+            <p>At 1st level, you gain proficiency with heavy armor, and you learn your choice of either the frostbite cantrip, from Xanathar's Guide to Everything, or the ray of frost cantrip. The chosen cantrip is a cleric spell for you, and it doesn't count against the number of cantrips you can know as a cleric.</p>
+            <p class="indent">In addition, you don't suffer the effects of extreme cold, as described in the Dungeon Master's Guide.</p>
+        </description>
+        <sheet>
+            <description>You don't suffer the effects of extreme cold, as described in the Dungeon Master's Guide.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+            <select type="Spell" name="Herald of Winter" supports="ID_PHB_SPELL_RAY_OF_FROST|ID_XGTE_SPELL_FROSTBITE" />
+        </rules>
+    </element>
+    <element name="Divine Blizzard" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_DIVINE_BLIZZARD">
+        <description>
+            <p>Also at 1st level, you learn how to surround yourself in a momentary blizzard. As a bonus action, you swirl with icy wind and freezing magic. Until the end of your next turn, the area within 10 feet of you is lightly obscured by snow and icy mist, and when a creature ends its turn within 10 feet of you, you can choose to deal it cold damage equal to your proficiency bonus.</p>
+            <p class="indent">You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="{{wisdom:modifier}}/Long Rest">As a bonus action, you swirl with icy wind and freezing magic. Until the end of your next turn, the area within 10 feet of you is lightly obscured by snow and icy mist, and when a creature ends its turn within 10 feet of you, you can choose to deal it {{proficiency}} cold damage.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Icy Embrace" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_CD_ICY_EMBRACE">
+        <description>
+            <p>Starting at 2nd level, when you deal cold damage to a creature with a cleric spell or class feature, you can use your Channel Divinity to freeze it with divine will. The creature must make a Constitution saving throw. On a failed save, the creature is restrained for 1 minute. It repeats the saving throw at the end of each of its turns, ending the effect on a success.</p>
+        </description>
+        <sheet alt="Icy Embrace">
+            <description usage="Channel Divinity">When you deal cold damage to a creature with a cleric spell or class feature, you can use your Channel Divinity to freeze it with divine will. The creature must make a Constitution saving throw against your spell save DC. On a failed save, the creature is restrained for 1 minute. It repeats the saving throw at the end of each of its turns, ending the effect on a success.</description>
+        </sheet>
+    </element>
+    <element name="Cold Numbness" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_COLD_NUMBNESS">
+        <description>
+            <p>At 6th level, you gain resistance to cold damage, and you have advantage on saving throws made to maintain concentration when you take damage or made to resist the effects of magical pain (such as the power word: pain spell).</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws made to maintain concentration when you take damage or made to resist the effects of magical pain (such as the power word: pain spell).</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+        </rules>
+    </element>
+    <element name="Potent Spellcasting" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_POTENT_SPELLCASTING">
+        <description>
+            <p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
+        </description>
+        <sheet>
+            <description>You add {{wisdom:modifier}} to the damage you deal with any cleric cantrip.</description>
+        </sheet>
+    </element>
+    <element name="Relentless Winter" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WINTER_RELENTLESS_WINTER">
+        <description>
+            <p>Starting at 17th level, you gain immunity to cold damage, and you ignore all the effects of exhaustion other than death.</p>
+            <p class="indent">In addition, you are coated with a protective frost. When you are hit with a melee attack by an attacker within 5 feet of you, if the attacker doesn't have resistance or immunity to cold damage, its speed is reduced by 15 feet and it has disadvantage on weapon attack rolls until the end of its next turn.</p>
+        </description>
+        <sheet>
+            <description>You gain immunity to cold damage, and you ignore all the effects of exhaustion other than death. In addition, you are coated with a protective frost. When you are hit with a melee attack by an attacker within 5 feet of you, if the attacker doesn't have resistance or immunity to cold damage, its speed is reduced by 15 feet and it has disadvantage on weapon attack rolls until the end of its next turn.</description>
+        </sheet>
+    </element>
+    
+</elements>

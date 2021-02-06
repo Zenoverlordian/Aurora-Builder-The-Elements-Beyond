@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <element name="College of Journeys" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_BARD_JOURNEYS">
+        <supports>Bard College</supports>
+        <description>
+            <p>Many bards learn of the arcane arts and the skills of the world from books or teachers, but some learn their way about the world by making their way about the world, embarking on journeys like the heroes they tell tales of.</p>
+            <div element="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_PROFICIENCIES" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_TRAVELERS_LORE" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_INSPIRE_URGENCY" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_FROM_THITHER_TO_YONDER" />
+            <div element="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_PLANAR_SHUFFLE" />
+        </description>
+        <sheet display="false">
+            <description>Bards embarking on journeys like the heroes they tell tales of.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_PROFICIENCIES" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_TRAVELERS_LORE" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_INSPIRE_URGENCY" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_FROM_THITHER_TO_YONDER" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_PLANAR_SHUFFLE" level="14" />
+        </rules>
+    </element>
+    <element name="Bonus Proficiencies" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_PROFICIENCIES">
+        <description>
+            <p>At 3rd level you gain proficiency with one tool out of either navigator's tools, land vehicles, or water vehicles. If you're already proficient with all of these tools, you gain a tool proficiency of your choice instead.</p>
+            <p class="indent">Also, your speed increases by 5 feet. When you reach 14th leveL this bonus increases to 10 feet.</p>
+        </description>
+        <sheet>
+            <description level="3">Your speed increases by 5 feet.</description>
+            <description level="14">Your speed increases by 10 feet.</description>
+        </sheet>
+        <rules>
+            <stat name="speed" value="5" />
+            <stat name="speed" value="5" level="14" />
+            <select type="Proficiency" name="Proficiency, College of Journeys" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+        </rules>
+    </element>
+    <element name="Traveler's Lore" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_TRAVELERS_LORE">
+        <description>
+            <p>At 3rd level you have broadened your horizons and hastened your pace. You never have to reduce your own pace due to encumbrance or terrain while traveling, and if you spend your time while traveling playing an instrument instead of watching for danger, you grant other creatures traveling with you advantage on ability checks made to forage, navigate, or track others.</p>
+            <p class="indent">Also, when your Spellcasting feature lets you learn a bard spell of 1st level or higher, you can select the spell from the following list, in addition to the bard spell list. You must otherwise obey all the restrictions for selecting the spelL and it becomes a bard spell for you.</p>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>jump, swoop</td></tr>
+                <tr><td>2nd</td><td>misty step</td></tr>
+                <tr><td>3rd</td><td>blink, fly</td></tr>
+                <tr><td>4th</td><td>Mordenkainen's private sanctum</td></tr>
+                <tr><td>5th</td><td>far step, passwall</td></tr>
+                <tr><td>6th</td><td>arcane gate, word of recall</td></tr>
+                <tr><td>7th</td><td>plane shift</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>You never have to reduce your own pace due to encumbrance or terrain while traveling, and if you spend your time while traveling playing an instrument instead of watching for danger, you grant other creatures traveling with you advantage on ability checks made to forage, navigate, or track others.</description>
+        </sheet>
+        <spellcasting name="Bard" extend="true">
+            <extend>ID_PHB_SPELL_JUMP</extend>
+            <extend>ID_TEAB_SPELL_SWOOP</extend>
+            <extend>ID_PHB_SPELL_MISTY_STEP</extend>
+            <extend>ID_PHB_SPELL_BLINK</extend>
+            <extend>ID_PHB_SPELL_FLY</extend>
+            <extend>ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM</extend>
+            <extend>ID_XGTE_SPELL_FAR_STEP</extend>
+            <extend>ID_PHB_SPELL_PASSWALL</extend>
+            <extend>ID_PHB_SPELL_ARCANE_GATE</extend>
+            <extend>ID_PHB_SPELL_WORD_OF_RECALL</extend>
+            <extend>ID_PHB_SPELL_PLANE_SHIFT</extend>
+        </spellcasting>
+    </element>
+    <element name="Inspire Urgency" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_INSPIRE_URGENCY">
+        <description>
+            <p>Also at 3rd leveL you learn how to inspire your allies to feats of great speed, agility, and drive.</p>
+            <p class="indent">A creature that has a Bardic Inspiration die from you can use a bonus action on their turn to roll that die, Dash, and Disengage. The next time that creature hits with an attack before the end of that turn, the attack deals extra damage equal to the number rolled on the Bardic Inspiration die.</p>
+        </description>
+        <sheet>
+            <description>A creature that has a Bardic Inspiration die from you can use a bonus action on their turn to roll that die, Dash, and Disengage. The next time that creature hits with an attack before the end of that turn, the attack deals extra damage equal to the number rolled on the Bardic Inspiration die.</description>
+        </sheet>
+    </element>
+    <element name="From Thither to Yonder" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_FROM_THITHER_TO_YONDER">
+        <description>
+            <p>Starting at 6th level you can use a bonus action on your turn to transport yourself or one willing creature within 30 feet of you that you can see. You teleport the target up to 30 feet to an unoccupied space that you can see, and the target can use its reaction to make an opportunity attack against a creature within its reach.</p>
+            <p class="indent">Also, when a willing creature you can see within 30 feet of you is hit with a melee weapon attack, you can use your reaction to teleport it up to 30 feet to an unoccupied space that you can see, forcing the attacker to reroll the attack and use the new result instead.</p>
+            <p class="indent">You can only use this feature up to a number of times equal to your Charisma modifier (minimum once). You regain all expended usages when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="{{charisma:modifier}}/Long Rest">You can use a bonus action on your turn to transport yourself or one willing creature within 30 feet of you that you can see. You teleport the target up to 30 feet to an unoccupied space that you can see, and the target can use its reaction to make an opportunity attack against a creature within its reach. Also, when a willing creature you can see within 30 feet of you is hit with a melee weapon attack, you can use your reaction to teleport it up to 30 feet to an unoccupied space that you can see, forcing the attacker to reroll the attack and use the new result instead. You can only use this feature up to a number of times equal to your Charisma modifier (minimum once). You regain all expended usages when you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="The Planar Shuffle" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_FEATURE_BARD_JOURNEYS_PLANAR_SHUFFLE">
+        <description>
+            <p>When you reach 14th level you learn how to dance to a magical tune that teleports you around. You can use a bonus action on your turn to activate this ability.</p>
+            <p class="indent">For 1 minute, at the beginning and end of each of your turns, you may choose to instantly teleport up to 10 feet to an unoccupied space you can see. You can bring along objects as long as their weight doesn't exceed what you can carry.</p>
+            <p class="indent">You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet ofyou when you teleport, and must also teleport to an unoccupied space within 5 feet of your destination.</p>
+            <p class="indent">You can only use this feature up to three times. You regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="3/Long Rest">You can use a bonus action on your turn to activate this ability. For 1 minute, at the beginning and end of each of your turns, you may choose to instantly teleport up to 10 feet to an unoccupied space you can see. You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet ofyou when you teleport, and must also teleport to an unoccupied space within 5 feet of your destination.</description>
+        </sheet>
+    </element>
+    
+<p class="indent"></p>
+</elements>

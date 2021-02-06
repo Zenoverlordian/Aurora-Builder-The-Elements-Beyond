@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <element name="Circle of Seeds" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_DRUID_SEEDS">
+        <supports>Druid Circle</supports>
+        <description>
+            <p>Druids who belong to the Circle of Seeds venerate plants and the beginning of life itself. They see plants as the purest expression of life, growth, and the natural world, whether they are vast grasslands, mighty forests, steamy jungles, or lone cacti. They take patient interest in long-term problems and solutions facing the natural world, viewing the world from the timescale of ancient forests and jungles. They view all life as equal, but know that without plants, all life will eventually perish.</p>
+            <p class="indent">These druids regularly seek the wisdom of dryads and treants, and strive to protect the oldest trees and most vulnerable flora in the world from harm. As they journey the world, they often plant seeds where they are needed, revitalizing damaged wilderness and giving life to barren wastelands. In battle, these druids embody the tactics of plants, slowly taking control of the battlefield and establishing traps and hazards using plant magic.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_SPELLS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_PLANT_LORE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_RAMPANT_GROWTH" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_SOWING_MAGIC" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_PLANT_FORM" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_VERDANT_MASTER" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_SPELLS" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_PLANT_LORE" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_RAMPANT_GROWTH" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_SOWING_MAGIC" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_PLANT_FORM" level="10" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_VERDANT_MASTER" level="14" />
+        </rules>
+    </element>
+    <element name="Circle Spells" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_SPELLS">
+        <description>
+            <p>Your connection to the plants of the world enables you to easily cast botanical magic. At 2nd level, you learn the thorn whip cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Seeds Spells table.</p>
+            <p class="indent">Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+            <h5>Circle of Seeds Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Druid Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td><i>barkskin, spike growth</i></td></tr>
+                <tr><td>5th</td><td><i>plant growth, revivify</i></td></tr>
+                <tr><td>7th</td><td><i>aura of life, stockade sprouts (TEAB)</i></td></tr>
+                <tr><td>9th</td><td><i>sun flower (TEAB), tree stride </i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_THORN_WHIP" spellcasting="Druid" prepared="true" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_BARKSKIN" spellcasting="Druid" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" spellcasting="Druid" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" spellcasting="Druid" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" spellcasting="Druid" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" spellcasting="Druid" prepared="true" level="7" />
+            <grant type="Spell" id="ID_TEAB_SPELL_SOCKADE_SPROUTS" spellcasting="Druid" prepared="true" level="7" />
+            <grant type="Spell" id="ID_TEAB_SPELL_SUN_FLOWER" spellcasting="Druid" prepared="true" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" spellcasting="Druid" prepared="true" level="9" />
+        </rules>
+    </element>
+    <element name="Plant Lore" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_PLANT_LORE">
+        <description>
+            <p>At 2nd level, you gain an innate connection to the spirits of the plants of the world, and they have tutored you in their ways. You can understand the speech of plants regardless of language, and any plant that knows at least one language can understand your speech. You also have advantage on ability checks made for knowledge about plants or made to socially influence plants.</p>
+            <p class="indent">In addition, your druid spells that normally can only target beasts can also target plants.</p>
+        </description>
+        <sheet>
+            <description>You can understand the speech of plants regardless of language, and any plant that knows at least one language can understand your speech. You also have advantage on ability checks made for knowledge about plants or made to socially influence plants. In addition, your druid spells that normally can only target beasts can also target plants.</description>
+        </sheet>
+    </element>
+    <element name="Rampant Growth" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_RAMPANT_GROWTH">
+        <description>
+            <p>Starting at 2nd level, you can summon primal spirits associated with plants to aid you and your allies. As a bonus action, you can magically summon an incorporeal spirit to a point you can see within 60 feet of you. The spirit creates an aura in a 30-foot radius around that point and counts as neither a creature nor an object.</p>
+            <p class="indent">As a bonus action, you can move the spirit up to 15 feet to a point you can see. It persists for 1 minute or until you're incapacitated. Once you use this feature to summon a plant spirit, you can't do so again until you finish a short or long rest.</p>
+            <p class="indent">The effect of the spirit and its aura, which uses your spell save DC for saving throws, depends on the type of spirit you summon from the options below.</p>
+            <p class="indent"><strong><em>Flowers.</em></strong> The plant spirit is in the form of a flowering plant, releasing pollen and sprouting healing fruit. You and your allies can pluck and eat a fruit as a bonus action while within 5 feet of the plant spirit, or use an action to pluck a fruit and feed it to another creature. Any creature in the aura that consumes one of these fruits regains hit points equal to your proficiency bonus + half your druid level. A spirit can only heal each creature up to one time. Once a creature has been healed by two spirits, it can't be healed by a spirit again until it finishes a long rest.</p>
+            <p class="indent">When an enemy creature ends its turn in the aura, it is irritated by the pollen; if it is concentrating and it can be poisoned, it must succeed on a Constitution saving throw or lose concentration.</p>
+            <p class="indent"><strong><em>Leaves.</em></strong> The plant spirit is in the form of a plant that flings sharpened, toxic leaves and thorns at your foes. Choose piercing or slashing damage. An enemy creature that ends its turn in the aura takes damage of the chosen type equal to 2 + half your druid level and must succeed on a Constitution saving throw or be poisoned until the end of its next turn. Once a creature succeeds on this saving throw, the spirit can't poison it again.</p>
+            <p class="indent"><strong><em>Roots.</em></strong> The plant spirit is in the form of a plant with strong roots or vines that writhe out of the ground to grab foes. Each enemy creature that ends its turn in the aura must succeed on a Dexterity saving throw or be grappled by the spirit while it remains in the aura, using your spell save DC as the escape DC. In addition, ground in the aura is difficult terrain, but you and your allies can ignore the difficult terrain.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="1/Short Rest">As a bonus action, you can magically summon an incorporeal spirit to a point you can see within 60 feet of you. The spirit creates an aura in a 30-foot radius around that point and counts as neither a creature nor an object. As a bonus action, you can move the spirit up to 15 feet to a point you can see. It persists for 1 minute or until you're incapacitated. The effect of the spirit and its aura, which uses your spell save DC for saving throws, depends on the type of spirit you summon from the options below.
+            Flowers. The plant spirit is in the form of a flowering plant, releasing pollen and sprouting healing fruit. You and your allies can pluck and eat a fruit as a bonus action while within 5 feet of the plant spirit, or use an action to pluck a fruit and feed it to another creature. Any creature in the aura that consumes one of these fruits regains {{flower:hp}} hit points. A spirit can only heal each creature up to one time. Once a creature has been healed by two spirits, it can't be healed by a spirit again until it finishes a long rest. When an enemy creature ends its turn in the aura, it is irritated by the pollen; if it is concentrating and it can be poisoned, it must succeed on a Constitution saving throw or lose concentration.
+            Leaves. The plant spirit is in the form of a plant that flings sharpened, toxic leaves and thorns at your foes. Choose piercing or slashing damage. An enemy creature that ends its turn in the aura takes {{leaves:dmg}} damage of the chosen type and must succeed on a Constitution saving throw or be poisoned until the end of its next turn. Once a creature succeeds on this saving throw, the spirit can't poison it again.
+            Roots. The plant spirit is in the form of a plant with strong roots or vines that writhe out of the ground to grab foes. Each enemy creature that ends its turn in the aura must succeed on a Dexterity saving throw or be grappled by the spirit while it remains in the aura, using your spell save DC as the escape DC. In addition, ground in the aura is difficult terrain, but you and your allies can ignore the difficult terrain.</description>
+        </sheet>
+        <rules>
+            <stat name="flower:hp" value="proficiency" />
+            <stat name="flower:hp" value="level:druid:half" />
+            <stat name="leaves:dmg" value="level:druid:half" />
+            <stat name="leaves:dmg" value="2" />
+        </rules>
+    </element>
+    <element name="Sowing Magic" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_SOWING_MAGIC">
+        <description>
+            <p>At 6th level, you grow to deeply understand what a plant needs to thrive, and you learn to sow your magical seeds with greater skill. When you use your Rampant Growth feature to summon a plant spirit, you can place the spirit onto any surface, including walls and ceilings, and you can place it in water (requiring no surface).</p>
+            <p class="indent">In addition, you can spend 1 minute planting a magical seed in the ground using a druidic ritual. You can use a bonus action on your turn to cause a seed you've planted within 30 feet of you to transform and sprout into a plant spirit of your choice, as if you had summoned one with your Rampant Growth feature at that location. You can't move a spirit summoned using this feature, and you can't have more than one of the same type of plant spirit.</p>
+            <p class="indent">A seed that hasn't been sprouted disappears after 1 hour. You have a number of seeds equal to your Wisdom modifier (minimum of one), and you regain any expended seeds when you finish a long rest. Once you have used this feature to sprout a seed, you can't do so again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="{{wisdom:modifier}}/Long Rest">When you use your Rampant Growth feature to summon a plant spirit, you can place the spirit onto any surface, including walls and ceilings, and you can place it in water (requiring no surface). In addition, you can spend 1 minute planting a magical seed in the ground using a druidic ritual. You can use a bonus action on your turn to cause a seed you've planted within 30 feet of you to transform and sprout into a plant spirit of your choice, as if you had summoned one with your Rampant Growth feature at that location. You can't move a spirit summoned using this feature, and you can't have more than one of the same type of plant spirit. A seed that hasn't been sprouted disappears after 1 hour. You have {{wisdom:modifier}} seeds (minimum of one), and you regain any expended seeds when you finish a long rest. Once you have used this feature to sprout a seed, you can't do so again until you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Plant Form" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_PLANT_FORM">
+        <description>
+            <p>At 10th level, you gain the ability to shapeshift into a form similar to a dryad -- a living, humanoid-like magical plant. As an action, you can expend a use of your Wild Shape feature to transform your body into a plant, rather than transforming into a beast form, and you gain temporary hit points equal to your druid level. While this feature is active, you gain the following benefits:</p>
+            <ul>
+                <li>You are a plant instead of your normal types, and you have advantage on saving throws against poison.</li>
+                <li>You are covered with thorns. At the start of each of your turns, you deal 1d6 piercing damage to any creature grappling you.</li>
+                <li>You have resistance to radiant damage.</li>
+            </ul>
+            <p>These benefits and temporary hit points last for 10 minutes or until you use your Wild Shape again.</p>
+        </description>
+        <sheet>
+            <description action="Action">As an action, you can expend a use of your Wild Shape feature to transform your body into a plant, rather than transforming into a beast form, and you gain {{level:druid}} temporary hit points. While this feature is active, you gain the following benefits:
+            You are a plant instead of your normal types, and you have advantage on saving throws against poison.
+            You are covered with thorns. At the start of each of your turns, you deal 1d6 piercing damage to any creature grappling you.
+            You have resistance to radiant damage.
+            These benefits and temporary hit points last for 10 minutes or until you use your Wild Shape again.</description>
+        </sheet>
+    </element>
+    <element name="Verdant Master" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_SEEDS_VERDANT_MASTER">
+        <description>
+            <p>At 14th level, you can understand and command plants as easily as a powerful dryad or treant. You can cast speak with plants at-will, without expending a spell slot. The spell lasts for the duration or until you cast speak with plants again using this feature.</p>
+            <p class="indent">In addition, when you cast the awaken spell targeting a plant, the material components only have to be worth at least 50gp.</p>
+        </description>
+        <sheet>
+            <description>You can cast speak with plants at-will, without expending a spell slot. The spell lasts for the duration or until you cast speak with plants again using this feature. In addition, when you cast the awaken spell targeting a plant, the material components only have to be worth at least 50gp.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+        </rules>
+    </element>
+
+    <element name="Circle of Storms" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_DRUID_STORMS">
+        <supports>Druid Circle</supports>
+        <description>
+            <p>Druids of the Circle of Storms have communed, through ancient rituals, with the four winds (North, East, South, and West) and with the ancient progenitor of all storms, a magical tempest known as the primal storm. These druids teach that, just like the primal storm, nature is in constant flux, and that this change is a good thing. They anticipate the sudden arrival of a storm or danger at all times, and believe that wisdom involves knowing when to run with the wind and when to run against it.</p>
+            <p class="indent">Storm druids can often be found in tribal societies that live on open plains, on mountains, or along coasts. Some venerate a particular wind, such as the icy North Wind, or a particular storm, such as the monsoon or the tornado. In battle, they buffet and manipulate their foes with wind and lightning. They invoke the power of the primal storm, rising off the earth to blast their enemies with all the sudden fury of a thunderstorm.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_STORMS_SPELLS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_STORMS_CALL_WIND" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_STORMS_STORM_ASCENSION" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_STORMS_INNER_TEMPEST" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_STORMS_HERALD_FOUR_WINDS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_STORMS_UPDRAFT" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_SPELLS" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_CALL_WIND" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_STORM_ASCENSION" level="2" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_INNER_TEMPEST" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_HERALD_FOUR_WINDS" level="10" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_UPDRAFT" level="14" />
+        </rules>
+    </element>
+    <element name="Circle Spells" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_SPELLS">
+        <description>
+            <p>Your bond with the four winds and the primal storm grants you access to certain spells. At 2nd level, you learn the shocking grasp cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Storms Spells table.</p>
+            <p class="indent">Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+            <h5>Circle of Seeds Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Druid Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td><i>gust of wind, jolt of pain (TEAB)</i></td></tr>
+                <tr><td>5th</td><td><i>fly, lightning bolt</i></td></tr>
+                <tr><td>7th</td><td><i>cyclone (TEAB), storm sphere (XGE)</i></td></tr>
+                <tr><td>9th</td><td><i>fingers of lightning (new), soar (TEAB) </i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" spellcasting="Druid" prepared="true" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" spellcasting="Druid" prepared="true" level="3" />
+            <grant type="Spell" id="ID_TEAB_SPELL_JOLT_OF_PAIN" spellcasting="Druid" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLY" spellcasting="Druid" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" spellcasting="Druid" prepared="true" level="5" />
+            <grant type="Spell" id="ID_TEAB_SPELL_CYCLONE" spellcasting="Druid" prepared="true" level="7" />
+            <grant type="Spell" id="ID_XGTE_SPELL_STORM_SPHERE" spellcasting="Druid" prepared="true" level="7" />
+            <grant type="Spell" id="ID_TEAB_SPELL_FINGERS_OF_LIGHTNING" spellcasting="Druid" prepared="true" level="9" />
+            <grant type="Spell" id="ID_TEAB_SPELL_SOAR" spellcasting="Druid" prepared="true" level="9" />
+        </rules>
+    </element>
+    <element name="Call the Wind" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_CALL_WIND">
+        <description>
+            <p>Starting at 2nd level, you can use a bonus action on your turn to buffet a target you can see within 60 feet of you with wind. It must succeed on a Strength saving throw against your druid spell save DC or be pushed 5 feet in a direction of your choice. If the target is an unsecured object of size Medium or smaller, it is automatically pushed. If you are not underground or indoors, you push the target twice as far.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action">You can use a bonus action on your turn to buffet a target you can see within 60 feet of you with wind. It must succeed on a Strength saving throw against your druid spell save DC or be pushed 5 feet in a direction of your choice. If the target is an unsecured object of size Medium or smaller, it is automatically pushed. If you are not underground or indoors, you push the target twice as far.</description>
+        </sheet>
+    </element>
+    <element name="Storm Ascension" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_STORM_ASCENSION">
+        <description>
+            <p>At 2nd level, you gain the ability to embrace the power of the primal storm. As an action, you can expend a use of your Wild Shape feature to imbue your body with storm magic, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:</p>
+            <ul>
+                <li>When a target fails its saving throw against your Call the Wind feature, it takes 1d6 thunder damage. This damage increases to 1d8 at 6th level, 1d10 at 10th level, and 1d12 at 14th level.</li>
+                <li>Your melee attacks deal 1d6 bonus lightning damage to any target they hit.</li>
+                <li>You have a flying speed equal to your walking speed and you can hover, but you can't fly more than 1 foot above the ground using this speed. Water beneath you counts as ground for this limitation.</li>
+            </ul>
+            <p>These benefits last for up to 10 minutes, until you lose these temporary hit points, or until you use your Wild Shape again.</p>
+        </description>
+        <sheet>
+            <description action="Action" level="2">As an action, you can expend a use of your Wild Shape feature to imbue your body with storm magic, rather than transforming into a beast form, and you gain {{storm ascension:hp}} temporary hit points. While this feature is active, you gain the following benefits:
+            When a target fails its saving throw against your Call the Wind feature, it takes 1d6 thunder damage.
+            Your melee attacks deal 1d6 bonus lightning damage to any target they hit.
+            You have a flying speed of {{speed}} and you can hover, but you can't fly more than 1 foot above the ground using this speed. Water beneath you counts as ground for this limitation.
+            These benefits last for up to 10 minutes, until you lose these temporary hit points, or until you use your Wild Shape again.</description>
+            <description action="Action" level="6">As an action, you can expend a use of your Wild Shape feature to imbue your body with storm magic, rather than transforming into a beast form, and you gain {{storm ascension:hp}} temporary hit points. While this feature is active, you gain the following benefits:
+            When a target fails its saving throw against your Call the Wind feature, it takes 1d8 thunder damage.
+            Your melee attacks deal 1d6 bonus lightning damage to any target they hit.
+            You have a flying speed of {{speed}} and you can hover, but you can't fly more than 1 foot above the ground using this speed. Water beneath you counts as ground for this limitation.
+            These benefits last for up to 10 minutes, until you lose these temporary hit points, or until you use your Wild Shape again.</description>
+            <description action="Action" level="10">As an action, you can expend a use of your Wild Shape feature to imbue your body with storm magic, rather than transforming into a beast form, and you gain {{storm ascension:hp}} temporary hit points. While this feature is active, you gain the following benefits:
+            When a target fails its saving throw against your Call the Wind feature, it takes 1d10 thunder damage.
+            Your melee attacks deal 1d6 bonus lightning damage to any target they hit.
+            You have a flying speed of {{speed}} and you can hover, but you can't fly more than 1 foot above the ground using this speed. Water beneath you counts as ground for this limitation.
+            These benefits last for up to 10 minutes, until you lose these temporary hit points, or until you use your Wild Shape again.</description>
+            <description action="Action" level="14">As an action, you can expend a use of your Wild Shape feature to imbue your body with storm magic, rather than transforming into a beast form, and you gain {{storm ascension:hp}} temporary hit points. While this feature is active, you gain the following benefits:
+            When a target fails its saving throw against your Call the Wind feature, it takes 1d12 thunder damage.
+            Your melee attacks deal 1d6 bonus lightning damage to any target they hit.
+            You have a flying speed of {{speed}} and you can hover, but you can't fly more than 20 feet above the ground using this speed. Water beneath you counts as ground for this limitation.
+            These benefits last for up to 10 minutes, until you lose these temporary hit points, or until you use your Wild Shape again.</description>
+            <description action="Action" level="18">As an action, you can expend a use of your Wild Shape feature to imbue your body with storm magic, rather than transforming into a beast form, and you gain {{storm ascension:hp}} temporary hit points. While this feature is active, you gain the following benefits:
+            When a target fails its saving throw against your Call the Wind feature, it takes 1d12 thunder damage.
+            Your melee attacks deal 1d6 bonus lightning damage to any target they hit.
+            You have a flying speed of {{storm ascension:speed}} and you can hover, but you can't fly more than 60 feet above the ground using this speed. Water beneath you counts as ground for this limitation.
+            These benefits last for up to 10 minutes, until you lose these temporary hit points, or until you use your Wild Shape again.</description>
+        </sheet>
+        <rules>
+            <stat name="storm ascension:hp" value="level:druid" />
+            <stat name="storm ascension:hp" value="level:druid" />
+            <stat name="storm ascension:hp" value="level:druid" />
+            <stat name="storm ascension:hp" value="level:druid" />
+            <stat name="storm ascension:speed" value="speed" />
+            <stat name="storm ascension:speed" value="speed" />
+        </rules>
+    </element>
+    <element name="Inner Tempest" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_INNER_TEMPEST">
+        <description>
+            <p>Starting at 6th level, whenever you cast a spell of 1st-level or higher that deals lightning damage or thunder damage while your Storm Ascension feature is active, you roll a d6, and you gain a bonus to one damage roll of the spell equal to the number rolled.</p>
+            <p class="indent">In addition, you have resistance to lightning damage while your Storm Ascension feature is active.</p>
+        </description>
+        <sheet>
+            <description>Whenever you cast a spell of 1st-level or higher that deals lightning damage or thunder damage while your Storm Ascension feature is active, you roll a d6, and you gain a bonus to one damage roll of the spell equal to the number rolled. In addition, you have resistance to lightning damage while your Storm Ascension feature is active.</description>
+        </sheet>
+    </element>
+    <element name="Herald of the Four Winds" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_HERALD_FOUR_WINDS">
+        <description>
+            <p>At 10th level, your bond with the four winds enables you to call upon them at a moment's notice. While your Storm Ascension feature is active, you can cast the gust of wind spell without expending a spell slot. You can do so as part of the action used to activate the feature. The spell ends immediately if the feature ends.</p>
+        </description>
+        <sheet>
+            <description>While your Storm Ascension feature is active, you can cast the gust of wind spell without expending a spell slot. You can do so as part of the action used to activate the feature. The spell ends immediately if the feature ends.</description>
+        </sheet>
+    </element>
+    <element name="Updraft" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_STORMS_UPDRAFT">
+        <description>
+            <p>Starting at 14th level, while your Storm Ascension feature is active, you can fly up to 20 feet above the ground, instead of only 1 foot. At 18th level, this increases to 60 feet, and your flying speed granted by the feature is also doubled.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Jungle Circle" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_JUNGLE">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>lesser restoration, web</em></td></tr>
+				<tr><td>5th</td><td><em>nondetection, stinking cloud</em></td></tr>
+				<tr><td>7th</td><td><em>envenomed weapon, giant insect</em></td></tr>
+				<tr><td>9th</td><td><em>contagion, insect plague</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WEB" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_STINKING_CLOUD" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_TEAB_SPELL_ENVENOMED_WEAPON" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GIANT_INSECT" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONTAGION" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+
+    <element name="Sky Circle" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_SKY">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>gust of wind, levitate</em></td></tr>
+				<tr><td>5th</td><td><em>fly, wind wall</em></td></tr>
+				<tr><td>7th</td><td><em>cyclone (TEAB), wind funnel (TEAB)</em></td></tr>
+				<tr><td>9th</td><td><em>control winds (XGE), soar (TEAB)</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLY" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WIND_WALL" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_TEAB_SPELL_CYCLONE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_TEAB_SPELL_WIND_FUNNEL" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_WINDS" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_TEAB_SPELL_SOAR" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+
+    <element name="Underwater Circle" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_UNDERWATER">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>darkness, drown (TEAB)</em></td></tr>
+				<tr><td>5th</td><td><em>tidal wave (XGE), water breathing</em></td></tr>
+				<tr><td>7th</td><td><em>control water, Evard's black tentacles</em></td></tr>
+				<tr><td>9th</td><td><em>hold monster, maelstrom (XGE)</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_TEAB_SPELL_DROWN" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_TIDAL_WAVE" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MAELSTROM" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+
+    <element name="Volcanic Circle" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_VOLCANIC">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>heat metal, pyrotechnics (XGE)</em></td></tr>
+				<tr><td>5th</td><td><em>erupting earth (XGE), stinking cloud</em></td></tr>
+				<tr><td>7th</td><td><em>fire shield, wall of fire</em></td></tr>
+				<tr><td>9th</td><td><em>immolation (XGE), molten upheaval (TEAB)</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_PYROTECHNICS" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ERUPTING_EARTH" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_STINKING_CLOUD" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_IMMOLATION" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_TEAB_SPELL_MOLTEN_UPHEAVAL" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+    
+</elements>

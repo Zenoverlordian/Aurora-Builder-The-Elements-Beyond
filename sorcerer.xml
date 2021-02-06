@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <element name="Cosmic Affinity" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_SORCERER_COSMIC_AFFINITY">
+        <supports>Sorcerous Origin</supports>
+        <description>
+            <p>Your innate magic is that of the far reaches of the Astral Plane and the Far Realm beyond it, that of the stars, the sun, the moon, and the old things that glide through the dark. Your magical gifts shift through cycles of burning radiance and freezing void just as the cosmos itself does. Perhaps you were born under an auspicious star or eldritch constellation. You might be the descendant of a powerful warlock who drew magic from a distant star, or you might have been exposed to the strange magic of the cosmos directly.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_COSMIC_MAGIC" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_ASTRAL_PHASES" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_COSMIC_EMPOWERMENT" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_STELLAR_NOVA" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_ECLIPSE" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_COSMIC_MAGIC" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_ASTRAL_PHASES" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_COSMIC_EMPOWERMENT" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_STELLAR_NOVA" level="14" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_ECLIPSE" level="18" />
+        </rules>
+    </element>
+    <element name="Cosmic Magic" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_COSMIC_MAGIC">
+        <description>
+            <p>At 1st level, you learn the light cantrip. You also learn additional spells when you reach certain levels in this class, as shown on the Cosmic Spells table. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells or cantrips you know. These spells can’t be replaced when you gain a level in this class.</p>
+            <h5></h5>
+            <table>
+                <thead>
+                    <tr><td>Sorcerer Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>Guiding Bolt, Light</td></tr>
+                <tr><td>3rd</td><td>Moonbeam</td></tr>
+                <tr><td>5th</td><td>Daylight</td></tr>
+                <tr><td>7th</td><td>Holy Glare (TEAB)</td></tr>
+                <tr><td>9th</td><td>Dawn (XGE) (or Dispel Evil and Good if XGE is unavailable)</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" spellcasting="Sorcerer" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_LIGHT" spellcasting="Sorcerer" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" spellcasting="Sorcerer" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" spellcasting="Sorcerer" level="5" />
+            <grant type="Spell" id="ID_TEAB_SPELL_HOLY_GLARE" spellcasting="Sorcerer" level="7" />
+            <grant type="Spell" id="ID_XGTE_SPELL_DAWN" spellcasting="Sorcerer" level="9" />
+        </rules>
+    </element>
+    <element name="Astral Phases" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_ASTRAL_PHASES">
+        <description>
+            <p>Also at 1st level, you embody the cosmic power of the sun and moon, but only one of them at a time. Choose either the lunar or solar phase. You begin in this phase, and you are always in one phase or the other. After you cast a spell that deals radiant damage, you automatically switch phases at the start of your next turn.</p>
+            <p class="indent">You can choose to switch phases when you finish a short or long rest and after you cast a sorcerer spell of 1st-level or higher that doesn't deal radiant damage. You can also use a bonus action on your turn and spend 1 sorcery point to switch phases. You can't switch phases more than once per turn.</p>
+            <p class="indent">The two phases grant you different benefits.</p>
+            <p class="indent"><strong><em>Lunar.</em></strong> When you enter the lunar phase, you can choose to emit a cloud of icy dust extending 10 feet out from you that stays centered on you. The area is lightly obscured, and lasts until you enter the solar phase or use a bonus action on your turn to end the effect.</p>
+            <p class="indent">After you cast a sorcerer spell of 1st-level or higher that deals cold or radiant damage while you're in the lunar phase, you gain an orbiting lunar ward that lasts for 1 minute or until you enter the solar phase. If you are attacked before then, you roll 1d4 and apply the result as a penalty to the attack roll, and the ward disappears. You can't have more than one lunar ward at once.</p>
+            <p class="indent"><strong><em>Solar.</em></strong> When you enter the solar phase, you can shed bright light in a 15-foot radius and dim light for 15 feet beyond that until you enter the lunar phase or use a bonus action on your turn to end the light.</p>
+            <p class="indent">After you cast a sorcerer spell of 1st-level or higher that deals fire or radiant damage while you're in the solar phase, you can emit a solar flare, dealing 2 fire damage to one creature that you can see within 15 feet of you. The damage increases when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level.</p>
+        </description>
+        <sheet>
+            <description level="1">Choose either the lunar or solar phase. You begin in this phase, and you are always in one phase or the other. After you cast a spell that deals radiant damage, you automatically switch phases at the start of your next turn. You can choose to switch phases when you finish a short or long rest and after you cast a sorcerer spell of 1st-level or higher that doesn't deal radiant damage. You can also use a bonus action on your turn and spend 1 sorcery point to switch phases. You can't switch phases more than once per turn.
+            Lunar: When you enter the lunar phase, you can choose to emit a cloud of icy dust extending 10 feet out from you that stays centered on you. The area is lightly obscured, and lasts until you enter the solar phase or use a bonus action on your turn to end the effect. After you cast a sorcerer spell of 1st-level or higher that deals cold or radiant damage while you're in the lunar phase, you gain an orbiting lunar ward that lasts for 1 minute or until you enter the solar phase. If you are attacked before then, you roll 1d4 and apply the result as a penalty to the attack roll, and the ward disappears. You can't have more than one lunar ward at once.
+            Solar: When you enter the solar phase, you can shed bright light in a 15-foot radius and dim light for 15 feet beyond that until you enter the lunar phase or use a bonus action on your turn to end the light. After you cast a sorcerer spell of 1st-level or higher that deals fire or radiant damage while you're in the solar phase, you can emit a solar flare, dealing 2 fire damage to one creature that you can see within 15 feet of you.</description>
+            <description level="5">Choose either the lunar or solar phase. You begin in this phase, and you are always in one phase or the other. After you cast a spell that deals radiant damage, you automatically switch phases at the start of your next turn. You can choose to switch phases when you finish a short or long rest and after you cast a sorcerer spell of 1st-level or higher that doesn't deal radiant damage. You can also use a bonus action on your turn and spend 1 sorcery point to switch phases. You can't switch phases more than once per turn.
+            Lunar: When you enter the lunar phase, you can choose to emit a cloud of icy dust extending 10 feet out from you that stays centered on you. The area is lightly obscured, and lasts until you enter the solar phase or use a bonus action on your turn to end the effect. After you cast a sorcerer spell of 1st-level or higher that deals cold or radiant damage while you're in the lunar phase, you gain an orbiting lunar ward that lasts for 1 minute or until you enter the solar phase. If you are attacked before then, you roll 1d4 and apply the result as a penalty to the attack roll, and the ward disappears. You can't have more than one lunar ward at once.
+            Solar: When you enter the solar phase, you can shed bright light in a 15-foot radius and dim light for 15 feet beyond that until you enter the lunar phase or use a bonus action on your turn to end the light. After you cast a sorcerer spell of 1st-level or higher that deals fire or radiant damage while you're in the solar phase, you can emit a solar flare, dealing 3 fire damage to one creature that you can see within 15 feet of you.</description>
+            <description level="10">Choose either the lunar or solar phase. You begin in this phase, and you are always in one phase or the other. After you cast a spell that deals radiant damage, you automatically switch phases at the start of your next turn. You can choose to switch phases when you finish a short or long rest and after you cast a sorcerer spell of 1st-level or higher that doesn't deal radiant damage. You can also use a bonus action on your turn and spend 1 sorcery point to switch phases. You can't switch phases more than once per turn.
+            Lunar: When you enter the lunar phase, you can choose to emit a cloud of icy dust extending 10 feet out from you that stays centered on you. The area is lightly obscured, and lasts until you enter the solar phase or use a bonus action on your turn to end the effect. After you cast a sorcerer spell of 1st-level or higher that deals cold or radiant damage while you're in the lunar phase, you gain an orbiting lunar ward that lasts for 1 minute or until you enter the solar phase. If you are attacked before then, you roll 1d4 and apply the result as a penalty to the attack roll, and the ward disappears. You can't have more than one lunar ward at once.
+            Solar: When you enter the solar phase, you can shed bright light in a 15-foot radius and dim light for 15 feet beyond that until you enter the lunar phase or use a bonus action on your turn to end the light. After you cast a sorcerer spell of 1st-level or higher that deals fire or radiant damage while you're in the solar phase, you can emit a solar flare, dealing 4 fire damage to one creature that you can see within 15 feet of you.</description>
+            <description level="15">Choose either the lunar or solar phase. You begin in this phase, and you are always in one phase or the other. After you cast a spell that deals radiant damage, you automatically switch phases at the start of your next turn. You can choose to switch phases when you finish a short or long rest and after you cast a sorcerer spell of 1st-level or higher that doesn't deal radiant damage. You can also use a bonus action on your turn and spend 1 sorcery point to switch phases. You can't switch phases more than once per turn.
+            Lunar: When you enter the lunar phase, you can choose to emit a cloud of icy dust extending 10 feet out from you that stays centered on you. The area is lightly obscured, and lasts until you enter the solar phase or use a bonus action on your turn to end the effect. After you cast a sorcerer spell of 1st-level or higher that deals cold or radiant damage while you're in the lunar phase, you gain an orbiting lunar ward that lasts for 1 minute or until you enter the solar phase. If you are attacked before then, you roll 1d4 and apply the result as a penalty to the attack roll, and the ward disappears. You can't have more than one lunar ward at once.
+            Solar: When you enter the solar phase, you can shed bright light in a 15-foot radius and dim light for 15 feet beyond that until you enter the lunar phase or use a bonus action on your turn to end the light. After you cast a sorcerer spell of 1st-level or higher that deals fire or radiant damage while you're in the solar phase, you can emit a solar flare, dealing 5 fire damage to one creature that you can see within 15 feet of you.</description>
+            <description level="20">Choose either the lunar or solar phase. You begin in this phase, and you are always in one phase or the other. After you cast a spell that deals radiant damage, you automatically switch phases at the start of your next turn. You can choose to switch phases when you finish a short or long rest and after you cast a sorcerer spell of 1st-level or higher that doesn't deal radiant damage. You can also use a bonus action on your turn and spend 1 sorcery point to switch phases. You can't switch phases more than once per turn.
+            Lunar: When you enter the lunar phase, you can choose to emit a cloud of icy dust extending 10 feet out from you that stays centered on you. The area is lightly obscured, and lasts until you enter the solar phase or use a bonus action on your turn to end the effect. After you cast a sorcerer spell of 1st-level or higher that deals cold or radiant damage while you're in the lunar phase, you gain an orbiting lunar ward that lasts for 1 minute or until you enter the solar phase. If you are attacked before then, you roll 1d4 and apply the result as a penalty to the attack roll, and the ward disappears. You can't have more than one lunar ward at once.
+            Solar: When you enter the solar phase, you can shed bright light in a 15-foot radius and dim light for 15 feet beyond that until you enter the lunar phase or use a bonus action on your turn to end the light. After you cast a sorcerer spell of 1st-level or higher that deals fire or radiant damage while you're in the solar phase, you can emit a solar flare, dealing 6 fire damage to one creature that you can see within 15 feet of you.</description>
+        </sheet>
+    </element>
+    <element name="Cosmic Empowerment" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_COSMIC_EMPOWERMENT">
+        <description>
+            <p>At 6th level, you learn to strengthen your spells with the power of the astral phase you inhabit. You gain certain benefits based on which phase for your Astral Phases feature you are in.</p>
+            <p class="indent"><strong><em>Lunar.</em></strong> While in the lunar phase, you have resistance to cold damage, and when you cast a spell of 1st-level or higher that deals cold or radiant damage, you can add your Charisma modifier to one damage roll of that spell.</p>
+            <p class="indent"><strong><em>Solar.</em></strong> While in the solar phase, you have resistance to fire damage, and when you cast a spell of 1st-level or higher that deals fire or radiant damage, you can add your Charisma modifier to one damage roll of that spell.</p>
+        </description>
+        <sheet>
+            <description>While in the lunar phase, you have resistance to cold damage, and when you cast a spell of 1st-level or higher that deals cold or radiant damage, you can add {{charisma:modifier}} to one damage roll of that spell.
+            While in the solar phase, you have resistance to fire damage, and when you cast a spell of 1st-level or higher that deals fire or radiant damage, you can add {{charisma:modifier}} to one damage roll of that spell.</description>
+        </sheet>
+    </element>
+    <element name="Stellar Nova" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_STELLAR_NOVA">
+        <description>
+            <p>Starting at 14th level, when you change which phase for your Astral Phases feature you are in, you can spend 3 sorcery points to burst with cosmic power, causing an effect depending on which phase you are entering. The saving throw DC for this effect is your spell save DC.</p>
+            <p class="indent"><strong><em>Lunar.</em></strong> Each other creature within 15 feet of you must make a Constitution saving throw. On a failed saving throw, a creature is restrained until the end of your next turn. Also, if you choose, the ground within 15 feet of you becomes frozen by ice, making it difficult terrain for other creatures that lasts for 1 minute. The difficult terrain ends instantly if you enter the solar phase or use a bonus action on your turn to end it.</p>
+            <p class="indent"><strong><em>Solar.</em></strong> Each other creature within 15 feet of you must make a Constitution saving throw. On a failed saving throw, a creature is blinded until the end of your next turn. Also, if you choose, the ground within 15 feet of you becomes lit with golden flames that reach 5 feet high and last for 1 minute. Each creature other than you that ends its turn in the area takes fire damage equal to your Charisma modifier (minimum 1). The fire vanishes instantly if you enter the lunar phase or use a bonus action on your turn to end it.</p>
+        </description>
+        <sheet>
+            <description>When you change which phase for your Astral Phases feature you are in, you can spend 3 sorcery points to burst with cosmic power, causing an effect depending on which phase you are entering. The saving throw DC for this effect is your spell save DC.
+            Each other creature within 15 feet of you must make a Constitution saving throw. On a failed saving throw, a creature is restrained until the end of your next turn. Also, if you choose, the ground within 15 feet of you becomes frozen by ice, making it difficult terrain for other creatures that lasts for 1 minute. The difficult terrain ends instantly if you enter the solar phase or use a bonus action on your turn to end it.
+            Each other creature within 15 feet of you must make a Constitution saving throw. On a failed saving throw, a creature is blinded until the end of your next turn. Also, if you choose, the ground within 15 feet of you becomes lit with golden flames that reach 5 feet high and last for 1 minute. Each creature other than you that ends its turn in the area takes {{charisma:modifier}} fire damage (minimum 1). The fire vanishes instantly if you enter the lunar phase or use a bonus action on your turn to end it.</description>
+        </sheet>
+    </element>
+    <element name="Eclipse" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_COSMIC_AFFINITY_ECLIPSE">
+        <description>
+            <p>When you reach 18th level, you gain the ability to enter a state of cosmic alignment that combines solar and lunar power. As a bonus action, you enter the eclipse state, which lasts for 1 minute. You gain the following benefits while in the eclipse state.</p>
+            <ul>
+                <li>You gain the benefits for being in both the lunar and solar phases from your Astral Phases and Cosmic Empowerment features, regardless of what phase you are actually in. The bonus to damage from spells that deal radiant damage is not cumulative.</li>
+                <li>Your Astral Phases feature is improved: the lunar ward affects the next two attacks instead of only one, and the range for the solar flare increases to 30 feet.</li>
+                <li>You have a flying speed equal to your walking speed.</li>
+                <li>You have resistance to radiant damage.</li>
+                <li>Enemies have disadvantage on saving throws made to resist your Stellar Nova feature, and it only costs 2 sorcery points to use instead of 3.</li>
+            </ul>
+            <p>Once you have used this ability, you cannot use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Bonus Action">As a bonus action, you enter the eclipse state, which lasts for 1 minute. You gain the following benefits while in the eclipse state. You gain the benefits for being in both the lunar and solar phases from your Astral Phases and Cosmic Empowerment features, regardless of what phase you are actually in. The bonus to damage from spells that deal radiant damage is not cumulative. Your Astral Phases feature is improved: the lunar ward affects the next two attacks instead of only one, and the range for the solar flare increases to 30 feet. You have a flying speed equal to your walking speed. You have resistance to radiant damage. Enemies have disadvantage on saving throws made to resist your Stellar Nova feature, and it only costs 2 sorcery points to use instead of 3.</description>
+        </sheet>
+    </element>
+
+    <element name="Elemental Magic" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_SORCERER_ELEMENTAL_MAGIC">
+        <supports>Sorcerous Origin</supports>
+        <description>
+            <p>You manifest magic of the four elements: water, earth, fire, and air. Your magic could be the result of at least one genie in your ancestry, emerging as magical power instead of (or in addition to) making you a genasi. It could be the result of a journey through the Elemental Planes that infused you with magic. Or perhaps you even absorbed an elemental's power in an eldritch ritual.</p>
+            <p class="indent">You might wield the power of only one of the four elements, or you might pursue all four nearly equally. Every elemental sorcerer begins with a natural talent for one element. Some choose to focus on that element exclusively, while others spend their careers gradually learning how to use all four elements.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_TALENT" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_PRIMORDIAL_EMISSARY" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_TRANSMUTE_BODY" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_TALENT" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_PRIMORDIAL_EMISSARY" level="14" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_TRANSMUTE_BODY" level="18" />
+        </rules>
+    </element>
+    <element name="Elemental Specialty" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY">
+        <description>
+            <p>Beginning at 1st level, you select one element to specialize in out of the four options: Air, Earth, Fire, or Water. This is your primary specialization, and you gain the benefits listed below for your selection.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Elemental Specialty" supports="TEAB Elemental Specialty" />
+        </rules>
+    </element>
+    <element name="Elemental Specialty, Air" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_A">
+        <supports>TEAB Elemental Specialty</supports>
+        <description>
+            <p>You can hold your breath indefinitely while you’re not incapacitated, and when you speak, you can choose to speak up to twice as loudly as normal.</p>
+            <p class="indent">You also learn additional spells when you reach certain levels in this class, as shown on the table for your chosen element. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you can know. These spells can’t be replaced when you gain a level in this class.</p>
+            <h5>Air Magic Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Sorcerer Level</td><td>Spell</td></tr>
+                </thead>
+                <tr><td>1st</td><td>thunderwave</td></tr>
+                <tr><td>3rd</td><td>gust of wind</td></tr>
+                <tr><td>5th</td><td>fly</td></tr>
+                <tr><td>7th</td><td>cyclone (TEAB)</td></tr>
+                <tr><td>9th</td><td>control winds</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>You can hold your breath indefinitely while you’re not incapacitated, and when you speak, you can choose to speak up to twice as loudly as normal.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" spellcasting="Sorcerer" level="1"  />
+            <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" spellcasting="Sorcerer" level="3"  />
+            <grant type="Spell" id="ID_PHB_SPELL_FLY" spellcasting="Sorcerer" level="5"  />
+            <grant type="Spell" id="ID_TEAB_SPELL_CYCLONE" spellcasting="Sorcerer" level="7"  />
+            <grant type="Spell" id="ID_XGTE_SPELL_CONTROL_WINDS" spellcasting="Sorcerer" level="9"  />
+        </rules>
+    </element>
+    <element name="Elemental Specialty, Earth" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_E">
+        <supports>TEAB Elemental Specialty</supports>
+        <description>
+            <p>You add your Charisma modifier (minimum +1) to any saving throws you make against disease, petrification, or nonmagical exhaustion.</p>
+            <p class="indent">You also learn additional spells when you reach certain levels in this class, as shown on the table for your chosen element. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you can know. These spells can’t be replaced when you gain a level in this class.</p>
+            <h5>Air Magic Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Sorcerer Level</td><td>Spell</td></tr>
+                </thead>
+                <tr><td>1st</td><td>shield of faith</td></tr>
+                <tr><td>3rd</td><td>terra spike (TEAB)</td></tr>
+                <tr><td>5th</td><td>petrify (TEAB)</td></tr>
+                <tr><td>7th</td><td>stone shape</td></tr>
+                <tr><td>9th</td><td>wall of stone</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>You add {{charisma:modifier}} (minimum +1) to any saving throws you make against disease, petrification, or nonmagical exhaustion.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SHIELD_OF_FAITH" spellcasting="Sorcerer" level="1"  />
+            <grant type="Spell" id="ID_TEAB_SPELL_TERRA_SPIKE" spellcasting="Sorcerer" level="3"  />
+            <grant type="Spell" id="ID_TEAB_SPELL_PETRIFY" spellcasting="Sorcerer" level="5"  />
+            <grant type="Spell" id="ID_PHB_SPELL_STONE_SHAPE" spellcasting="Sorcerer" level="7"  />
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" spellcasting="Sorcerer" level="9"  />
+        </rules>
+    </element>
+    <element name="Elemental Specialty, Fire" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_F">
+        <supports>TEAB Elemental Specialty</supports>
+        <description>
+            <p>You don’t suffer the effects of extreme heat or cold, as described in the Dungeon Master’s Guide. Also, as an action, you can touch a flammable object that isn’t being worn or carried by anyone else and ignite it.</p>
+            <p class="indent">You also learn additional spells when you reach certain levels in this class, as shown on the table for your chosen element. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you can know. These spells can’t be replaced when you gain a level in this class.</p>
+            <h5>Air Magic Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Sorcerer Level</td><td>Spell</td></tr>
+                </thead>
+                <tr><td>1st</td><td>hellish rebuke</td></tr>
+                <tr><td>3rd</td><td>heat metal</td></tr>
+                <tr><td>5th</td><td>fireball</td></tr>
+                <tr><td>7th</td><td>wall of fire</td></tr>
+                <tr><td>9th</td><td>immolation</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description action="Action">You don’t suffer the effects of extreme heat or cold, as described in the Dungeon Master’s Guide. Also, as an action, you can touch a flammable object that isn’t being worn or carried by anyone else and ignite it.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" spellcasting="Sorcerer" level="1"  />
+            <grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" spellcasting="Sorcerer" level="3"  />
+            <grant type="Spell" id="ID_PHB_SPELL_FIREBALL" spellcasting="Sorcerer" level="5"  />
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" spellcasting="Sorcerer" level="7"  />
+            <grant type="Spell" id="ID_XGTE_SPELL_IMMOLATION" spellcasting="Sorcerer" level="9"  />
+        </rules>
+    </element>
+    <element name="Elemental Specialty, Water" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_W">
+        <supports>TEAB Elemental Specialty</supports>
+        <description>
+            <p>You can breathe underwater, and you gain a swimming speed equal to your walking speed while you are concentrating on it as if it were a spell.</p>
+            <p class="indent">You also learn additional spells when you reach certain levels in this class, as shown on the table for your chosen element. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you can know. These spells can’t be replaced when you gain a level in this class.</p>
+            <h5>Air Magic Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Sorcerer Level</td><td>Spell</td></tr>
+                </thead>
+                <tr><td>1st</td><td>create or destroy water</td></tr>
+                <tr><td>3rd</td><td>drown (TEAB)</td></tr>
+                <tr><td>5th</td><td>tidal wave</td></tr>
+                <tr><td>7th</td><td>control water</td></tr>
+                <tr><td>9th</td><td>maelstrom</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>You can breathe underwater, and you gain a swimming speed equal to your walking speed while you are concentrating on it as if it were a spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER" spellcasting="Sorcerer" level="1"  />
+            <grant type="Spell" id="ID_TEAB_SPELL_DROWN" spellcasting="Sorcerer" level="3"  />
+            <grant type="Spell" id="ID_XGTE_SPELL_TIDAL_WAVE" spellcasting="Sorcerer" level="5"  />
+            <grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" spellcasting="Sorcerer" level="7"  />
+            <grant type="Spell" id="ID_XGTE_SPELL_MAELSTROM" spellcasting="Sorcerer" level="9"  />
+        </rules>
+    </element>
+    <element name="Armored by the Elements" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS">
+        <description>
+            <p>Also at 1st level, you gain benefits based on your choice for your Elemental Specialty feature.</p>
+            <h5>Armored by Air</h5>
+            <p>At the start of each of your turns, you can choose to deal thunder damage equal to 2 + half your sorcerer level to each creature that is grappling you. A creature that critically hits you with a melee attack while within 5 feet of you also takes this damage.</p>
+            <h5>Armored by Earth or Water</h5>
+            <p>Your AC equals 13 + your Dexterity modifier while you aren’t wearing armor. If you chose Earth, your body is protected by stone, tough skin, thick fur, soft metal, clay, sand, dirt, crystal, or some other form of earth; if you chose Water, it is protected by ice, coral, sea shells, fish scales, tough skin, a layer of blubber, swirling water, mist, or some other form of water (choose the form of protection when you gain this feature).</p>
+            <h5>Armored by Fire</h5>
+            <p>At the start of each of your turns, you can choose to deal fire damage equal to 2 + half your sorcerer level to each creature that is grappling you. A creature that critically hits you with a melee attack while within 5 feet of you also takes this damage.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="armor of air:dmg" value="2" />
+            <stat name="armor of air:dmg" value="level:sorcerer:half" />
+            <stat name="ac:armor of ew" value="13" />
+            <stat name="ac:armor of ew" value="dexterity:modifier" />
+            <stat name="ac:calculation" value="ac:armor of ew" bonus="calculation" equipped="[armor:none]" alt="Armored by the Elements" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_E|ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_W" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS_A" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_A" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS_E" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_E" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS_F" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_F" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS_W" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_W" />
+        </rules>
+    </element>
+    <element name="Armored by the Elements" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS_A">
+        <description>At the start of each of your turns, you can choose to deal thunder damage equal to 2 + half your sorcerer level to each creature that is grappling you. A creature that critically hits you with a melee attack while within 5 feet of you also takes this damage.</description>
+        <sheet>
+            <description>At the start of each of your turns, you can choose to deal {{armor of air:dmg}} thunder damage to each creature that is grappling you. A creature that critically hits you with a melee attack while within 5 feet of you also takes this damage.</description>
+        </sheet>
+    </element>
+    <element name="Armored by the Elements" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS_E">
+        <description>Your AC equals 13 + your Dexterity modifier while you aren’t wearing armor. If you chose Earth, your body is protected by stone, tough skin, thick fur, soft metal, clay, sand, dirt, crystal, or some other form of earth; if you chose Water, it is protected by ice, coral, sea shells, fish scales, tough skin, a layer of blubber, swirling water, mist, or some other form of water (choose the form of protection when you gain this feature).</description>
+        <sheet>
+            <description>Your AC equals {{ac:armor of ew}} while you aren’t wearing armor. Your body is protected by stone, tough skin, thick fur, soft metal, clay, sand, dirt, crystal, or some other form of earth.</description>
+        </sheet>
+    </element>
+    <element name="Armored by the Elements" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS_F">
+        <description>At the start of each of your turns, you can choose to deal fire damage equal to 2 + half your sorcerer level to each creature that is grappling you. A creature that critically hits you with a melee attack while within 5 feet of you also takes this damage.</description>
+        <sheet>
+            <description>At the start of each of your turns, you can choose to deal {{armor of air:dmg}} fire damage to each creature that is grappling you. A creature that critically hits you with a melee attack while within 5 feet of you also takes this damage.</description>
+        </sheet>
+    </element>
+    <element name="Armored by the Elements" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ARMORED_BY_THE_ELEMENTS_W">
+        <description>Your AC equals 13 + your Dexterity modifier while you aren’t wearing armor. If you chose Earth, your body is protected by stone, tough skin, thick fur, soft metal, clay, sand, dirt, crystal, or some other form of earth; if you chose Water, it is protected by ice, coral, sea shells, fish scales, tough skin, a layer of blubber, swirling water, mist, or some other form of water (choose the form of protection when you gain this feature).</description>
+        <sheet>
+            <description>Your AC equals {{ac:armor of ew}} while you aren’t wearing armor. Your body is protected by ice, coral, sea shells, fish scales, tough skin, a layer of blubber, swirling water, mist, or some other form of water.</description>
+        </sheet>
+    </element>
+    <element name="Elemental Mastery" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY">
+        <description>
+            <p>Starting at 6th level, you can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to a particular damage type determined by your choice for your Elemental Specialty feature.</p>
+            <p class="indent"><strong><em>Air.</em></strong> You gain resistance to thunder damage.</p>
+            <p class="indent"><strong><em>Earth.</em></strong> You gain resistance to poison damage.</p>
+            <p class="indent"><strong><em>Fire.</em></strong> You gain resistance to fire damage.</p>
+            <p class="indent"><strong><em>Water.</em></strong> You gain resistance to cold damage.</p>
+            <p class="indent">In addition, you choose one of the following cantrips: control flames, gust, mold earth, or shape water.</p>
+            <p class="indent">If you don't know the chosen cantrip, you learn it, and it doesn't count against the number of cantrips you can learn as a sorcerer. This spell can’t be replaced when you gain a level in this class. If you already know the cantrip, it becomes more powerful for you instead: the range of the spell is increased by 30 feet for you.</p>
+            <p class="indent">When you reach 10th level, then again at 14th level, you choose a cantrip from the list again. You can choose a new cantrip or the same cantrip again. The effects are the same, and the increases to range are cumulative. If you choose the same cantrip all three times, distances within the spell's description are also tripled for you.</p>
+            <p class="indent">Whenever you gain a sorcerer level, you can change up to one of the decisions you made for this feature.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Elemental Mastery (6)" supports="TEAB Elemental Mastery" level="6" />
+            <select type="Archetype Feature" name="Elemental Mastery (10)" supports="TEAB Elemental Mastery" level="10" />
+            <select type="Archetype Feature" name="Elemental Mastery (14)" supports="TEAB Elemental Mastery" level="14" />
+            <stat name="control flames:dist" value="-30" />
+            <stat name="gust:dist" value="-30" />
+            <stat name="mold earth:dist" value="-30" />
+            <stat name="shape water:dist" value="-30" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_A" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_A" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_E" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_E" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_F" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_F" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_W" requirements="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_SPECIALTY_W" />
+        </rules>
+    </element>
+    <element name="Elemental Mastery" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_A">
+        <description>
+            <p>Starting at 6th level, you can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to a particular damage type determined by your choice for your Elemental Specialty feature.</p>
+            <p class="indent"><strong><em>Air.</em></strong> You gain resistance to thunder damage.</p>
+        </description>
+        <sheet>
+            <description>You can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to thunder damage.</description>
+        </sheet>
+    </element>
+    <element name="Elemental Mastery" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_E">
+        <description>
+            <p>Starting at 6th level, you can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to a particular damage type determined by your choice for your Elemental Specialty feature.</p>
+            <p class="indent"><strong><em>Earth.</em></strong> You gain resistance to poison damage.</p>
+        </description>
+        <sheet>
+            <description>You can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to poison damage.</description>
+        </sheet>
+    </element>
+    <element name="Elemental Mastery" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_F">
+        <description>
+            <p>Starting at 6th level, you can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to a particular damage type determined by your choice for your Elemental Specialty feature.</p>
+            <p class="indent"><strong><em>Fire.</em></strong> You gain resistance to fire damage.</p>
+        </description>
+        <sheet>
+            <description>You can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to fire damage.</description>
+        </sheet>
+    </element>
+    <element name="Elemental Mastery" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_W">
+        <description>
+            <p>Starting at 6th level, you can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to a particular damage type determined by your choice for your Elemental Specialty feature.</p>
+            <p class="indent"><strong><em>Water.</em></strong> You gain resistance to cold damage.</p>
+        </description>
+        <sheet>
+            <description>You can spend 1 sorcery point as an action on your turn to gain resistance for 1 hour to cold damage.</description>
+        </sheet>
+    </element>
+    <element name="Control Flames" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_F1">
+        <supports>TEAB Elemental Mastery</supports>
+        <description>
+            <p>You learn the control flames cantrip.</p>
+        </description>
+        <sheet>
+            <description requirements="[control flames:dist:30]">The range for control flames increases {{control flames:dist}} feet.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" spellcasting="Sorcerer" />
+            <stat name="control flames:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Control Flames" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_F2">
+        <supports>TEAB Elemental Mastery</supports>
+        <requirements>ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_F1</requirements>
+        <compendium display="false" />
+        <description>
+            <p>The range for control flames increases 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="control flames:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Control Flames" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_F3">
+        <supports>TEAB Elemental Mastery</supports>
+        <requirements>ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_F2</requirements>
+        <compendium display="false" />
+        <description>
+            <p>The range for control flames increases 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="control flames:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Gust" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_A1">
+        <supports>TEAB Elemental Mastery</supports>
+        <description>
+            <p>You learn the gust cantrip.</p>
+        </description>
+        <sheet>
+            <description requirements="[gust:dist:30]">The range for gust increases {{gust:dist}} feet.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_GUST" spellcasting="Sorcerer" />
+            <stat name="gust:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Gust" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_A2">
+        <supports>TEAB Elemental Mastery</supports>
+        <requirements>ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_A1</requirements>
+        <compendium display="false" />
+        <description>
+            <p>The range for gust increases 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="gust:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Gust" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_A3">
+        <supports>TEAB Elemental Mastery</supports>
+        <requirements>ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_A2</requirements>
+        <compendium display="false" />
+        <description>
+            <p>The range for gust increases 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="gust:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Mold Earth" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_E1">
+        <supports>TEAB Elemental Mastery</supports>
+        <description>
+            <p>You learn the mold earth cantrip.</p>
+        </description>
+        <sheet>
+            <description requirements="[mold earth:dist:30]">The range for mold earth increases {{mold earth:dist}} feet.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_MOLD_EARTH" spellcasting="Sorcerer" />
+            <stat name="mold earth:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Mold Earth" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_E2">
+        <supports>TEAB Elemental Mastery</supports>
+        <requirements>ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_E1</requirements>
+        <compendium display="false" />
+        <description>
+            <p>The range for mold earth increases 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="mold earth:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Mold Earth" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_E3">
+        <supports>TEAB Elemental Mastery</supports>
+        <requirements>ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_E2</requirements>
+        <compendium display="false" />
+        <description>
+            <p>The range for mold earth increases 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="mold earth:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Shape Water" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_W1">
+        <supports>TEAB Elemental Mastery</supports>
+        <description>
+            <p>You learn the shape water cantrip.</p>
+        </description>
+        <sheet>
+            <description requirements="[shape water:dist:30]">The range for shape water increases {{shape water:dist}} feet.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" spellcasting="Sorcerer" />
+            <stat name="shape water:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Shape Water" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_W2">
+        <supports>TEAB Elemental Mastery</supports>
+        <requirements>ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_W1</requirements>
+        <compendium display="false" />
+        <description>
+            <p>The range for shape water increases 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="shape water:dist" value="30" />
+        </rules>
+    </element>
+    <element name="Shape Water" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_W3">
+        <supports>TEAB Elemental Mastery</supports>
+        <requirements>ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_MASTERY_W2</requirements>
+        <compendium display="false" />
+        <description>
+            <p>The range for shape water increases 30 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="shape water:dist" value="30" />
+        </rules>
+    </element>    
+    <element name="Elemental Talent" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_TALENT">
+        <description>
+            <p>Also at 6th level, you gain 3 bonus sorcery points. These sorcery points can't be converted into spell slots and can only be used for metamagic or a class feature granted by this subclass. If metamagic, the option you use must affect a spell of 1st-level or higher, and it must fit certain criteria that are determined by your choice of one of five talents when you gain this feature.</p>
+            <p class="indent">You regain any unexpended sorcery points when you finish a long rest. You gain an additional one of these bonus sorcery points when you reach 10th level, and again at 14th level and 18th level.</p>
+            <p class="indent">Choose one of the following options for your talent.</p>
+        </description>
+        <sheet>
+            <description level="6">You gain 3 bonus sorcery points. These sorcery points can't be converted into spell slots and can only be used for metamagic or a class feature granted by this subclass. If metamagic, the option you use must affect a spell of 1st-level or higher, and it must fit certain criteria that are determined by your choice of one of five talents when you gain this feature.</description>
+            <description level="10">You gain 4 bonus sorcery points. These sorcery points can't be converted into spell slots and can only be used for metamagic or a class feature granted by this subclass. If metamagic, the option you use must affect a spell of 1st-level or higher, and it must fit certain criteria that are determined by your choice of one of five talents when you gain this feature.</description>
+            <description level="14">You gain 5 bonus sorcery points. These sorcery points can't be converted into spell slots and can only be used for metamagic or a class feature granted by this subclass. If metamagic, the option you use must affect a spell of 1st-level or higher, and it must fit certain criteria that are determined by your choice of one of five talents when you gain this feature.</description>
+            <description level="18">You gain 6 bonus sorcery points. These sorcery points can't be converted into spell slots and can only be used for metamagic or a class feature granted by this subclass. If metamagic, the option you use must affect a spell of 1st-level or higher, and it must fit certain criteria that are determined by your choice of one of five talents when you gain this feature.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Elemental Talent" supports="TEAB Elemental Talent" />
+        </rules>
+    </element>
+    <element name="Aeromancy Talent" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_TALENT_A">
+        <supports>TEAB Elemental Talent</supports>
+        <description>
+            <p>Spells valid for the Elemental Talent feature must be aeromancy spells.</p>
+        </description>
+        <sheet>
+            <description>The spell must be an aeromancy spell.</description>
+        </sheet>
+    </element>
+    <element name="Elemancy Talent" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_TALENT_E">
+        <supports>TEAB Elemental Talent</supports>
+        <description>
+            <p>Spells valid for the Elemental Talent feature must be elemancy spells, or else the spell must be either an aeromancy, geomancy, hydromancy, or pyromancy spell, it can't be of any of the same specializations as the last spell you cast, and you must be affected by a special magical rhythm. You enter this rhythm after you cast an aeromancy, geomancy, hydromancy, or pyromancy spell, and it lasts until the end of your next turn or until you roll initiative.</p>
+        </description>
+        <sheet>
+            <description>The spell must be an elemancy spell, or else the spell must be either an aeromancy, geomancy, hydromancy, or pyromancy spell, it can't be of any of the same specializations as the last spell you cast, and you must be affected by a special magical rhythm. You enter this rhythm after you cast an aeromancy, geomancy, hydromancy, or pyromancy spell, and it lasts until the end of your next turn or until you roll initiative.</description>
+        </sheet>
+    </element>
+    <element name="Geomancy Talent" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_TALENT_G">
+        <supports>TEAB Elemental Talent</supports>
+        <description>
+            <p>Spells valid for the Elemental Talent feature must be geomancy spells.</p>
+        </description>
+        <sheet>
+            <description>The spell must be a geomancy spell.</description>
+        </sheet>
+    </element>
+    <element name="Hydromancy Talent" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_TALENT_H">
+        <supports>TEAB Elemental Talent</supports>
+        <description>
+            <p>Spells valid for the Elemental Talent feature must be hydromancy spells.</p>
+        </description>
+        <sheet>
+            <description>The spell must be a hydromancy spell.</description>
+        </sheet>
+    </element>
+    <element name="Pyromancy Talent" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_ELEMENTAL_TALENT_P">
+        <supports>TEAB Elemental Talent</supports>
+        <description>
+            <p>Spells valid for the Elemental Talent feature must be pyromancy spells.</p>
+        </description>
+        <sheet>
+            <description>The spell must be a pyromancy spell.</description>
+        </sheet>
+    </element>
+    <element name="Primordial Emissary" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_PRIMORDIAL_EMISSARY">
+        <description>
+            <p>Starting at 14th level, you know conjure elemental and conjure minor elementals as sorcerer spells, and they don't count against the number of sorcerer spells you can learn. As an action, you can spend 4 sorcery points to cast conjure minor elementals or 5 sorcery points to cast conjure elemental, without expending a spell slot. You can cast conjure minor elementals once as an action without expending a spell slot or sorcery points, and you regain the ability to do so when you finish a long rest.</p>
+            <p class="indent">When you cast a spell that summons or creates an elemental, you gain a bonus to any Constitution saving throws you make to maintain concentration on the spell equal to your Charisma modifier (minimum +1).</p>
+            <p class="indent">In addition, you can speak, read, and write Primordial. Knowing this language allows you to understand and be understood by those speaking its dialects: Aquan, Auran, Ignan, and Terran. Whenever you make a Charisma check when interacting with elementals, your proficiency bonus is doubled if it applies to the check.</p>
+        </description>
+        <sheet>
+            <description action="Action" usage="1/Long Rest">As an action, you can spend 4 sorcery points to cast conjure minor elementals or 5 sorcery points to cast conjure elemental, without expending a spell slot. You can cast conjure minor elementals once as an action without expending a spell slot or sorcery points, and you regain the ability to do so when you finish a long rest.
+            When you cast a spell that summons or creates an elemental, you gain a bonus to any Constitution saving throws you make to maintain concentration on the spell of {{charisma:modifier}} (minimum +1).
+            In addition, you can speak, read, and write Primordial. Knowing this language allows you to understand and be understood by those speaking its dialects: Aquan, Auran, Ignan, and Terran. Whenever you make a Charisma check when interacting with elementals, your proficiency bonus is doubled if it applies to the check.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" spellcasting="sorcerer" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONJURE_MINOR_ELEMENTALS" spellcasting="sorcerer" />
+            <grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+        </rules>
+    </element>
+    <element name="Transmute Body" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_ELEMENTAL_MAGIC_TRANSMUTE_BODY">
+        <description>
+            <p>At 18th level, your body becomes a vessel for elemental magic, and you choose one of the following elementals: air elemental, earth elemental, fire elemental, or water elemental. You can spend 4 sorcery points as an action on your turn to transform into that element.</p>
+            <p class="indent">For 1 minute, your game statistics are replaced by the statistics of your chosen elemental, but you retain your size, hit points, alignment, personality, and your Intelligence, Wisdom, and Charisma scores. You retain your AC if it is higher than your new form's. You also retain all of your skill and saving throw proficiencies, and the benefit of any features from your class, race, or other source. You can still speak, use your hands, and cast spells. Your equipment is unharmed by your new form and you can use it as normal.</p>
+            <p class="indent">The transformation ends early if you are incapacitated, if you die, or if you dismiss it as a bonus action. Once you have used this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description action="Action" usage="1/Short Rest">Choose one of the following elementals: air elemental, earth elemental, fire elemental, or water elemental. You can spend 4 sorcery points as an action on your turn to transform into that element. For 1 minute, your game statistics are replaced by the statistics of your chosen elemental, but you retain your size, hit points, alignment, personality, and your Intelligence, Wisdom, and Charisma scores. You retain your AC if it is higher than your new form's. You also retain all of your skill and saving throw proficiencies, and the benefit of any features from your class, race, or other source. You can still speak, use your hands, and cast spells. Your equipment is unharmed by your new form and you can use it as normal.
+            The transformation ends early if you are incapacitated, if you die, or if you dismiss it as a bonus action. Once you have used this feature, you can't use it again until you finish a short or long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Green Thumb" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_SORCERER_GREEN_THUMB">
+        <supports>Sorcerous Origin</supports>
+        <description>
+            <p>You carry an innate magic connected to the spirits of nature and flora, such as plants and fungi. There might be dryads among your ancestors, or your mother could have been infested with a magical fungus when you were in the womb. Maybe you were born in a druid's grove during a solstice, or perhaps you were touched by the magic of an archfey as a young child.</p>
+            <p class="indent">The primal power that flows within you will inevitably affect you and your surroundings. Many sorcerers of the green thumb find that they are different from childhood, and as they age, the oddities only grow.</p>
+            <p class="indent">At your option, you can pick from or roll on the Green Magic Quirks table to create a quick for your character.</p>
+            <h5>Green Magic Quirks</h5>
+            <table>
+                <thead>
+                    <tr><td>d8</td><td>Quirk</td></tr>
+                </thead>
+                <tr><td>1</td><td>Your eyes are an eerie emerald green, and your skin, which is faintly greenish, is covered with fuzz like that of a peach.</td></tr>
+                <tr><td>2</td><td>You smell like flowers in bloom and you attract the friendly attention of pollinators, like bees.</td></tr>
+                <tr><td>3</td><td>While standing, you always find yourself leaning in the direction of sunlight, if you can see any.</td></tr>
+                <tr><td>4</td><td>Plants within 10 feet of you will sometimes randomly bloom, even out of season.</td></tr>
+                <tr><td>5</td><td>You prefer to take your long rests while partially covered or buried in fresh soil if possible.</td></tr>
+                <tr><td>6</td><td>Flowers grow naturally from your hair as if they had been woven there, and mushrooms can be found sprouting from your body in places.</td></tr>
+                <tr><td>7</td><td>One or both of your thumbs are actually green.</td></tr>
+                <tr><td>8</td><td>When you leave tracks over soil, seeds from random plants are sowed in your footprints. </td></tr>
+            </table>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_PLANT_MAGIC" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_BLOOMING_VITALITY" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_BOTANICAL_MASTERY" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_SPELL_SEEDS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_VERDUROUS_SOUL" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_TREE_OF_MAGIC" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_PLANT_MAGIC" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_BLOOMING_VITALITY" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_BOTANICAL_MASTERY" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_SPELL_SEEDS" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_VERDUROUS_SOUL" level="14" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_TREE_OF_MAGIC" level="18" />
+        </rules>
+    </element>
+    <element name="Plant Magic" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_PLANT_MAGIC">
+        <description>
+            <p>Starting at 1st level, you add both the new razor leaf cantrip and the thorn whip cantrip to your sorcerer class spell list. You also learn additional spells when you reach certain levels in this class, as shown on the Plant Spells table. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells or cantrips you know. These spells can’t be replaced when you gain a level in this class.</p>
+            <h5></h5>
+            <table>
+                <thead>
+                    <tr><td>Sorcerer Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>Entangle, Leaf Shield (TEAB)</td></tr>
+                <tr><td>3rd</td><td>Barkskin, Spike Growth</td></tr>
+                <tr><td>5th</td><td>Plant Growth, Speak with Plants</td></tr>
+                <tr><td>7th</td><td>Grasping Vine, Stockade Sprouts (TEAB)</td></tr>
+                <tr><td>9th</td><td>Awaken, Tree Stride</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_RAZOR_LEAF" spellcasting="sorcerer" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_THORN_WHIP" spellcasting="sorcerer" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_ENTANGLE" spellcasting="sorcerer" level="1" />
+            <grant type="Spell" id="ID_TEAB_SPELL_LEAF_SHIELD" spellcasting="sorcerer" level="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_BARKSKIN" spellcasting="sorcerer" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" spellcasting="sorcerer" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" spellcasting="sorcerer" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" spellcasting="sorcerer" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_GRASPING_VINE" spellcasting="sorcerer" level="7" />
+            <grant type="Spell" id="ID_TEAB_SPELL_SOCKADE_SPROUTS" spellcasting="sorcerer" level="7" />
+            <grant type="Spell" id="ID_PHB_SPELL_AWAKEN" spellcasting="sorcerer" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" spellcasting="sorcerer" level="9" />
+        </rules>
+    </element>
+    <element name="Blooming Vitality" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_BLOOMING_VITALITY">
+        <description>
+            <p>Beginning at 1st level, you rest as deeply as a plant, and you bloom with verdant life. When you are struck, this extra vitality wilts, but it will bloom again in time.</p>
+            <p class="indent">Whenever you finish a long rest, you gain temporary hit points equal to half your sorcerer level (minimum 1).</p>
+        </description>
+        <sheet>
+            <description>Whenever you finish a long rest, you gain {{level:sorcerer:half}} temporary hit points (minimum 1).</description>
+        </sheet>
+    </element>
+    <element name="Botanical Mastery" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_BOTANICAL_MASTERY">
+        <description>
+            <p>Also at 1st level, you know how to make the most of your connection to plants. When you cast the thorn whip or razor leaf cantrips, you roll the same number of damage dice as normal, but they are d10s instead of d6s.</p>
+            <p class="indent">When you cast the new leaf shield spell, you are considered proficient with the shield you create while you are wielding it without using any hands.</p>
+            <p class="indent">Finally, you have advantage on ability checks made to cultivate or tend to plants or to socially interact with plant creatures.</p>
+        </description>
+        <sheet>
+            <description>When you cast the thorn whip or razor leaf cantrips, you roll the same number of damage dice as normal, but they are d10s instead of d6s. When you cast the new leaf shield spell, you are considered proficient with the shield you create while you are wielding it without using any hands. Finally, you have advantage on ability checks made to cultivate or tend to plants or to socially interact with plant creatures.</description>
+        </sheet>
+    </element>
+    <element name="Spell Seeds" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_SPELL_SEEDS">
+        <description>
+            <p>At 6th level, you gain the ability to plant magic seeds in the wounds of your enemies to sprout into sorcery.</p>
+            <p class="indent">When you deal a creature force, necrotic, piercing, poison, or slashing damage using a sorcerer spell, you can pay 1 sorcery point to plant a hidden magical seed in the creature that lasts until you finish a long rest. While a creature is seeded by you, you cannot plant any additional magical seeds in it.</p>
+            <p class="indent">As an action, you can choose one creature that you have seeded, causing the seed to sprout from its body and bloom into magic. You cast a spell that has a casting time of 1 action or bonus action, expending spell slots and requiring components as normal, but the spell is cast from the seed's location instead of your own.</p>
+            <p class="indent">If the spell targets creatures, you must include the seeded creature as a target, and if it targets a point or location, it must target the seeded creature's location. If the spell normally requires you to see the target, you can ignore that requirement. If you make a spell attack against the target as part of the spell, the attack ignores AC bonuses granted by shields, cover, and disadvantage.</p>
+            <p class="indent">If the seeded creature is in sunlight when you sprout its spell seed, you can add your Charisma modifier to one damage roll of the spell.</p>
+        </description>
+        <sheet>
+            <description>When you deal a creature force, necrotic, piercing, poison, or slashing damage using a sorcerer spell, you can pay 1 sorcery point to plant a hidden magical seed in the creature that lasts until you finish a long rest. While a creature is seeded by you, you cannot plant any additional magical seeds in it. As an action, you can choose one creature that you have seeded, causing the seed to sprout from its body and bloom into magic. You cast a spell that has a casting time of 1 action or bonus action, expending spell slots and requiring components as normal, but the spell is cast from the seed's location instead of your own.
+            If the spell targets creatures, you must include the seeded creature as a target, and if it targets a point or location, it must target the seeded creature's location. If the spell normally requires you to see the target, you can ignore that requirement. If you make a spell attack against the target as part of the spell, the attack ignores AC bonuses granted by shields, cover, and disadvantage.
+            If the seeded creature is in sunlight when you sprout its spell seed, you can add {{charisma:modifier}} to one damage roll of the spell.</description>
+        </sheet>
+    </element>
+    <element name="Verdurous Soul" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_VERDUROUS_SOUL">
+        <description>
+            <p>At 14th level, you learn to restore your body by drawing power from nature as plants do. You can use a bonus action and spend 1 to 5 sorcery points while you are within bright light or a body of water, regaining 3d6 hit points for each sorcery point spent. Either the light must be sunlight, or the water must be clean enough to see through and not acidic enough to deal damage.</p>
+            <p class="indent">Also, when you take a short rest in such a place, you can regain a number of hit points equal to your sorcerer level + your Charisma modifier. Once you do, you can't do so again until you finish a long rest.</p>
+            <p class="indent">Finally, you can feed yourself for a day without eating anything by staying in both sunlight and clean water at the same time for at least 1 hour.</p>
+        </description>
+        <sheet>
+            <description>You can use a bonus action and spend 1 to 5 sorcery points while you are within bright light or a body of water, regaining 3d6 hit points for each sorcery point spent. Either the light must be sunlight, or the water must be clean enough to see through and not acidic enough to deal damage. Also, when you take a short rest in such a place, you can regain {{verdurous:hp}} hit points. Once you do, you can't do so again until you finish a long rest.
+            Finally, you can feed yourself for a day without eating anything by staying in both sunlight and clean water at the same time for at least 1 hour.</description>
+        </sheet>
+        <rules>
+            <stat name="verdurous:hp" value="level:sorcerer" />
+            <stat name="verdurous:hp" value="charisma:modifier" />
+        </rules>
+    </element>
+    <element name="Tree of Magic" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_GREEN_THUMB_TREE_OF_MAGIC">
+        <description>
+            <p>Starting at 18th level, you can use an action on your turn to plant a magical tree in an unoccupied space within 5 feet of you. The tree grows instantly to full size: its trunk is 3 feet in diameter and occupies its space, and the tree is up to 20 feet tall, but obstacles can constrain its height. The tree glows with magic and it is immune to damage, but it is still a physical object. It is tangible, it provides cover, it can be climbed, etc.</p>
+            <p class="indent">When the tree appears, you can imbue the tree with one sorcerer spell you know of 5th-level or lower, but you must spend sorcery points equal to the spell's level to do so. The spell must target only one creature and it can’t be a cantrip or have a range of Self.</p>
+            <p class="indent">The tree lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell), and it provides the following benefits for the duration.</p>
+            <ul>
+                <li>The tree sheds bright light in a 30-foot radius and dim light for an additional 30 feet.</li>
+                <li>Each creature of your choice within 30 feet of the tree has advantage on saving throws against spells and on any spell attacks it makes using a cantrip.</li>
+                <li>If you imbued the tree with a spell, each creature of your choice that enters the area within 30 feet of the tree for the first time on a turn or starts its turn there becomes affected by the imbued spell as if you had cast the spell on it, requiring no concentration. The spell ends immediately on the creature when it is no longer within 30 feet of the tree.</li>
+            </ul>
+            <p>Once you have used this feature, you can't use it again until you finish a long rest, unless you spend 5 sorcery points to use it again.</p>
+        </description>
+        <sheet>
+            <description action="Action" usage="1/Long Rest">You can use an action on your turn to plant a magical tree in an unoccupied space within 5 feet of you. The tree grows instantly to full size: its trunk is 3 feet in diameter and occupies its space, and the tree is up to 20 feet tall, but obstacles can constrain its height. The tree glows with magic and it is immune to damage, but it is still a physical object. It is tangible, it provides cover, it can be climbed, etc.
+            When the tree appears, you can imbue the tree with one sorcerer spell you know of 5th-level or lower, but you must spend sorcery points equal to the spell's level to do so. The spell must target only one creature and it can’t be a cantrip or have a range of Self. The tree lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell), and it provides the following benefits for the duration.
+            The tree sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Each creature of your choice within 30 feet of the tree has advantage on saving throws against spells and on any spell attacks it makes using a cantrip. If you imbued the tree with a spell, each creature of your choice that enters the area within 30 feet of the tree for the first time on a turn or starts its turn there becomes affected by the imbued spell as if you had cast the spell on it, requiring no concentration. The spell ends immediately on the creature when it is no longer within 30 feet of the tree.
+            Once you have used this feature, you can't use it again until you finish a long rest, unless you spend 5 sorcery points to use it again.</description>
+        </sheet>
+    </element>
+    
+</elements>

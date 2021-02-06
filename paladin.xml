@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <element name="Oath of Dynamism" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_PALADIN_DYNAMISM">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p>The Oath of Dynamism is an ideology of rapid, constant change. Those who swear to the oath of dynamism find their divine magic manifesting as light, lightning, and magnetism. Some are warriors of the storm, channeling the raw electric power of a god of lightning into their weapons and armor. Others are pragmatic, modern sentinels of a coming future, ensuring that the march of progress isn't interrupted by those ignorantly afraid of a changing world. Most paladins who swear to this oath are chaotic in alignment, with a strong tendency toward neutrality and self-determination.</p>
+            <h5>Tenets of Dynamism</h5>
+            <p>Because they eschew organized traditions, those who swear to the Oath of Dynamism rarely agree on the words that constitute their ideals. Still, they find themselves alike in following these tenets.</p>
+            <p class="indent"><strong><em>Take Swift Action. </em></strong>Like lightning itself, you must never hesitate to take needed action. Deliberation and planning are nothing more than excuses for tardiness.</p>
+            <p class="indent"><strong><em>Never Stay Idle. </em></strong>Like neglected metal leads to rust and decay, you know idleness only leads to weakness and spiritual immobility. Doing nothing is only for those who can't do anything.</p>
+            <p class="indent"><strong><em>Embrace the Changing Future. </em></strong>You must be ready — and perhaps even eager — to discard old traditions as the world changes around you. The world will always change, just as all energy changes forms.</p>
+            <p class="indent"><strong><em>Be Decisive, But Flexible. </em></strong>You must be confident in your choices once you have made them. But should you learn you are definitely going in the wrong direction, be quick to shift to a new unwavering path, just as lightning does when it arcs and dances.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_OATH_SPELLS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_DIVINE_CONDUIT" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_CD" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_AURA_OF_INDUCTION" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_STATIC_CHARGE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_MAGNETIC_FIELD" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_DIVINE_CONDUIT" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_AURA_OF_INDUCTION" level="7" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_STATIC_CHARGE" level="15" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_MAGNETIC_FIELD" level="20" />
+        </rules>
+    </element>
+    <element name="Oath Spells" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Dynamism Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td><i>radic's sudden spark (TEAB), thunderwave</i></td></tr>
+                <tr><td>5th</td><td><i>branding smite, jolt of pain (TEAB)</i></td></tr>
+                <tr><td>9th</td><td><i>lightning arrow, lightning bolt</i></td></tr>
+                <tr><td>13th</td><td><i>holy glare (TEAB), sickening radiance (XGE)</i></td></tr>
+                <tr><td>17th</td><td><i>destructive wave, fingers of lightning (TEAB)</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_RADICS_SUDDEN_SPARK" spellcasting="Paladin" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" spellcasting="Paladin" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_BRANDING_SMITE" spellcasting="Paladin" prepared="true" level="5" />
+            <grant type="Spell" id="ID_TEAB_SPELL_JOLT_OF_PAIN" spellcasting="Paladin" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_ARROW" spellcasting="Paladin" prepared="true" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" spellcasting="Paladin" prepared="true" level="9" />
+            <grant type="Spell" id="ID_TEAB_SPELL_HOLY_GLARE" spellcasting="Paladin" prepared="true" level="13" />
+            <grant type="Spell" id="ID_XGTE_SPELL_SICKENING_RADIANCE" spellcasting="Paladin" prepared="true" level="13" />
+            <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" spellcasting="Paladin" prepared="true" level="17" />
+            <grant type="Spell" id="ID_TEAB_SPELL_FINGERS_OF_LIGHTNING" spellcasting="Paladin" prepared="true" level="17" />
+        </rules>
+    </element>
+    <element name="Divine Conduit" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_DIVINE_CONDUIT">
+        <description>
+            <p>Starting at 3rd level, your Divine Smite deals lightning damage instead of radiant damage, and any paladin spells you cast that normally deal radiant or necrotic damage instead deal that much lightning damage. When your Divine Smite or a paladin spell you cast deals lightning damage to a fiend or undead, it ignores resistance to lightning damage.</p>
+            <p class="indent">Also, when you throw a metal weapon as part of an attack, you can magnetically pull the weapon back to you after it hits or misses, causing the weapon to fly instantly back to the hand you used to throw it.</p>
+        </description>
+        <sheet>
+            <description>Your Divine Smite deals lightning damage instead of radiant damage, and any paladin spells you cast that normally deal radiant or necrotic damage instead deal that much lightning damage. When your Divine Smite or a paladin spell you cast deals lightning damage to a fiend or undead, it ignores resistance to lightning damage. Also, when you throw a metal weapon as part of an attack, you can magnetically pull the weapon back to you after it hits or misses, causing the weapon to fly instantly back to the hand you used to throw it.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you also gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Convert Energy.</em></strong> When a creature or object within 60 feet of you takes lightning, radiant, or thunder damage, you can absorb the energy as a reaction, using your Channel Divinity. You reduce the damage taken by the target by an amount equal to 5 times your paladin level (to a minimum of 0 damage) and the target gains resistance to lightning, radiant, or thunder damage (your choice) until the end of your next turn.</p>
+            <p class="indent">The first time you hit with a melee weapon attack or roll thunder or lightning damage for a spell before the end of your next turn, you deal extra lightning damage to one target equal to your paladin level.</p>
+            <p class="indent"><strong><em>Magnetic Momentum.</em></strong> As a bonus action on your turn, you blast one creature you can see within 30 feet of you with a magnetized wave of thunder, using your Channel Divinity. The target must make a Constitution saving throw. On a failed save, the target takes thunder damage equal to 1d4 + your paladin level and is pushed up to 20 feet away from you. On a success, the target takes half damage and isn't pushed. Earth elementals, metal constructs, and other creatures wearing metal armor have disadvantage on the saving throw, and they're pushed 10 additional feet away on a failure.</p>
+            <p class="indent">If you are wearing metal armor and target yourself, you automatically fail the saving throw, but you do not take damage, you can choose to push yourself twice as far, and you can push yourself in any direction.</p>
+        </description>
+        <sheet>
+            <description>You gain additional Channel Divinity options.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_CD1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_CD2" />
+        </rules>
+    </element>
+    <element name="Convert Energy" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_CD1">
+        <description>
+            <p>When a creature or object within 60 feet of you takes lightning, radiant, or thunder damage, you can absorb the energy as a reaction, using your Channel Divinity. You reduce the damage taken by the target by an amount equal to 5 times your paladin level (to a minimum of 0 damage) and the target gains resistance to lightning, radiant, or thunder damage (your choice) until the end of your next turn.</p>
+            <p class="indent">The first time you hit with a melee weapon attack or roll thunder or lightning damage for a spell before the end of your next turn, you deal extra lightning damage to one target equal to your paladin level.</p>
+        </description>
+        <sheet>
+            <description usage="Channel Divinity" action="Reaction">When a creature or object within 60 feet of you takes lightning, radiant, or thunder damage, you can absorb the energy as a reaction, using your Channel Divinity. You reduce the damage taken by the target by {{cd damage:reduce}} (to a minimum of 0 damage) and the target gains resistance to lightning, radiant, or thunder damage (your choice) until the end of your next turn.
+            The first time you hit with a melee weapon attack or roll thunder or lightning damage for a spell before the end of your next turn, you deal {{level:paladin}} extra lightning damage to one target.</description>
+        </sheet>
+        <rules>
+            <stat name="cd damage:reduce" value="level:paladin" />
+            <stat name="cd damage:reduce" value="level:paladin" />
+            <stat name="cd damage:reduce" value="level:paladin" />
+            <stat name="cd damage:reduce" value="level:paladin" />
+            <stat name="cd damage:reduce" value="level:paladin" />
+        </rules>
+    </element>
+    <element name="Magnetic Momentum" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_CD2">
+        <description>
+            <p>As a bonus action on your turn, you blast one creature you can see within 30 feet of you with a magnetized wave of thunder, using your Channel Divinity. The target must make a Constitution saving throw. On a failed save, the target takes thunder damage equal to 1d4 + your paladin level and is pushed up to 20 feet away from you. On a success, the target takes half damage and isn't pushed. Earth elementals, metal constructs, and other creatures wearing metal armor have disadvantage on the saving throw, and they're pushed 10 additional feet away on a failure.</p>
+            <p class="indent">If you are wearing metal armor and target yourself, you automatically fail the saving throw, but you do not take damage, you can choose to push yourself twice as far, and you can push yourself in any direction.</p>
+        </description>
+        <sheet>
+            <description usage="Channel Divinity" action="Bonus Action">As a bonus action on your turn, you blast one creature you can see within 30 feet of you with a magnetized wave of thunder, using your Channel Divinity. The target must make a Constitution saving throw. On a failed save, the target takes thunder damage equal to 1d4 + {{level:paladin}} and is pushed up to 20 feet away from you. On a success, the target takes half damage and isn't pushed. Earth elementals, metal constructs, and other creatures wearing metal armor have disadvantage on the saving throw, and they're pushed 10 additional feet away on a failure.
+            If you are wearing metal armor and target yourself, you automatically fail the saving throw, but you do not take damage, you can choose to push yourself twice as far, and you can push yourself in any direction.</description>
+        </sheet>
+    </element>
+    <element name="Aura of Induction" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_AURA_OF_INDUCTION">
+        <description>
+            <p>At 7th level, you gain an aura like a static field around you and your allies. While you're conscious, you and friendly creatures within 10 feet of you have resistance to lightning damage. Also, when an affected creature hits with a weapon attack, you can cause the attack to deal bonus lightning damage equal to your paladin level divided by 3. Once you have done this, you can't do so again until the start of your next turn.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">While you're conscious, you and friendly creatures within 10 feet of you have resistance to lightning damage. Also, when an affected creature hits with a weapon attack, you can cause the attack to deal bonus lightning damage equal to your paladin level divided by 3. Once you have done this, you can't do so again until the start of your next turn.</description>
+            <description level="18">While you're conscious, you and friendly creatures within 30 feet of you have resistance to lightning damage. Also, when an affected creature hits with a weapon attack, you can cause the attack to deal bonus lightning damage equal to your paladin level divided by 3. Once you have done this, you can't do so again until the start of your next turn.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+        </rules>
+    </element>
+    <element name="Static Charge" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_STATIC_CHARGE">
+        <description>
+            <p>Starting at 15th level, you can add your Charisma modifier to the lightning damage rolls of paladin spells that you cast.</p>
+            <p class="indent">In addition, whenever you expend a spell slot to use your Divine Smite, you are charged with electricity and deal 2d8 lightning damage to any creature grappling you. The next time you hit with a weapon attack before the end of your next turn, the attack deals bonus lightning damage equal to your Charisma modifier (minimum +1).</p>
+        </description>
+        <sheet>
+            <description>You can add {{charisma:modifier}} to the lightning damage rolls of paladin spells that you cast. In addition, whenever you expend a spell slot to use your Divine Smite, you are charged with electricity and deal 2d8 lightning damage to any creature grappling you. The next time you hit with a weapon attack before the end of your next turn, the attack deals {{charisma:modifier}} bonus lightning damage (minimum +1).</description>
+        </sheet>
+    </element>
+    <element name="Magnetic Field" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_DYNAMISM_MAGNETIC_FIELD">
+        <description>
+            <p>When you reach 20th level, you can magically surround yourself in a barrier of magnetic force as an action. For 1 minute, you have a magnetic field that extends 30 feet out from you, granting you the following benefits:</p>
+            <ul>
+                <li>Weapon attacks made using metal weapons or ammunition have disadvantage if they pass through the area or if their target is within the area.</li>
+                <li>You have a 30 foot flying speed as long as you are wearing metal armor.</li>
+                <li>Earth elementals, metal constructs, and enemy creatures wearing metal armor must spend 3 feet of speed for every 1 foot of movement in the area.</li>
+                <li>As a bonus action on your turn, you can buffet one creature of your choice in the area that you can see with magnetic energy, forcing it to make a Strength saving throw. If the target is wearing metal armor or it is an earth elemental or metal construct, it also has disadvantage on the saving throw. On a failed saving throw, the target is knocked prone and you can choose to push it up to 10 feet in any direction.</li>
+            </ul>
+            <p>Once you have used this ability, you cannot use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">You can magically surround yourself in a barrier of magnetic force as an action. For 1 minute, you have a magnetic field that extends 30 feet out from you, granting you the following benefits: Weapon attacks made using metal weapons or ammunition have disadvantage if they pass through the area or if their target is within the area. You have a 30 foot flying speed as long as you are wearing metal armor. Earth elementals, metal constructs, and enemy creatures wearing metal armor must spend 3 feet of speed for every 1 foot of movement in the area. As a bonus action on your turn, you can buffet one creature of your choice in the area that you can see with magnetic energy, forcing it to make a Strength saving throw. If the target is wearing metal armor or it is an earth elemental or metal construct, it also has disadvantage on the saving throw. On a failed saving throw, the target is knocked prone and you can choose to push it up to 10 feet in any direction.</description>
+        </sheet>
+    </element>
+
+    <element name="Oath of Purification" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_PALADIN_PURIFICATION">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p>In a world teeming with evil and darkness, some crusaders find that revealing evil by the light of day is not enough to stop it — evil must be purged to ashes itself. A growing respect for the cleansing power of divine fire leads these warriors to the Oath of Purification. Known for leading torch-wielding mobs, organizing ruthless inquisitions, and putting evil to the pyre, these paladins are devoted to purity by flame.</p>
+            <h5>Tenets of Purification</h5>
+            <p>With their rigid adherence to the concept of purity, those who follow the Oath of Purification rarely deviate from swearing to the purest conceptions of the oath's tenets. The oath emphasizes purity, but its followers run the gamut of alignments based on what they personally believe to be pure and what they see as corruption. The tenets of purification are:</p>
+            <p class="indent"><strong><em>Banish the Darkness. </em></strong>With darkness comes terror, and with the light of fire comes courage. The purity of my purpose must drive out the uncertainty, fear, and doubt I encounter.</p>
+            <p class="indent"><strong><em>Cleanse All, Even Oneself. </em></strong>Evil and corruption must be cleansed at every turn, no matter the cost. If evil is given time to fester, it will spread like a cancer. If corruption takes hold within my heart, it too must be cleansed before anything else.</p>
+            <p class="indent"><strong><em>Leave No Trace of the Evil. </em></strong>If those who come after can glean the truth of my enemies' evil from the ashes I leave, it means the ashes were not burned enough. Justice, sagacity, honesty, and all other such concerns are secondary to cleansing evil so thoroughly that it is completely forgotten.</p>
+            <p class="indent"><strong><em>Purity Only Through Pain. </em></strong>There is no painless method for cleansing corruption, even within myself. Those who seek to purify without causing pain will fail to purify anything.</p>
+            <p class="indent"><strong><em>Share the Flame. </em></strong>As one torch can light another, my righteous flame of purity can inspire others who are not yet corrupted to take up my cause, and I will lead those with smaller flames until they grow like a blazing beacon against the night.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_OATH_SPELLS" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_CD" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_AURA_WARMTH" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_PURGE_BY_FIRE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_ERADICATING_FLAME" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_AURA_WARMTH" level="7" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_PURGE_BY_FIRE" level="15" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_ERADICATING_FLAME" level="20" />
+        </rules>
+    </element>
+    <element name="Oath Spells" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Purification Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td><i>burning hands, searing smite</i></td></tr>
+                <tr><td>5th</td><td><i>continual flame, heat metal</i></td></tr>
+                <tr><td>9th</td><td><i>daylight, melf's minute meteors</i></td></tr>
+                <tr><td>13th</td><td><i>fire shield, wall of fire</i></td></tr>
+                <tr><td>17th</td><td><i>flame strike, greater restoration</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" spellcasting="Paladin" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_SEARING_SMITE" spellcasting="Paladin" prepared="true" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONTINUAL_FLAME" spellcasting="Paladin" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" spellcasting="Paladin" prepared="true" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" spellcasting="Paladin" prepared="true" level="9" />
+            <grant type="Spell" id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS" spellcasting="Paladin" prepared="true" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" spellcasting="Paladin" prepared="true" level="13" />
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" spellcasting="Paladin" prepared="true" level="13" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" spellcasting="Paladin" prepared="true" level="17" />
+            <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" spellcasting="Paladin" prepared="true" level="17" />
+        </rules>
+    </element>
+    <element name="Channel Divinity" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Cloaked in Fire.</em></strong> You can use your Channel Divinity to wreathe yourself in magical golden flames. As an action, you become surrounded with fire that scorches your foes without harming you or your equipment. Each enemy creature within 10 feet of you must make a Dexterity saving throw. A target takes fire damage equal to 2d6 + half your paladin level on a failed save, or half as much on a success.</p>
+            <p class="indent">Until the start of your next turn, the flames continue to burn, shedding bright light in a 20-foot radius and dim light for an additional 20 feet, and each enemy creature that ends its turn within 10 feet of you takes fire damage equal to 2d6 + half your paladin level.</p>
+            <p class="indent"><strong><em>Purifying Flames.</em></strong> You can use your Channel Divinity to imbue a target with purifying flame that does not burn them. As an action, you fill one creature that you can see within 60 feet of you with divine fire, and any creatures that are inside the target's body or possessing the target take fire damage equal to twice your paladin level.</p>
+            <p class="indent">You can cure one disease on the target or end up to one effect causing it to be blinded, charmed, deafened, paralyzed, or poisoned. In addition, the target has advantage on Constitution saving throws until the end of your next turn, and the next time it hits with a weapon attack before the end of your next turn, the attack deals bonus fire damage equal to your paladin level + your Charisma modifier (minimum +1).</p>
+        </description>
+        <sheet>
+            <description>You gain additional Channel Divinity options.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_CD1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_CD2" />
+        </rules>
+    </element>
+    <element name="Cloaked in Fire" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_CD1">
+        <description>
+            <p>You can use your Channel Divinity to wreathe yourself in magical golden flames. As an action, you become surrounded with fire that scorches your foes without harming you or your equipment. Each enemy creature within 10 feet of you must make a Dexterity saving throw. A target takes fire damage equal to 2d6 + half your paladin level on a failed save, or half as much on a success.</p>
+            <p class="indent">Until the start of your next turn, the flames continue to burn, shedding bright light in a 20-foot radius and dim light for an additional 20 feet, and each enemy creature that ends its turn within 10 feet of you takes fire damage equal to 2d6 + half your paladin level.</p>
+        </description>
+        <sheet>
+            <description usage="Channel Divinity" action="Action">As an action, you become surrounded with fire that scorches your foes without harming you or your equipment. Each enemy creature within 10 feet of you must make a Dexterity saving throw. A target takes fire damage equal to 2d6 + {{level:paladin:half}} on a failed save, or half as much on a success.
+            Until the start of your next turn, the flames continue to burn, shedding bright light in a 20-foot radius and dim light for an additional 20 feet, and each enemy creature that ends its turn within 10 feet of you takes fire damage equal to 2d6 + {{level:paladin:half}}.</description>
+        </sheet>
+    </element>
+    <element name="Purifying Flames" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_CD2">
+        <description>
+            <p>You can use your Channel Divinity to imbue a target with purifying flame that does not burn them. As an action, you fill one creature that you can see within 60 feet of you with divine fire, and any creatures that are inside the target's body or possessing the target take fire damage equal to twice your paladin level.</p>
+            <p class="indent">You can cure one disease on the target or end up to one effect causing it to be blinded, charmed, deafened, paralyzed, or poisoned. In addition, the target has advantage on Constitution saving throws until the end of your next turn, and the next time it hits with a weapon attack before the end of your next turn, the attack deals bonus fire damage equal to your paladin level + your Charisma modifier (minimum +1).</p>
+        </description>
+        <sheet>
+            <description usage="Channel Divinity" action="Action">As an action, you fill one creature that you can see within 60 feet of you with divine fire, and any creatures that are inside the target's body or possessing the target take {{purifying flames:dmg}} fire damage.
+            You can cure one disease on the target or end up to one effect causing it to be blinded, charmed, deafened, paralyzed, or poisoned. In addition, the target has advantage on Constitution saving throws until the end of your next turn, and the next time it hits with a weapon attack before the end of your next turn, the attack deals {{purifying flames:dmg2}} bonus fire damage (minimum +1).</description>
+        </sheet>
+        <rules>
+            <stat name="purifying flames:dmg" value="level:paladin" />
+            <stat name="purifying flames:dmg" value="level:paladin" />
+            <stat name="purifying flames:dmg2" value="level:paladin" />
+            <stat name="purifying flames:dmg2" value="charisma:modifier" />
+        </rules>
+    </element>
+    <element name="Aura of Warmth" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_AURA_WARMTH">
+        <description>
+            <p>At 7th level, you gain an aura of warmth that tempers flame, banishes cold, and purifies toxins. While you are conscious, you and friendly creatures within 10 feet of you have resistance to cold damage, fire damage, and poison damage.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">While you are conscious, you and friendly creatures within 10 feet of you have resistance to cold damage, fire damage, and poison damage.</description>
+            <description level="18">While you are conscious, you and friendly creatures within 30 feet of you have resistance to cold damage, fire damage, and poison damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+        </rules>
+    </element>
+    <element name="Purge by Fire" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_PURGE_BY_FIRE">
+        <description>
+            <p>Starting at 15th level, when you deal fire damage with a spell or paladin class feature to a creature you can see within 120 feet of you, you can cast dispel magic on that creature without using an action, expending a spell slot, or requiring components. You can do this even if you do not have dispel magic prepared.</p>
+            <p class="indent">Once you have used this ability, you cannot use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest">When you deal fire damage with a spell or paladin class feature to a creature you can see within 120 feet of you, you can cast dispel magic on that creature without using an action, expending a spell slot, or requiring components. You can do this even if you do not have dispel magic prepared.</description>
+        </sheet>
+    </element>
+    <element name="Eradicating Flame" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_PURIFICATION_ERADICATING_FLAME">
+        <description>
+            <p>When you reach 20th level, you can use your action to ignite one weapon you are holding with divine flame. For the next 10 minutes, while you are holding the weapon, it is magical and engulfed in roaring golden fire. The fire sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The fire doesn't harm you or your equipment and cannot be extinguished by normal means.</p>
+            <p class="indent">Melee attacks you make using the flaming weapon have advantage. When you hit with such an attack, the attack deals an extra 1d10 fire damage and 1d10 radiant damage, and if the target is flammable or is a creature, it is lit ablaze. Until someone takes an action to douse the fire, it takes 1d10 fire damage at the start of each of its turns. If damage from the attack or the fire kills a target, the target is turned to ash.</p>
+            <p class="indent">Once you have used this ability, you cannot use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">You can use your action to ignite one weapon you are holding with divine flame. For the next 10 minutes, while you are holding the weapon, it is magical and engulfed in roaring golden fire. The fire sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The fire doesn't harm you or your equipment and cannot be extinguished by normal means.
+            Melee attacks you make using the flaming weapon have advantage. When you hit with such an attack, the attack deals an extra 1d10 fire damage and 1d10 radiant damage, and if the target is flammable or is a creature, it is lit ablaze. Until someone takes an action to douse the fire, it takes 1d10 fire damage at the start of each of its turns. If damage from the attack or the fire kills a target, the target is turned to ash.</description>
+        </sheet>
+    </element>
+    
+</elements>

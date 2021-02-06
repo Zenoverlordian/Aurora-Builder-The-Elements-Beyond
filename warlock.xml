@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <element name="The Dragon" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON">
+        <supports>Otherworldly Patron</supports>
+        <description>
+            <p>Your patron is an ancient spellcasting dragon, either a chromatic dragon (black, blue, green, red, or white) or a metallic dragon (brass, bronze, copper, gold, or silver). Dragons vary from lawful good to chaotic evil and often have far-reaching, inscrutable goals on account of their extremely long lifespans and great power. Some merely desire agents to help them locate and obtain treasures for their hoard, but most do so for reasons that may only come up once every few decades. Such long periods of inaction are trifling to a dragon. Many ancient dragons have acquired enough magical skill to share their power in a pact. Some aspiring warlocks even make pacts with the dragon goddess Tiamat, making a bargain with one of her five heads in particular and drawing on her power as a dragon rather than as a fiend or goddess.</p>
+            <p class="indent">You choose the scales of your dragon, or determine it randomly, using the Dragon Kind table. Each dragon is associated with a damage type and a breath weapon, as shown on the table. The damage type and type of breath weapon used by your patron is referenced by some of the features of this subclass.</p>
+            <h5>Dragon Kind</h5>
+            <table>
+                <thead>
+                    <tr><td>d10</td><td>Dragon Patron</td><td>Damage Type</td><td>Breath Weapon</td></tr>
+                </thead>
+                <tr><td>1</td><td>Black</td><td>Acid</td><td>5 by 30 ft. line</td></tr>
+                <tr><td>2</td><td>Blue</td><td>Lightning</td><td>5 by 30 ft. line</td></tr>
+                <tr><td>3</td><td>Brass</td><td>Fire</td><td>5 by 30 ft. line</td></tr>
+                <tr><td>4</td><td>Bronze</td><td>Lightning</td><td>5 by 30 ft. line</td></tr>
+                <tr><td>5</td><td>Copper</td><td>Acid</td><td>5 by 30 ft. line</td></tr>
+                <tr><td>6</td><td>Gold</td><td>Fire</td><td>15 ft. cone</td></tr>
+                <tr><td>7</td><td>Green</td><td>Poison</td><td>15 ft. cone</td></tr>
+                <tr><td>8</td><td>Red</td><td>Fire</td><td>15 ft. cone</td></tr>
+                <tr><td>9</td><td>Silver</td><td>Cold</td><td>15 ft. cone</td></tr>
+                <tr><td>10</td><td>White</td><td>Cold</td><td>15 ft. cone</td></tr>
+            </table>
+            <h5>Expanded Spell List</h5>
+            <p>The Dragon lets you choose from an expanded list of spells when you learn a warlock spell. The Dragon Expanded Spells table shows the dragon spells that are added to the warlock spell list for you, along with the spells associated in the table with your dragon’s kind.</p>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>chromatic orb</td></tr>
+                <tr><td>2nd</td><td>dragon's breath (XGE)</td></tr>
+                <tr><td>3rd</td><td>protection from energy</td></tr>
+                <tr><td>4th</td><td>stoneskin (as scales)</td></tr>
+                <tr><td>5th</td><td>bigby's hand (as a claw)</td></tr>
+                <tr><td>9th</td><td>shapechange (dragons only)</td></tr>
+            </table>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_ARMOR_OF_WYRM" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_BREATH_OF_WYRM" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_DRACONIC_ESSENCE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_EVERLASTING_SCALES" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_WINGS_OF_TERROR" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Dragon Kind" supports="TEAB Dragon Kind" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_ARMOR_OF_WYRM" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_BREATH_OF_WYRM" level="1" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_DRACONIC_ESSENCE" level="6" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_EVERLASTING_SCALES" level="10" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_WINGS_OF_TERROR" level="14" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_CHROMATIC_ORB</extend>
+            <extend>ID_XGTE_SPELL_DRAGONS_BREATH</extend>
+            <extend>ID_PHB_SPELL_PROTECTION_FROM_ENERGY</extend>
+            <extend>ID_PHB_SPELL_STONESKIN</extend>
+            <extend>ID_PHB_SPELL_BIGBYS_HAND</extend>
+            <extend>ID_PHB_SPELL_SHAPECHANGE</extend>
+        </spellcasting>
+    </element>
+    <element name="Black" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_1">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Black dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>tasha's caustic brew (TCE)</td></tr>
+                <tr><td>2nd</td><td>melf's acid arrow</td></tr>
+                <tr><td>3rd</td><td>acid cloud (new)</td></tr>
+                <tr><td>4th</td><td>glistening acid slick (new)</td></tr>
+                <tr><td>5th</td><td>maelstrom (XGE)</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Black dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Acid" inline="true" />
+            <stat name="dragon breath:shape" value="5 by 30 ft. line" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW</extend>
+            <extend>ID_PHB_SPELL_MELFS_ACID_ARROW</extend>
+            <extend>ID_TEAB_SPELL_ACID_CLOUD</extend>
+            <extend>ID_TEAB_SPELL_GLISTENING_ACID_SLICK</extend>
+            <extend>ID_XGTE_SPELL_MAELSTROM</extend>
+        </spellcasting>
+    </element>
+    <element name="Blue" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_2">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Blue dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>radic's sudden spark (new)</td></tr>
+                <tr><td>2nd</td><td>dust devil (XGE)</td></tr>
+                <tr><td>3rd</td><td>lightning bolt</td></tr>
+                <tr><td>4th</td><td>storm sphere (XGE)</td></tr>
+                <tr><td>5th</td><td>fingers of lightning (new)</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Blue dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Lightning" inline="true" />
+            <stat name="dragon breath:shape" value="5 by 30 ft. line" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_TEAB_SPELL_RADICS_SUDDEN_SPARK</extend>
+            <extend>ID_XGTE_SPELL_DUST_DEVIL</extend>
+            <extend>ID_PHB_SPELL_LIGHTNING_BOLT</extend>
+            <extend>ID_XGTE_SPELL_STORM_SPHERE</extend>
+            <extend>ID_TEAB_SPELL_FINGERS_OF_LIGHTNING</extend>
+        </spellcasting>
+    </element>
+    <element name="Brass" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_3">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Brass dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>burning hands</td></tr>
+                <tr><td>2nd</td><td>scorching ray</td></tr>
+                <tr><td>3rd</td><td>fireball</td></tr>
+                <tr><td>4th</td><td>fire shield</td></tr>
+                <tr><td>5th</td><td>immolation (XGE)</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Brass dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Fire" inline="true" />
+            <stat name="dragon breath:shape" value="5 by 30 ft. line" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_BURNING_HANDS</extend>
+            <extend>ID_PHB_SPELL_SCORCHING_RAY</extend>
+            <extend>ID_PHB_SPELL_FIREBALL</extend>
+            <extend>ID_PHB_SPELL_FIRE_SHIELD</extend>
+            <extend>ID_XGTE_SPELL_IMMOLATION</extend>
+        </spellcasting>
+    </element>
+    <element name="Bronze" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_4">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Bronze dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>thunderwave</td></tr>
+                <tr><td>2nd</td><td>drown (new)</td></tr>
+                <tr><td>3rd</td><td>lightning bolt</td></tr>
+                <tr><td>4th</td><td>storm sphere (XGE)</td></tr>
+                <tr><td>5th</td><td>fingers of lightning (new)</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Bronze dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Lightning" inline="true" />
+            <stat name="dragon breath:shape" value="5 by 30 ft. line" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_THUNDERWAVE</extend>
+            <extend>ID_TEAB_SPELL_DROWN</extend>
+            <extend>ID_PHB_SPELL_LIGHTNING_BOLT</extend>
+            <extend>ID_XGTE_SPELL_STORM_SPHERE</extend>
+            <extend>ID_TEAB_SPELL_FINGERS_OF_LIGHTNING</extend>
+        </spellcasting>
+    </element>
+    <element name="Copper" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_5">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Copper dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>tasha's caustic brew (TCE)</td></tr>
+                <tr><td>2nd</td><td>melf's acid arrow</td></tr>
+                <tr><td>3rd</td><td>acid cloud (new)</td></tr>
+                <tr><td>4th</td><td>glistening acid slick (new)</td></tr>
+                <tr><td>5th</td><td>sinking maw (new)</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Copper dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Acid" inline="true" />
+            <stat name="dragon breath:shape" value="5 by 30 ft. line" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW</extend>
+            <extend>ID_PHB_SPELL_MELFS_ACID_ARROW</extend>
+            <extend>ID_TEAB_SPELL_ACID_CLOUD</extend>
+            <extend>ID_TEAB_SPELL_GLISTENING_ACID_SLICK</extend>
+            <extend>ID_TEAB_SPELL_SINKING_MAW</extend>
+        </spellcasting>
+    </element>
+    <element name="Gold" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_6">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Gold dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>burning hands</td></tr>
+                <tr><td>2nd</td><td>heat metal</td></tr>
+                <tr><td>3rd</td><td>fireball</td></tr>
+                <tr><td>4th</td><td>fire shield</td></tr>
+                <tr><td>5th</td><td>immolation (XGE)</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Gold dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Fire" inline="true" />
+            <stat name="dragon breath:shape" value="15 ft. cone" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_BURNING_HANDS</extend>
+            <extend>ID_PHB_SPELL_HEAT_METAL</extend>
+            <extend>ID_PHB_SPELL_FIREBALL</extend>
+            <extend>ID_PHB_SPELL_FIRE_SHIELD</extend>
+            <extend>ID_XGTE_SPELL_IMMOLATION</extend>
+        </spellcasting>
+    </element>
+    <element name="Green" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_7">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Green dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>ray of sickness</td></tr>
+                <tr><td>2nd</td><td>protection from poison</td></tr>
+                <tr><td>3rd</td><td>toxic breath (new)</td></tr>
+                <tr><td>4th</td><td>envenomed weapon (new)</td></tr>
+                <tr><td>5th</td><td>cloudkill</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Green dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Poison" inline="true" />
+            <stat name="dragon breath:shape" value="15 ft. cone" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_RAY_OF_SICKNESS</extend>
+            <extend>ID_PHB_SPELL_PROTECTION_FROM_POISON</extend>
+            <extend>ID_TEAB_SPELL_TOXIC_BREATH</extend>
+            <extend>ID_TEAB_SPELL_ENVENOMED_WEAPON</extend>
+            <extend>ID_PHB_SPELL_CLOUDKILL</extend>
+        </spellcasting>
+    </element>
+    <element name="Red" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_8">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Red dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>burning hands</td></tr>
+                <tr><td>2nd</td><td>flaming sphere</td></tr>
+                <tr><td>3rd</td><td>fireball</td></tr>
+                <tr><td>4th</td><td>fire shield</td></tr>
+                <tr><td>5th</td><td>immolation (XGE)</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Red dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Fire" inline="true" />
+            <stat name="dragon breath:shape" value="15 ft. cone" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_BURNING_HANDS</extend>
+            <extend>ID_PHB_SPELL_FLAMING_SPHERE</extend>
+            <extend>ID_PHB_SPELL_FIREBALL</extend>
+            <extend>ID_PHB_SPELL_FIRE_SHIELD</extend>
+            <extend>ID_XGTE_SPELL_IMMOLATION</extend>
+        </spellcasting>
+    </element>
+    <element name="Silver" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_9">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a Silver dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>fog cloud</td></tr>
+                <tr><td>2nd</td><td>gust of wind</td></tr>
+                <tr><td>3rd</td><td>cold snap (new)</td></tr>
+                <tr><td>4th</td><td>ice storm</td></tr>
+                <tr><td>5th</td><td>cone of cold</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a Silver dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Cold" inline="true" />
+            <stat name="dragon breath:shape" value="15 ft. cone" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_FOG_CLOUD</extend>
+            <extend>ID_PHB_SPELL_GUST_OF_WIND</extend>
+            <extend>ID_TEAB_SPELL_COLD_SNAP</extend>
+            <extend>ID_PHB_SPELL_ICE_STORM</extend>
+            <extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
+        </spellcasting>
+    </element>
+    <element name="White" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_10">
+        <supports>TEAB Dragon Kind</supports>
+        <description>
+            <p>Your patron is a White dragon.</p>
+            <h5>Expanded Spell List</h5>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Dragon Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td>fog cloud</td></tr>
+                <tr><td>2nd</td><td>ice sculpture (new)</td></tr>
+                <tr><td>3rd</td><td>cold snap (new)</td></tr>
+                <tr><td>4th</td><td>ice storm</td></tr>
+                <tr><td>5th</td><td>cone of cold</td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>Your patron is a White dragon.</description>
+        </sheet>
+        <rules>
+            <stat name="dragon dmg:type" value="Cold" inline="true" />
+            <stat name="dragon breath:shape" value="15 ft. cone" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" level="6" />
+        </rules>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_FOG_CLOUD</extend>
+            <extend>ID_TEAB_SPELL_ICE_SCULPTURE</extend>
+            <extend>ID_TEAB_SPELL_COLD_SNAP</extend>
+            <extend>ID_PHB_SPELL_ICE_STORM</extend>
+            <extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
+        </spellcasting>
+    </element>
+    <element name="Armor of the Wyrm" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_ARMOR_OF_WYRM">
+        <description>
+            <p>At 1st level, you gain a gift of draconic scales from your patron. Parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</p>
+        </description>
+        <sheet>
+            <description>When you aren't wearing armor, your AC is {{ac:armor wyrm}}.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:armor wyrm" value="13" />
+            <stat name="ac:armor wyrm" value="dexterity:modifier" />
+            <stat name="ac:calculation" value="ac:armor wyrm" bonus="calculation" equipped="[armor:none]" alt="Armor of the Wyrm" />
+        </rules>
+    </element>
+    <element name="Breath of the Wyrm" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_BREATH_OF_WYRM">
+        <description>
+            <p>Also starting at 1st level, you can borrow your patron's breath weapon. You have a pool of d6s that you spend to exhale the breath weapon. The number of dice in the pool equals 1 + half your warlock level.</p>
+            <p class="indent">As a bonus action, you can exhale this breath weapon in an area, spending dice from the pool to do so. The maximum number of dice you can spend at once equals your proficiency bonus + 1, divided by two. Roll the dice you spend, add them together, and deal that much damage to each creature in the area. The area and the type of damage are determined by your dragon's entry on the Dragon Kind table.</p>
+            <p class="indent">Your pool regains all expended dice when you finish a long rest. At 6th level, the area of cone weapons increase by 5 feet and the length of line weapons increase by 10 feet. They increase again this way at 10th and 14th levels.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="{{breath:pool}}/Long Rest" level="1">You have a pool of {{breath:pool}} d6s that you spend to exhale the breath weapon. As a bonus action, you can exhale this breath weapon in a {{dragon breath:shape}}, spending dice from the pool to do so. The maximum number of dice you can spend at once equals {{breath:max}}/2. Roll the dice you spend, add them together, and deal that much {{dragon dmg:type}} damage to each creature in the area. Your pool regains all expended dice when you finish a long rest.</description>
+            <description action="Bonus Action" usage="{{breath:pool}}/Long Rest" level="6">You have a pool of {{breath:pool}} d6s that you spend to exhale the breath weapon. As a bonus action, you can exhale this breath weapon in a {{dragon breath:shape}}, spending dice from the pool to do so. The maximum number of dice you can spend at once equals {{breath:max}}/2. Roll the dice you spend, add them together, and deal that much {{dragon dmg:type}} damage to each creature in the area. Your pool regains all expended dice when you finish a long rest. The area of cone weapons increase by 5 feet and the length of line weapons increase by 10 feet.</description>
+            <description action="Bonus Action" usage="{{breath:pool}}/Long Rest" level="10">You have a pool of {{breath:pool}} d6s that you spend to exhale the breath weapon. As a bonus action, you can exhale this breath weapon in a {{dragon breath:shape}}, spending dice from the pool to do so. The maximum number of dice you can spend at once equals {{breath:max}}/2. Roll the dice you spend, add them together, and deal that much {{dragon dmg:type}} damage to each creature in the area. Your pool regains all expended dice when you finish a long rest. The area of cone weapons increase by 10 feet and the length of line weapons increase by 20 feet.</description>
+            <description action="Bonus Action" usage="{{breath:pool}}/Long Rest" level="14">You have a pool of {{breath:pool}} d6s that you spend to exhale the breath weapon. As a bonus action, you can exhale this breath weapon in a {{dragon breath:shape}}, spending dice from the pool to do so. The maximum number of dice you can spend at once equals {{breath:max}}/2. Roll the dice you spend, add them together, and deal that much {{dragon dmg:type}} damage to each creature in the area. Your pool regains all expended dice when you finish a long rest. The area of cone weapons increase by 15 feet and the length of line weapons increase by 30 feet.</description>
+        </sheet>
+        <rules>
+            <stat name="breath:pool" value="1" />
+            <stat name="breath:pool" value="level:warlock:half" />
+            <stat name="breath:max" value="proficiency" />
+            <stat name="breath:max" value="1" />
+        </rules>
+    </element>
+    <element name="Draconic Essence" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_DRACONIC_ESSENCE">
+        <description>
+            <p>Starting at 6th level, your bond with your patron imbues you with a piece of their magical draconic essence. You have resistance to the damage type dealt by your Breath of the Wyrm feature, and when one of your spells or class features deals damage of that type to a creature, you can subject that creature to your patron's terrifying draconic presence. The target must make a Wisdom saving throw against your warlock spell save DC. On a failed saving throw, it becomes frightened for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on a success.</p>
+            <p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest">You have resistance to {{dragon dmg:type}} damage and when one of your spells or class features deals {{dragon dmg:type}} damage to a creature, you can subject that creature to your patron's terrifying draconic presence. The target must make a Wisdom saving throw against your warlock spell save DC. On a failed saving throw, it becomes frightened for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on a success.</description>
+        </sheet>
+    </element>
+    <element name="Everlasting Scales" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_EVERLASTING_SCALES">
+        <description>
+            <p>At 10th level, your patron grants you the ability to draw on the true might of its scales. Before you take damage, you can use your reaction to harden your scales for a brief moment. Until the end of your next turn, you gain resistance to bludgeoning, piercing, and slashing damage, and immunity to the damage type dealt by your Breath of the Wyrm feature.</p>
+            <p class="indent">Once you use your reaction in this way, you can't do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest" action="Reaction">Before you take damage, you can use your reaction to harden your scales for a brief moment. Until the end of your next turn, you gain resistance to bludgeoning, piercing, and slashing damage, and immunity to {{dragon dmg:type}} damage.</description>
+        </sheet>
+    </element>
+    <element name="Wings of Terror" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WARLOCK_DRAGON_WINGS_OF_TERROR">
+        <description>
+            <p>Starting at 14th level, you can use an action to manifest spectral dragon wings as a symbol of your patron's raw power and magic. The wings are made of your patron's breath weapon energy, such as fire, frost, or lightning. When they appear, you can choose to beat the wings in a wing attack, knocking each creature within 10 feet of you prone and dealing each of them damage of the type dealt by your Breath of the Wyrm feature equal to 2d6 + your Charisma modifier (minimum +1), and flying up to half your speed to an unoccupied space.</p>
+            <p class="indent">Then, whether you performed a wing attack or not, the wings' appearance casts a frightening presence over the battlefield. Each creature of your choice within 60 feet of you that is aware of you must make a Wisdom saving throw against your warlock spell save DC. On a failed saving throw, a creature becomes frightened for 1minute. It repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+            <p class="indent">The wings remain for 1 minute, granting you a flying speed equal to your walking speed.</p>
+            <p class="indent">Once you use this feature, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description action="Action" usage="1/Long Rest">You can use an action to manifest spectral dragon wings as a symbol of your patron's raw power and magic. The wings are made of {{dragon dmg:type}}. When they appear, you can choose to beat the wings in a wing attack, knocking each creature within 10 feet of you prone and dealing each of them {{dragon dmg:type}} damage equal to 2d6 + {{charisma:modifier}} (minimum +1), and flying up to half your speed to an unoccupied space.
+            Then, whether you performed a wing attack or not, the wings' appearance casts a frightening presence over the battlefield. Each creature of your choice within 60 feet of you that is aware of you must make a Wisdom saving throw against your warlock spell save DC. On a failed saving throw, a creature becomes frightened for 1minute. It repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.
+            The wings remain for 1 minute, granting you a flying speed of {{speed}}.</description>
+        </sheet>
+    </element>
+
+    <!--Invocations-->
+
+    <element name="Deathly Chills" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_DEATHLY_CHILLS">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal cold damage to a creature using a warlock spell or feature, you ignore resistance to cold damage unless the creature also has resistance or immunity to necrotic damage, and you treat vulnerability to necrotic damage as vulnerability to both damage types.</p>
+		</description>
+		<sheet>
+			<description>When you deal cold damage to a creature using a warlock spell or feature, you ignore resistance to cold damage unless the creature also has resistance or immunity to necrotic damage, and you treat vulnerability to necrotic damage as vulnerability to both damage types.</description>
+		</sheet>
+	</element>
+    <element name="Eldritch Digestion" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_DIGESTION">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal acid damage to a creature using a warlock spell or feature, you ignore resistance to acid damage unless the creature also has resistance or immunity to force damage, and you treat vulnerability to force damage as vulnerability to both damage types.</p>
+		</description>
+		<sheet>
+			<description>When you deal acid damage to a creature using a warlock spell or feature, you ignore resistance to acid damage unless the creature also has resistance or immunity to force damage, and you treat vulnerability to force damage as vulnerability to both damage types.</description>
+		</sheet>
+	</element>
+    <element name="Elemental Attunement" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_ELEMENTAL_ATTUNEMENT">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you finish a long rest, you choose one of four elements below to attune to. While attuned to an element, you know an associated cantrip (each is from Xanathar's Guide to Everything) as a warlock spell, and it doesn't count against the number of cantrips you can know as a warlock. You gain the following benefits while attuned to each element:</p>
+            <p class="indent"><strong><em>Air.</em></strong> You know the gust cantrip, and you can hold your breath for twice as long.</p>
+            <p class="indent"><strong><em>Earth.</em></strong> You know the mold earth cantrip, and you have advantage on ability checks made to climb earth or stone.</p>
+            <p class="indent"><strong><em>Fire.</em></strong> You know the control flames cantrip, and you have advantage on saving throws made to resist the effects of extreme heat.</p>
+            <p class="indent"><strong><em>Water.</em></strong> You know the shape water cantrip, and you have advantage on saving throws made to resist the effects of extreme cold</p>
+		</description>
+		<sheet>
+			<description>When you finish a long rest, you choose one of four elements below to attune to. While attuned to an element, you know an associated cantrip (each is from Xanathar's Guide to Everything) as a warlock spell, and it doesn't count against the number of cantrips you can know as a warlock. You gain the following benefits while attuned to each element:
+            <strong><em>Air.</em></strong> You know the gust cantrip, and you can hold your breath for twice as long.
+            <strong><em>Earth.</em></strong> You know the mold earth cantrip, and you have advantage on ability checks made to climb earth or stone.
+            <strong><em>Fire.</em></strong> You know the control flames cantrip, and you have advantage on saving throws made to resist the effects of extreme heat.
+            <strong><em>Water.</em></strong> You know the shape water cantrip, and you have advantage on saving throws made to resist the effects of extreme cold.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_MOLD_EARTH" />
+            <grant type="Spell" id="ID_XGTE_SPELL_GUST" />
+            <grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" />
+            <grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
+        </rules>
+	</element>
+    <element name="Heavenly Bolts" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_HEAVENLY_BOLTS">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal lightning damage to a creature using a warlock spell or feature, you ignore resistance to lightning damage unless the creature also has resistance or immunity to radiant damage, and you treat vulnerability to radiant damage as vulnerability to both damage types.</p>
+		</description>
+		<sheet>
+			<description>When you deal lightning damage to a creature using a warlock spell or feature, you ignore resistance to lightning damage unless the creature also has resistance or immunity to radiant damage, and you treat vulnerability to radiant damage as vulnerability to both damage types.</description>
+		</sheet>
+	</element>
+    <element name="Hush of Winter" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_HUSH_OF_WINTER">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal cold damage to a creature using a warlock spell or feature, you can force the target to make a Wisdom saving throw. On a failed save, the target is deafened and can't speak until the end of your next turn.</p>
+            <p class="indent">Once you use this invocation, you must finish a long rest before you can use it again.</p>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">When you deal cold damage to a creature using a warlock spell or feature, you can force the target to make a Wisdom saving throw. On a failed save, the target is deafened and can't speak until the end of your next turn.</description>
+		</sheet>
+	</element>
+    <element name="Noxious Fumes" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_NOXIOUS_FUMES">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal acid damage to a creature using a warlock spell or feature, you can force the target to make a Constitution saving throw. On a failed save, the target is poisoned until the end of its next turn.</p>
+            <p class="indent">Once you use this invocation, you must finish a long rest before you can use it again.</p>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">When you deal acid damage to a creature using a warlock spell or feature, you can force the target to make a Constitution saving throw. On a failed save, the target is poisoned until the end of its next turn.</description>
+		</sheet>
+	</element>
+    <element name="Prismatic Blaze" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_PRISMATIC_BLAZE">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal fire damage to a creature that isn't blinded using a warlock spell or feature, you can force the target to make a Wisdom saving throw. On a failed save, the target becomes charmed until the end of its next turn. While charmed in this way, the target is incapacitated and has a speed of 0. The effect ends if the target takes any additional damage or if someone else uses an action to shake it out of its stupor.</p>
+            <p class="indent">Once you use this invocation, you must finish a long rest before you can use it again.</p>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">When you deal fire damage to a creature that isn't blinded using a warlock spell or feature, you can force the target to make a Wisdom saving throw. On a failed save, the target becomes charmed until the end of its next turn. While charmed in this way, the target is incapacitated and has a speed of 0. The effect ends if the target takes any additional damage or if someone else uses an action to shake it out of its stupor.</description>
+		</sheet>
+	</element>
+    <element name="Scorching Radiance" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_SCORCHING_RADIANCE">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal radiant damage to a creature using a warlock spell or feature, you ignore resistance to radiant damage unless the creature also has resistance or immunity to fire damage, and you treat vulnerability to fire damage as vulnerability to both damage types.</p>
+		</description>
+		<sheet>
+			<description>When you deal radiant damage to a creature using a warlock spell or feature, you ignore resistance to radiant damage unless the creature also has resistance or immunity to fire damage, and you treat vulnerability to fire damage as vulnerability to both damage types.</description>
+		</sheet>
+	</element>
+    <element name="Umbra Flame" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_UMBRA_FLAME">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal fire damage to a creature using a warlock spell or feature, you ignore resistance to fire damage unless the creature also has resistance or immunity to necrotic damage, and you treat vulnerability to necrotic damage as vulnerability to both damage types.</p>
+		</description>
+		<sheet>
+			<description>When you deal fire damage to a creature using a warlock spell or feature, you ignore resistance to fire damage unless the creature also has resistance or immunity to necrotic damage, and you treat vulnerability to necrotic damage as vulnerability to both damage types.</description>
+		</sheet>
+	</element>
+    <element name="Voice from Beyond" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_VOICE_FROM_BEYOND">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal thunder damage to a creature using a warlock spell or feature, you ignore resistance to thunder damage unless the creature also has resistance or immunity to psychic damage, and you treat vulnerability to psychic damage as vulnerability to both damage types.</p>
+		</description>
+		<sheet>
+			<description>When you deal thunder damage to a creature using a warlock spell or feature, you ignore resistance to thunder damage unless the creature also has resistance or immunity to psychic damage, and you treat vulnerability to psychic damage as vulnerability to both damage types.</description>
+		</sheet>
+	</element>
+    <element name="Welcoming Light" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_WELCOMING_LIGHT">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal radiant damage to a creature using a warlock spell or feature, you can force the target to make a Wisdom saving throw. On a failed save, the target becomes charmed by you until the end ofyour next turn. While charmed in this way, the target regards you as a friendly acquaintance.</p>
+            <p class="indent">Once you use this invocation, you must finish a long rest before you can use it again.</p>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">When you deal radiant damage to a creature using a warlock spell or feature, you can force the target to make a Wisdom saving throw. On a failed save, the target becomes charmed by you until the end ofyour next turn. While charmed in this way, the target regards you as a friendly acquaintance.</description>
+		</sheet>
+	</element>
+    <element name="Whisper the Dread Wind" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPER_THE_DREAD_WIND">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal thunder damage to a creature using a warlock spell or feature, you can force the target to make a Wisdom saving throw. On a failed save, the target is frightened ofyou until the end of its next turn.</p>
+            <p class="indent">Once you use this invocation, you must finish a long rest before you can use it again.</p>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">When you deal thunder damage to a creature using a warlock spell or feature, you can force the target to make a Wisdom saving throw. On a failed save, the target is frightened ofyou until the end of its next turn.</description>
+		</sheet>
+	</element>
+    <element name="Withering Lightning" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_WITHERING_LIGHTNING">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>When you deal lightning damage to a creature using a warlock spell or feature, you can force the target to make a Constitution saving throw. On a failed save, the target's hit point maximum is reduced for 1 minute by an amount equal to the lightning damage it took. Any effect that removes a disease allows the target's hit point maximum to return to normal before that time passes.</p>
+            <p class="indent">Once you use this invocation, you must finish a long rest before you can use it again.</p>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">When you deal lightning damage to a creature using a warlock spell or feature, you can force the target to make a Constitution saving throw. On a failed save, the target's hit point maximum is reduced for 1 minute by an amount equal to the lightning damage it took. Any effect that removes a disease allows the target's hit point maximum to return to normal before that time passes.</description>
+		</sheet>
+	</element>
+    <element name="Ambassador of the Depths" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_AMBASSADOR_OF_THE_DEPTHS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p><em>Prerequisite: 5th level</em></p>
+			<p>You can expend a warlock spell slot to cast the new dive spell. While the spell affects a target, that target also has darkvision that extends out to a range of 120 feet.</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_DIVE" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend a warlock spell slot to cast the new dive spell. While the spell affects a target, that target also has darkvision that extends out to a range of 120 feet.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_DIVE" spellcasting="Warlock" />
+        </rules>
+	</element>
+    <element name="Desert Roamer" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_DESERT_ROAMER">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p><em>Prerequisite: 5th level</em></p>
+			<p>You are adapted to both hot climates and cold climates, as described in the Dungeon Master's Guide, and you don't need to drink water to survive.</p>
+		</description>
+		<sheet>
+			<description>You are adapted to both hot climates and cold climates, as described in the Dungeon Master's Guide, and you don't need to drink water to survive.</description>
+		</sheet>
+	</element>
+    <element name="Flame Walker" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_FLAME_WALKER">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p><em>Prerequisite: 5th level</em></p>
+			<p>You and any equipment you are wearing or carrying are immune to the damage dealt by nonmagical fire, and you can breathe ashes, smoke, and the stinking cloud spell without any negative effects. This can't prevent damage dealt by traps or creatures, such as the breath weapon of a red dragon or the blast of a fire cannon.</p>
+		</description>
+		<sheet>
+			<description>You and any equipment you are wearing or carrying are immune to the damage dealt by nonmagical fire, and you can breathe ashes, smoke, and the stinking cloud spell without any negative effects. This can't prevent damage dealt by traps or creatures, such as the breath weapon of a red dragon or the blast of a fire cannon.</description>
+		</sheet>
+	</element>
+    <element name="Weightlessness" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_WEIGHTLESSNESS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p><em>Prerequisite: 5th level</em></p>
+			<p>You can cast feather fall targeting only yourself at will without expending a spell slot or requiring components.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FEATHER_FALL" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can cast feather fall targeting only yourself at will without expending a spell slot or requiring components.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" />
+        </rules>
+	</element>
+    <element name="Explosive Vengeance" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_EXPLOSIVE_VENGEANCE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>7th level, Pact of the Chain, Fireball known as a warlock spell</prerequisite>
+        <requirements>[level:7], ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN, ID_PHB_SPELL_FIREBALL</requirements>
+        <description>
+            <p><em>Prerequisite: 7th level, Pact of the Chain, Fireball known as a warlock spell</em></p>
+			<p>When another creature deals damage to your familiar and reduces it to 0 hit points, you can choose to use your reaction to cast fireball using a warlock spell slot centered at the location ofyour familiar, even if it is outside your normal range or line of sight for the spell The spell originates from your familiar. After you do this, you gain one level of exhaustion and you can't cast any spells of 1st-level or higher on your next turn.</p>
+            <p class="indent">Once you use this invocation, you must finish a long rest before you can use it again.</p>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">When another creature deals damage to your familiar and reduces it to 0 hit points, you can choose to use your reaction to cast fireball using a warlock spell slot centered at the location ofyour familiar, even if it is outside your normal range or line of sight for the spell The spell originates from your familiar. After you do this, you gain one level of exhaustion and you can't cast any spells of 1st-level or higher on your next turn.</description>
+		</sheet>
+	</element>
+    <element name="Graveborne" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_GRAVEBORNE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p><em>Prerequisite: 7th level</em></p>
+			<p>While you are buried or burrowing in earth or sealed underground, you don't need to eat, drink, or breathe.</p>
+		</description>
+		<sheet>
+			<description>While you are buried or burrowing in earth or sealed underground, you don't need to eat, drink, or breathe.</description>
+		</sheet>
+	</element>
+    <element name="Breath of Bahamut" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_BREATH_OF_BAHAMUT_BRASS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level, Dragon Patron</prerequisite>
+        <requirements>[level:9], ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_3</requirements>
+        <description>
+            <p><em>Prerequisite: 9th level, Dragon Patron</em></p>
+			<p>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.</p>
+            <p class="indent">Targets must succeed on a Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it. Any creature with hit points equal to or greater than your warlock level x 4 automatically succeeds on the saving throw.</p>
+		</description>
+		<sheet>
+			<description>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.
+            Targets must succeed on a Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it. Any creature with hit points equal to or greater than your warlock level x 4 automatically succeeds on the saving throw.</description>
+		</sheet>
+	</element>
+    <element name="Breath of Bahamut" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_BREATH_OF_BAHAMUT_BRONZE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level, Dragon Patron</prerequisite>
+        <requirements>[level:9], ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_4</requirements>
+        <description>
+            <p><em>Prerequisite: 9th level, Dragon Patron</em></p>
+			<p>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.</p>
+            <p class="indent">Targets must succeed on a Strength saving throw or else be pushed 60 feet away from you.</p>
+		</description>
+		<sheet>
+			<description>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.
+            Targets must succeed on a Strength saving throw or else be pushed 60 feet away from you.</description>
+		</sheet>
+	</element>
+    <element name="Breath of Bahamut" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_BREATH_OF_BAHAMUT_COPPER">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level, Dragon Patron</prerequisite>
+        <requirements>[level:9], ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_5</requirements>
+        <description>
+            <p><em>Prerequisite: 9th level, Dragon Patron</em></p>
+			<p>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.</p>
+            <p class="indent">Each target must make a Constitution saving throw. On a failed save, a creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. Also, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+		</description>
+		<sheet>
+			<description>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.
+            Each target must make a Constitution saving throw. On a failed save, a creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. Also, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
+		</sheet>
+	</element>
+    <element name="Breath of Bahamut" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_BREATH_OF_BAHAMUT_GOLD">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level, Dragon Patron</prerequisite>
+        <requirements>[level:9], ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_6</requirements>
+        <description>
+            <p><em>Prerequisite: 9th level, Dragon Patron</em></p>
+			<p>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.</p>
+            <p class="indent">Each target must succeed on a Strength saving throw or suffer disadvantage on Strength-based attacks, Strength checks, and other Strength saving throws for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+		</description>
+		<sheet>
+			<description>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.
+            Each target must succeed on a Strength saving throw or suffer disadvantage on Strength-based attacks, Strength checks, and other Strength saving throws for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
+		</sheet>
+	</element>
+    <element name="Breath of Bahamut" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_BREATH_OF_BAHAMUT_SILVER">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level, Dragon Patron</prerequisite>
+        <requirements>[level:9], ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_9</requirements>
+        <description>
+            <p><em>Prerequisite: 9th level, Dragon Patron</em></p>
+			<p>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.</p>
+            <p class="indent">Targets must succeed on a Constitution saving throw or be paralyzed until the end ofyour next turn. Any creature with hit points equal to or greater than your warlock level x 3 automatically succeeds on the saving throw.</p>
+		</description>
+		<sheet>
+			<description>You can use an action to expend a warlock spell slot to exhale a secondary breath weapon in a 30-foot cone. Each creature in the area suffers the following effects, determined by your dragon patron's kind These effects end instantly if you lose your concentration (as if you were concentrating on a spell). Any saving throws are made against your warlock spell save DC.
+            Targets must succeed on a Constitution saving throw or be paralyzed until the end ofyour next turn. Any creature with hit points equal to or greater than your warlock level x 3 automatically succeeds on the saving throw.</description>
+		</sheet>
+	</element>
+    <element name="Tiamat's Bargain" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TIAMATS_BARGAIN">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level, Chromatic Dragon Patron</prerequisite>
+        <requirements>[level:9], (ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_1|ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_2|ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_7|ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_8|ID_TEAB_ARCHETYPE_WARLOCK_DRAGON_KIND_10)</requirements>
+        <description>
+            <p><em>Prerequisite: 9th level, Chromatic Dragon Patron</em></p>
+			<p>When you use your Breath ofthe Wyrm feature, you can choose to use the breath weapon and damage type of any of the chromatic dragons from the list, instead of using the entry for your patron.</p>
+            <p class="indent">When you finish a long rest, you can choose to change the damage type that your Draconic Essence feature grants resistance to. Choose one from acid, cold, fire, lightning, or poison damage.</p>
+		</description>
+		<sheet>
+			<description>When you use your Breath ofthe Wyrm feature, you can choose to use the breath weapon and damage type of any of the chromatic dragons from the list, instead of using the entry for your patron. When you finish a long rest, you can choose to change the damage type that your Draconic Essence feature grants resistance to. Choose one from acid, cold, fire, lightning, or poison damage.</description>
+		</sheet>
+	</element>
+    <element name="Fiery Breath" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_FIERY_BREATH">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level, burning hands known as a warlock spell</prerequisite>
+        <requirements>[level:12], ID_PHB_SPELL_BURNING_HANDS</requirements>
+        <description>
+            <p><em>Prerequisite: 12th level, burning hands known as a warlock spell</em></p>
+			<p>When you cast burning hands, you can do so as a bonus action, requiring only verbal components. Once you do, you can't do so again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description action="Bonus Action" usage="1/Long Rest">When you cast burning hands, you can do so as a bonus action, requiring only verbal components.</description>
+		</sheet>
+	</element>
+    <element name="Open the Gate Below" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_OPEN_THE_GATE_BELOW">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level, Any Water-themed Patron or Hydromancer feat</prerequisite>
+        <requirements>[level:12]</requirements>
+        <description>
+            <p><em>Prerequisite: 12th level, Any Water-themed Patron or Hydromancer feat</em></p>
+			<p>You can expend a warlock spell slot to cast the new dark lagoon speli requiring only somatic components. Once you do so, you can't do so again until you finish a long rest.</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_DARK_LAGOON" />
+            </div>
+		</description>
+		<sheet>
+			<description usage="1/Long Rest">You can expend a warlock spell slot to cast the new dark lagoon speli requiring only somatic components.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_DARK_LAGOON" />
+        </rules>
+	</element>
+    <element name="Tentacle Growth" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TENTACLE_GROWTH1">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level, Fathomless Patron or Great Old One Patron</prerequisite>
+        <requirements>[level:12], (ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE|ID_WOTC_TCOE_ARCHETYPE_WARLOCK_THE_FATHOMLESS)</requirements>
+        <description>
+            <p><em>Prerequisite: 12th level, Fathomless Patron or Great Old One Patron</em></p>
+			<p>You have an additional extremely flexible arm (a tentacle) that has reach 10 feet. Melee weapons wielded using this arm and no other arms have an additional 5 feet of reach, but the arm cannot wear shields. You also have advantage on ability checks made to grapple using this arm. If the arm is cut off or destroyed, it regrows with no apparent damage when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You have an additional extremely flexible arm (a tentacle) that has reach 10 feet. Melee weapons wielded using this arm and no other arms have an additional 5 feet of reach, but the arm cannot wear shields. You also have advantage on ability checks made to grapple using this arm. If the arm is cut off or destroyed, it regrows with no apparent damage when you finish a long rest.</description>
+		</sheet>
+	</element>
+    <element name="Tentacle Growth" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TENTACLE_GROWTH2">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level, Fathomless Patron or Great Old One Patron</prerequisite>
+        <requirements>[level:12],ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TENTACLE_GROWTH1, (ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE|ID_WOTC_TCOE_ARCHETYPE_WARLOCK_THE_FATHOMLESS)</requirements>
+        <description>
+            <p><em>Prerequisite: 12th level, Fathomless Patron or Great Old One Patron</em></p>
+			<p>You have an additional extremely flexible arm (a tentacle) that has reach 10 feet. Melee weapons wielded using this arm and no other arms have an additional 5 feet of reach, but the arm cannot wear shields. You also have advantage on ability checks made to grapple using this arm. If the arm is cut off or destroyed, it regrows with no apparent damage when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You have an additional extremely flexible arm (a tentacle).</description>
+		</sheet>
+	</element>
+    <element name="Tentacle Growth" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TENTACLE_GROWTH3">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level, Fathomless Patron or Great Old One Patron</prerequisite>
+        <requirements>[level:12],ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TENTACLE_GROWTH2, (ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE|ID_WOTC_TCOE_ARCHETYPE_WARLOCK_THE_FATHOMLESS)</requirements>
+        <description>
+            <p><em>Prerequisite: 12th level, Fathomless Patron or Great Old One Patron</em></p>
+			<p>You have an additional extremely flexible arm (a tentacle) that has reach 10 feet. Melee weapons wielded using this arm and no other arms have an additional 5 feet of reach, but the arm cannot wear shields. You also have advantage on ability checks made to grapple using this arm. If the arm is cut off or destroyed, it regrows with no apparent damage when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You have an additional extremely flexible arm (a tentacle).</description>
+		</sheet>
+	</element>
+    <element name="Tentacle Growth" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TENTACLE_GROWTH4">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level, Fathomless Patron or Great Old One Patron</prerequisite>
+        <requirements>[level:12],ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TENTACLE_GROWTH3, (ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE|ID_WOTC_TCOE_ARCHETYPE_WARLOCK_THE_FATHOMLESS)</requirements>
+        <description>
+            <p><em>Prerequisite: 12th level, Fathomless Patron or Great Old One Patron</em></p>
+			<p>You have an additional extremely flexible arm (a tentacle) that has reach 10 feet. Melee weapons wielded using this arm and no other arms have an additional 5 feet of reach, but the arm cannot wear shields. You also have advantage on ability checks made to grapple using this arm. If the arm is cut off or destroyed, it regrows with no apparent damage when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You have an additional extremely flexible arm (a tentacle).</description>
+		</sheet>
+	</element>
+    <element name="Gift of the Treants" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_TREANTS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>15th level, Archfey Patron or any Plant themed Patron</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p><em>Prerequisite: 15th level, Any Water-themed Patron or Hydromancer feat</em></p>
+			<p>You can expend the 8th-level use ofyour Mystic Arcanum to cast the new animate tree spell.</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_ANIMATE_TREE" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 8th-level use ofyour Mystic Arcanum to cast the new animate tree spell.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_ANIMATE_TREE" />
+        </rules>
+	</element>
+    <element name="Hellish Blood" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_HELLISH_BLOOD">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>15th level, Fiend Patron or Pyromancer feat</prerequisite>
+        <requirements>[level:15], (ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND|ID_TEAB_FEAT_PYROMANCER)</requirements>
+        <description>
+            <p><em>Prerequisite: 15th level, Fiend Patron or Pyromancer feat</em></p>
+			<p>You are constantly affected by a lesser form of fire shield (warm option) that deals only ld6 damage. You can also expend a warlock spell slot to cast fire shield (as warm option only) on yourself as a bonus action, to increase the effect to that of a fire shield that deals 2d8 + ld6 fire damage for the normal duration.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FIRE_SHIELD" />
+            </div>
+		</description>
+		<sheet>
+			<description>You are constantly affected by a lesser form of fire shield (warm option) that deals only ld6 damage. You can also expend a warlock spell slot to cast fire shield (as warm option only) on yourself as a bonus action, to increase the effect to that of a fire shield that deals 2d8 + 1d6 fire damage for the normal duration.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" />
+        </rules>
+	</element>
+    <element name="Lost to the Cosmos" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_LOST_TO_THE_COSMOS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>15th level</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p><em>Prerequisite: 15th level</em></p>
+			<p>You can cast nondetection using a warlock spell slot without requiring components, but you can only target yourself when you do so.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_NONDETECTION" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can cast nondetection using a warlock spell slot without requiring components, but you can only target yourself when you do so.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" />
+        </rules>
+	</element>
+    <element name="Pull of the Dark" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_PULL_OF_THE_DARK">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>15th level, Fathomless Patron, Eldritch Blast cantrip</prerequisite>
+        <requirements>[level:15], ID_WOTC_TCOE_ARCHETYPE_WARLOCK_THE_FATHOMLESS, ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
+        <description>
+            <p><em>Prerequisite: 12th level, Fathomless Patron , Eldritch Blast cantrip</em></p>
+			<p>When you hit a creature with eldritch blast more than once in a turn, you can have it make a Strength saving throw. On a failed saving throw, the creature is knocked prone or pulled up to 10 feet toward you (your choice).</p>
+		</description>
+		<sheet>
+			<description>When you hit a creature with eldritch blast more than once in a turn, you can have it make a Strength saving throw. On a failed saving throw, the creature is knocked prone or pulled up to 10 feet toward you (your choice).</description>
+		</sheet>
+	</element>
+    <element name="Wave Caller" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_WAVE_CALLER">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>15th level, Any water-themed Patron or Hydromancer feat</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p><em>Prerequisite: 15th level, Any water-themed Patron or Hydromancer feat</em></p>
+			<p>You can cast control water at-wili expending no spell slots and requiring only verbal components.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_CONTROL_WATER" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can cast control water at-wili expending no spell slots and requiring only verbal components.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" />
+        </rules>
+	</element>
+    <element name="Consign to the Earth" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_CONSIGN_TO_THE_EARTH">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>18th level, Any Earth-themed or Grave-themed Patron</prerequisite>
+        <requirements>[level:18]</requirements>
+        <description>
+            <p><em>Prerequisite: 18th level, Any Earth-themed or Grave-themed Patron</em></p>
+			<p>You can expend the 9th-level use ofyour Mystic Arcanum to cast the new earth whelm spell</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_EARTH_WHELM" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 9th-level use ofyour Mystic Arcanum to cast the new earth whelm spell</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_EARTH_WHELM" />
+        </rules>
+	</element>
+    <element name="Fog Form" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_FOG_FORM">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>18th level, Any Water-themed Patron</prerequisite>
+        <requirements>[level:18]</requirements>
+        <description>
+            <p><em>Prerequisite: 18th level, Any Water-themed Patron</em></p>
+			<p>You can expend the 9th-level use ofyour Mystic Arcanum to cast the new ordainment of mist spell</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_ORDAINMENT_OF_MIST" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 9th-level use ofyour Mystic Arcanum to cast the new ordainment of mist spell</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_ORDAINMENT_OF_MIST" />
+        </rules>
+	</element>
+    <element name="Magma Form" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_MAGMA_FORM">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>18th level, Any Fire-themed Patron</prerequisite>
+        <requirements>[level:18]</requirements>
+        <description>
+            <p><em>Prerequisite: 18th level, Any Fire-themed Patron</em></p>
+			<p>You can expend the 9th-level use ofyour Mystic Arcanum to cast the new ordainment of lava spell</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_ORDAINMENT_OF_LAVA" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 9th-level use ofyour Mystic Arcanum to cast the new ordainment of lava spell</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_ORDAINMENT_OF_LAVA" />
+        </rules>
+	</element>
+    <element name="Steel Form" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_STELL_FORM">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>18th level, Any Tech-themed or Weapon-themed Patron</prerequisite>
+        <requirements>[level:18]</requirements>
+        <description>
+            <p><em>Prerequisite: 18th level, Any Tech-themed or Weapon-themed Patron</em></p>
+			<p>You can expend the 9th-level use ofyour Mystic Arcanum to cast the new ordainment of metal spell</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_ORDAINMENT_OF_METAL" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 9th-level use ofyour Mystic Arcanum to cast the new ordainment of metal spell</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_ORDAINMENT_OF_METAL" />
+        </rules>
+	</element>
+    <element name="Peers of the Patron" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_PEERS_OF_THE_PATRON">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>18th level, Archfey Patron or any Elemental-themed Patron</prerequisite>
+        <requirements>[level:18]</requirements>
+        <description>
+            <p><em>Prerequisite: 18th level, Archfey Patron or any Elemental-themed Patron</em></p>
+			<p>You can expend the 9th-level use of your Mystic Arcanum to cast the new summon primal spirit spell</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_SUMMON_PRIMAL_SPIRIT" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 9th-level use of your Mystic Arcanum to cast the new summon primal spirit spell</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_SUMMON_PRIMAL_SPIRIT" />
+        </rules>
+	</element>
+    <element name="Tame the Wild" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_TAME_THE_WILD">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>18th level, Any Air-themed or Storm-themed Patron</prerequisite>
+        <requirements>[level:18]</requirements>
+        <description>
+            <p><em>Prerequisite: 18th level, Any Air-themed or Storm-themed Patron</em></p>
+			<p>You can expend the 9th-level use of your Mystic Arcanum to cast the new wind wake spell</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_WIND_WAKE" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 9th-level use of your Mystic Arcanum to cast the new wind wake spell</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_WIND_WAKE" />
+        </rules>
+	</element>
+    <element name="Thousand-Year Flood" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_THOUSAND_YEAR_FLOOD">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>18th level, Any Water-themed Patron</prerequisite>
+        <requirements>[level:18]</requirements>
+        <description>
+            <p><em>Prerequisite: 18th level, Any Water-themed Patron</em></p>
+			<p>You can expend the 9th-level use of your Mystic Arcanum to cast the new grand flood spell</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_GRAND_FLOOD" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 9th-level use of your Mystic Arcanum to cast the new grand flood spell</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_GRAND_FLOOD" />
+        </rules>
+	</element>
+    <element name="Volcanic Herald" type="Class Feature" source="The Elements and Beyond" id="ID_TEAB_CLASS_FEATURE_ELDRITCH_INVOCATION_VOLCANIC_HERALD">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>18th level, Any Fire-themed Patron</prerequisite>
+        <requirements>[level:18]</requirements>
+        <description>
+            <p><em>Prerequisite: 18th level, Any Fire-themed Patron</em></p>
+			<p>You can expend the 9th-level use of your Mystic Arcanum to cast the new caldera spell</p>
+            <div class="reference">
+                <div element="ID_TEAB_SPELL_CALDERA" />
+            </div>
+		</description>
+		<sheet>
+			<description>You can expend the 9th-level use of your Mystic Arcanum to cast the new caldera spell</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_TEAB_SPELL_CALDERA" />
+        </rules>
+	</element>
+        
+</elements>

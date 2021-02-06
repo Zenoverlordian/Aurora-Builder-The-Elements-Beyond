@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Version 1.03-->
+<elements>
+    
+    <element name="Flame Dancer" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FIGHTER_FLAME_DANCER">
+        <supports>Martial Archetype</supports>
+        <description>
+            <p>The archetypal flame dancer, by means often unknown, has the ability to cover themselves and their weapons in flame. For some, this is through an esoteric breathing technique. For others, this is a strange magical gift. The performance art of fire-eating can lead some to develop these abilities in mundane ways. Many fire genasi and ember dwarves often embrace this archetype, honing their innate flame magic in battle.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_FLAME_STANCE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_ALIGHT_IN_FLAME" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_FIRE_BREATHING" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_IGNITION_STRIKE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_IGNITION_MASTER" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_GREAT_COMBUSTION" />
+        </description>
+        <sheet display="false">
+            <description>The archetypal flame dancer, by means often unknown, has the ability to cover themselves and their weapons in flame.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_FLAME_STANCE" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_ALIGHT_IN_FLAME" level="7" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_FIRE_BREATHING" level="10" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_IGNITION_STRIKE" level="15" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_IGNITION_MASTER" level="18" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_GREAT_COMBUSTION" level="18" />
+        </rules>
+    </element>
+    <element name="Flame Stance" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_FLAME_STANCE">
+        <description>
+            <p>Starting at 3rd level, you can wreathe your body, armor, and weapons in magical flames. You can use a bonus action on your turn to enter the flame stance and burst into flames for 1 minute. The flames do not harm you or anything you are holding or carrying, and they can't be extinguished.</p>
+            <p class="indent">While in this stance, you shed bright light in a 15-foot radius and dim light for an additional 15 feet, you have resistance to cold damage and fire damage, and when you hit a target with a ranged weapon attack using a thrown weapon or with a melee weapon attack, the attack deals 1d6 bonus fire damage. If you're wielding the weapon in two hands, roll the fire damage twice and use the higher result. You can't deal this bonus damage to each creature more than once per turn.</p>
+            <p class="indent">Also, while you are in this stance, you deal 1d6 fire damage at the start of each of your turns to any creature whose space you are fully within, to any creature that you are grappling, and to any creature that is grappling you. If you're fully within a creature's space and one of you is grappling the other one, you deal the creature maximum fire damage instead of rolling.</p>
+            <p class="indent">You can use this ability up to three times, and you regain all expended uses when you finish a long rest. When you reach 10th leveL the number of times you can use it increases to four, and it increases again to five when you reach 18th level The damage dice increase to d8s when you reach 7th leveL and they increase again to d10s at 15th level</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="3/Long Rest" level="3">You can use a bonus action on your turn to enter the flame stance and burst into flames for 1 minute. The flames do not harm you or anything you are holding or carrying, and they can't be extinguished.
+            While in this stance, you shed bright light in a 15-foot radius and dim light for an additional 15 feet, you have resistance to cold damage and fire damage, and when you hit a target with a ranged weapon attack using a thrown weapon or with a melee weapon attack, the attack deals 1d6 bonus fire damage. If you're wielding the weapon in two hands, roll the fire damage twice and use the higher result. You can't deal this bonus damage to each creature more than once per turn.
+            Also, while you are in this stance, you deal 1d6 fire damage at the start of each of your turns to any creature whose space you are fully within, to any creature that you are grappling, and to any creature that is grappling you. If you're fully within a creature's space and one of you is grappling the other one, you deal the creature maximum fire damage instead of rolling.</description>
+            <description action="Bonus Action" usage="3/Long Rest" level="7">You can use a bonus action on your turn to enter the flame stance and burst into flames for 1 minute. The flames do not harm you or anything you are holding or carrying, and they can't be extinguished.
+            While in this stance, you shed bright light in a 15-foot radius and dim light for an additional 15 feet, you have resistance to cold damage and fire damage, and when you hit a target with a ranged weapon attack using a thrown weapon or with a melee weapon attack, the attack deals 1d8 bonus fire damage. If you're wielding the weapon in two hands, roll the fire damage twice and use the higher result. You can't deal this bonus damage to each creature more than once per turn.
+            Also, while you are in this stance, you deal 1d8 fire damage at the start of each of your turns to any creature whose space you are fully within, to any creature that you are grappling, and to any creature that is grappling you. If you're fully within a creature's space and one of you is grappling the other one, you deal the creature maximum fire damage instead of rolling.</description>
+            <description action="Bonus Action" usage="4/Long Rest" level="10">You can use a bonus action on your turn to enter the flame stance and burst into flames for 1 minute. The flames do not harm you or anything you are holding or carrying, and they can't be extinguished.
+            While in this stance, you shed bright light in a 15-foot radius and dim light for an additional 15 feet, you have resistance to cold damage and fire damage, and when you hit a target with a ranged weapon attack using a thrown weapon or with a melee weapon attack, the attack deals 1d8 bonus fire damage. If you're wielding the weapon in two hands, roll the fire damage twice and use the higher result. You can't deal this bonus damage to each creature more than once per turn.
+            Also, while you are in this stance, you deal 1d8 fire damage at the start of each of your turns to any creature whose space you are fully within, to any creature that you are grappling, and to any creature that is grappling you. If you're fully within a creature's space and one of you is grappling the other one, you deal the creature maximum fire damage instead of rolling.</description>
+            <description action="Bonus Action" usage="4/Long Rest" level="15">You can use a bonus action on your turn to enter the flame stance and burst into flames for 1 minute. The flames do not harm you or anything you are holding or carrying, and they can't be extinguished.
+            While in this stance, you shed bright light in a 15-foot radius and dim light for an additional 15 feet, you have resistance to cold damage and fire damage, and when you hit a target with a ranged weapon attack using a thrown weapon or with a melee weapon attack, the attack deals 1d10 bonus fire damage. If you're wielding the weapon in two hands, roll the fire damage twice and use the higher result. You can't deal this bonus damage to each creature more than once per turn.
+            Also, while you are in this stance, you deal 1d10 fire damage at the start of each of your turns to any creature whose space you are fully within, to any creature that you are grappling, and to any creature that is grappling you. If you're fully within a creature's space and one of you is grappling the other one, you deal the creature maximum fire damage instead of rolling.</description>
+            <description action="Bonus Action" usage="5/Long Rest" level="18">You can use a bonus action on your turn to enter the flame stance and burst into flames for 1 minute. The flames do not harm you or anything you are holding or carrying, and they can't be extinguished.
+            While in this stance, you shed bright light in a 15-foot radius and dim light for an additional 15 feet, you have resistance to cold damage and fire damage, and when you hit a target with a ranged weapon attack using a thrown weapon or with a melee weapon attack, the attack deals 1d10 bonus fire damage. If you're wielding the weapon in two hands, roll the fire damage twice and use the higher result. You can't deal this bonus damage to each creature more than once per turn.
+            Also, while you are in this stance, you deal 1d10 fire damage at the start of each of your turns to any creature whose space you are fully within, to any creature that you are grappling, and to any creature that is grappling you. If you're fully within a creature's space and one of you is grappling the other one, you deal the creature maximum fire damage instead of rolling.</description>
+        </sheet>
+    </element>
+    <element name="Alight in Flame" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_ALIGHT_IN_FLAME">
+        <description>
+            <p>At 7th level, you learn a trick to sparkle with the glow of flame, helping you hold the attention of others.</p>
+            <p class="indent">You can use your action to make yourself glow with flame for 1 minute. You shed bright light in a 10-foot radius and dim light for an additional 10 feet, and you have advantage on Charisma (Intimidation), Charisma (Performance), and Dexterity (Sleight of Hand) checks when influencing those that can see you. However, you also have disadvantage on Dexterity (Stealth) checks.</p>
+            <p class="indent">You can only use this ability up to a number of times equal to your Constitution modifier (minimum of once), and you regain all expended usages when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="{{constitution:modifier}}/Long Rest">You can use your action to make yourself glow with flame for 1 minute. You shed bright light in a 10-foot radius and dim light for an additional 10 feet, and you have advantage on Charisma (Intimidation), Charisma (Performance), and Dexterity (Sleight of Hand) checks when influencing those that can see you. However, you also have disadvantage on Dexterity (Stealth) checks.</description>
+        </sheet>
+    </element>
+    <element name="Fire-Breathing" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_FIRE_BREATHING">
+        <description>
+            <p>At 10th leveL you learn how to tum your breath into fire as you exhale. You can cast the produce flame cantrip at-wilL requiring only verbal components.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_PRODUCE_FLAME" />
+            </div>
+            <p class="indent">You can also cast burning hands at a spell slot level equal to your fighter level divided by 3, expending no spell slots and requiring only verbal components. Once you have done so, you cannot do so again until you finish a short or long rest.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_BURNING_HANDS" />
+            </div>
+            <p class="indent">Your attack bonus with these spells equals your Constitution modifier + your proficiency bonus, and your spellcasting DC for these spells equals 8 + your Constitution modifier + your proficiency bonus.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest">You can cast the produce flame cantrip at-wilL requiring only verbal components. You can also cast burning hands at a spell slot level equal to your fighter level divided by 3, expending no spell slots and requiring only verbal components. Your attack bonus with these spells is {{burning:attack}}, and your spellcasting DC for these spells is {{burning:dc}}.</description>
+        </sheet>
+        <rules>
+            <stat name="burning:attack" value="proficiency" />
+            <stat name="burning:attack" value="constitution:modifier" />
+            <stat name="burning:dc" value="burning:attack" />
+            <stat name="burning:dc" value="8" />
+            <grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" />
+            <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
+        </rules>
+    </element>
+    <element name="Ignition Strike" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_IGNITION_STRIKE">
+        <description>
+            <p>When you reach 15th level, when you hit a creature with a melee weapon attack or deal a creature fire damage, you can choose to light it ablaze. Until a creature takes an action to douse the fire, the target takes 1d10 fire damage at the start of each of its turns.</p>
+            <p class="indent">You can use this ability twice, and you regain both uses when you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="2/Short Rest">When you hit a creature with a melee weapon attack or deal a creature fire damage, you can choose to light it ablaze. Until a creature takes an action to douse the fire, the target takes 1d10 fire damage at the start of each of its turns.</description>
+        </sheet>
+    </element>
+    <element name="Ignition Master" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_IGNITION_MASTER">
+        <description>
+            <p>Starting at 18th level, if you roll initiative and you have no uses of your Ignition Strike feature remaining, you regain one usage. Also, your fighter class features that deal fire damage ignore resistance to fire damage.</p>
+        </description>
+        <sheet>
+            <description>If you roll initiative and you have no uses of your Ignition Strike feature remaining, you regain one usage. Also, your fighter class features that deal fire damage ignore resistance to fire damage.</description>
+        </sheet>
+    </element>
+    <element name="Great Combustion" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_FLAME_DANCER_GREAT_COMBUSTION">
+        <description>
+            <p>At 18th level, you gain the ability to ignite living air and transmute the power within into heat. When you would roll fire damage, if one of the targets of that damage is an elemental of the air subtype, you can choose before you roll to maximize up to a number of those damage dice equal to your Constitution modifier (minimum of 1).</p>
+        </description>
+        <sheet>
+            <description>When you would roll fire damage, if one of the targets of that damage is an elemental of the air subtype, you can choose before you roll to maximize up to {{constitution:modifier}} of those damage dice (minimum of 1).</description>
+        </sheet>
+    </element>
+
+    <element name="Wind Knight" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FIGHTER_WIND_KNIGHT">
+        <supports>Martial Archetype</supports>
+        <description>
+            <p>The archetypal wind knight can strike with the swirling wind created by their weapons. They use air pressure to transform melee strikes into projectiles, and spin their ranged volleys so that they hit with cyclone force. Wind knight abilities are not magical. They follow an ancient fighting tradition focused on the flow of air, sound, and pressure, handed down through generations of masters and devoted pupils. These warriors constantly seek to improve and refine their skill, searching for worthy opponents to both test and hone their abilities against.</p>
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_TECHNIQUE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_BONUS_PROF" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_ADEPT_HEARING" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_WAVE_BENDER" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_IMPROVED_WIND_STRIKE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_CYCLONE_STRIKE" />
+            <div element="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_WIND_STRIKE_MASTER" />
+        </description>
+        <sheet display="false">
+            <description>The archetypal wind knight can strike with the swirling wind created by their weapons.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_TECHNIQUE" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_BONUS_PROF" level="3" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_ADEPT_HEARING" level="7" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_WAVE_BENDER" level="7" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_IMPROVED_WIND_STRIKE" level="10" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_CYCLONE_STRIKE" level="15" />
+            <grant type="Archetype Feature" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_WIND_STRIKE_MASTER" level="18" />
+        </rules>
+    </element>
+    <element name="Wind Knight Technique" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_TECHNIQUE">
+        <description>
+            <p>When you choose this archetype at 3rd level, you gain the ability to strike using a weapon with such precision and skill that you can harness the air to your advantage.</p>
+            <p class="indent">You have four wind strike dice, which are d8s. You can decide to use a wind strike die that isn't expended before you make a weapon attack on your turn if you aren't in a liquid or vacuum. This augments the attack, giving it certain benefits depending on whether it is a melee or ranged attack:</p>
+            <p class="indent">For a melee attack, the reach of the attack is increased by 10 feet, and if the attack is made outside the weapon's normal reach, it counts as both a melee weapon attack and a ranged spell attack and it treats liquids and vacuums as if they were total cover. For a ranged attack, the attack ignores disadvantage caused by long-range or the effects of wind, and the weapon returns to one of your free hands at the end of your turn if it has the thrown property.</p>
+            <p class="indent">If the attack hits or deals any damage, you roll the wind strike die and add the result to the damage for the attack, and the wind strike die is expended. You regain all of your expended wind strike dice when you finish a short or long rest. You gain another wind strike die at 7th level and one more at 15th level.</p>
+            <p class="indent">The bonus to the attack's reach is increased by 5 feet at 7th, 10th, and 15th level.</p>
+        </description>
+        <sheet>
+            <description level="3" usage="4/Short Rest">Your wind strike dice are d8s. You can decide to use a wind strike die that isn't expended before you make a weapon attack on your turn if you aren't in a liquid or vacuum. This augments the attack, giving it certain benefits:
+            Melee: the reach of the attack is increased by 10 feet, and if the attack is made outside the weapon's normal reach, it counts as both a melee weapon attack and a ranged spell attack and it treats liquids and vacuums as if they were total cover.
+            Ranged: the attack ignores disadvantage caused by long-range or the effects of wind, and the weapon returns to one of your free hands at the end of your turn if it has the thrown property.
+            If the attack hits or deals any damage, you roll the wind strike die and add the result to the damage for the attack, and the wind strike die is expended.</description>
+            <description level="7" usage="5/Short Rest">Your wind strike dice are d8s. You can decide to use a wind strike die that isn't expended before you make a weapon attack on your turn if you aren't in a vacuum. This augments the attack, giving it certain benefits:
+            Melee: the reach of the attack is increased by 15 feet, and if the attack is made outside the weapon's normal reach, it counts as both a melee weapon attack and a ranged spell attack and it treats vacuums as if they were total cover.
+            Ranged: the attack ignores disadvantage caused by long-range or the effects of wind, and the weapon returns to one of your free hands at the end of your turn if it has the thrown property.
+            If the attack hits or deals any damage, you roll the wind strike die and add the result to the damage for the attack, and the wind strike die is expended.</description>
+            <description level="10" usage="5/Short Rest">Your wind strike dice are d10s. You can decide to use a wind strike die that isn't expended before you make a weapon attack on your turn if you aren't in a vacuum. This augments the attack, giving it certain benefits:
+            Melee: the reach of the attack is increased by 20 feet, and if the attack is made outside the weapon's normal reach, it counts as both a melee weapon attack and a ranged spell attack and it treats vacuums as if they were total cover.
+            Ranged: the attack ignores disadvantage caused by long-range or the effects of wind, and the weapon returns to one of your free hands at the end of your turn if it has the thrown property.
+            If the attack hits or deals any damage, you roll the wind strike die and add the result to the damage for the attack, and the wind strike die is expended.</description>
+            <description level="15" usage="6/Short Rest">Your wind strike dice are d10s. You can decide to use a wind strike die that isn't expended before you make a weapon attack on your turn if you aren't in a vacuum. This augments the attack, giving it certain benefits:
+            Melee: the reach of the attack is increased by 25 feet, and if the attack is made outside the weapon's normal reach, it counts as both a melee weapon attack and a ranged spell attack and it treats vacuums as if they were total cover.
+            Ranged: the attack ignores disadvantage caused by long-range or the effects of wind, and the weapon returns to one of your free hands at the end of your turn if it has the thrown property.
+            If the attack hits or deals any damage, you roll the wind strike die and add the result to the damage for the attack, and the wind strike die is expended.</description>
+            <description level="18" usage="6/Short Rest">Your wind strike dice are d12s. You can decide to use a wind strike die that isn't expended before you make a weapon attack on your turn. This augments the attack, giving it certain benefits:
+            Melee: the reach of the attack is increased by 25 feet, and if the attack is made outside the weapon's normal reach, it counts as both a melee weapon attack and a ranged spell attack.
+            Ranged: the attack ignores disadvantage caused by long-range or the effects of wind, and the weapon returns to one of your free hands at the end of your turn if it has the thrown property.
+            If the attack hits or deals any damage, you roll the wind strike die and add the result to the damage for the attack, and the wind strike die is expended.</description>
+        </sheet>
+    </element>
+    <element name="Bonus Proficiency" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_BONUS_PROF">
+        <description>
+            <p>At 3rd level, your study of air, wind, and sound grants you new insights and draws out your talents. You gain proficiency with one musical instrument of your choice. Alternatively, you learn one language of your choice.</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency with one musical instrument or language of your choice.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Bonus Proficiency" supports="WindKnightProf" />
+        </rules>
+    </element>
+    <element name="Bonus Proficiency, Musical" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_BONUS_PROF_M">
+        <supports>WindKnightProf</supports>
+        <description>
+            <p>You gain proficiency with one musical instrument of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Bonus Proficiency, Wind Knight" supports="Musical Instrument" />
+        </rules>
+    </element>
+    <element name="Bonus Proficiency, Language" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_BONUS_PROF_L">
+        <supports>WindKnightProf</supports>
+        <description>
+            <p>You gain proficiency with one language of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Language" name="Language, Wind Knight" supports="Standard||Exotic" />
+        </rules>
+    </element>
+    <element name="Adept Hearing" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_ADEPT_HEARING">
+        <description>
+            <p>At 7th level, your awareness of the air currents flowing around you sharpens your hearing to exceptional levels, allowing you to hear things as quiet as the rustle of wind through an illusion or the heightened pulse of a liar. You have advantage on Wisdom (Perception) checks and Intelligence (Investigation) checks that rely on hearing, and on Wisdom (Insight) checks to detect lies if the speaker is within 30 feet of you and you aren't deafened.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Wisdom (Perception) checks and Intelligence (Investigation) checks that rely on hearing, and on Wisdom (Insight) checks to detect lies if the speaker is within 30 feet of you and you aren't deafened.</description>
+        </sheet>
+    </element>
+    <element name="Wave Bender" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_WAVE_BENDER">
+        <description>
+            <p>Starting at 7th level, your Wind Strike feature no longer treats liquids as total cover and isn't limited by liquids, and when you augment an attack using a wind strike die, it doesn't suffer disadvantage for being underwater.</p>
+            <p class="indent">Also, you gain the ability to bend the arcs of your projectile attacks. When you augment a ranged attack using a wind strike die, the attack ignores up to 1 of the bonus to AC provided to the target by cover.</p>
+            <p class="indent">When you reach 10th level, this number increases to 2, and it increases again to 3 at 15th level.</p>
+        </description>
+        <sheet>
+            <description level="7">When you augment an attack using a wind strike die, it doesn't suffer disadvantage for being underwater. When you augment a ranged attack using a wind strike die, the attack ignores up to 1 of the bonus to AC provided to the target by cover.</description>
+            <description level="10">When you augment an attack using a wind strike die, it doesn't suffer disadvantage for being underwater. When you augment a ranged attack using a wind strike die, the attack ignores up to 2 of the bonus to AC provided to the target by cover.</description>
+            <description level="15">When you augment an attack using a wind strike die, it doesn't suffer disadvantage for being underwater. When you augment a ranged attack using a wind strike die, the attack ignores up to 3 of the bonus to AC provided to the target by cover.</description>
+        </sheet>
+    </element>
+    <element name="Improved Wind Strike" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_IMPROVED_WIND_STRIKE">
+        <description>
+            <p>At 10th level, your wind strike dice turn into d10s. At 18th level, they turn into d12s.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Cyclone Strike" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_CYCLONE_STRIKE">
+        <description>
+            <p>Starting at 15th level, when you roll initiative and have no wind strike dice remaining, you regain 1 wind strike die.</p>
+        </description>
+        <sheet>
+            <description>When you roll initiative and have no wind strike dice remaining, you regain 1 wind strike die.</description>
+        </sheet>
+    </element>
+    <element name="Wind Strike Master" type="Archetype Feature" source="The Elements and Beyond" id="ID_TEAB_ARCHETYPE_FEATURE_WIND_KNIGHT_WIND_STRIKE_MASTER">
+        <description>
+            <p>At 18th level, your mastery over wind-based attacks becomes absolute. When you make a melee weapon attack on your turn and don't augment it using a wind strike die, the reach is still increased by 10 feet. When you make a ranged weapon attack on your turn, you always ignore disadvantage caused by long-range, being underwater, or the effects of wind, and the weapon returns to one of your free hands at the end of your turn if it has the thrown property.</p>
+            <p class="indent">Finally, your skill becomes so legendary that your Wind Strike feature ignores vacuums.</p>
+        </description>
+        <sheet>
+            <description>When you make a melee weapon attack on your turn and don't augment it using a wind strike die, the reach is still increased by 10 feet. When you make a ranged weapon attack on your turn, you always ignore disadvantage caused by long-range, being underwater, or the effects of wind, and the weapon returns to one of your free hands at the end of your turn if it has the thrown property.</description>
+        </sheet>
+    </element>
+    
+<p class="indent"></p>
+</elements>
