@@ -5,7 +5,7 @@
 		<description>The Elements and Beyond by DnD Unleashed</description>
 		<author url="https://www.dndunleashed.com/home?category=The%20Elements%20and%20Beyond">DNDUnleashed</author>
 		<update version="0.0.7">
-			<file name="the-elements-beyond.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-KibblesTasty/main/kibblestasty.index" />
+			<file name="the-elements-beyond.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/kibblestasty.index" />
 		</update>
 	</info>
 	<files>
