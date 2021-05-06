@@ -71,7 +71,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase, Bright Elf" supports="ASIBRELF" />
+            <select type="Racial Trait" name="Ability Score Increase, Bright Elf" supports="ASIBRELF" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Elf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_BRELF_ANCIENT_MAGIC" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_BRELF_BRIGHTFOLK" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_BRELF_CELESTIAL_NATURE" />
@@ -122,7 +123,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase, Green Elf" supports="ASIGREENELF" />
+            <select type="Racial Trait" name="Ability Score Increase, Green Elf" supports="ASIGREENELF" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Elf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GELF_ARBOREAL_EMISSARY" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GELF_CULTIVATOR" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GELF_PHOTOSYNTHESIS" />

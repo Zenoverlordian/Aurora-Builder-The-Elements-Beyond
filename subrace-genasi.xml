@@ -13,7 +13,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="wisdom" value="1" />
+            <stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Genasi)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_AWAKEN_ASHES" />
@@ -44,7 +45,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="strength" value="1" />
+            <stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Genasi)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_ALWAYS_COOL" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_ICY_RESILIENCE" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_ICE_INVOCATION_OF_ICE" />
@@ -97,7 +99,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="dexterity" value="1" />
+            <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Genasi)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_SLIME_CAUSTIC_TOUCH" />
@@ -135,7 +138,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="charisma" value="1" />
+            <stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Genasi)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_GENASI_STORM_BECKON" />

@@ -41,7 +41,8 @@
         </setters>
         <rules>
             <grant type="Size" id="ID_SIZE_TINY" />
-            <stat name="dexterity" value="2" />
+            <stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fairy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <stat name="innate speed" value="10" bonus="base" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
@@ -102,7 +103,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase, Pixie" supports="ASIPixie" />
+            <select type="Racial Trait" name="Ability Score Increase, Pixie" supports="ASIPixie" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fairy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_PIXIE_SPELLCASTING" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_PIXIE_DUST" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_PIXIE_GLOW" />
@@ -178,7 +180,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase, Sprite" supports="ASISprite" />
+            <select type="Racial Trait" name="Ability Score Increase, Sprite" supports="ASISprite" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fairy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Language" id="ID_LANGUAGE_ELVISH" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SPRITE_HEART_SIGHT" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SPRITE_INVISIBILITY" />
@@ -259,7 +262,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase, Scamp" supports="ASIScamp" />
+            <select type="Racial Trait" name="Ability Score Increase, Scamp" supports="ASIScamp" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fairy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <select type="Language" name="Language, Scamp" supports="Standard||Exotic" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SCAMP_SPELLCASTING" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SCAMP_TRICKSTER" />

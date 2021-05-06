@@ -15,7 +15,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase, Ember Dwarf" supports="ASIEmberDwarf" />
+            <select type="Racial Trait" name="Ability Score Increase, Ember Dwarf" supports="ASIEmberDwarf" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_EDWARF_ELEMENTAL_NATURE" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_EDWARF_FIRE_RESISTANCE" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_EDWARF_HEATED_BODY" />
@@ -100,7 +101,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase, Stone Dwarf" supports="ASIStoneDwarf" />
+            <select type="Racial Trait" name="Ability Score Increase, Stone Dwarf" supports="ASIStoneDwarf" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SDWARF_ELEMENTAL_NATURE" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_SDWARF_STONE_BODY" />
         </rules>
@@ -164,7 +166,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase, Tundra Dwarf" supports="ASITundraDwarf" />
+            <select type="Racial Trait" name="Ability Score Increase, Tundra Dwarf" supports="ASITundraDwarf" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_TDWARF_COLD_RESISTANCE" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_TDWARF_ICERUNNING" />
             <grant type="Racial Trait" id="ID_TEAB_RACE_TRAIT_TDWARF_SNOW_TREADER" />
