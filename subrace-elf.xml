@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="subrace-elf.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/subrace-elf.xml" />
+        </update>
+    </info>
 
 <element name="Strength" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_ELFASI_STR">
     <compendium display="false" />

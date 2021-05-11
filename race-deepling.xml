@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="race-deepling.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/race-deepling.xml" />
+        </update>
+    </info>
     
     <element name="Deepling" type="Race" source="The Elements and Beyond" id="ID_TEAB_RACE_DEEPLING">
         <description>

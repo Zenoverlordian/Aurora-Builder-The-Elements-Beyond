@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="subrace-genasi.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/subrace-genasi.xml" />
+        </update>
+    </info>
     
     <element name="Ash Genasi" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_GENASI_ASH">
         <supports>Genasi</supports>

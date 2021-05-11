@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="background.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/background.xml" />
+        </update>
+    </info>
     
     <element name="Hidden Villager" type="Background" source="The Elements and Beyond" id="ID_TEAB_BACKGROUND_HIDDEN_VILLAGER">
         <description>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Version 1.03-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.3">
+            <file name="rogue.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/rogue.xml" />
+        </update>
+    </info>
     
     <element name="Aerialist" type="Archetype" source="The Elements and Beyond" id="ID_TEAB_SUBCLASS_ROGUE_AERIALIST">
         <supports>Roguish Archetype</supports>

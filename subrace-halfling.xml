@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="subrace-halfling.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/subrace-halfling.xml" />
+        </update>
+    </info>
     
     <element name="River Halfling" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_HALFLING_RIVER">
         <supports>Halfling</supports>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/spells.xml" />
+        </update>
+    </info>
     
     <element name="Acid Cloud" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ACID_CLOUD">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You conjure a cloud of acidic vapor over the head of one creature you can see within range. The cloud follows the target as it moves and sprays acid upon it periodically. At the start of each of the target's turns while the cloud remains, the target and each other creature in the target's space must succeed on a Dexterity saving throw or take 5d4 acid damage.</p>
             <p class="indent">The cloud lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Ifthe target ends any of its turns at least 50 feet away from where it began that turn, the spell immediately ends.</p>
@@ -197,7 +202,7 @@
     <element name="Beluud's Corrosive Caress" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_BELUUDS_CORROSIVE_CARESS">
         <supports>Artificer, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
-            <p>You attempt to touch a creature as you conjure magical acid into the palm ofyour hand Make a melee spell attack against the target. On a hit, the target takes 5d4 acid damage, and nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -2 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</p>
+            <p>You attempt to touch a creature as you conjure magical acid into the palm of your hand. Make a melee spell attack against the target. On a hit, the target takes 5d4 acid damage, and nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -2 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</p>
             <p class="indent">Armor that is affected or destroyed by this spell can be fully restored with the mending spelL or through the use of appropriate tools.</p>
             <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d4 for each slot level above 1st.</p>
         </description>
@@ -361,9 +366,9 @@
     </element>
 
     <element name="Cold Snap" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_COLD_SNAP">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
-            <p>With a snap ofyour fingers you banish heat from a target. There are two possible uses for the spell: targeting either one creature that you can see within range or targeting an area of liquid, such as water, acid, mud, snow, quicksand, or lava.</p>
+            <p>With a snap of your fingers you banish heat from a target. There are two possible uses for the spell: targeting either one creature that you can see within range or targeting an area of liquid, such as water, acid, mud, snow, quicksand, or lava.</p>
             <p class="indent">Ifyou target a creature, it must make a Constitution saving throw. On a failure, the target takes 5d10 cold damage and until the end ofyour next tum, its speed is reduced to 0 feet and it has disadvantage on weapon attack rolls. It also gains one level of exhaustion unless it has resistance or immunity to the spell's damage. On a success, it only takes half damage and it doesn't suffer any other effects.</p>
             <p class="indent">Ifyou target an area, your magic affects a portion of liquid that you can see within range and fits into a 30 foot cube. The affected liquid is frozen solid for 10 minutes, provided that there are no creatures in the area. Not all liquids lose their properties when frozen. For example, frozen lava may still be extremely hot to the touch, and frozen acid may still sting or even cause damage in extreme concentrations.</p>
             <p class="indent">Any levels of exhaustion caused by this spell are removed from a creature when it finishes a short or long rest in a warm environment.</p>
@@ -416,7 +421,7 @@
     </element>
 
     <element name="Conflagration" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_CONFLAGRATION">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>Fire springs from the ground within 10 feet of a point that you can see within range and lasts until the spell ends or until it is extinguished by any means. The fire extends 5 feet above the ground Each time a creature starts its tum in the fire or enters it for the first time on a tum, it must succeed on a Dexterity saving throw or else take 1d10 fire damage.</p>
             <p class="indent">The spell ignites any flammable objects in the fire that aren't being worn or carried.</p>
@@ -462,7 +467,7 @@
     </element>
 
     <element name="Conjure Critters" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_CONJURE_CRITTERS">
-        <supports>Druid, Ranger</supports>
+        <supports>Druid, Ranger, Occultist</supports>
         <description>
             <p>You summon minor fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:</p>
             <ul>
@@ -515,7 +520,7 @@
     </element>
 
     <element name="Cyclone" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_CYCLONE">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>A swirling coil offierce wind rises around one creature that you can see within range. The target must make a Dexterity saving throw. On a failure, the target takes 5d8 bludgeoning damage, you can choose to push it up to 15 feet in any direction, and if the target is Huge or smaller, it is thrown 30 feet up into the air. It remains aloft until the end ofyour next turn, at which point it falls unless it can stop the fall While held aloft by this spell a creature is restrained if it cannot fly.</p>
             <p class="indent">On a successful saving throw, the target takes half damage and isn't pushed or launched into the air.</p>
@@ -1133,7 +1138,7 @@
     </element>
 
     <element name="Glistening Acid Slick" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_GLISTENING_ACID_SLICK">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You conjure a spray of translucent acid that covers the ground in a 60-foot cone. Until the spell ends, ground in the area is covered by slippery patches of foaming acid, making it difficult terrain. When the area appears, each creature in the area takes 2d4 acid damage and must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there takes 2d4 acid damage and must also succeed on a Dexterity saving throw or fall prone.</p>
             <p class="indent">In addition, whenever a creature falls prone within the area or ends its turn while prone within the area, it takes 6d4 acid damage. This spell treats creatures that cannot be prone as if they are always prone instead.</p>
@@ -1215,7 +1220,7 @@
     </element>
 
     <element name="Grand Flood" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_GRAND_FLOOD">
-        <supports>Cleric, Druid</supports>
+        <supports>Cleric, Druid, Occultist</supports>
         <description>
             <p>You beckon the heavens to flood the land around you. Water rises from the lowest ground point within range. As the water rises and covers more ground, it begins to rise from any ground in the area that is lower than the water leveL covering lower ground before higher ground The water rises 20 feet each round until the spell has conjured an amount of water equal to 20 feet of rainfall averaged across the area, and then stops rising.</p>
             <p clas="indent">While the water rises, it does not spill or flow like normal and stays within the spell's area. Once the water has stopped rising, it flows with gravity and spills onto the terrain outside the area as appropriate.</p>
@@ -1263,7 +1268,7 @@
     </element>
 
     <element name="Great Voice" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_GREAT_VOICE">
-        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>Your voice booms like rolling thunder. For the duration, when you speak, you can choose to speak up to ten times as loudly as normaL and you can use an action on each ofyour turns to create a wave of sound that roars out from you and can be heard up to 3 miles away.</p>
             <p class="indent">You choose whether the wave is a 60-foot cone emanating from you or a spherical area that extends to30 feet out from you in all directions. Each creatureother than you in the area must make a Constitution saving throw. On a failed saving throw, a creature takes 4d12 thunder damage, it is pushed 30 feet away from you and knocked prone, and it is deafened for 1 minute. On a successful saving throw, a creature takes half as much damage and nothing else.</p>
@@ -1356,7 +1361,7 @@
     </element>
 
     <element name="Heat Wave" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_HEAT_WAVE">
-        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>A wave of nauseatingly hot air swirls briefly in a 50-foot cube emanating from you that spreads around comers. Each creature in the area other than you must make a Constitution saving throw. On a failed saving throw, a creature takes 4d10 fire damage, is poisoned until the end ofyour next tum, and gains one level of exhaustion. On a success, a creature takes half as much damage, is not poisoned, and doesn't gain any exhaustion.</p>
             <p class="indent">A creature has disadvantage on the saving throw if it has resistance or immunity to cold damage. If it has resistance to fire damage or immunity to fire damage, it has advantage on the saving throw and it can't gain any exhaustion from the spell.</p>
@@ -1426,7 +1431,7 @@
     </element>
 
     <element name="Howling Void" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_HOWLING_VOID">
-        <supports>Bard, Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Bard, Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>You destroy the air in a 30-foot radius sphere centered on a point you can see within range, creating an unseen magical area ofvacuum that spreads around corners and lasts until the spell ends. No sound can be created within or pass through the area, and nonmagical flight in the area is impossible. The area disperses gas or vapor, and it extinguishes nonmagical fires of any size. Any creature or object entirely inside the area is immune to thunder damage, is deafened, and cannot breathe or speak.</p>
             <p class="indent">Any creature inside the area when it first appears or that ends its turn within the area must make a Constitution saving throw. On a failed saving throw, a creature takes 3d8 thunder damage and 3d8 psychic damage and gains one level of exhaustion. On a successful saving throw, a creature takes half damage and does not gain any levels of exhaustion.</p>
@@ -1575,7 +1580,7 @@
     </element>
 
     <element name="Living Burial" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_LIVING_BURIAL">
-        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>The ground opens beneath one creature on the ground that you can see within range. The target must make a Strength saving throw as magically fluid earth sucks it downward into the ground On a failed saving throw, it takes 7d8 bludgeoning damage and it is pulled 10 feet under the ground and buried until the spell ends (See Appendix A, page 225). On a success, it takes half as much damage and it isn't pulled or buried.</p>
             <p class="indent">Until the spell ends, at the end of each of the target's turns while it is still buried, it takes 4d8 nonmagical bludgeoning damage. It can use an action on its turn to attempt to dig upward, making a Strength check against your spellcasting DC. If it succeeds or if the spell ends early, the target makes it up to the surface and is only partially stuck in the ground.</p>
@@ -1646,7 +1651,7 @@
     </element>
 
     <element name="Mass Renewal" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_MASS_RENEWAL">
-        <supports>Bard, Cleric, Druid</supports>
+        <supports>Bard, Cleric, Druid, Occultist</supports>
         <description>
             <p>You invoke great magic to spark sudden and miraculous healing out of the natural healing capabilities of up to twenty creatures that you can see within range. Each target must be willing or unconscious.</p>
             <p class="indent">Each target gains one level of exhaustion, can cure one poison or disease affecting it, regains hit points equal to 50 + half of its maximum hit points, and must succeecf on a DC 20 Constitution saving throw or gain one additional level of exhaustion. It can also choose to instantly spend hit dice to regain hit points as if it had just finished a short rest, up to a number of hit dice equal to its Constitution modifier (minimum 1 hit die).</p>
@@ -1765,7 +1770,7 @@
     </element>
 
     <element name="Molten Upheaval" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_MOLTEN_UPHEAVAL">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>Molten geysers erupt out from the earth in a 40 foot cube centered on a point on the ground that you can see within range. The area extends into the ground and spreads around comers. Each creature in the area must make a Dexterity saving throw, taking 6d6 fire damage on a failed save or half as much damage on a success.</p>
             <p class="indent">Cracks and fissures filled with molten lava open up in the area and chum the remaining solid earth, making the ground in the area difficult terrain until the spell ends. Any creature that enters the spell's area for the first time on a tum or ends its tum there must make a Dexterity saving throw. A creature takes 6d6 fire damage on a failed save, or half as much on a success. A creature has disadvantage on the saving throw if it is burrowing or prone, but creatures that aren't touching the ground automatically succeed on the saving throw.</p>
@@ -1981,7 +1986,7 @@
     </element>
 
     <element name="Petrify" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_PETRIFY">
-        <supports>Druid, Warlock, Wizard</supports>
+        <supports>Druid, Warlock, Wizard, Occultist</supports>
         <description>
             <p>A beam of amber earthen energy lances from your finger toward one creature that you can see within range. Make a ranged spell attack against the target. On a hit, it takes 5d10 necrotic damage, and it must make a Constitution saving throw if it has any limbs. On a failed saving throw, you choose one of its limbs to affect. That limb is turned to stone until the spell ends, and cannot be used to make attacks. The effect of losing a limb can be found in the following table, based on the chosen limb:</p>
             <table>
@@ -2039,7 +2044,7 @@
     </element>
 
     <element name="Primordial Tides" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_PRIMORDIAL_TIDES">
-        <supports>Druid, Sorcerer</supports>
+        <supports>Druid, Sorcerer, Occultist</supports>
         <description>
             <p>You release a blast of chaotic magic that washes out from you in a 60-foot cone. Until the spell ends, ground in the area is difficult terrain, and at the end of each of your turns a wave of elemental energy pulses through the area, targeting each creature in the area with a magical effect. The effect is different each round:</p>
             <ul>
@@ -2192,7 +2197,7 @@
     </element>
 
     <element name="Rejuvenate" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_REJUVENATE">
-        <supports>Artificer, Cleric, Druid, Paladin, Ranger, Occultist, KTHArtificer</supports>
+        <supports>Artificer, Cleric, Druid, Paladin, Ranger, Occultist, KTHArtificer, Occultist</supports>
         <description>
             <p>You imbue one creature that you touch as part of casting the spell with a magic that revitalizes and protects. Until the spell ends, at the start ofeach of the target's turns, it regains 1d8 hit points and gains a number of temporary hit points equal to 3d6 + twice your spellcasting ability modifier.</p>
         </description>
@@ -2235,7 +2240,7 @@
     </element>
 
     <element name="Renewal" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_RENEWAL">
-        <supports>Artificer, Bard, Cleric, Druid, KTHArtificer</supports>
+        <supports>Artificer, Bard, Cleric, Druid, KTHArtificer, Occultist</supports>
         <description>
             <p>You gently apply vital magic to one creature that you touch, causing its body to accelerate its natural healing. The target can expend hit dice and regains hit points as if it had done so during a short rest. The minimum number of hit points the target regains from each hit die expended this way equals your Spellcasting modifier.</p>
             <p class="indent">A creature can only expend up to a number of hit dice equal to its Constitution modifier (minimum of 1) via this spell before it finishes a long rest, no matter how many times the spell is cast or who casts it.</p>
@@ -2351,7 +2356,7 @@
     </element>
 
     <element name="Sandstorm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SANDSTORM">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You call a swirling column of sand down to fill a 150-foot-radius, 100-foot-high cylinder that spreads around comers centered on a point you can see within range. For the duration, the area is difficult terrain and heavily obscured Creatures in the area are deafened, and any ranged weapon attacks that pass in or out of the area are made with disadvantage. The sand disperses any vapor, gas, and fog that can be dispersed by strong wind, and it extinguishes unprotected flames if they're Large-sized or smaller.</p>
             <p class="indent">Ifyou're within range of the cylinder, you can move it up to 60 feet as a bonus action on your turn.</p>
@@ -2423,7 +2428,7 @@
     </element>
 
     <element name="Shelter from Energy" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SHELTER_FROM_ENERGY">
-        <supports>Cleric, Druid, Sorcerer, Wizard</supports>
+        <supports>Cleric, Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>Choose one of the following damage types: acid, cold, fire, lightning, necrotic, radiant, or thunder, and choose up to six willing creatures you can see within range. For the duration, targets have resistance to that damage type.</p>
             <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 7th level or higher, you may target up to one additional willing creature for each slot level above 6th.</p>
@@ -2729,7 +2734,7 @@
     </element>
 
     <element name="Storm Spear" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_STORM_SPEAR">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You form lightning into a crackling spear of energy, which you use to either make one melee spell attack against a target within 5 feet ofyou or one ranged spell attack against a target that you can see within range. Then the spear vanishes.</p>
             <p class="indent">On a hit, the target takes 6d8 + 20 lightning damage, and if it isn't immune to the damage, it must make a Constitution saving throw. On a failure, it falls prone and becomes paralyzed and stunned for the duration. It repeats the saving throw at the end of each of its turns, ending the effect on a success. On a miss, the target takes half as much damage and suffers no other effects from the spell.</p>
@@ -2801,7 +2806,7 @@
     </element>
 
     <element name="Swelling Storm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SWELLING_STORM">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You summon a column of soft rain, mist, and electrified air in a 60-foot-tall cylinder with a 30-foot radius centered on a point you choose within range that lasts untilthe spell ends. The area is lightly obscured.</p>
             <p class="indent">Until the spell ends, on each ofyour turns, you can use an action to strengthen the spell with your magic. If you do, the radius of the area grows by 10 feet for the duration. This cannot extend the radius beyond 60 feet.</p>
@@ -3039,7 +3044,7 @@
     </element>
 
     <element name="Wall of Lava" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WALL_OF_LAVA">
-        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>You create a wall of lava on a solid surface within range. You can make the wall up to 100 feet long and 30 feet high, or a ringed wall up to 50 feet in diameter and 30 feet high. The wall is 3 feet thick. It is opaque, sheds dim light for 30 feet, and lasts for the duration.</p>
             <p class="indent">When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed saving throw, a creature takes 8d8 fire damage and is restrained by the wall On a success, it takes half damage and it is pushed out of the wall's space. Any creature that ends its tum within 5 feet of the wall takes 4d8 fire damage.</p>
@@ -3065,7 +3070,7 @@
     </element>
 
     <element name="Water Spout" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WATER_SPOUT">
-        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, KTHArtificer, Occultist</supports>
         <description>
             <p>You conjure a stream of pressurized magical water that sprays toward your target. One creature you can see within range must make a Strength saving throw. On a failure, the target takes 1d6 bludgeoning damage and if it is Large or smaller, you push it 10 feet away from you.</p>
             <p class="indent">This spell conjures 4 gallons of stale water for each die of damage rolled This water cannot sustain life and instantly vanishes when the spell ends.</p>
@@ -3133,7 +3138,7 @@
     </element>
 
     <element name="Weathering" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WEATHERING">
-        <supports>Artificer, Druid, Warlock, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Warlock, Wizard, KTHArtificer, Occultist</supports>
         <description>
             <p>You alter the composition ofone object that you touch, changing it as if much time has passed Choose either three hours or three days. The object instantly changes as if that much time had passed This can cause paint to dry and eventually chip away, cause concrete to harden and eventually crack, erode stone, make paper rot, etc.</p>
             <p class="indent">The rate at which the object changes is determined by its current conditions. For example, paper will rot more quickly in warm climates, and stone will erode faster if placed in the path of moving water.</p>

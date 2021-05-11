@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Updated Version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="spell-variants.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/spell-variants.xml" />
+        </update>
+    </info>
     
     <element name="Burning Wave" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_BURNING_WAVE">
-    <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+    <supports>Artificer, Sorcerer, Warlock, Wizard, Occultist</supports>
     <description>
       <p>You evoke a wave of billowing flame in the air. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 fire damage.</p>
       <p class="indent">This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -24,7 +29,7 @@
     </setters>
   </element>
   <element name="Storm Whip" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_STORM_WHIP">
-    <supports>Sorcerer, Warlock, Wizard</supports>
+    <supports>Sorcerer, Warlock, Wizard, Occultist</supports>
     <description>
       <p>You briefly evoke a floating whip of lightning. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 lightning damage.</p>
       <p class="indent">This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -45,7 +50,7 @@
     </setters>
   </element>
   <element name="Vine Lash" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_VINE_LASH">
-    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <supports>Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
     <description>
       <p>You  conjure a floating thorny vine which vanishes after striking. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 piercing damage.</p>
       <p class="indent">This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -67,7 +72,7 @@
   </element>
 
   <element name="Acid Mist" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ACID_MIST">
-        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>You conjure a misty puff ofacid. Until the spells ends, the mist fills a 5-foot cube. Any creature in the mist's space when you cast the spell must succeed on a Dexterity saving throw or take 1d6 acid damage. A creature must also make the saving throw when it enters the mist's space for the first time on a turn or ends its turn there.</p>
             <p class="indent">The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -88,7 +93,7 @@
         </setters>
     </element>
     <element name="Churn Earth" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_CHURN_EARTH">
-        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>You cause the earth to chum and roil like a rock grinder. Until the spells ends, the effect fills a 5-foot cube. Any creature in the effect's space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 nonmagical bludgeoning damage. A creature must also make the saving throw when it enters the effect's space for the first time on a turn or ends its turn there.</p>
             <p class="indent"> Creatures that are prone or burrowing have disadvantage on the save.</p>
@@ -110,7 +115,7 @@
         </setters>
     </element>
     <element name="Glowburn" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_GLOWBURN">
-        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>You conjure a glowing orb of color that sears those it touches. Until the spells ends, the orb fills a 5-foot cube. Any creature in the orb's space when you cast the spell must succeed on a Dexterity saving throw or take 1d6 radiant damage. A creature must also make the saving throw when it enters the orb's space for the first time on a turn or ends its turn there.</p>
             <p class="indent">The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -131,7 +136,7 @@
         </setters>
     </element>
     <element name="Lashing Leaves" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_LASHING_LEAVES">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You conjure a spectral plant with waving, slicing leaves. Until the spells ends, the plant fills a 5-foot cube. Any creature in the plant's space when you cast the spell must succeed on a Dexterity saving throw or take 1d6 slashing damage. A creature must also make the saving throw when it enters the plant's space for the first time on a turn or ends its turn there.</p>
             <p class="indent">The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -152,7 +157,7 @@
         </setters>
     </element>
     <element name="Snowfall" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SNOWFALL">
-        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>You conjure a flurry of icy snow. Until the spells ends, the flurry fills a 5-foot cube. Any creature in the flurry's space when you cast the spell must succeed on a Constitution saving throw or take 1d8 cold damage. A creature must also make the saving throw when it enters the flurry's space for the first time on a turn or ends its turn there.</p>
             <p class="indent">Any creatures that are naturally adapted to cold environments are also immune to the spell.</p>
@@ -284,7 +289,7 @@
     </element>
 
     <element name="Wind Tunnel" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WIND_TUNNEL">
-        <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+        <supports>Artificer, Sorcerer, Warlock, Wizard, Occultist</supports>
         <description>
             <p>You create a tugging vortex of howling wind that surrounds one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 thunder damage if it is within 5 feet of you.</p>
             <p class="indent">This spell's damage increases by 1d8 when you reach 5th level (2d8), 1 1th level (3d8), and 17th level (4d8). </p>
@@ -348,7 +353,7 @@
     </element>
 
     <element name="Chill Wind" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_CHILL_WIND">
-      <supports>Druid, Sorcerer, Warlock, Wizard, Artificer</supports>
+      <supports>Druid, Sorcerer, Warlock, Wizard, Artificer, Occultist</supports>
       <description>
         <p>You extend your hand toward a creature you can see within range and chill the air around it. The creature must succeed on a Constitution saving throw or take 1d12 cold damage. The target is immune if there is no air surrounding it.</p>
         <p class="indent">This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>
@@ -369,7 +374,7 @@
       </setters>
     </element>
     <element name="Hot Flash" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_HOT_FLASH">
-      <supports>Druid, Sorcerer, Warlock, Wizard, Artificer</supports>
+      <supports>Druid, Sorcerer, Warlock, Wizard, Artificer, Occultist</supports>
       <description>
         <p>You extend your hand toward a creature you can see within range and heat the air around it to sweltering temperatures. The creature must succeed on a Constitution saving throw or take 1d12 fire damage. The target is immune if there is no air surrounding it.</p>
         <p class="indent">This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>
@@ -390,7 +395,7 @@
       </setters>
     </element>
     <element name="Thunderous Vibration" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_THUNDEROUS_VIBRATION">
-      <supports>Druid, Sorcerer, Warlock, Wizard, Artificer</supports>
+      <supports>Druid, Sorcerer, Warlock, Wizard, Artificer, Occultist</supports>
       <description>
         <p>You extend your hand toward a creature you can see within range and violently shake it with a loud, ringing sound. The creature must succeed on a Constitution saving throw or take 1d10 thunder damage. The spell can be heard by creatures up to 100 feet away. This spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
       </description>
@@ -411,7 +416,7 @@
     </element>
 
     <element name="Ember Claws" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_EMBER_CLAWS">
-        <supports>Druid</supports>
+        <supports>Druid, Occultist</supports>
         <description>
             <p>You channel primal magic to cause your teeth or fingernails to become wreathed in fire, ready to deliver a flaming attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 fire damage. After you make the attack, your teeth or fingernails return to normal.</p>
             <p class="indent">The spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
@@ -432,7 +437,7 @@
         </setters>
     </element>
     <element name="Snow Fang" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SNOW_FANG">
-        <supports>Druid</supports>
+        <supports>Druid, Occultist</supports>
         <description>
             <p>You channel primal magic to cause your teeth or fingernails to freeze into icicles, ready to deliver a frozen attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 cold damage. After you make the attack, your teeth or fingernails return to normal.</p>
             <p class="indent">The spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
@@ -453,7 +458,7 @@
         </setters>
     </element>
     <element name="Storm Talons" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_STORM_TALONS">
-        <supports>Druid</supports>
+        <supports>Druid, Occultist</supports>
         <description>
             <p>You channel primal magic to cause your teeth or fingernails to charge, ready to deliver an electrical attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 lightning damage. After you make the attack, your teeth or fingernails return to normal.</p>
             <p class="indent">The spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
@@ -704,7 +709,7 @@
     </element>
 
     <element name="Wind Blast" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WIND_BLAST">
-        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, KTHArtificer, Occultist</supports>
         <description>
             <p>You conjure a roaring, thunderous wind that blasts toward your target. One creature you can see within range must make a Strength saving throw. On a failure, the target takes 1d6 thunder damage and if it is Large or smaller, you push it 10 feet away from you.</p>
             <p class="indent">This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -769,7 +774,7 @@
   </element>
 
   <element name="Forked Lightning" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_VORACIOUS_ARMOR">
-    <supports>Sorcerer, Wizard</supports>
+    <supports>Sorcerer, Wizard, Occultist</supports>
     <description>
       <p>As you hold your hands with thumbs touching and fingers spread, arcs of sea-green lightning branch, fork, and fan forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much damage on a successful one.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
@@ -790,7 +795,7 @@
     </setters>
   </element>
   <element name="Icy Hands" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ICY_HANDS">
-    <supports>Sorcerer, Wizard</supports>
+    <supports>Sorcerer, Wizard, Occultist</supports>
     <description>
       <p>As you hold your hands with thumbs touching and fingers spread, blue-white tendrils of icy cold energy crawl forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 cold damage on a failed save, or half as much damage on a successful one.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
@@ -877,7 +882,7 @@
   </element>
 
   <element name="Acid Talon" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ACID_TALON">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You create a curved spike of solidified acid and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the spike then explodes into a burst of liquid acid. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 acid damage.</p>
             <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the acid damage increases by 1d6 for each slot level above 1st.</p>
@@ -898,7 +903,7 @@
         </setters>
     </element>
     <element name="Flame Sling" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FLAME_SLING">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You create a burning stone and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 bludgeoning damage. Hit or miss, the rock then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 fire damage.</p>
             <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases by 1d6 for each slot level above 1st.</p>
@@ -919,7 +924,7 @@
         </setters>
     </element>
     <element name="Storm Razor" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_STORM_RAZOR">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You create a spinning spectral blade made of storm-blue lightning and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 slashing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 lightning damage.</p>
             <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the lightning damage increases by 1d6 for each slot level above 1st.</p>
@@ -941,7 +946,7 @@
     </element>
 
     <element name="Inflict Burns" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_INFLICT_BURNS">
-    <supports>Cleric, Sorcerer</supports>
+    <supports>Cleric, Sorcerer, Occultist</supports>
     <description>
       <p>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 fire damage as it is wreathed in flames.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>
@@ -962,7 +967,7 @@
     </setters>
   </element>
   <element name="Inflict Din" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_INFLICT_DIN">
-    <supports>Cleric, Sorcerer</supports>
+    <supports>Cleric, Sorcerer, Occultist</supports>
     <description>
       <p>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 thunder damage as an incredibly loud ringing sound pounds within its body for a few moments.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>
@@ -983,7 +988,7 @@
     </setters>
   </element>
   <element name="Inflict Rime" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_INFLICT_RIME">
-    <supports>Cleric, Sorcerer</supports>
+    <supports>Cleric, Sorcerer, Occultist</supports>
     <description>
       <p>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 cold damage as your icy touch chills it to its bones.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>
@@ -1070,7 +1075,7 @@
   </element>
 
   <element name="Branch Talons" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_BRANCH_TALONS">
-        <supports>Druid, Sorcerer</supports>
+        <supports>Druid, Sorcerer, Occultist</supports>
         <description>
             <p>You transform your hand into a flexible collection of sharpened tree branches. The branches extend from your arm and lasts for the duration.</p>
             <p class="indent">You can use your action to make a melee spell attack with the branches that has a reach of 10 feet. On a hit, the target takes 3d4 piercing damage, or you can choose to trip the target, dealing it no damage and knocking it prone instead.</p>
@@ -1311,7 +1316,7 @@
   </element>
 
   <element name="Electrify Metal" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ELECTRIFY_METAL">
-    <supports>Druid, Artificer</supports>
+    <supports>Druid, Artificer, Occultist</supports>
     <description>
       <p>Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to thrum with an electric current. Any creature in physical contact with the object takes 2d8 lightning damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again. If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot above 2nd.</p>
@@ -1332,7 +1337,7 @@
     </setters>
   </element>
   <element name="Freeze Metal" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FREEZE_METAL">
-    <supports>Druid, Artificer</supports>
+    <supports>Druid, Artificer, Occultist</supports>
     <description>
       <p>Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to freeze and cloud with ice. Any creature in physical contact with the object takes 2d8 cold damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again. If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot above 2nd.</p>
@@ -1377,7 +1382,7 @@
     </element>
 
     <element name="Electric Beam" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ELECTRIC_BEAM">
-      <supports>Wizard</supports>
+      <supports>Wizard, Occultist</supports>
       <description>
         <p>A thin beam of lightning streaks toward a target within range and bursts in a spray of sparks. Make a ranged spell attack against the target. On a hit, the target takes 4d4 lightning damage immediately and 2d4 lightning damage at the end of its next turn. On a miss, the beam strikes the target with lightning for half as much of the initial damage and no damage at the end of its next turn.</p>
         <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</p>
@@ -1398,7 +1403,7 @@
       </setters>
   </element>
   <element name="Freezing Beam" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FREEZING_BEAM">
-      <supports>Wizard</supports>
+      <supports>Wizard, Occultist</supports>
       <description>
         <p>A thin beam of blue-white energy streaks toward a target within range and bursts in a hail of ice. Make a ranged spell attack against the target. On a hit, the target takes 4d4 cold damage immediately and 2d4 cold damage at the end of its next turn. On a miss, the beam splashes the target with frigid water for half as much of the initial damage and no damage at the end of its next turn.</p>
         <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</p>
@@ -1419,7 +1424,7 @@
       </setters>
   </element>
   <element name="Lava Beam" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_LAVA_BEAM">
-      <supports>Wizard</supports>
+      <supports>Wizard, Occultist</supports>
       <description>
         <p>A red-hot beam of searing lava streaks toward a target within range and bursts in an explosion of fire. Make a ranged spell attack against the target. On a hit, the target takes 4d4 fire damage immediately and 2d4 fire damage at the end of its next turn. On a miss, the beam splashes the target with lava for half as much of the initial damage and no damage at the end of its next turn.</p>
         <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</p>
@@ -1440,7 +1445,7 @@
       </setters>
   </element>
   <element name="Sonic Arrow" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SONIC_ARROW">
-      <supports>Wizard</supports>
+      <supports>Wizard, Occultist</supports>
       <description>
         <p>A dull grey arrow streaks toward a target within range and bursts in a wave of sonic vibrations. Make a ranged spell attack against the target. On a hit, the target takes 4d4 thunder damage immediately and 2d4 thunder damage at the end of its next turn. On a miss, the arrow unsteadies the target with thunder for half as much of the initial damage and no damage at the end of its next turn.</p>
         <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</p>
@@ -1462,7 +1467,7 @@
   </element>
 
   <element name="Ice Shards" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ICE_SHARDS">
-    <supports>Sorcerer, Wizard</supports>
+    <supports>Sorcerer, Wizard, Occultist</supports>
     <description>
       <p>You create three tiny shards of ice that dissolve into freezing energy and hurl them at targets within range. You can hurl them at one target or several. Make a ranged spell attack for each shard. On a hit, the target takes 2d6 cold damage.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, you create one additional shard for each slot level above 2nd.</p>
@@ -1483,7 +1488,7 @@
     </setters>
   </element>
   <element name="Lightning Darts" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_LIGHTNING_DARTS">
-    <supports>Sorcerer, Wizard</supports>
+    <supports>Sorcerer, Wizard, Occultist</supports>
     <description>
       <p>You create three energy darts that transform into bolts of lightning and hurl them at targets within range. You can hurl them at one target or several. Make a ranged spell attack for each dart. On a hit, the target takes 2d6 lightning damage.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, you create one additional dart for each slot level above 2nd.</p>
@@ -1526,7 +1531,7 @@
   </element>
 
   <element name="Caustic Blossoms" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_CAUSTIC_BLOSSOMS">
-    <supports>Druid, Ranger</supports>
+    <supports>Druid, Ranger, Occultist</supports>
     <description>
       <p>The ground in a 20-foot radius centered on a point within range twists and sprouts small flowers coated with caustic acid. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 acid damage for every 5 feet it travels. The transformation of the ground is camouflaged to look natural. Any creature that can’t see the area at the time the spell is case must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.</p>
     </description>
@@ -1546,7 +1551,7 @@
     </setters>
   </element>
   <element name="Searing Charcoal" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SEARING_CHARCOAL">
-    <supports>Druid, Ranger</supports>
+    <supports>Druid, Ranger, Occultist</supports>
     <description>
       <p>The ground in a 20-foot radius centered on a point within range dessicates and forms into searing charcoals hidden under a layer of dust. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 fire damage for every 5 feet it travels. The transformation of the ground is camouflaged to look natural. Any creature that can’t see the area at the time the spell is case must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.</p>
     </description>
@@ -1567,7 +1572,7 @@
   </element>
 
   <element name="Storm Cloud" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_STORM_CLOUD">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You conjure a cloud of gloomy clouds over the head of one creature you can see within range. The cloud follows the target as it moves and releases small bolts of lightning upon it at random intervals. At the start of each of the target's turns while the cloud remains, the target and each other creature in the target's space must succeed on a Dexterity saving throw or take 5d4 lightning damage.</p>
             <p class="indent">The cloud lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. The cloud's space is lightly obscured for the duration of the spell. If the target ends any of its turns at least 50 feet away from where it began that turn, the spell immediately ends.</p>
@@ -1983,7 +1988,7 @@
     </element>
 
     <element name="Frost Breath" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FROST_BREATH">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You exhale a cloud of freezing vapor in a 30 foot cone in front of you. Each creature in the cone must make a Constitution saving throw. On a failure, a creature takes 8d6 cold damage and its speed is reduced by half. On a success, a creature takes half damage and is not slowed.</p>
             <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage dealt increases by 1d6 for each slot level above 3rd.</p>
@@ -2026,7 +2031,7 @@
     </element>
 
     <element name="Electrocute" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ELECTROCUTE">
-		<supports>Druid, Sorcerer, Warlock, Wizard, KTHArtificer</supports>
+		<supports>Druid, Sorcerer, Warlock, Wizard, KTHArtificer, Occultist</supports>
 		<description>
 			<p>Electrical energy washes over a creature of your choice that you can touch, shocking it with high voltage. The target must make a Constitution saving throw. The target takes 8d8 lightning damage on a failed save, or half as much damage on a successful one. If you target a creature that is submerged or partially submerged in water, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p>
 		</description>
@@ -2046,7 +2051,7 @@
 		</setters>
 	</element>
   <element name="Heat Stroke" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_HEAT_STROKE">
-		<supports>Druid, Sorcerer, Warlock, Wizard</supports>
+		<supports>Druid, Sorcerer, Warlock, Wizard, Occultist</supports>
 		<description>
 			<p>Fiery energy washes over a creature of your choice that you can see within range, dessicating the moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 fire damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs. If you target a creature that has resistance or immunity to cold damage, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p>
 		</description>
@@ -2354,7 +2359,7 @@
 	</element>
 
   <element name="Sand Jet" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SAND_JET">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You launch a pressurized jet of sand at one creature that you can see within range. Make a ranged spell attack against the target. On a hit, it takes 11d4 bludgeoning damage and must succeed on a Constitution saving throw or become blinded for 1 minute. It repeats the saving throw at the end of each of its turns, ending the blindness on a success. On a miss, the target takes half damage and is not blinded.</p>
             <p class="indent">Hit or miss, the target's space is filled with a thick cloud of dust that makes it lightly obscured until the end of your next turn or until a wind of any speed disperses it.</p>
@@ -2376,7 +2381,7 @@
         </setters>
     </element>
     <element name="Sun Strike" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SUN_STRIKE">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You launch a blast of focused sunlight at one creature that you can see within range. Make a ranged spell attack against the target. On a hit, it takes 11d4 radiant damage and must succeed on a Constitution saving throw or become blinded for 1 minute. It repeats the saving throw at the end ofeach of its turns, ending the blindness on a success. On a miss, the target takes half damage and is not blinded.</p>
             <p class="indent">Hit or miss, the target's space is filled with a cloud of sparkes that makes it glow with dim light until the end of your next turn or until a wind of any speed disperses it.</p>
@@ -2398,7 +2403,7 @@
         </setters>
     </element>
     <element name="Vitriolic Spray" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_VITRIOLIC_SPRAY">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You launch a thin spray of acid at one creature that you can see within range. Make a ranged spell attack against the target. On a hit, it takes 11d4 acid damage and must succeed on a Constitution saving throw or become blinded for 1 minute. It repeats the saving throw at the end ofeach of its turns, ending the blindness on a success. On a miss, the target takes half damage and is not blinded.</p>
             <p class="indent">Hit or miss, the target's space is filled with a cloud of vile mist that makes it lightly obscured until the end of your next turn or until a wind of any speed disperses it.</p>
@@ -2446,7 +2451,7 @@
     </element>
 
     <element name="Cinder Storm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_CINDER_STORM">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You point at a location within range, and a glowing 1-foot ball of searing hot cinders streaks there and explodes in a 20-foot radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 10d4 fire damage and another 5d4 fire damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn. The spell ignites flammable objects in the area that aren't being worn or carried.</p>
             <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.</p>
@@ -2468,7 +2473,7 @@
     </element>
 
     <element name="Wall of Acid" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WALL_OF_ACID">
-      <supports>Druid, Sorcerer, Wizard</supports>
+      <supports>Druid, Sorcerer, Wizard, Occultist</supports>
       <description>
         <p>You create a wall of shimmering emerald-green acid on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot think, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot think. The wall is opaque and lasts for the duration.</p>
       <p class="indent">When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 acid damage, or half as much damage on a successful save.</p>
@@ -2491,7 +2496,7 @@
       </setters>
 	</element>
   <element name="Wall of Lightning" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WALL_OF_LIGHTNING">
-      <supports>Druid, Sorcerer, Wizard</supports>
+      <supports>Druid, Sorcerer, Wizard, Occultist</supports>
       <description>
         <p>You create a wall of storm-blue electricity on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot think, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot think. The wall is opaque and lasts for the duration.</p>
       <p class="indent">When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 lightning damage, or half as much damage on a successful save.</p>
@@ -2670,7 +2675,7 @@
 	</element>
 
   <element name="Brain Fungus" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_BRAIN_FUNGUS">
-		<supports>Druid, Wizard</supports>
+		<supports>Druid, Wizard, Occultist</supports>
 		<description>
 			<p>You inflict a magical disease on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Constitution saving throw or become charmed by you after 12 hours and for the duration of the spell. While the creature is charmed by you, it takes 5d10 psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can’t understand you is unaffected by the spell. You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends. You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it, as well as any spell that cures disease.</p>
 			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level the spell lasts until it is ended by one of the spells mentioned above.</p>
@@ -2837,7 +2842,7 @@
     </element>
 
     <element name="Belching Aperature" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_BELCHING_APERATURE">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You conjure a belching portal to a minor plane of acid which rises from the ground at a point that you can see within range and lasts for the duration. The portal sheds bright green light in a 20-foot radius and dim light for an additional 20 feet. The portal is incorporeal and does not occupy space. You can use a bonus action on each of your turns before the spell ends to cause the portal to release searing acid in a blast. Choose one of the following two options each time you do so.</p>
             <p class="indent"><strong><em>Area Blast.</em></strong> Choose either a 15-foot-radius, 100-foot-high cylinder centered on the portal, a 40-foot cone blasting from the portal, or a line 80 feet long and 5 feet wide blasting from the portal. Each creature in the chosen area must make a Constitution saving throw, taking 6d6 acid damage on a failed save, or half as much damage on a success. Constructs and earth elementals have disadvantage on this roll.</p>
@@ -2860,7 +2865,7 @@
         </setters>
     </element>
     <element name="Ghostfire Dragon" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_GHOSTFIRE_DRAGON">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You conjure a huge spectral dragon's head made of blue flame which rises from the ground at a point that you can see within range and lasts for the duration. The dragon's head sheds bright blue light in a 20-foot radius and dim light for an additional 20 feet. The dragon is incorporeal and does not occupy space. You can use a bonus action on each of your turns before the spell ends to cause the dragon to release blazing fire in a blast. Choose one of the following two options each time you do so.</p>
             <p class="indent"><strong><em>Area Blast.</em></strong> Choose either a 15-foot-radius, 100-foot-high cylinder centered on the dragon, a 40-foot cone blasting from the dragon, or a line 80 feet long and 5 feet wide blasting from the dragon. Each creature in the chosen area must make a Constitution saving throw, taking 6d6 fire damage on a failed save, or half as much damage on a success. Creatures that are ablaze have disadvantage on this roll.</p>
@@ -2883,7 +2888,7 @@
         </setters>
     </element>
     <element name="Storm Conduit" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_STORM_CONDUIT">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You conjure a spinning coil of sparking blue lightning in the air at a point that you can see within range and lasts for the duration. The coil sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The coil is incorporeal and does not occupy space. You can use a bonus action on each of your turns before the spell ends to cause the coil to release lightning in a blast. Choose one of the following two options each time you do so.</p>
             <p class="indent"><strong><em>Area Blast.</em></strong> Choose either a 15-foot-radius, 100-foot-high cylinder centered on the coil, a 40-foot cone blasting from the coil, or a line 80 feet long and 5 feet wide blasting from the coil. Each creature in the chosen area must make a Constitution saving throw, taking 6d6 lightning damage on a failed save, or half as much damage on a success. Creatures wearing metal armor have disadvantage on this roll.</p>
@@ -2929,7 +2934,7 @@
         </setters>
     </element>
     <element name="Winter Spirit" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WINTER_SPIRIT">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You conjure an elemental spirit of winter which rises from the ground at a point that you can see within range and lasts for the duration. The spirit is incorporeal and does not occupy space. You can use a bonus action on each of your turns before the spell ends to cause the spirit to exhale a frosty mist. Choose one of the following two options each time you do so.</p>
             <p class="indent"><strong><em>Area Blast.</em></strong> Choose either a 15-foot-radius, 100-foot-high cylinder centered on the spirit, a 40-foot cone blasting from the spirit, or a line 80 feet long and 5 feet wide blasting from the spirit. Each creature in the chosen area must make a Constitution saving throw, taking 6d6 cold damage on a failed save, or half as much damage on a success. Plants and water elementals have disadvantage on this roll.</p>
@@ -3278,7 +3283,7 @@
     </element>
 
     <element name="Encroaching Blizzard" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ENCROACHING_BLIZZARD">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You summon a column of frigid rain, mist, and icy air in a 60-foot-tall cylinder with a 30-foot radius centered on a point you choose within range that lasts untilthe spell ends. The area is lightly obscured.</p>
             <p class="indent">Until the spell ends, on each of your turns, you can use an action to strengthen the spell with your magic. If you do, the radius of the area grows by 10 feet for the duration. This cannot extend the radius beyond 60 feet.</p>
@@ -3301,7 +3306,7 @@
         </setters>
     </element>
     <element name="Solar Approach" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SOLAR_APPROACH">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You summon a column of intensely bright light in a 60-foot-tall cylinder with a 30-foot radius centered on a point you choose within range that lasts until the spell ends. The area is filled with bright light which is sunlight.</p>
             <p class="indent">Until the spell ends, on each of your turns, you can use an action to strengthen the spell with your magic. If you do, the radius of the area grows by 10 feet for the duration. This cannot extend the radius beyond 60 feet.</p>
@@ -3324,7 +3329,7 @@
         </setters>
     </element>
     <element name="Spreading Cinders" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SPREADING_CINDERS">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You summon a column of ashes and plumes of flame in a 60-foot-tall cylinder with a 30-foot radius centered on a point you choose within range that lasts untilthe spell ends. The area is lightly obscured. Flammable objects in the area that aren't being worn or carried are set ablaze.</p>
             <p class="indent">Until the spell ends, on each ofyour turns, you can use an action to strengthen the spell with your magic. If you do, the radius of the area grows by 10 feet for the duration. This cannot extend the radius beyond 60 feet.</p>
@@ -3347,7 +3352,7 @@
         </setters>
     </element>
     <element name="Sprouting Petal Swarm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SPROUTING_PETAL_SWARM">
-        <supports>Druid</supports>
+        <supports>Druid, Occultist</supports>
         <description>
             <p>You summon a swirling wind and forest dust, filled with razor-sharp leaves, grass, and petals in a 60-foot-tall cylinder with a 30-foot radius centered on a point you choose within range that lasts untilthe spell ends. The area is lightly obscured.</p>
             <p class="indent">Until the spell ends, on each ofyour turns, you can use an action to strengthen the spell with your magic. If you do, the radius of the area grows by 10 feet for the duration. This cannot extend the radius beyond 60 feet.</p>
@@ -3371,7 +3376,7 @@
         </setters>
     </element>
     <element name="Surging Acid Storm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SURGING_ACID_STORM">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You summon a column of acidic rain, mist, and caustic wind in a 60-foot-tall cylinder with a 30-foot radius centered on a point you choose within range that lasts untilthe spell ends. The area is lightly obscured.</p>
             <p class="indent">Until the spell ends, on each of your turns, you can use an action to strengthen the spell with your magic. If you do, the radius of the area grows by 10 feet for the duration. This cannot extend the radius beyond 60 feet.</p>
@@ -3747,7 +3752,7 @@
     </element>
 
     <element name="Acid Storm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ACID_STORM">
-      <supports>Cleric, Druid, Sorcerer</supports>
+      <supports>Cleric, Druid, Sorcerer, Occultist</supports>
       <description>
         <p>A storm made up of sheets of green acid appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make  Dexterity saving throw. It takes 7d10 acid damage on a failed save, or half as much damage on a successful one.</p>
         <p class="indent">If you choose, plant life in the area is unaffected by this spell.</p>
@@ -3768,7 +3773,7 @@
       </setters>
 	</element>
   <element name="Electric Storm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ELECTRIC_STORM">
-      <supports>Cleric, Druid, Sorcerer</supports>
+      <supports>Cleric, Druid, Sorcerer, Occultist</supports>
       <description>
         <p>A storm made up of sheets of sea-green lightning appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make  Dexterity saving throw. It takes 7d10 lightning damage on a failed save, or half as much damage on a successful one.</p>
         <p class="indent">If you choose, plant life in the area is unaffected by this spell.</p>
@@ -3789,7 +3794,7 @@
       </setters>
 	</element>
   <element name="Frost Storm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FROST_STORM">
-      <supports>Cleric, Druid, Sorcerer</supports>
+      <supports>Cleric, Druid, Sorcerer, Occultist</supports>
       <description>
         <p>A storm made up of sheets of icy mist appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make  Dexterity saving throw. It takes 7d10 cold damage on a failed save, or half as much damage on a successful one.</p>
         <p class="indent">If you choose, plant life in the area is unaffected by this spell.</p>
@@ -3810,7 +3815,7 @@
       </setters>
 	</element>
   <element name="Toxic Pollen Storm" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_TOXIC_POLLEN_STORM">
-      <supports>Druid</supports>
+      <supports>Druid, Occultist</supports>
       <description>
         <p>A storm made up of sheets of poisonous pollen clouds appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. The spell's area is heavily obscured until the start of your next turn. Each creature in the area must make  Dexterity saving throw. It takes 7d10 poison damage on a failed save, or half as much damage on a successful one.</p>
         <p class="indent">If you choose, plant life in the area is unaffected by this spell.</p>
@@ -3983,7 +3988,7 @@
     </element>
 
     <element name="Freezing Icicle" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FREEZING_ICICLE">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You form ice into a frozen spear, which you use to either make one melee spell attack against a target within 5 feet of you or one ranged spell attack against a target that you can see within range. Then the spear melts into a negligible amount of water.</p>
             <p class="indent">On a hit, the target takes 6d8 + 20 cold damage, and if it isn't immune to the damage, it must make a Constitution saving throw. On a failure, it falls prone and becomes paralyzed and stunned for the duration. It repeats the saving throw at the end of each of its turns, ending the effect on a success. On a miss, the target takes half as much damage and suffers no other effects from the spell.</p>
@@ -4054,7 +4059,7 @@
         </setters>
     </element>
     <element name="Fulmination" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FULMINATION">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You launch a bolt of roaring, thunderous lightning at one target you can see within range. Make a ranged spell attack against it. On a hit, the target takes 4d8 + 20 lightning damage and 4d8 + 20 thunder damage. It must also succeed on a Constitution saving throw or become stunned until the start of your next turn, deafened for 1 minute, and if you choose so, it must succeed on a Strength saving throw or be pushed 50 feet away from you and knocked prone. It may repeat the Constitution save at the end of its turns to end the deafness effect.</p>
             <p class="indent">On a miss, the target takes half damage and it isn't stunned, pushed, or knocked prone.</p>
@@ -4100,7 +4105,7 @@
         </setters>
     </element>
     <element name="Lancing Icicle" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_LANCING_ICICLE">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You launch a jagged icicle at one target you can see within range. Make a ranged spell attack against it. On a hit, the target takes 4d8 + 20 cold damage and 4d8 + 20 piercing damage. It must also succeed on a Constitution saving throw or become stunned until the start ofyour next turn, and if you choose so, it must succeed on a Strength saving throw or be pushed 50 feet away from you and knocked prone.</p>
             <p class="indent">On a miss, the target takes half damage and it isn't stunned, pushed, or knocked prone.</p>
@@ -4209,7 +4214,7 @@
     </element>
 
     <element name="Fetid Swamp Cloud" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FETID_SWAMP_CLOUD">
-      <supports>Sorcerer, Wizard</supports>
+      <supports>Sorcerer, Wizard, Occultist</supports>
       <description>
         <p>A swirling cloud of gaseous green acid that smells foul and diseased appears in a 20-foot-radius sphere centered on a point within range. The cloud spreads around corners and is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. When the cloud appears, each creature in it must make a Dexterity saving throw. A creature takes 10d8 acid damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there. The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.</p>
       </description>
@@ -4229,7 +4234,7 @@
       </setters>
 	</element>
   <element name="Frigid Fog" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_FRIGID_FOG">
-      <supports>Sorcerer, Wizard</supports>
+      <supports>Sorcerer, Wizard, Occultist</supports>
       <description>
         <p>A swirling cloud of icy white mist appears in a 20-foot-radius sphere centered on a point within range. The cloud spreads around corners and is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. When the cloud appears, each creature in it must make a Constitution saving throw. A creature takes 10d8 cold damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there. The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.</p>
       </description>
@@ -4249,7 +4254,7 @@
       </setters>
 	</element>
   <element name="Thunderhead" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_THUNDERHEAD">
-      <supports>Sorcerer, Wizard</supports>
+      <supports>Sorcerer, Wizard, Occultist</supports>
       <description>
         <p>A swirling storm-cloud streaked with lightning appears in a 20-foot-radius sphere centered on a point within range. The cloud spreads around corners and is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. When the cloud appears, each creature in it must make a Dexterity saving throw. A creature takes 10d8 lightning damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there. The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.</p>
       </description>
@@ -4268,8 +4273,8 @@
         <set name="isRitual">false</set>
       </setters>
 	</element>
-  <element name="Incendiary CScouring Sandsloud" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SCOURING_SANDS">
-      <supports>Sorcerer, Wizard</supports>
+  <element name="Scouring Sands" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SCOURING_SANDS">
+      <supports>Sorcerer, Wizard, Occultist</supports>
       <description>
         <p>A swirling cloud of abrasive sand that erodes those within appears in a 20-foot-radius sphere centered on a point within range. The cloud spreads around corners and is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. When the cloud appears, each creature in it must make a Dexterity saving throw. A creature takes 5d8 piercing and 5d8 slashing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there. The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.</p>
       </description>
@@ -4289,7 +4294,7 @@
       </setters>
 	</element>
   <element name="Solar Wind" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SOLAR_WIND">
-      <supports>Sorcerer, Wizard</supports>
+      <supports>Sorcerer, Wizard, Occultist</supports>
       <description>
         <p>A swirling smoke cloud filled with pulses of golden eldritch starlight appears in a 20-foot-radius sphere centered on a point within range. The cloud spreads around corners and is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. The cloud sheds dim light in a 40-foot radius When the cloud appears, each creature in it must make a Constitution saving throw. A creature takes 10d8 radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there. The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.</p>
       </description>
@@ -4685,7 +4690,7 @@
     </element>
 
     <element name="Induction" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_INDUCTION">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Druid, Sorcerer, Wizard, Occultist</supports>
         <description>
             <p>You unleash the power of the storm to fill up to ten creatures of your choice that you can see within range with intense electricity. Creatures that are immune to lightning damage and constructs are unaffected.</p>
             <p class="indent">Each target must make a Constitution saving throw. On a failed save, a target takes 14d6 lightning damage and is stunned. On a successful save, a target takes half as much damage and isn’t stunned. If a target is killed by this damage, it is fried to charred bits.</p>

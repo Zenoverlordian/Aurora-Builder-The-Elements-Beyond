@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="subrace-dwarf.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/subrace-dwarf.xml" />
+        </update>
+    </info>
     
     <element name="Ember Dwarf" type="Sub Race" source="The Elements and Beyond" id="ID_TEAB_SUBRACE_DWARF_EMBER">
         <supports>Dwarf</supports>

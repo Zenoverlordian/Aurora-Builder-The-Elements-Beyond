@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Version 1.0-->
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="race-crystalkin.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/race-crystalkin.xml" />
+        </update>
+    </info>
     
     <element name="Crystalkin" type="Race" source="The Elements and Beyond" id="ID_TEAB_RACE_CRYSTALKIN">
         <description>
@@ -79,7 +84,7 @@
         <rules>
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
             <stat name="crystalkin:ac" value="12" />
-            <stat name="crystalkin:ac" value="dexterity" />
+            <stat name="crystalkin:ac" value="dexterity:modifier" />
             <stat name="ac:calculation" value="crystalkin:ac" bonus="calculation" alt="Natural Armor (Crystalkin)" />
         </rules>
     </element>

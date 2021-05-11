@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <name></name>
+        <update version="1.0.0">
+            <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/source.xml" />
+        </update>
+    </info>
     
     <element name="The Elements and Beyond" type="Source" source="The Elements and Beyond" id="ID_DND_UNLEASHED_SOURCE_THE_ELEMENTS_AND_BEYOND">
         <description>
