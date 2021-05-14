@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="subrace-elf.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/subrace-elf.xml" />
         </update>
     </info>
@@ -94,7 +94,7 @@
             <select type="Spell" name="Ancient Magic (Bright Elf)" supports="ID_PHB_SPELL_DANCING_LIGHTS|ID_PHB_SPELL_LIGHT|ID_PHB_SPELL_THAUMATURGY" />
         </rules>
     </element>
-    <element name="BRIGHTFOLK" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_BRELF_BRIGHTFOLK">
+    <element name="Brightfolk" type="Racial Trait" source="The Elements and Beyond" id="ID_TEAB_RACE_TRAIT_BRELF_BRIGHTFOLK">
         <description>
             <p>You have resistance to radiant damage, and you have advantage on saving throws to resist being blinded by effects that deal radiant damage or create light.</p>
         </description>
