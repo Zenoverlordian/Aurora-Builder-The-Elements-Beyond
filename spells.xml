@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/spells.xml" />
         </update>
     </info>
@@ -108,7 +108,7 @@
     </element>
 
     <element name="Barrier" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_BARRIER">
-        <supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, KTHArtificer</supports>
+        <supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Inventor</supports>
         <description>
             <p>You shroud one creature that you can see within range in a protective bubble of rubbery force that has hit points equal to 2d8 + your spellcasting ability modifier and lasts for the duration. If the target would take damage before the spell ends, the ward blocks that damage and takes the damage instead The ward cannot block psychic or poison damage unless it is dealt by an attack. If the ward is reduced to 0 hit points, the target takes any remaining damage and the spell ends.</p>
             <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the ward hit points increase by 2d8 for each slot level above 1st.</p>
@@ -343,7 +343,7 @@
     </element>
     
     <element name="Cannon Blast" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_CANNON_BLAST">
-        <supports>Artificer, Sorcerer, Warlock, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Sorcerer, Warlock, Wizard, Inventor</supports>
         <description>
             <p>You release a blast of flame behind you that rockets you into the air. You fly up to 60 feet in a straight line and stop at the first creature you contact. You can choose to make a melee spell attack against the creature, hitting it with a magic barrier. On a hit, the target takes 3d6 fire damage and 2d6 force damage, and it must succeed on a Strength saving throw or be knocked prone. On a miss, the target takes half as much damage and isn't knocked prone.</p>
             <p class="indent">For this tum, your barrier grants you resistance to damage from falls, and falls do not knock you prone upon landing. Upon finishing the movement and attack caused by this speli you fall if you are still aloft, unless you can stop the fall.</p>
@@ -610,7 +610,7 @@
     </element>
 
     <element name="Dive" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_DIVE">
-        <supports>Artificer, Druid, Ranger, Sorcerer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Ranger, Sorcerer, Wizard, Inventor</supports>
         <description>
             <p>You touch one creature and imbue it with aquatic magic, allowing it to traverse watery environments with ease. Until the spell ends, the target gains a swimming speed of 60 feet, it can breathe water, and it doesn't suffer disadvantage on attack rolls for being underwater.</p>
             <p class="indent">While the spell lasts, the target also has advantage on saving throws made to resist the dark lagoon, scalding sphere, and watery sphere spells, and it ignores any difficult terrain or obscurement caused by the presence of water (but not the effects of water currents).</p>
@@ -826,7 +826,7 @@
     </element>
 
     <element name="Enhance Body" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ENHANCE_BODY">
-        <supports>Artificer, Cleric, Paladin, Ranger, Sorcerer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Cleric, Paladin, Ranger, Sorcerer, Wizard, Inventor</supports>
         <description>
             <p>You touch one creature, imbuing the target with magic that enhances and empowers its body. Choose either Strength or Dexterity to empower. Until the spell ends, the target gains the following benefits:</p>
             <ul>
@@ -853,7 +853,7 @@
     </element>
 
     <element name="Envenomed Weapon" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ENVENOMED_WEAPON">
-        <supports>Artificer, Druid, Ranger, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Ranger, Wizard, Inventor</supports>
         <description>
             <p>You touch a weapon and wreathe it in magical venom. Until the spell ends, the weapon is magical if it wasn't already, and each time an attack using the weapon hits a creature, it must succeed on a Constitution saving throw or take 3d6 extra poison damage from the attack.</p>
         </description>
@@ -1114,7 +1114,7 @@
     </element>
 
     <element name="Glide" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_GLIDE">
-        <supports>Artificer, Druid, Ranger, Sorcerer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Ranger, Sorcerer, Wizard, Inventor</supports>
         <description>
             <p>You weave magic in a swirl as you falL creating an invisible sheet of force much like a glider or parachute in one or two ofyour hands that allows you to slow your descent and convert it to horizontal movement.</p>
             <p class="indent">Until the spell ends, you fall no faster than 100 feet per round and you do not take falling damage. While you are holding the glider with two hands, you can move up to 2 feet horizontally for every 1 foot you descend while falling.</p>
@@ -1244,7 +1244,7 @@
     </element>
 
     <element name="Greater Renewal" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_GREATER_RENEWAL">
-        <supports>Artificer, Bard, Cleric, Druid, Ranger, KTHArtificer, Occultist</supports>
+        <supports>Artificer, Bard, Cleric, Druid, Ranger, Inventor, Occultist</supports>
         <description>
             <p>Your magic forces one willing creature that you can see within range to expend great energy as you kindle its body's natural healing processes for an instant. You can cure one poison or disease afflicting the target.</p>
             <p class="indent">The target also gains one level ofexhaustion and regains hit points equal to 25 +your spellcasting modifier (minimum +1) + a number of d6s equal to the target's Constitution modifier (minimum 1d6).</p>
@@ -1291,7 +1291,7 @@
     </element>
 
     <element name="Guard" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_GUARD">
-        <supports>Artificer, Bard, Cleric, Sorcerer, Warlock, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Bard, Cleric, Sorcerer, Warlock, Wizard, Inventor</supports>
         <description>
             <p>You shroud yourself or a creature that you touch in a magical ward that has 1d6 hit points and lasts until the end ofyour next turn. Ifthe target would take damage before the spell ends, the ward blocks that damage and takes the damage instead The ward can't block psychic or poison damage unless it is dealt by an attack. If the ward is reduced to O hit points, the target takes any remaining damage and the spell ends.</p>
             <p class="indent">If you target yourself with this spelL it doesn't require concentration.</p>
@@ -1675,7 +1675,7 @@
     </element>
 
     <element name="Mass Shield" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_MASS_SHIELD">
-        <supports>Artificer, Bard, Cleric, Paladin, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Bard, Cleric, Paladin, Wizard, Inventor</supports>
         <description>
             <p>A shimmering barrier of magical force appears and protects you and up to two other creatures you can see within range. The attacked creature must be among your targets.</p>
             <p class="indent">Until the start ofyour next turn, each affected creature has a +5 bonus to AC, including against the triggering attack, and takes no damage from magic missile. If a creature leaves the range of the spell the effect ends on them.</p>
@@ -2118,7 +2118,7 @@
     </element>
 
     <element name="Radic's Sudden Spark" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_RADICS_SUDDEN_SPARK">
-        <supports>Artificer, Ranger, SOrcerer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Ranger, SOrcerer, Wizard, Inventor</supports>
         <description>
             <p>You electrify the attacker's weapon as it strikes its target. The spell deals a creature 2d6 lightning damage on a failed Constitution saving throw, or half as much damage on a successful save. If the attack was a critical hit, the damage increases by 1d6. The spell's target is determined by who made the triggering attack:</p>
              <ul>
@@ -2197,7 +2197,7 @@
     </element>
 
     <element name="Rejuvenate" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_REJUVENATE">
-        <supports>Artificer, Cleric, Druid, Paladin, Ranger, Occultist, KTHArtificer, Occultist</supports>
+        <supports>Artificer, Cleric, Druid, Paladin, Ranger, Occultist, Inventor, Occultist</supports>
         <description>
             <p>You imbue one creature that you touch as part of casting the spell with a magic that revitalizes and protects. Until the spell ends, at the start ofeach of the target's turns, it regains 1d8 hit points and gains a number of temporary hit points equal to 3d6 + twice your spellcasting ability modifier.</p>
         </description>
@@ -2218,7 +2218,7 @@
     </element>
 
     <element name="Relocate" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_RELOCATE">
-        <supports>Artificer, Bard, Sorcerer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Bard, Sorcerer, Wizard, Inventor</supports>
         <description>
             <p>Your magic relocates one other creature that you touch. If the target is willing, it is teleported up to 90 feet to an unoccupied space that you can see.</p>
             <p class="indent">If the target is not willing, you must make a melee spell attack against the target as you attempt to touch it. On a hit, the target must make a Charisma saving throw. On a failed saving throw, the target is teleported up to 90 feet to an unoccupied space that you can see.</p>
@@ -2240,7 +2240,7 @@
     </element>
 
     <element name="Renewal" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_RENEWAL">
-        <supports>Artificer, Bard, Cleric, Druid, KTHArtificer, Occultist</supports>
+        <supports>Artificer, Bard, Cleric, Druid, Inventor, Occultist</supports>
         <description>
             <p>You gently apply vital magic to one creature that you touch, causing its body to accelerate its natural healing. The target can expend hit dice and regains hit points as if it had done so during a short rest. The minimum number of hit points the target regains from each hit die expended this way equals your Spellcasting modifier.</p>
             <p class="indent">A creature can only expend up to a number of hit dice equal to its Constitution modifier (minimum of 1) via this spell before it finishes a long rest, no matter how many times the spell is cast or who casts it.</p>
@@ -2334,7 +2334,7 @@
     </element>
 
     <element name="Sand Cloak" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SAND_CLOAK">
-        <supports>Artificer, Druid, Ranger, Sorcerer, KTHArtificer</supports>
+        <supports>Artificer, Druid, Ranger, Sorcerer, Inventor</supports>
         <description>
             <p>You create a swirling cloak ofsand and dust extending 15 feet out from you that lasts for the duration. The area is lightly obscured difficult terrain for other creatures, and it moves with you as you move. You can use a bonus action to reduce or increase the radius of the area, up to a maximum of 15 feet.</p>
             <p class="indent">When a creature other than you enters the area for the first time on a turn or starts its turn there, it is buffeted by sand and dust, and it must succeed on a Constitution saving throw or be blinded until the start of its next turn.</p>
@@ -2379,7 +2379,7 @@
     </element>
 
     <element name="Screen of Protection" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SCREEN_OF_PROTECTION">
-        <supports>Artificer, Bard, Cleric, Paladin, Sorcerer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Bard, Cleric, Paladin, Sorcerer, Wizard, Inventor</supports>
         <description>
             <p>You create a magical wall of solid silvery force centered on a point that you can see within range. The wall lasts for the duration. It can be up to 20 feet wide and 20 feet tan but it has no depth. The outward side faces directly away from you, and the inward side faces directly toward you. The wall passes harmlessly through objects when it is created, but after that it blocks the movement of any object that it is not passing through. If the wall passes through any creatures when it is created, the spell fails and the wall vanishes.</p>
             <p class="indent">The wall provides total cover and acts like any solid wall, but it doesn't block sight or any other senses, and anything on the other side is lightly obscured by the wall's colors. Moving through the wall is only possible from the inward side to the outward side, and it costs 15 extra feet ofmovement to pass through. Ranged attacks can pass through the wall with disadvantage if made from the inward side, but are blocked if made from the outward side. Melee attacks are blocked from either side.</p>
@@ -2450,7 +2450,7 @@
     </element>
 
     <element name="Shield Other" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SHIELD_OTHER">
-        <supports>Artificer, Bard, Cleric, Paladin, KTHArtificer</supports>
+        <supports>Artificer, Bard, Cleric, Paladin, Inventor</supports>
         <description>
             <p>A shimmering barrier of magical force appears and protects the attacked creature. Until the start ofyour next turn, the target has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile.</p>
         </description>
@@ -2523,7 +2523,7 @@
     </element>
 
     <element name="Soar" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SOAR">
-        <supports>Artificer, Ranger, Sorcerer, Warlock, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Ranger, Sorcerer, Warlock, Wizard, Inventor</supports>
         <description>
             <p>You touch a willing creature. The target gains a flying speed of 120 feet for the duration. While the target is flying using this speed, it gains a +1 bonus to AC, it has advantage on Dexterity saving throws, and opportunity attacks it provokes by flying have disadvantage. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p>
             <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature in range for each slot level above 5th.</p>
@@ -2830,7 +2830,7 @@
     </element>
 
     <element name="Swift Ward" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SWIFT_WARD">
-        <supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard, KTHArtificer, Occultist</supports>
+        <supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard, Inventor, Occultist</supports>
         <description>
             <p>You ward yourself in a hasty barrier of magical energy to protect against danger, granting you a protective ward that lasts until the end ofyour next turn.</p>
             <p class="indent">The ward has hit points equal to 6d6 + twice your spellcasting ability modifier. Ifyou would take damage, the ward blocks and takes that damage instead. The ward cannot block psychic or poison damage unless it is dealt by an attack. Ifthe ward is reduced to 0 hit points, you take any remaining damage and the spell ends.</p>
@@ -2853,7 +2853,7 @@
     </element>
 
     <element name="Swoop" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_SWOOP">
-        <supports>Artificer, Druid, Ranger, Sorcerer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Ranger, Sorcerer, Wizard, Inventor</supports>
         <description>
             <p>You take to the air in a burst of brief magical flight. You have a 60 foot flying speed for this turn only. You fall if you are still aloft when the turn ends, unless you can stop the fall.</p>
         </description>
@@ -2949,7 +2949,7 @@
     </element>
 
     <element name="Topple" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_TOPPLE">
-        <supports>Artificer, Bard, Sorcerer, Warlock, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Bard, Sorcerer, Warlock, Wizard, Inventor</supports>
         <description>
             <p>You attempt to knock over one creature that you can see within range using kinetic force. The target must make a Strength saving throw. On a failed save, the target takes 1d4 bludgeoning damage and is knocked prone.</p>
             <p class="indent">This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>
@@ -3070,7 +3070,7 @@
     </element>
 
     <element name="Water Spout" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WATER_SPOUT">
-        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, KTHArtificer, Occultist</supports>
+        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, Inventor, Occultist</supports>
         <description>
             <p>You conjure a stream of pressurized magical water that sprays toward your target. One creature you can see within range must make a Strength saving throw. On a failure, the target takes 1d6 bludgeoning damage and if it is Large or smaller, you push it 10 feet away from you.</p>
             <p class="indent">This spell conjures 4 gallons of stale water for each die of damage rolled This water cannot sustain life and instantly vanishes when the spell ends.</p>
@@ -3138,7 +3138,7 @@
     </element>
 
     <element name="Weathering" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WEATHERING">
-        <supports>Artificer, Druid, Warlock, Wizard, KTHArtificer, Occultist</supports>
+        <supports>Artificer, Druid, Warlock, Wizard, Inventor, Occultist</supports>
         <description>
             <p>You alter the composition ofone object that you touch, changing it as if much time has passed Choose either three hours or three days. The object instantly changes as if that much time had passed This can cause paint to dry and eventually chip away, cause concrete to harden and eventually crack, erode stone, make paper rot, etc.</p>
             <p class="indent">The rate at which the object changes is determined by its current conditions. For example, paper will rot more quickly in warm climates, and stone will erode faster if placed in the path of moving water.</p>
@@ -3184,7 +3184,7 @@
     </element>
 
     <element name="Wind Funnel" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WIND_FUNNEL">
-        <supports>Artificer, Druid, Ranger, Sorcerer, Warlock, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Ranger, Sorcerer, Warlock, Wizard, Inventor</supports>
         <description>
             <p>You unleash a powerful torrent of swirling wind that pulls in a roaring cyclone toward you, creating a 60-foot cone blasting out from you that spreads around corners. Each other creature in the area must make a Strength saving throw. On a failed saving throw, a creature takes 3d8 thunder damage and 3d8 bludgeoning damage, and it is pulled 30 feet closer to you and knocked prone. On a successful saving throw, a creature takes half damage and isn't pulled or knocked prone.</p>
             <p class="indent">Unsecured objects that are completely within the area of effect are automatically pulled 30 feet closer to you by the spell's effect, but a cushion of air that swirls around you stops their movement before they enter your space or damage you.</p>
