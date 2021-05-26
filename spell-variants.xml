@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="spell-variants.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/spell-variants.xml" />
         </update>
     </info>
@@ -709,7 +709,7 @@
     </element>
 
     <element name="Wind Blast" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_WIND_BLAST">
-        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, KTHArtificer, Occultist</supports>
+        <supports>Artificer, Druid, Sorcerer, Warlock, Wizard, Inventor, Occultist</supports>
         <description>
             <p>You conjure a roaring, thunderous wind that blasts toward your target. One creature you can see within range must make a Strength saving throw. On a failure, the target takes 1d6 thunder damage and if it is Large or smaller, you push it 10 feet away from you.</p>
             <p class="indent">This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -1164,7 +1164,7 @@
     </element>
 
     <element name="Tailwind" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_TAILWIND">
-        <supports>Artificer, Sorcerer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Sorcerer, Wizard, Inventor</supports>
         <description>
             <p>A strong surge of roaring wind rockets you into the air. You fly up to 60 feet in a straight line and stop at the first creature you contact. You can choose to make a melee spell attack against the creature, hitting it with a magic barrier. On a hit, the target takes 3d6 thunder damage and 2d6 force damage, and it must succeed on a Strength saving throw or be knocked prone. On a miss, the target takes half as much damage and isn't knocked prone.</p>
             <p class="indent">For this tum, your barrier grants you resistance to damage from falls, and falls do not knock you prone upon landing. Upon finishing the movement and attack caused by this spell you fall if you are still aloft, unless you can stop the fall.</p>
@@ -2031,7 +2031,7 @@
     </element>
 
     <element name="Electrocute" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ELECTROCUTE">
-		<supports>Druid, Sorcerer, Warlock, Wizard, KTHArtificer, Occultist</supports>
+		<supports>Druid, Sorcerer, Warlock, Wizard, Inventor, Occultist</supports>
 		<description>
 			<p>Electrical energy washes over a creature of your choice that you can touch, shocking it with high voltage. The target must make a Constitution saving throw. The target takes 8d8 lightning damage on a failed save, or half as much damage on a successful one. If you target a creature that is submerged or partially submerged in water, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p>
 		</description>
@@ -2072,7 +2072,7 @@
 	</element>
 
   <element name="Icy Weapon" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_ICY_WEAPON">
-        <supports>Artificer, Druid, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Wizard, Inventor</supports>
         <description>
             <p>You touch a weapon and wreathe it in magical ice. Until the spell ends, the weapon is magical if it wasn't already, and each time an attack using the weapon hits a creature, it must succeed on a Constitution saving throw or take 2d8 extra cold damage from the attack.</p>
         </description>
@@ -2092,7 +2092,7 @@
         </setters>
     </element>
     <element name="Jolting Weapon" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_JOLTING_WEAPON">
-        <supports>Artificer, Druid, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Druid, Wizard, Inventor</supports>
         <description>
             <p>You touch a weapon and wreathe it in magical electricity. Until the spell ends, the weapon is magical if it wasn't already, and each time an attack using the weapon hits a creature, it must succeed on a Constitution saving throw or take 2d8 extra lightning damage from the attack.</p>
         </description>
@@ -2112,7 +2112,7 @@
         </setters>
     </element>
     <element name="Ringing Weapon" type="Spell" source="The Elements and Beyond" id="ID_TEAB_SPELL_RINGING_WEAPON">
-        <supports>Artificer, Wizard, KTHArtificer</supports>
+        <supports>Artificer, Wizard, Inventor</supports>
         <description>
             <p>You touch a weapon and wreathe it in magical vibrations. Until the spell ends, the weapon is magical if it wasn't already, and each time an attack using the weapon hits a creature, it must succeed on a Constitution saving throw or take 2d8 extra thunder damage from the attack.</p>
         </description>
